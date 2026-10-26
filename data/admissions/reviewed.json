@@ -2842,6 +2842,88 @@
       "documents": "Upload identity/visa evidence as applicable, full tertiary transcripts and degree certificates, institutional grading scale, and English-test report or qualifying English-medium letter. Nominate two to five referees. Scanned copies suffice initially unless the programme office requests originals.",
       "deadline": "Individual programmes set their own deadlines; the 2027/28 Fall application cycle opened on 1 September 2026.",
       "intake": "Fall 2027; classes start 1 September 2027."
+    },
+    {
+      "schoolId": "qs-69",
+      "level": "undergraduate",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Course pages publish typical and contextual offers for A-level, IB and equivalent qualifications. Offers are assessed individually; the typical offer is indicative.",
+      "english": "Each course specifies one of six English-language profiles. Use the profile linked by the chosen course rather than a university-wide IELTS score.",
+      "documents": "Medicine and dentistry applicants must take UCAT. Law LLB applicants must take LNAT unless the test is unavailable in their country of residence.",
+      "fieldSources": {
+        "gpa": "https://www.bristol.ac.uk/study/undergraduate/entry-requirements-qualifications/",
+        "english": "https://www.bristol.ac.uk/study/undergraduate/entry-requirements-qualifications/",
+        "documents": "https://www.bristol.ac.uk/study/undergraduate/entry-requirements-qualifications/"
+      },
+      "sourceFingerprints": {
+        "https://www.bristol.ac.uk/study/undergraduate/entry-requirements-qualifications/": {
+          "sha256": "c8c8532ed1f9ec239ff2b9e485c13dcfdd9c0aa066028210708399b872e16393"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-69",
+      "level": "master",
+      "reviewedAt": "2026-10-27",
+      "deadline": "Many programmes have fixed deadlines; check the individual programme page for its closing date.",
+      "documents": "Complete the online application and upload the documents listed in the programme admissions statement. If references are required, upload them or provide referee email addresses. Pay an application fee where the programme requires one.",
+      "fieldSources": {
+        "deadline": "https://www.bristol.ac.uk/study/postgraduate/apply/",
+        "documents": "https://www.bristol.ac.uk/study/postgraduate/apply/"
+      },
+      "sourceFingerprints": {
+        "https://www.bristol.ac.uk/study/postgraduate/apply/": {
+          "sha256": "613d6982523acdc70b87bdf550b9bbd0279f347b302f2ca75779723d9e38e356"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-69",
+      "level": "phd",
+      "reviewedAt": "2026-10-27",
+      "deadline": "Closing dates vary by programme; consult the programme admissions statement and prospectus.",
+      "documents": "Submit the online application with the supporting documents required in the programme admissions statement. Supply requested references or referee email addresses; pay the application fee if applicable.",
+      "fieldSources": {
+        "deadline": "https://www.bristol.ac.uk/study/postgraduate/apply/",
+        "documents": "https://www.bristol.ac.uk/study/postgraduate/apply/"
+      },
+      "sourceFingerprints": {
+        "https://www.bristol.ac.uk/study/postgraduate/apply/": {
+          "sha256": "613d6982523acdc70b87bdf550b9bbd0279f347b302f2ca75779723d9e38e356"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-231",
+      "level": "undergraduate",
+      "reviewedAt": "2026-10-27",
+      "gpa": "The Entry Requirements section of each degree programme page states the grades needed to be considered for an offer. International grade equivalencies are provided through the country-specific student hub.",
+      "english": "English-language requirements are published on the individual programme page; no single university-wide test score is stated here.",
+      "fieldSources": {
+        "gpa": "https://www.gla.ac.uk/undergraduate/entryrequirements/",
+        "english": "https://www.gla.ac.uk/undergraduate/entryrequirements/"
+      },
+      "sourceFingerprints": {
+        "https://www.gla.ac.uk/undergraduate/entryrequirements/": {
+          "sha256": "dcd1bb23ac3461f4e653a0e0e0137764c85215f7b94322bd808968d62ca23fd1"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-664",
+      "level": "undergraduate",
+      "reviewedAt": "2026-10-27",
+      "gpa": "All applicants need GCSE English Language and Mathematics at grade C/4 or an equivalent qualification; some courses require higher grades. A-level applicants normally offer three full A-levels unless combined with another recognised Level 3 qualification. Required subjects and typical offers are course-specific.",
+      "notes": "Taking a fourth A-level receives no additional credit. An Extended Project Qualification does not produce a reduced offer. Overseas qualifications and vocational qualifications are assessed under the stated course and country rules.",
+      "fieldSources": {
+        "gpa": "https://warwick.ac.uk/study/undergraduate/apply/entry-requirements/",
+        "notes": "https://warwick.ac.uk/study/undergraduate/apply/entry-requirements/"
+      },
+      "sourceFingerprints": {
+        "https://warwick.ac.uk/study/undergraduate/apply/entry-requirements/": {
+          "sha256": "f2d5ce73711f20ba1b378a054133a4d43997bf531d1fe0bbaf2ae7ed70e17366"
+        }
+      }
     }
   ]
 }

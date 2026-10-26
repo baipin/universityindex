@@ -15,12 +15,13 @@ Snapshot: **27 October 2026**. Live counts and edition labels are generated from
 | U.S. News Best Global Universities 2026–2027 | Ranks 1–150; 151 institutions including ties |
 | Deduplicated global ranking union | 216 institutions |
 | QS 2026 subject / broad-area categories | 59 views |
+| Institutions with official course/admissions lookup | 216 / 216 (5 currently access-limited) |
 | Institutions with checked admissions sources | 140 |
 | Checked admissions source records | 316 |
 | Specific programmes | 78, including 74 with reviewed summaries |
-| Reviewed requirement records | 125: 51 institutional/faculty baselines and 74 programme records |
+| Reviewed requirement records | 130: 56 institutional/faculty baselines and 74 programme records |
 
-Admissions coverage is **partial**, not every programme at every institution. There are 76 institutions without a publishable admissions source and 45 unavailable candidate source records. Subject views show subject ranks up to 150 **within the global ranking union**; they are not complete subject league tables. U.S. News refers to its global ranking, not the US domestic undergraduate ranking. Ties and bands such as `=2` and `101-150` retain the publishers’ labels.
+All 216 institutions have official course/admissions lookup routes. Five currently block automated access or report maintenance and are explicitly labelled access-limited; their content is not counted as verified. Detailed admissions summaries remain **partial**: 76 institutions lack checked sources in that separate dataset, with 45 unavailable candidate sources. Subject views show subject ranks up to 150 **within the global ranking union**, not complete subject tables. U.S. News refers to its global ranking. Ties and bands preserve publisher labels.
 
 ## Automated GitHub bot
 
@@ -47,12 +48,17 @@ GitHub schedules can be delayed. Public-repository schedules may be disabled aft
 
 Automatic source refresh does **not** replace substantive review of new admission rules. A blocked/changed official website may need a parser or source-link update.
 
+Course navigation distinguishes readable pages (page-checked), links found on official pages (official-link), and curated routes currently blocked or under maintenance (access-limited). Failed refreshes retain previous evidence and dates. Navigation does not certify programme scores or deadlines.
+
+National Taiwan University uses its official Chinese name: 国立台湾大学 / 國立臺灣大學.
+
 ## Data and localization
 
 - `data/universities.json`: the published catalogue, editions, degree rules, programmes and coverage.
 - `data/ranking-editions.json`: persisted official edition entry points, updated after successful discovery/import.
 - `data/rankings/*.json`: normalized rank facts, original URLs, edition, check date and SHA-256.
 - `data/admissions/catalog.json`: candidate official pages and their scope.
+- `data/admissions/portals.json`: course/admissions routes, scope and check evidence for every school; `portal-routes.json` supplies curated routes. Monthly admissions updates recheck these routes; daily ranking updates discover routes for newly listed schools.
 - `data/admissions/checks.json`: source checks and fingerprints, including unavailable-source reasons.
 - `data/admissions/reviewed.json`: reviewed field summaries, `fieldSources`, review dates and source revision fingerprints.
 

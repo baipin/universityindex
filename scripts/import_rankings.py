@@ -303,7 +303,7 @@ def main():
     previous = {s['id']: s for s in old['schools']}
     for sid, school in schools.items():
         if sid in previous:
-            for field in ('website', 'websiteProvenance', 'requirements', 'programs', 'admissionSources'):
+            for field in ('website', 'websiteProvenance', 'requirements', 'programs', 'admissionSources', 'requirementLinks'):
                 if field in previous[sid]:
                     school[field] = previous[sid][field]
     data = {'_notice': 'Real publisher rankings. Admissions coverage is partial: null means not yet verified, not no requirement. University-wide rules and specific programmes are kept separate. Subject views cover schools in the global top-150 union, not every subject-only institution.', 'meta': {'schemaVersion': 2, 'status': 'partial', 'verified': False, 'generatedAt': now, 'rankLimit': 150, 'rankings': sources, 'levels': ['undergraduate', 'master', 'phd'], 'coverage': {'schools': len(schools), 'globalRankings': {rid: sum(rid in s['ranks'] for s in schools.values()) for rid in ('qs', 'the', 'usnews')}, 'subjects': len(paths), 'scope': f"Union of schools ranked 1–150 globally in QS {editions['qs']['year']}, THE {editions['the']['year']} or US News {editions['usnews']['year']}. Subject views are restricted to this pool."}}, 'schools': sorted(schools.values(), key=lambda s: (s['ranks'].get('qs', 9999), s['name']))}

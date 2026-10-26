@@ -1,0 +1,252 @@
+{
+  "qs-47890": [
+    {
+      "url": "https://www.ip-paris.fr/en/education",
+      "scope": "all"
+    }
+  ],
+  "qs-105": [
+    {
+      "url": "https://www.kuleuven.be/english/application",
+      "scope": "all"
+    }
+  ],
+  "qs-407": [
+    {
+      "url": "https://www.polimi.it/en/prospective-students",
+      "scope": "all"
+    }
+  ],
+  "qs-597": [
+    {
+      "url": "https://www.dtu.dk/english/education/graduate/admission-and-deadlines",
+      "scope": "graduate"
+    }
+  ],
+  "qs-1175": [
+    {
+      "url": "https://dar.ksu.edu.sa/en",
+      "scope": "all"
+    }
+  ],
+  "qs-261": [
+    {
+      "url": "https://www.aalto.fi/en/study-at-aalto",
+      "scope": "all"
+    }
+  ],
+  "qs-378": [
+    {
+      "url": "https://www.mq.edu.au/study",
+      "scope": "all"
+    }
+  ],
+  "qs-281": [
+    {
+      "url": "https://www.iitb.ac.in/admissions",
+      "scope": "all"
+    },
+    {
+      "url": "https://acad.iitb.ac.in/admissions/bachelors",
+      "scope": "undergraduate"
+    },
+    {
+      "url": "https://acad.iitb.ac.in/admissions/masters",
+      "scope": "master"
+    },
+    {
+      "url": "https://acad.iitb.ac.in/admissions/research",
+      "scope": "phd"
+    }
+  ],
+  "qs-385": [
+    {
+      "url": "https://sgs.upm.edu.my/",
+      "scope": "graduate"
+    }
+  ],
+  "qs-272": [
+    {
+      "url": "https://www.hu-berlin.de/en/studies",
+      "scope": "all"
+    }
+  ],
+  "qs-442": [
+    {
+      "url": "https://apply.nthu.edu.tw/",
+      "scope": "all"
+    }
+  ],
+  "qs-190": [
+    {
+      "url": "https://www.eur.nl/en/education",
+      "scope": "all"
+    }
+  ],
+  "us-504884": [
+    {
+      "url": "https://www.deakin.edu.au/study",
+      "scope": "all"
+    }
+  ],
+  "us-193405": [
+    {
+      "url": "https://icahn.mssm.edu/education/admissions",
+      "scope": "all"
+    }
+  ],
+  "the-560": [
+    {
+      "url": "https://admissions.msu.edu/",
+      "scope": "all"
+    }
+  ],
+  "the-652": [
+    {
+      "url": "https://uni-tuebingen.de/en/study/",
+      "scope": "all"
+    }
+  ],
+  "qs-325": [
+    {
+      "url": "https://oia.korea.ac.kr/oia2026/Admission-Guide.do",
+      "scope": "undergraduate",
+      "label": "International undergraduate admission guide"
+    }
+  ],
+  "qs-6": [
+    {
+      "url": "https://international.au.dk/education/admissions",
+      "scope": "all"
+    }
+  ],
+  "qs-228": [
+    {
+      "url": "https://www.ugent.be/prospect/en",
+      "scope": "all"
+    }
+  ],
+  "qs-425": [
+    {
+      "url": "https://www.dgae.unam.mx/",
+      "scope": "all",
+      "label": "CASE · Coordinación de Administración y Servicios Escolares · UNAM"
+    }
+  ],
+  "the-131692": [
+    {
+      "url": "https://www.charite.de/en/teaching_learning/",
+      "scope": "all",
+      "label": "Teaching & Learning: Charité – Universitätsmedizin Berlin"
+    }
+  ],
+  "us-503353": [
+    {
+      "url": "https://www.lshtm.ac.uk/study",
+      "scope": "graduate"
+    }
+  ],
+  "the-868": [
+    {
+      "url": "https://www.uni-bonn.de/en/studying/degree-programs",
+      "scope": "all",
+      "label": "Degree Programs — University of Bonn"
+    }
+  ],
+  "us-500669": [
+    {
+      "url": "https://vu.nl/en/education",
+      "scope": "all"
+    }
+  ],
+  "the-540": [
+    {
+      "url": "https://www.wur.nl/en/education/bachelor/application-admission-bachelors",
+      "scope": "undergraduate"
+    },
+    {
+      "url": "https://www.wur.nl/en/education/master/application-admission-masters",
+      "scope": "master"
+    }
+  ],
+  "qs-688": [
+    {
+      "url": "https://admission.yonsei.ac.kr/seoul/admission/html/international/guide.asp",
+      "scope": "undergraduate"
+    }
+  ],
+  "qs-418": [
+    {
+      "url": "https://www.msu.ru/en/admissions/",
+      "scope": "all"
+    }
+  ],
+  "us-110699": [
+    {
+      "url": "https://catalog.ucsf.edu/programs/",
+      "scope": "graduate"
+    }
+  ],
+  "the-528": [
+    {
+      "url": "https://www.massachusetts.edu/program-finder",
+      "scope": "all"
+    }
+  ],
+  "us-505700": [
+    {
+      "url": "https://www.uab.cat/web/studies/undergraduate/undergraduate-offer/all-bachelor-s-degrees-1345667078809.html",
+      "scope": "undergraduate"
+    },
+    {
+      "url": "https://www.uab.cat/web/studies/graduate-1345666803994.html",
+      "scope": "graduate"
+    },
+    {
+      "url": "https://www.uab.cat/web/studies/phds/all-phd-programmes-1345666995270.html",
+      "scope": "phd"
+    }
+  ],
+  "us-228635": [
+    {
+      "url": "https://utsouthwestern.smartcatalogiq.com/",
+      "scope": "graduate",
+      "label": "UT Southwestern official degree catalogue (published editions)"
+    }
+  ],
+  "qs-340": [
+    {
+      "url": "https://www.universiteitleiden.nl/en/education/study-programmes",
+      "label": "Degree programmes — Leiden University",
+      "scope": "all"
+    }
+  ],
+  "us-501597": [
+    {
+      "url": "https://graduatestudies.kau.edu.sa/Default-306-EN",
+      "label": "Graduate admissions — King Abdulaziz University",
+      "scope": "graduate"
+    }
+  ],
+  "the-667": [
+    {
+      "url": "https://web.ub.edu/en/web/estudis",
+      "label": "Studies and degree programmes — University of Barcelona",
+      "scope": "all"
+    }
+  ],
+  "us-504635": [
+    {
+      "url": "https://www.unige.ch/bachelor-master/en/",
+      "label": "Bachelor and master programmes — University of Geneva",
+      "scope": "all"
+    }
+  ],
+  "us-529677": [
+    {
+      "url": "https://odf.u-paris.fr/fr/offre-de-formation.html",
+      "label": "Course catalogue — Université Paris Cité",
+      "scope": "all"
+    }
+  ]
+}

@@ -194,14 +194,26 @@
     if (site) root.appendChild(el("div", { class: "school-actions" }, [
       el("a", { class: "chip chip--link official-site", href: site, target: "_blank", rel: "noopener noreferrer", text: t("detailOfficial") }),
     ]));
+    var portals = s.requirementLinks || [];
+    if (portals.length) {
+      var lookup = el("section", { class: "requirement-lookup" }, [
+        el("h3", { class: "section-title", text: t("requirementLookup") }),
+        el("p", { class: "scope-note", text: t("requirementLookupHelp") }),
+      ]);
+      lookup.appendChild(el("ul", { class: "source-list" }, portals.map(function (portal) {
+        var href = safeHttpUrl(portal.url);
+        if (!href) return null;
+        var scopeKey = { undergraduate: "levelUndergrad", master: "levelMaster", phd: "levelPhd", graduate: "levelGraduate", all: "levelAll" }[portal.scope] || "levelAll";
+        return el("li", null, [
+          el("a", { href: href, target: "_blank", rel: "noopener noreferrer", text: t(scopeKey) + " · " + portal.label + " ↗" }),
+          el("small", { text: " · " + t(portal.verification === "page-checked" ? "lookupPageChecked" : portal.verification === "official-link" ? "lookupOfficialLink" : "lookupAccessLimited") }),
+        ]);
+      })));
+      root.appendChild(lookup);
+    }
     root.appendChild(el("h3", { class: "section-title", text: t("detailRanks") }));
     var rankings = el("details", { class: "rankings-detail" }, [el("summary", { text: t("expandRankings", { count: rankChips.length }) }), links]);
     root.appendChild(rankings);
-    var directories = (s.admissionSources || []).filter(function (source) { return source.kind === "directory" || source.scope === "all"; });
-    if (directories.length) {
-      root.appendChild(el("h3", { class: "section-title", text: t("admissionDirectories") }));
-      root.appendChild(el("ul", { class: "source-list" }, directories.map(function (source) { return el("li", null, [sourceLink(source)]); })));
-    }
 
     root.appendChild(el("h3", { class: "section-title", text: t("detailLevels") }));
     [state.level].forEach(function (lv) {
@@ -239,7 +251,7 @@
       ? t("footerUpdated", { time: new Date(meta.generatedAt).toLocaleString(I18N.locale()) })
       : t("footerNotLoaded");
     var coverage = meta.coverage || {};
-    document.getElementById("coverage-summary").textContent = t("coverageSummary", { schools: coverage.schools || 0, subjects: coverage.subjects || 0, admissionSchools: coverage.admissionSchools || 0, sources: coverage.checkedAdmissionSources || 0, programs: coverage.programs || 0, reviewed: coverage.reviewedRequirementRecords || 0 });
+    document.getElementById("coverage-summary").textContent = t("coverageSummary", { schools: coverage.schools || 0, subjects: coverage.subjects || 0, admissionSchools: coverage.admissionSchools || 0, sources: coverage.checkedAdmissionSources || 0, programs: coverage.programs || 0, reviewed: coverage.reviewedRequirementRecords || 0, lookup: coverage.requirementLookupSchools || 0 });
   }
 
   function syncSelection() {

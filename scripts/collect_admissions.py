@@ -162,7 +162,7 @@ def main():
                 existing['sources'].append(source)
                 existing['sourceExcerpts'].extend(result['excerpts'])
             else:
-                school['programs'].append({'id': pid, 'name': result['name'], 'subject': result['subject'], 'level': result['level'], 'status': 'source-checked', 'gpa': None, 'english': None, 'deadline': None, 'documents': None, 'sources': [source], 'sourceExcerpts': result['excerpts']})
+                school['programs'].append({'id': pid, 'name': result['name'], 'subject': result['subject'], 'level': result['level'], 'status': 'source-checked', 'gpa': None, 'english': None, 'deadline': None, 'documents': None, 'sources': [source], 'sourceExcerpts': list(result['excerpts'])})
             continue
         if result['kind'] == 'directory':
             continue

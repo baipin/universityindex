@@ -156,6 +156,24 @@ const data = JSON.parse(fs.readFileSync(path.join(root, 'data/universities.json'
         }
       }
     }
+    await loadingPage.selectOption('#ranking-select', 'qs');
+    for (const lang of ['en', 'zh-Hans', 'zh-Hant']) {
+      await loadingPage.locator('[data-lang-btn="' + lang + '"]').first().click();
+      for (const query of ['Korea University', 'National Taiwan University', 'Leiden']) {
+        await loadingPage.fill('#search', query);
+        await loadingPage.locator('#school-rows tr').first().click();
+        for (const level of ['undergraduate', 'master', 'phd']) {
+          await loadingPage.selectOption('#level-select', level);
+          assert.ok(await loadingPage.locator('.requirement-lookup a').count() > 0);
+        }
+        if (query === 'National Taiwan University') {
+          assert.ok((await loadingPage.locator('#detail h2').innerText()).includes(lang === 'zh-Hant' ? '國立臺灣大學' : lang === 'zh-Hans' ? '国立台湾大学' : 'National Taiwan University'));
+        }
+        if (query === 'Leiden') {
+          assert.ok((await loadingPage.locator('.requirement-lookup').innerText()).includes(lang === 'en' ? 'blocked' : '受限'));
+        }
+      }
+    }
     await loadingPage.close();
     assert.deepEqual(errors, []);
     console.log('Browser smoke passed: initial empty selection, delayed catalogue interactions, independent official link, rankings, degree/programme filter, search, Traditional names, region labels, bounded banner, themes and five-width overflow checks.');

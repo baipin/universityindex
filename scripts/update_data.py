@@ -38,6 +38,10 @@ def validate_candidate(before, after, checks):
     # A provider outage must not erase most of the published catalogue.
     if prior_active and current_sources < prior_sources * 0.6:
         raise ValueError("Too many admissions sources unavailable; keeping published data")
+    previous_lookup = sum(bool(s.get("requirementLinks")) for s in before["schools"] if s["id"] in active_ids)
+    current_lookup = sum(bool(s.get("requirementLinks")) for s in after["schools"])
+    if current_lookup < previous_lookup:
+        raise ValueError("Official course lookup coverage declined; keeping published data")
     old_editions = {r["id"]: r["year"] for r in before["meta"]["rankings"]}
     for rank in after["meta"]["rankings"]:
         if rank["id"] in old_editions and int(rank["year"][:4]) < int(old_editions[rank["id"]][:4]):
@@ -72,6 +76,7 @@ def main():
                 run(sys.executable, "scripts/collect_admissions.py", "--refresh")
             else:
                 run(sys.executable, "scripts/collect_admissions.py", "--reuse-checks")
+            run(sys.executable, "scripts/requirement_portals.py", "--refresh" if args.mode in ("admissions", "all") else "--missing-only")
             run(sys.executable, "scripts/localize_catalog.py")
             after = load(stage / "data" / "universities.json")
             checks = load(stage / "data" / "admissions" / "checks.json")["sources"]
@@ -88,6 +93,12 @@ def main():
                 "success": True, "rankingsChanged": rankings_changed,
                 "coverageBefore": before["meta"]["coverage"], "coverageAfter": after["meta"]["coverage"],
                 "changedAdmissionsSources": changed_sources,
+                "courseLookupIssues": [
+                    {"school": s["name"], "url": link["url"], "status": link["verification"],
+                     "error": link.get("destinationCheck")}
+                    for s in after["schools"] for link in s.get("requirementLinks", [])
+                    if link.get("destinationCheck") or link["verification"] == "access-limited"
+                ],
                 "unavailableAdmissionsSources": [{"school": c["school"], "url": c["url"], "error": c.get("error")} for c in checks if c["status"] != "source-checked"],
                 "pendingReviewRecords": [{"schoolId": s["id"], "programId": r.get("id"), "reason": r["reviewState"]} for s in after["schools"] for r in list(s["requirements"].values()) + s["programs"] if r and r.get("reviewState")],
             })

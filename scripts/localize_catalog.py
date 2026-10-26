@@ -40,12 +40,19 @@ REGIONS = {
     "Qatar": ("Qatar", "卡塔尔"),
 }
 
+# Preserve official institution names even when a ranking's translation is abbreviated.
+OFFICIAL_NAMES = {
+    'qs-441': ('国立台湾大学', '國立臺灣大學'),
+}
+
 
 def localize(data):
     traditional = OpenCC("s2t")
     for school in data["schools"]:
         school["nameZh"] = school.get("nameZh") or FALLBACK_NAMES.get(school["name"])
         school["nameZhHant"] = traditional.convert(school["nameZh"]) if school.get("nameZh") else None
+        if school['id'] in OFFICIAL_NAMES:
+            school['nameZh'], school['nameZhHant'] = OFFICIAL_NAMES[school['id']]
         english, simplified = REGIONS.get(school["country"], (school["country"], school.get("countryZh", school["country"])))
         school["countryDisplayEn"] = english
         school["countryZh"] = simplified

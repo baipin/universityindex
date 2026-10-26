@@ -182,3 +182,35 @@ test('Traditional names, QS-style region display and multilingual search', () =>
     assert.doesNotMatch(school.countryZh, /^中国(?:香港|台湾|澳门)/);
   }
 });
+
+test('every listed school has an attributed official course lookup', () => {
+  const portals = JSON.parse(fs.readFileSync(path.join(root, 'data/admissions/portals.json'), 'utf8'));
+  const byId = new Map(portals.schools.map(s => [s.schoolId, s.links]));
+  for (const school of data.schools) {
+    assert.ok(school.requirementLinks.length > 0, school.name);
+    assert.deepEqual(school.requirementLinks, byId.get(school.id));
+    for (const link of school.requirementLinks) {
+      assert.match(link.url, /^https?:\/\//);
+      if (link.verification !== 'access-limited') {
+        assert.match(link.verificationUrl, /^https?:\/\//);
+        assert.match(link.sha256, /^[a-f0-9]{64}$/);
+        assert.ok(!Number.isNaN(Date.parse(link.checkedAt)));
+      } else {
+        assert.ok(link.destinationCheck);
+        assert.ok(!Number.isNaN(Date.parse(link.lastAttemptAt)));
+      }
+      assert.ok(['page-checked', 'official-link', 'access-limited'].includes(link.verification));
+      assert.ok(['all', 'undergraduate', 'master', 'phd', 'graduate'].includes(link.scope));
+    }
+  }
+  assert.equal(data.meta.coverage.requirementLookupSchools, data.schools.length);
+});
+
+test('National Taiwan University retains its official Chinese name', () => {
+  const ntu = data.schools.find(s => s.id === 'qs-441');
+  assert.equal(ntu.nameZh, '国立台湾大学');
+  assert.equal(ntu.nameZhHant, '國立臺灣大學');
+  for (const query of ['国立台湾大学', '國立臺灣大學']) {
+    assert.ok(catalog.visibleSchools(data, 'qs', query).some(s => s.id === ntu.id));
+  }
+});
