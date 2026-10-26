@@ -15,12 +15,12 @@ Snapshot: **27 October 2026**. Live counts and edition labels are generated from
 | U.S. News Best Global Universities 2026–2027 | Ranks 1–150; 151 institutions including ties |
 | Deduplicated global ranking union | 216 institutions |
 | QS 2026 subject / broad-area categories | 59 views |
-| Institutions with checked admissions sources | 139 |
-| Checked admissions source records | 236 |
-| Specific programmes | 38, including 29 with reviewed summaries |
-| Reviewed requirement records | 67: 38 institutional/faculty baselines and 29 programme records |
+| Institutions with checked admissions sources | 140 |
+| Checked admissions source records | 249 |
+| Specific programmes | 39, including 35 with reviewed summaries |
+| Reviewed requirement records | 86: 51 institutional/faculty baselines and 35 programme records |
 
-Admissions coverage is **partial**, not every programme at every institution. There are 77 institutions without a publishable admissions source and 46 unavailable candidate source records. Subject views show subject ranks up to 150 **within the global ranking union**; they are not complete subject league tables. U.S. News refers to its global ranking, not the US domestic undergraduate ranking. Ties and bands such as `=2` and `101-150` retain the publishers’ labels.
+Admissions coverage is **partial**, not every programme at every institution. There are 76 institutions without a publishable admissions source and 46 unavailable candidate source records. Subject views show subject ranks up to 150 **within the global ranking union**; they are not complete subject league tables. U.S. News refers to its global ranking, not the US domestic undergraduate ranking. Ties and bands such as `=2` and `101-150` retain the publishers’ labels.
 
 ## Automated GitHub bot
 
@@ -58,7 +58,7 @@ Automatic source refresh does **not** replace substantive review of new admissio
 
 `null` means unverified, not “no requirement”. `source-checked` means the page was readable; it does not certify automatically extracted scores. `reviewed` applies to the listed fields, not to every possible condition. Institutional/faculty baselines remain separate from programme rules. The legacy `gpa` field can contain broader academic qualifications rather than a numeric GPA. TOEFL scales are recorded only as stated by the institution, without inferred conversions.
 
-School and region display fields distinguish Traditional and Simplified Chinese. Region display uses **Hong Kong SAR / 香港特別行政區 / 香港特别行政区** and **Taiwan / 臺灣 / 台湾**, while original source identities remain intact. OpenCC creates Traditional characters during data builds, without a client-side CDN dependency. The header banner uses `img/ulist.jpg`.
+School and region display fields distinguish Traditional and Simplified Chinese. Region display uses **Hong Kong SAR / 香港特別行政區 / 香港特别行政区** and **Taiwan / 臺灣 / 台湾**, while original source identities remain intact. OpenCC creates Traditional characters during data builds, without a client-side CDN dependency. The header banner sits inside a bounded card and uses `img/ulist.jpg`.
 
 Official links, check dates and attribution are visible in the site. Some public pages are read via Jina Reader; the original institution/publisher remains the source. Raw cached pages are not committed. Source content belongs to its publisher; the catalogue uses limited attributed excerpts and summaries.
 
@@ -75,7 +75,7 @@ python -m unittest discover -s tests -p "test_*.py"
 python -m compileall -q scripts
 ```
 
-Browser checks require Playwright and an installed browser. Set `PLAYWRIGHT_MODULE` to the Playwright module path if it is outside normal module resolution; set `BROWSER_CHANNEL=msedge` to use installed Edge, or provide Playwright Chromium. Run `npm run test:browser`. Checks cover language-specific names, region labels, banner loading, filters, provenance, themes and expanded ranking chips at five viewport widths. Screenshots are saved under ignored `.cache/`.
+Browser checks require Playwright and an installed browser. Set `PLAYWRIGHT_MODULE` to the Playwright module path if it is outside normal module resolution; set `BROWSER_CHANNEL=msedge` to use installed Edge, or provide Playwright Chromium. Run `npm run test:browser`. Checks cover initial empty selection, controls used before data finishes loading, the independent official-site link, language-specific names, region labels, bounded banner dimensions, filters, provenance, themes and expanded ranking chips at five viewport widths. Screenshots are saved under ignored `.cache/`.
 
 ## Updating and reviewing data
 

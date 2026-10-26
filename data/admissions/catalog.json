@@ -1954,6 +1954,88 @@
       "url": "https://en.xjtu.edu.cn/undergraduate.html",
       "discoveredFrom": "https://en.xjtu.edu.cn/",
       "linkText": "Admissions +"
+    },
+    {
+      "school": "California Institute of Technology (Caltech)",
+      "level": "undergraduate",
+      "url": "https://www.admissions.caltech.edu/apply/first-year-applicants/international-applicants",
+      "kind": "institution"
+    },
+    {
+      "school": "California Institute of Technology (Caltech)",
+      "level": "undergraduate",
+      "url": "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements",
+      "kind": "institution"
+    },
+    {
+      "school": "California Institute of Technology (Caltech)",
+      "level": "graduate",
+      "url": "https://gradoffice.caltech.edu/admissions/checklist",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Toronto",
+      "level": "master",
+      "url": "https://web.cs.toronto.edu/graduate/msc",
+      "kind": "program",
+      "name": "MSc in Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of Toronto",
+      "level": "phd",
+      "url": "https://web.cs.toronto.edu/graduate/phd",
+      "kind": "program",
+      "name": "PhD in Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of Toronto",
+      "level": "graduate",
+      "url": "https://web.cs.toronto.edu/graduate/how-to-apply",
+      "kind": "institution"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "graduate",
+      "url": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements",
+      "kind": "institution"
+    },
+    {
+      "school": "National Taiwan University (NTU)",
+      "level": "undergraduate",
+      "url": "https://admissions.ntu.edu.tw/apply/degree-students/admission-information/academic-requirements/",
+      "kind": "institution"
+    },
+    {
+      "school": "National Taiwan University (NTU)",
+      "level": "graduate",
+      "url": "https://admissions.ntu.edu.tw/apply/degree-students/admission-information/academic-requirements/",
+      "kind": "institution"
+    },
+    {
+      "school": "National Taiwan University (NTU)",
+      "level": "all",
+      "url": "https://admissions.ntu.edu.tw/apply/degree-students/admission-information/application-timeline/",
+      "kind": "directory"
+    },
+    {
+      "school": "National Taiwan University (NTU)",
+      "level": "all",
+      "url": "https://admissions.ntu.edu.tw/apply/degree-students/international-students/",
+      "kind": "directory"
+    },
+    {
+      "school": "ETH Zurich - Swiss Federal Institute of Technology",
+      "level": "master",
+      "url": "https://ethz.ch/en/studies/master/application/dates.html",
+      "kind": "institution"
+    },
+    {
+      "school": "ETH Zurich - Swiss Federal Institute of Technology",
+      "level": "master",
+      "url": "https://ethz.ch/en/studies/master/application/language-requirements.html",
+      "kind": "institution"
     }
   ]
 }

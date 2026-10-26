@@ -3745,7 +3745,38 @@
       "checkedAt": "2026-10-26T16:00:20+00:00",
       "retrievedVia": "https://web.cs.toronto.edu/graduate/admissions",
       "sha256": "e7c45cb44042d1e55f0c460bcdcbde63190e5cd9beb371b08112718b613669a2",
-      "excerpts": [],
+      "excerpts": [
+        {
+          "category": "english",
+          "text": "final year of full-time study or part-time equivalent. English-language proficiency according to University requirements . Applications are evaluated in their totality: grades, statement of purpose, letters of reference, and any",
+          "source": "https://web.cs.toronto.edu/graduate/msc"
+        },
+        {
+          "category": "deadline",
+          "text": "hrough the School of Graduate Studies. Our application deadline is December 1, 2026, and it is firm . Applying to the Vector program will not extend your opportunity to apply to us. Do not wait to hear from a",
+          "source": "https://web.cs.toronto.edu/graduate/msc"
+        },
+        {
+          "category": "documents",
+          "text": "Applications are evaluated in their totality: grades, statement of purpose, letters of reference, and any supplementary information submitted are all taken into account. Admission decisions are made in the context of al",
+          "source": "https://web.cs.toronto.edu/graduate/msc"
+        },
+        {
+          "category": "english",
+          "text": "final year of full-time study or part-time equivalent. English-language proficiency according to University requirements . Applications are evaluated in their totality: grades, statement of purpose, letters of reference, and any",
+          "source": "https://web.cs.toronto.edu/graduate/msc"
+        },
+        {
+          "category": "deadline",
+          "text": "hrough the School of Graduate Studies. Our application deadline is December 1, 2026, and it is firm . Applying to the Vector program will not extend your opportunity to apply to us. Do not wait to hear from a",
+          "source": "https://web.cs.toronto.edu/graduate/msc"
+        },
+        {
+          "category": "documents",
+          "text": "Applications are evaluated in their totality: grades, statement of purpose, letters of reference, and any supplementary information submitted are all taken into account. Admission decisions are made in the context of al",
+          "source": "https://web.cs.toronto.edu/graduate/msc"
+        }
+      ],
       "schoolId": "qs-619"
     },
     {
@@ -5851,6 +5882,374 @@
       "sha256": "9aa7c627227ec6264893cd16a5cf868f8ed034eb9e3568f9f5aa50d70e038a4d",
       "excerpts": [],
       "schoolId": "us-503987"
+    },
+    {
+      "school": "California Institute of Technology (Caltech)",
+      "level": "undergraduate",
+      "url": "https://www.admissions.caltech.edu/apply/first-year-applicants/international-applicants",
+      "kind": "institution",
+      "status": "source-checked",
+      "title": "International Applicants\n  \n\n     - \n    \n    Undergraduate Admissions",
+      "checkedAt": "2026-10-26T17:03:15+00:00",
+      "retrievedVia": "https://www.admissions.caltech.edu/apply/first-year-applicants/international-applicants",
+      "sha256": "8b17ffee3d2760757de9417c3b27706e62130135abcbde0146f0c57c480ac7b5",
+      "contentSha256": "d2e295c3e53ae0fa80a30daf4b228d8f8dff2205f2cd9de8e0fed82cdfdd00d4",
+      "excerpts": [
+        {
+          "category": "english",
+          "text": "please see Afford or email our Financial Aid Office . English Proficiency Exams Caltech will challenge your English skills, and we want to make sure that you will thrive in our classrooms and community. English Profici",
+          "source": "https://www.admissions.caltech.edu/apply/first-year-applicants/international-applicants"
+        },
+        {
+          "category": "deadline",
+          "text": "tudents to start in the fall term, and our application deadlines are during U.S. fall and winter. We know that some applicants will not have final grades available at that point, and we will consider the most",
+          "source": "https://www.admissions.caltech.edu/apply/first-year-applicants/international-applicants"
+        },
+        {
+          "category": "documents",
+          "text": "t, and we will consider the most recent grades on your transcript in our application review. You may apply for Restrictive Early Action or Regular Decision . If you have already enrolled at another university,",
+          "source": "https://www.admissions.caltech.edu/apply/first-year-applicants/international-applicants"
+        }
+      ],
+      "schoolId": "qs-94"
+    },
+    {
+      "school": "California Institute of Technology (Caltech)",
+      "level": "undergraduate",
+      "url": "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements",
+      "kind": "institution",
+      "status": "source-checked",
+      "title": "First-Year Application Requirements\n  \n\n     - \n    \n    Undergraduate Admissions",
+      "checkedAt": "2026-10-26T17:03:15+00:00",
+      "retrievedVia": "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements",
+      "sha256": "904583cd2e45bdad51be1cc5bf38e5d65d1c369b53491e2c2579478ea961292a",
+      "contentSha256": "ad24076d6abe2d2fe28187ff7d62b7f1f51f4063dfb570f9f377f582f6f51c8f",
+      "excerpts": [
+        {
+          "category": "english",
+          "text": "ons, you will be asked to submit those scores as well. English Language Proficiency Test (if International applicant) Optional Supplemental Materials Image Lightbox Download Full Image International applicants Caltech defines an",
+          "source": "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements"
+        },
+        {
+          "category": "deadline",
+          "text": "roficiency exam must be taken prior to the application deadline. International Financial Aid Statement of Intent: When an international student applies for first-year admission, the application prompts questi",
+          "source": "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements"
+        },
+        {
+          "category": "documents",
+          "text": "plication $85 application fee or fee waiver Letters of Recommendation 1 STEM: Calculus (or beyond), Chemistry, Physics, or Biology 1 Humanities or Social Sciences: English, History, Government, or Economics Academi",
+          "source": "https://www.admissions.caltech.edu/apply/first-year-applicants/application-requirements"
+        }
+      ],
+      "schoolId": "qs-94"
+    },
+    {
+      "school": "California Institute of Technology (Caltech)",
+      "level": "graduate",
+      "url": "https://gradoffice.caltech.edu/admissions/checklist",
+      "kind": "institution",
+      "status": "source-checked",
+      "title": "Application Requirements\n  \n\n     - \n    \n    Graduate Studies Office",
+      "checkedAt": "2026-10-26T17:03:15+00:00",
+      "retrievedVia": "https://gradoffice.caltech.edu/admissions/checklist",
+      "sha256": "625f1f801af95837b925dc643dc7990e3f4065cb33e75426173e2a2d42a86cca",
+      "contentSha256": "e34a3fc8e19c86ba3e7fadac2cad97c5ce652e9a883f1bc4e3c1613dd5bc07cb",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "rements Related Pages Applicants must have completed a bachelor's degree or the equivalent before beginning graduate study. Applicants who already hold a Ph.D. degree will not be considered for a second Ph.D. degree.",
+          "source": "https://gradoffice.caltech.edu/admissions/checklist"
+        },
+        {
+          "category": "english",
+          "text": "ents Transcripts and Letters of Recommendation GRE and English Proficiency",
+          "source": "https://gradoffice.caltech.edu/admissions/checklist"
+        },
+        {
+          "category": "deadline",
+          "text": "es / Admissions / Requirements and Deadlines Application Requirements Related Pages Applicants must have completed a bachelor's degree or the equivalent before beginning graduate study. Ap",
+          "source": "https://gradoffice.caltech.edu/admissions/checklist"
+        },
+        {
+          "category": "documents",
+          "text": "gree will not be considered for a second Ph.D. degree. Transcripts from each college or university attended, three letters of recommendation, a CV, and essays are required components of the application and are",
+          "source": "https://gradoffice.caltech.edu/admissions/checklist"
+        }
+      ],
+      "schoolId": "qs-94"
+    },
+    {
+      "school": "University of Toronto",
+      "level": "master",
+      "url": "https://web.cs.toronto.edu/graduate/msc",
+      "kind": "program",
+      "name": "MSc in Computer Science",
+      "subject": "Computer Science",
+      "status": "source-checked",
+      "title": "Master of Science (MSc) — Department of Computer Science, University of Toronto",
+      "checkedAt": "2026-10-26T17:03:15+00:00",
+      "retrievedVia": "https://web.cs.toronto.edu/graduate/msc",
+      "sha256": "d24dd86366fe8d213fd6cad7944eb9de767f6b53857846a099dbad4dda2eed2c",
+      "contentSha256": "9ce384e1b10108222d8d1b1405eae5a1cab356acd48244eb4e55868070d38c1d",
+      "excerpts": [
+        {
+          "category": "english",
+          "text": "final year of full-time study or part-time equivalent. English-language proficiency according to University requirements . Applications are evaluated in their totality: grades, statement of purpose, letters of reference, and any",
+          "source": "https://web.cs.toronto.edu/graduate/msc"
+        },
+        {
+          "category": "deadline",
+          "text": "hrough the School of Graduate Studies. Our application deadline is December 1, 2026, and it is firm . Applying to the Vector program will not extend your opportunity to apply to us. Do not wait to hear from a",
+          "source": "https://web.cs.toronto.edu/graduate/msc"
+        },
+        {
+          "category": "documents",
+          "text": "Applications are evaluated in their totality: grades, statement of purpose, letters of reference, and any supplementary information submitted are all taken into account. Admission decisions are made in the context of al",
+          "source": "https://web.cs.toronto.edu/graduate/msc"
+        }
+      ],
+      "schoolId": "qs-619"
+    },
+    {
+      "school": "University of Toronto",
+      "level": "phd",
+      "url": "https://web.cs.toronto.edu/graduate/phd",
+      "kind": "program",
+      "name": "PhD in Computer Science",
+      "subject": "Computer Science",
+      "status": "source-checked",
+      "title": "Doctor of Philosophy (PhD) — Department of Computer Science, University of Toronto",
+      "checkedAt": "2026-10-26T17:03:15+00:00",
+      "retrievedVia": "https://web.cs.toronto.edu/graduate/phd",
+      "sha256": "1f44149e0dfa41ab9292107296a4b6dad9446612be724530042dfed80970cf4c",
+      "contentSha256": "ff3e9ec053a4d7e9447dcb34d2b4c4720061d2b7ea59c0d1ea838005a1adae5e",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "ion to the program is either after the completion of a master’s degree equivalent to our MSc program or directly from an undergraduate program (referred to below as \"Direct-Entry PhD\"). Domestic students without an",
+          "source": "https://web.cs.toronto.edu/graduate/phd"
+        },
+        {
+          "category": "english",
+          "text": "of T 77–79% or 3.3/4.0) over the full master’s program English-language proficiency according to University requirements . Minimum Requirements for the Direct-Entry PhD: Completion of an appropriate bachelor’s degree with a mini",
+          "source": "https://web.cs.toronto.edu/graduate/phd"
+        },
+        {
+          "category": "deadline",
+          "text": "hrough the School of Graduate Studies. Our application deadline is December 1, 2026, and it is firm . Applying to the Vector program will not extend your opportunity to apply to us. Do not wait to hear from a",
+          "source": "https://web.cs.toronto.edu/graduate/phd"
+        },
+        {
+          "category": "documents",
+          "text": "Applications are evaluated in their totality: grades, statement of purpose, letters of reference, and any supplementary information submitted are all taken into account. Admission decisions are made in the context of al",
+          "source": "https://web.cs.toronto.edu/graduate/phd"
+        }
+      ],
+      "schoolId": "qs-619"
+    },
+    {
+      "school": "University of Toronto",
+      "level": "graduate",
+      "url": "https://web.cs.toronto.edu/graduate/how-to-apply",
+      "kind": "institution",
+      "status": "source-checked",
+      "title": "How to Apply — Department of Computer Science, University of Toronto",
+      "checkedAt": "2026-10-26T17:03:15+00:00",
+      "retrievedVia": "https://web.cs.toronto.edu/graduate/how-to-apply",
+      "sha256": "0e5baf664d479c351df373c723140b7e8a3657479d67abf770decf9b10e1d4ca",
+      "contentSha256": "1148835b45ba0743087f512ae89382cdaac777c8bee8d2d13df0b73d2f706969",
+      "excerpts": [
+        {
+          "category": "english",
+          "text": "ted unofficially on your application. Learn more about English-language proficiency requirements , including instructions for electronic submission. If submitting GRE scores, please select institution code 0982. No department co",
+          "source": "https://web.cs.toronto.edu/graduate/how-to-apply"
+        },
+        {
+          "category": "deadline",
+          "text": "hrough the School of Graduate Studies. Our application deadline is December 1, 2026, and it is firm . Applying to the Vector program will not extend your opportunity to apply to us. Do not wait to hear from a",
+          "source": "https://web.cs.toronto.edu/graduate/how-to-apply"
+        },
+        {
+          "category": "documents",
+          "text": "ion. Names and email addresses of three referees Three reference letters are required to complete your application. At least two letters should speak to your ability to conduct independent research at the graduate le",
+          "source": "https://web.cs.toronto.edu/graduate/how-to-apply"
+        }
+      ],
+      "schoolId": "qs-619"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "graduate",
+      "url": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements",
+      "kind": "institution",
+      "status": "source-checked",
+      "title": "Admissions Requirements | HKUST Fok Ying Tung Graduate School",
+      "checkedAt": "2026-10-26T17:03:15+00:00",
+      "retrievedVia": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements",
+      "sha256": "2d68c1cd513f896fad56b87a80e3fc263b960d22252d535dfabf78938060a51a",
+      "contentSha256": "3d8ae7e6b274a631b6561bec556314d12ead5db1804413471d96841a0403296d",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "ssions Requirements Applicants seeking admissions to a master's degree or postgraduate diploma program should have: Obtained a bachelor’s degree from a recognized institution, or an approved equivalent qualification",
+          "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements"
+        },
+        {
+          "category": "english",
+          "text": "ar, or on a part-time basis for at least two years. 2. English Language Requirements Applicants have to fulfill English Language requirements with one of the following proficiency attainments: TOEFL Internet-based Test (iBT): 80",
+          "source": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements"
+        }
+      ],
+      "schoolId": "qs-269"
+    },
+    {
+      "school": "National Taiwan University (NTU)",
+      "level": "undergraduate",
+      "url": "https://admissions.ntu.edu.tw/apply/degree-students/admission-information/academic-requirements/",
+      "kind": "institution",
+      "status": "source-checked",
+      "title": "Academic Requirements - 台大國際事務處",
+      "checkedAt": "2026-10-26T17:03:15+00:00",
+      "retrievedVia": "https://admissions.ntu.edu.tw/apply/degree-students/admission-information/academic-requirements/",
+      "sha256": "43e49379478aa3570b0f5a021dfaa60ca02d1d2f5310b6cc3e70b3d4535fcc90",
+      "contentSha256": "468f63ca3a8d96ba281508372792aa7ea9f1c76116448f8501d410a4a25b59a7",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "l diploma or equivalent Master’s Programs : At least a Bachelor’s degree or equivalent PhD Programs : At least a Master’s Degree or equivalent Applicants are required to submit their certificate of highest qualificati",
+          "source": "https://admissions.ntu.edu.tw/apply/degree-students/admission-information/academic-requirements/"
+        },
+        {
+          "category": "documents",
+          "text": "rtificate of highest qualification earned and academic transcripts via the online application system. Applicants that will be graduating before the start of the semester of their expected admission (before Augu",
+          "source": "https://admissions.ntu.edu.tw/apply/degree-students/admission-information/academic-requirements/"
+        }
+      ],
+      "schoolId": "qs-441"
+    },
+    {
+      "school": "National Taiwan University (NTU)",
+      "level": "graduate",
+      "url": "https://admissions.ntu.edu.tw/apply/degree-students/admission-information/academic-requirements/",
+      "kind": "institution",
+      "status": "source-checked",
+      "title": "Academic Requirements - 台大國際事務處",
+      "checkedAt": "2026-10-26T17:03:15+00:00",
+      "retrievedVia": "https://admissions.ntu.edu.tw/apply/degree-students/admission-information/academic-requirements/",
+      "sha256": "43e49379478aa3570b0f5a021dfaa60ca02d1d2f5310b6cc3e70b3d4535fcc90",
+      "contentSha256": "468f63ca3a8d96ba281508372792aa7ea9f1c76116448f8501d410a4a25b59a7",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "l diploma or equivalent Master’s Programs : At least a Bachelor’s degree or equivalent PhD Programs : At least a Master’s Degree or equivalent Applicants are required to submit their certificate of highest qualificati",
+          "source": "https://admissions.ntu.edu.tw/apply/degree-students/admission-information/academic-requirements/"
+        },
+        {
+          "category": "documents",
+          "text": "rtificate of highest qualification earned and academic transcripts via the online application system. Applicants that will be graduating before the start of the semester of their expected admission (before Augu",
+          "source": "https://admissions.ntu.edu.tw/apply/degree-students/admission-information/academic-requirements/"
+        }
+      ],
+      "schoolId": "qs-441"
+    },
+    {
+      "school": "National Taiwan University (NTU)",
+      "level": "all",
+      "url": "https://admissions.ntu.edu.tw/apply/degree-students/admission-information/application-timeline/",
+      "kind": "directory",
+      "status": "source-checked",
+      "title": "Application Timeline - 台大國際事務處",
+      "checkedAt": "2026-10-26T17:03:15+00:00",
+      "retrievedVia": "https://admissions.ntu.edu.tw/apply/degree-students/admission-information/application-timeline/",
+      "sha256": "9a80fc1cb24458034e65e948e612098efe29d73652f514805f0399e12c3774a6",
+      "contentSha256": "1f55f527a20ef22165145b8c91daeb77e3b7cad593f4c384476d18824ff60663",
+      "excerpts": [],
+      "schoolId": "qs-441"
+    },
+    {
+      "school": "National Taiwan University (NTU)",
+      "level": "all",
+      "url": "https://admissions.ntu.edu.tw/apply/degree-students/international-students/",
+      "kind": "directory",
+      "status": "source-checked",
+      "title": "International Students - 台大國際事務處",
+      "checkedAt": "2026-10-26T17:03:15+00:00",
+      "retrievedVia": "https://admissions.ntu.edu.tw/apply/degree-students/international-students/",
+      "sha256": "d7908a97d841f4259684f64058a42688bac03fc68a173c875ad6b72bf22d7304",
+      "contentSha256": "cbc2c07bdd046ec10a6bcc0d887b388119b2daf6da658e9e62f6ebba9d4eabd8",
+      "excerpts": [
+        {
+          "category": "deadline",
+          "text": "ll or will not get reviewed. Regarding the Application Deadline After filling in your recommenders’ information, you will be able to send out the recommendation letter requests through the application system",
+          "source": "https://admissions.ntu.edu.tw/apply/degree-students/international-students/"
+        },
+        {
+          "category": "documents",
+          "text": "ificate of enrollment officially issued by the school. Transcripts Proof of nationality Language proficiency required by NTU Documents Required by Department Committees for Academic Review Language Proficiency",
+          "source": "https://admissions.ntu.edu.tw/apply/degree-students/international-students/"
+        }
+      ],
+      "schoolId": "qs-441"
+    },
+    {
+      "school": "ETH Zurich - Swiss Federal Institute of Technology",
+      "level": "master",
+      "url": "https://ethz.ch/en/studies/master/application/dates.html",
+      "kind": "institution",
+      "status": "source-checked",
+      "title": "Application Dates Autumn Semester 2027 | ETH Zurich",
+      "checkedAt": "2026-10-26T17:03:15+00:00",
+      "retrievedVia": "https://ethz.ch/en/studies/master/application/dates.html",
+      "sha256": "ce5d803ed0787c55f840ff28c936cea8cb1a10037a957b885233f702634c7d00",
+      "contentSha256": "be387d535c57b7113c46bef2e1db9140ca3108556a1bad7e5f8c31a63940ebea",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "an early one for all applicants with an international Bachelor's degree and a second one only open to candidates with a Bachelor's degree from a Swiss university. International Bachelor's degrees: 1 - 30 November 202",
+          "source": "https://ethz.ch/en/studies/master/application/dates.html"
+        },
+        {
+          "category": "deadline",
+          "text": "lication including all required documents by the given deadline. Late or incomplete applications cannot be processed. Entry in the Spring Semester is not possible. Contact Admissions Office JavaScript has bee",
+          "source": "https://ethz.ch/en/studies/master/application/dates.html"
+        }
+      ],
+      "schoolId": "qs-201"
+    },
+    {
+      "school": "ETH Zurich - Swiss Federal Institute of Technology",
+      "level": "master",
+      "url": "https://ethz.ch/en/studies/master/application/language-requirements.html",
+      "kind": "institution",
+      "status": "source-checked",
+      "title": "Language requirements | ETH Zurich",
+      "checkedAt": "2026-10-26T17:03:15+00:00",
+      "retrievedVia": "https://ethz.ch/en/studies/master/application/language-requirements.html",
+      "sha256": "533deef9ba7c5d8715909e56bb1fc67b4bf2be4822da7debb9bd1e0ca521e106",
+      "contentSha256": "64eb227ba2c0cd9aaf131dcbf58b55dfadb9b7a558c230155911c92c6089eb44",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "tent Footer Contact Sitemap Language requirements Most Master’s degree programmes at ETH Zurich are taught in English; some require knowledge of both English and German; and some are taught in German. The language s",
+          "source": "https://ethz.ch/en/studies/master/application/language-requirements.html"
+        },
+        {
+          "category": "english",
+          "text": "not accepted. Note: The English language certificates TOEFL, IELTS and C1 Advanced (CAE) must be no more than two years old. The C2 Proficiency (CPE) and C1 Advanced certificate with Grade A (200-210) mus",
+          "source": "https://ethz.ch/en/studies/master/application/language-requirements.html"
+        },
+        {
+          "category": "deadline",
+          "text": "(see list below) must be submitted by the application deadline at the latest. Applications with an invalid, insufficient, or missing language certificate will not be evaluated by the department and will be r",
+          "source": "https://ethz.ch/en/studies/master/application/language-requirements.html"
+        },
+        {
+          "category": "documents",
+          "text": "ion on the language of instruction Academic documents (transcript of records, enrolment confirmation, Diploma Supplement) can also be accepted as confirmations on the language of instruction if they explicitly",
+          "source": "https://ethz.ch/en/studies/master/application/language-requirements.html"
+        }
+      ],
+      "schoolId": "qs-201"
     }
   ]
 }
