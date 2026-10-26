@@ -4,22 +4,37 @@ import argparse
 import concurrent.futures
 import hashlib
 import json
+import os
 from pathlib import Path
 import re
+import time
+import urllib.error
 import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / '.cache'
+FRESH_URLS = set()
 
 def fetch(url, refresh=False):
     CACHE.mkdir(exist_ok=True)
     path = CACHE / (hashlib.sha256(url.encode()).hexdigest() + '.html')
-    if path.exists() and not refresh:
+    if path.exists() and not refresh and (os.environ.get("UINDEX_REFRESH") != "1" or url in FRESH_URLS):
         return path.read_text(encoding='utf-8')
     request = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/130.0.0.0 Safari/537.36', 'Accept-Language': 'en'})
-    with urllib.request.urlopen(request, timeout=25) as response:
-        content = response.read().decode('utf-8', errors='replace')
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(request, timeout=25) as response:
+                content = response.read().decode('utf-8', errors='replace')
+            break
+        except urllib.error.HTTPError as error:
+            if error.code not in (429, 500, 502, 503, 504) or attempt == 2:
+                raise
+        except (urllib.error.URLError, TimeoutError):
+            if attempt == 2:
+                raise
+        time.sleep(2 ** (attempt + 1))
     path.write_text(content, encoding='utf-8')
+    FRESH_URLS.add(url)
     return content
 
 def next_data(html):

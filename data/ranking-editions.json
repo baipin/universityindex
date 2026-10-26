@@ -1,0 +1,19 @@
+{
+  "qs": {
+    "year": "2027",
+    "source": "https://www.qs-topuniversities.cn/university-rankings/world-university-rankings/2027"
+  },
+  "the": {
+    "year": "2027",
+    "source": "https://www.timeshighereducation.com/world-university-rankings/2027/world-ranking"
+  },
+  "usnews": {
+    "year": "2026–2027",
+    "source": "https://www.usnews.com/education/best-global-universities/rankings",
+    "editionSource": "https://www.usnews.com/education/best-global-universities/articles/us-news-ranks-best-global-universities"
+  },
+  "subjects": {
+    "year": "2026",
+    "source": "https://www.qs-topuniversities.cn/subject-rankings/2026"
+  }
+}

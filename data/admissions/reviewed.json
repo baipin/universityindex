@@ -13,7 +13,15 @@
       "english": "For applicants submitting English tests: IELTS minimum 7.0 (recommended 7.5); TOEFL minimum 90 before 21 January 2026, or 5.0 on/after that date (recommended 100 / 5.5); DET minimum 120. English testing is strongly recommended for specified non-native speakers, not universally mandatory.",
       "deadline": "Early Action: 1 November; Regular Action: 4 January. The cited recurring schedule does not assign an entry year.",
       "documents": "MIT application and essays; secondary school report and transcripts; two teacher recommendations; SAT or ACT required. Application fee or waiver.",
-      "notes": "Do not confuse minimum scores with recommended scores. No GPA threshold is inferred from this source."
+      "notes": "Do not confuse minimum scores with recommended scores. No GPA threshold is inferred from this source.",
+      "sourceFingerprints": {
+        "https://mitadmissions.org/apply/firstyear/tests-scores/": {
+          "sha256": "5e525cdd0ca34b1e19122cb8e79edb0da1be6e4851b34d91807d01f2b304cbed"
+        },
+        "https://mitadmissions.org/apply/firstyear/deadlines-requirements/": {
+          "sha256": "e017efb0cca1c77e52fafcd6d8b65cce358bb009bcb7fd14f88512920b8f1bb6"
+        }
+      }
     },
     {
       "schoolId": "qs-410",
@@ -25,7 +33,15 @@
       },
       "english": "International applicants must demonstrate English proficiency unless exempt; accepted tests, waiver decisions and minimum scores are set by the admitting department.",
       "deadline": "Department-specific; MIT explicitly has no single graduate application deadline.",
-      "notes": "Central OGE process guidance. Sloan programmes have separate application and language-assessment policies; consult the indexed MFin/MBA records rather than applying this baseline automatically."
+      "notes": "Central OGE process guidance. Sloan programmes have separate application and language-assessment policies; consult the indexed MFin/MBA records rather than applying this baseline automatically.",
+      "sourceFingerprints": {
+        "https://oge.mit.edu/graduate-admissions/applications/international-applicants/": {
+          "sha256": "a6e31436cbe2d5b288d239f0f83fd391b4b6d721562fb3d26a15e99aeefae751"
+        },
+        "https://oge.mit.edu/graduate-admissions/applications/": {
+          "sha256": "c92e54c46901db850d3d66d69ce93cbaf32dc1c771948598e36761c191aa3b32"
+        }
+      }
     },
     {
       "schoolId": "qs-410",
@@ -37,7 +53,15 @@
       },
       "english": "International applicants must demonstrate English proficiency unless exempt; accepted tests, waiver decisions and minimum scores are set by the admitting department.",
       "deadline": "Department-specific; MIT explicitly has no single graduate application deadline.",
-      "notes": "Central OGE process guidance. Sloan programmes have separate application and language-assessment policies; consult the indexed MFin/MBA records rather than applying this baseline automatically."
+      "notes": "Central OGE process guidance. Sloan programmes have separate application and language-assessment policies; consult the indexed MFin/MBA records rather than applying this baseline automatically.",
+      "sourceFingerprints": {
+        "https://oge.mit.edu/graduate-admissions/applications/international-applicants/": {
+          "sha256": "a6e31436cbe2d5b288d239f0f83fd391b4b6d721562fb3d26a15e99aeefae751"
+        },
+        "https://oge.mit.edu/graduate-admissions/applications/": {
+          "sha256": "c92e54c46901db850d3d66d69ce93cbaf32dc1c771948598e36761c191aa3b32"
+        }
+      }
     },
     {
       "schoolId": "qs-573",
@@ -48,7 +72,12 @@
         "documents": "https://admission.stanford.edu/apply/first-year/index.html"
       },
       "deadline": "Standard REA: 1 November; standard Regular Decision: 5 January. Optional arts portfolio applicants: 15 October (REA) / 5 December (RD) for the Common Application. Confirm the entry cycle on the source.",
-      "documents": "Common Application; ACT or SAT; school report and counselor recommendation; transcripts and midyear transcript; two academic teacher recommendations; application fee or waiver."
+      "documents": "Common Application; ACT or SAT; school report and counselor recommendation; transcripts and midyear transcript; two academic teacher recommendations; application fee or waiver.",
+      "sourceFingerprints": {
+        "https://admission.stanford.edu/apply/first-year/index.html": {
+          "sha256": "f69115449560bc5cefe3b4186f99e3b6786b81c694882909903dc444dd0157c0"
+        }
+      }
     },
     {
       "schoolId": "qs-573",
@@ -63,7 +92,18 @@
       "gpa": "A US bachelor’s degree or international equivalent from a recognized institution is required before enrollment; the cited eligibility page does not set a numerical GPA cutoff.",
       "english": "Unless exempt: IELTS Academic 7.0; TOEFL 90 before 21 January 2026 or 4.5 on/after that date. Programmes may require higher scores. English placement-test exemption thresholds are higher and are not admission minima.",
       "documents": "Three recommendation letters; at least one academic professor is strongly recommended. Consult the programme for its other required materials.",
-      "intake": "Graduate test-score page: Autumn 2027–2028."
+      "intake": "Graduate test-score page: Autumn 2027–2028.",
+      "sourceFingerprints": {
+        "https://gradadmissions.stanford.edu/apply/test-scores": {
+          "sha256": "cd9cadc61ebd8214fbe3d5eaed4ca9a049ac3ed4f90270ce79d34f6301dc1dc8"
+        },
+        "https://gradadmissions.stanford.edu/apply/eligibility": {
+          "sha256": "f77c74114c1e5a5c25adf74973c1fbcbdb048c45f4bba8e9a193b2810f302818"
+        },
+        "https://gradadmissions.stanford.edu/apply/recommendations": {
+          "sha256": "e11cdbcc4907f84309d3d658eb8f4c8d448c19c9ef6b847c78805bd8bbea26c2"
+        }
+      }
     },
     {
       "schoolId": "qs-573",
@@ -78,7 +118,18 @@
       "gpa": "A US bachelor’s degree or international equivalent from a recognized institution is required before enrollment; the cited eligibility page does not set a numerical GPA cutoff.",
       "english": "Unless exempt: IELTS Academic 7.0; TOEFL 90 before 21 January 2026 or 4.5 on/after that date. Programmes may require higher scores. English placement-test exemption thresholds are higher and are not admission minima.",
       "documents": "Three recommendation letters; at least one academic professor is strongly recommended. Consult the programme for its other required materials.",
-      "intake": "Graduate test-score page: Autumn 2027–2028."
+      "intake": "Graduate test-score page: Autumn 2027–2028.",
+      "sourceFingerprints": {
+        "https://gradadmissions.stanford.edu/apply/test-scores": {
+          "sha256": "cd9cadc61ebd8214fbe3d5eaed4ca9a049ac3ed4f90270ce79d34f6301dc1dc8"
+        },
+        "https://gradadmissions.stanford.edu/apply/eligibility": {
+          "sha256": "f77c74114c1e5a5c25adf74973c1fbcbdb048c45f4bba8e9a193b2810f302818"
+        },
+        "https://gradadmissions.stanford.edu/apply/recommendations": {
+          "sha256": "e11cdbcc4907f84309d3d658eb8f4c8d448c19c9ef6b847c78805bd8bbea26c2"
+        }
+      }
     },
     {
       "schoolId": "qs-95",
@@ -90,7 +141,15 @@
       },
       "gpa": "University baseline: UK upper second-class (2:1) bachelor’s honours degree or international equivalent; many courses require a high 2:1, first-class degree or master’s degree.",
       "english": "Required test scores are course-specific; accepted options include IELTS Academic and TOEFL iBT, subject to the current course conditions. Test result must normally be within two years of course start.",
-      "notes": "Consult the Course Directory for the actual academic and language thresholds of the selected course."
+      "notes": "Consult the Course Directory for the actual academic and language thresholds of the selected course.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/application-process/entry-requirements": {
+          "sha256": "ba865537fed76f3650a75f5dbdd36619659d8d4677fd733475d4813acefdbb5c"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/international/competence-english": {
+          "sha256": "ae21f12a4646db27bd7a49d98f37ce86c0e872085c24d09b9fe6090fd64366c2"
+        }
+      }
     },
     {
       "schoolId": "qs-95",
@@ -102,7 +161,15 @@
       },
       "gpa": "University baseline: UK upper second-class (2:1) bachelor’s honours degree or international equivalent; many courses require a high 2:1, first-class degree or master’s degree.",
       "english": "Required test scores are course-specific; accepted options include IELTS Academic and TOEFL iBT, subject to the current course conditions. Test result must normally be within two years of course start.",
-      "notes": "Consult the Course Directory for the actual academic and language thresholds of the selected course."
+      "notes": "Consult the Course Directory for the actual academic and language thresholds of the selected course.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/application-process/entry-requirements": {
+          "sha256": "ba865537fed76f3650a75f5dbdd36619659d8d4677fd733475d4813acefdbb5c"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/international/competence-english": {
+          "sha256": "ae21f12a4646db27bd7a49d98f37ce86c0e872085c24d09b9fe6090fd64366c2"
+        }
+      }
     },
     {
       "schoolId": "qs-253",
@@ -118,7 +185,15 @@
       "english": "Griffin GSAS, unless exempt: IELTS Academic 7.0 with Speaking 6.5; TOEFL 95 with Speaking 23 before 21 January 2026, or overall 5.0 with Speaking 4.5 on/after that date. Programmes may require higher scores.",
       "deadline": "Varies by GSAS programme; admission is for the fall term.",
       "documents": "Transcripts; three recommendation letters; statement of purpose; English evidence where required. Personal statement, writing sample and GRE apply only to designated programmes.",
-      "notes": "Applies to Harvard Griffin GSAS only. Harvard Business School, Law School and other professional schools have separate requirements."
+      "notes": "Applies to Harvard Griffin GSAS only. Harvard Business School, Law School and other professional schools have separate requirements.",
+      "sourceFingerprints": {
+        "https://gsas.harvard.edu/apply/applying-degree-programs": {
+          "sha256": "5a39c253356ffb8ffd9be7bbb2d285263dc3b01853a213b1fea64a1225696c42"
+        },
+        "https://gsas.harvard.edu/apply/applying-degree-programs/english-proficiency": {
+          "sha256": "ce06261bb395a24b5b4fd626e566889863e18f2e35b12d8f25e594915f889016"
+        }
+      }
     },
     {
       "schoolId": "qs-253",
@@ -134,7 +209,15 @@
       "english": "Griffin GSAS, unless exempt: IELTS Academic 7.0 with Speaking 6.5; TOEFL 95 with Speaking 23 before 21 January 2026, or overall 5.0 with Speaking 4.5 on/after that date. Programmes may require higher scores.",
       "deadline": "Varies by GSAS programme; admission is for the fall term.",
       "documents": "Transcripts; three recommendation letters; statement of purpose; English evidence where required. Personal statement, writing sample and GRE apply only to designated programmes.",
-      "notes": "Applies to Harvard Griffin GSAS only. Harvard Business School, Law School and other professional schools have separate requirements."
+      "notes": "Applies to Harvard Griffin GSAS only. Harvard Business School, Law School and other professional schools have separate requirements.",
+      "sourceFingerprints": {
+        "https://gsas.harvard.edu/apply/applying-degree-programs": {
+          "sha256": "5a39c253356ffb8ffd9be7bbb2d285263dc3b01853a213b1fea64a1225696c42"
+        },
+        "https://gsas.harvard.edu/apply/applying-degree-programs/english-proficiency": {
+          "sha256": "ce06261bb395a24b5b4fd626e566889863e18f2e35b12d8f25e594915f889016"
+        }
+      }
     },
     {
       "schoolId": "qs-123",
@@ -146,7 +229,12 @@
       },
       "gpa": "Taught master’s baseline (excluding EMBA): recognized bachelor’s degree, normally at least second-class honours or average grade B; approved equivalent qualifications may be considered.",
       "english": "Unless exempt: IELTS Academic 6.5; TOEFL iBT 79/120 or 4.5/6. The official page also lists alternative qualifications and programme-specific conditions.",
-      "notes": "Some programmes have higher academic or English requirements. Tests normally remain valid for two years."
+      "notes": "Some programmes have higher academic or English requirements. Tests normally remain valid for two years.",
+      "sourceFingerprints": {
+        "https://www.gs.cuhk.edu.hk/admissions/admissions/requirements": {
+          "sha256": "1cbff2ec2310ff711a4aabddec69b86001198396d167c0578a58f102f299d775"
+        }
+      }
     },
     {
       "schoolId": "qs-123",
@@ -158,7 +246,12 @@
       },
       "gpa": "Standalone doctoral routes normally require a recognized master’s degree, with specified alternative routes. The PhD stream of MPhil–PhD programmes also admits eligible bachelor’s degree holders, normally second-class honours or average B.",
       "english": "Unless exempt: IELTS Academic 6.5; TOEFL iBT 79/120 or 4.5/6, with other alternatives listed by CUHK.",
-      "notes": "Standalone PhD and the PhD stream of MPhil–PhD programmes have different eligibility routes; do not treat them as identical."
+      "notes": "Standalone PhD and the PhD stream of MPhil–PhD programmes have different eligibility routes; do not treat them as identical.",
+      "sourceFingerprints": {
+        "https://www.gs.cuhk.edu.hk/admissions/admissions/requirements": {
+          "sha256": "1cbff2ec2310ff711a4aabddec69b86001198396d167c0578a58f102f299d775"
+        }
+      }
     },
     {
       "schoolId": "qs-268",
@@ -168,7 +261,12 @@
         "english": "https://gradsch.hku.hk/prospective_students/application/admission_requirement"
       },
       "english": "If the prior institution’s instruction/examination was not English: TOEFL 85 before 21 January 2026 or 4.5 on/after; alternatively IELTS Academic 6.5 with all components 6.0. Faculty of Arts generally requires IELTS 7.0 with components 6.0, with stated exceptions.",
-      "notes": "MPhil/PhD research admissions source, not taught-master’s policy. Arts TOEFL Writing requirements are higher. TOEFL Home Edition and IELTS One Skill Retake are not accepted."
+      "notes": "MPhil/PhD research admissions source, not taught-master’s policy. Arts TOEFL Writing requirements are higher. TOEFL Home Edition and IELTS One Skill Retake are not accepted.",
+      "sourceFingerprints": {
+        "https://gradsch.hku.hk/prospective_students/application/admission_requirement": {
+          "sha256": "4c8e0412a15601379592ddc5ece8a98cc4ed6e0591bfc5240a846133ddcb3f30"
+        }
+      }
     },
     {
       "schoolId": "qs-130",
@@ -180,7 +278,12 @@
       },
       "gpa": "A recognized bachelor’s degree or a qualification accepted as equivalent; final-year applicants may apply before obtaining the degree.",
       "english": "If prior instruction was not English: IELTS 6.0; TOEFL iBT 79 before 21 January 2026 or 4.0 on/after. Other accepted qualifications are listed by CityUHK. Individual schools may set higher requirements.",
-      "notes": "IELTS 6.0 / TOEFL 4.0 may trigger an English interview, subject to the published exception. Home Edition, MyBest, IELTS Online/Indicator and One Skill Retake are not accepted."
+      "notes": "IELTS 6.0 / TOEFL 4.0 may trigger an English interview, subject to the published exception. Home Edition, MyBest, IELTS Online/Indicator and One Skill Retake are not accepted.",
+      "sourceFingerprints": {
+        "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/entrance-requirements": {
+          "sha256": "5ff234d6586f808604ad6c81db82c2ca08b8b22e75bca901fd9d6805f359bd9f"
+        }
+      }
     },
     {
       "schoolId": "qs-267",
@@ -194,7 +297,12 @@
       "gpa": "Recognized bachelor’s degree or an individually accepted equivalent; additional programme conditions apply.",
       "english": "For non-native speakers whose prior degree was not taught in English: IELTS Academic 6.0; TOEFL iBT 80/120 or 4.5/6 under the new scale. Results must be from a single sitting within two years.",
       "deadline": "Individual programme deadlines; applications may be considered on a rolling basis until places are filled.",
-      "notes": "This source is for taught postgraduate admissions. TOEFL Home Edition and IELTS Online/Indicator/One Skill Retake are not accepted."
+      "notes": "This source is for taught postgraduate admissions. TOEFL Home Edition and IELTS Online/Indicator/One Skill Retake are not accepted.",
+      "sourceFingerprints": {
+        "https://www.polyu.edu.hk/study/pg/taught-postgraduate/admission-requirements-tpg": {
+          "sha256": "93386451feae10c7ae025f4b5f820296e4347c1c282c22a3cf4283a1719d7f49"
+        }
+      }
     },
     {
       "schoolId": "qs-356",
@@ -204,7 +312,12 @@
         "english": "https://www.imperial.ac.uk/study/apply/english-language/"
       },
       "english": "Course-dependent levels: Standard IELTS 6.5 (each component 6.0), Higher IELTS 7.0 (each 6.5). TOEFL before 21 January 2026: Standard 92 (each 20), Higher 100 (each 22); from that date: Standard 4.5 (each 4.5), Higher 5.0 (each 5.0).",
-      "notes": "The individual course specifies Standard or Higher. Accepted alternatives and exemptions are listed on the source page; these are language standards, not universal academic entry requirements."
+      "notes": "The individual course specifies Standard or Higher. Accepted alternatives and exemptions are listed on the source page; these are language standards, not universal academic entry requirements.",
+      "sourceFingerprints": {
+        "https://www.imperial.ac.uk/study/apply/english-language/": {
+          "sha256": "3fbc9363b0ff69c75fcc60230d01befa04287759da7e5fa5867749a8f0dee2ae"
+        }
+      }
     },
     {
       "schoolId": "qs-356",
@@ -214,7 +327,12 @@
         "english": "https://www.imperial.ac.uk/study/apply/english-language/"
       },
       "english": "Course-dependent levels: Standard IELTS 6.5 (each component 6.0), Higher IELTS 7.0 (each 6.5). TOEFL before 21 January 2026: Standard 92 (each 20), Higher 100 (each 22); from that date: Standard 4.5 (each 4.5), Higher 5.0 (each 5.0).",
-      "notes": "The individual course specifies Standard or Higher. Accepted alternatives and exemptions are listed on the source page; these are language standards, not universal academic entry requirements."
+      "notes": "The individual course specifies Standard or Higher. Accepted alternatives and exemptions are listed on the source page; these are language standards, not universal academic entry requirements.",
+      "sourceFingerprints": {
+        "https://www.imperial.ac.uk/study/apply/english-language/": {
+          "sha256": "3fbc9363b0ff69c75fcc60230d01befa04287759da7e5fa5867749a8f0dee2ae"
+        }
+      }
     },
     {
       "schoolId": "qs-356",
@@ -224,7 +342,12 @@
         "english": "https://www.imperial.ac.uk/study/apply/english-language/"
       },
       "english": "Course-dependent levels: Standard IELTS 6.5 (each component 6.0), Higher IELTS 7.0 (each 6.5). TOEFL before 21 January 2026: Standard 92 (each 20), Higher 100 (each 22); from that date: Standard 4.5 (each 4.5), Higher 5.0 (each 5.0).",
-      "notes": "The individual course specifies Standard or Higher. Accepted alternatives and exemptions are listed on the source page; these are language standards, not universal academic entry requirements."
+      "notes": "The individual course specifies Standard or Higher. Accepted alternatives and exemptions are listed on the source page; these are language standards, not universal academic entry requirements.",
+      "sourceFingerprints": {
+        "https://www.imperial.ac.uk/study/apply/english-language/": {
+          "sha256": "3fbc9363b0ff69c75fcc60230d01befa04287759da7e5fa5867749a8f0dee2ae"
+        }
+      }
     },
     {
       "schoolId": "qs-84",
@@ -239,7 +362,12 @@
       "gpa": "Recognized bachelor’s degree or equivalent; normally a minimum GPA of 3.0/B on a 4.0 scale, plus adequate preparation for the intended graduate field.",
       "english": "TOEFL or IELTS is required unless the published exemption applies; individual programme conditions must also be checked.",
       "documents": "Academic records and recommendation letters; statement of purpose and personal-history statement. Other tests depend on the programme.",
-      "intake": "Graduate application source explicitly covers Fall 2027."
+      "intake": "Graduate application source explicitly covers Fall 2027.",
+      "sourceFingerprints": {
+        "https://grad.berkeley.edu/admissions/steps-to-apply/requirements/": {
+          "sha256": "eaef4936b1500c6b4321312f2ce9c4ece72cdf5de34eb07fce0f69c0449a7353"
+        }
+      }
     },
     {
       "schoolId": "qs-84",
@@ -254,7 +382,12 @@
       "gpa": "Recognized bachelor’s degree or equivalent; normally a minimum GPA of 3.0/B on a 4.0 scale, plus adequate preparation for the intended graduate field.",
       "english": "TOEFL or IELTS is required unless the published exemption applies; individual programme conditions must also be checked.",
       "documents": "Academic records and recommendation letters; statement of purpose and personal-history statement. Other tests depend on the programme.",
-      "intake": "Graduate application source explicitly covers Fall 2027."
+      "intake": "Graduate application source explicitly covers Fall 2027.",
+      "sourceFingerprints": {
+        "https://grad.berkeley.edu/admissions/steps-to-apply/requirements/": {
+          "sha256": "eaef4936b1500c6b4321312f2ce9c4ece72cdf5de34eb07fce0f69c0449a7353"
+        }
+      }
     },
     {
       "schoolId": "qs-619",
@@ -266,7 +399,12 @@
       },
       "gpa": "Appropriate recognized bachelor’s degree or equivalent with at least a mid-B average in the final year. Graduate units may set higher requirements.",
       "deadline": "Varies by graduate programme.",
-      "notes": "International degree equivalencies and language-test rules must be checked separately; meeting the SGS minimum does not guarantee admission."
+      "notes": "International degree equivalencies and language-test rules must be checked separately; meeting the SGS minimum does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.sgs.utoronto.ca/admissions/admission-application-requirements/": {
+          "sha256": "cdcd0273f6aa83da3f446bc0354732c4d027a44a957223ced091162253a70ccb"
+        }
+      }
     },
     {
       "schoolId": "qs-619",
@@ -278,7 +416,12 @@
       },
       "gpa": "Appropriate master’s degree or equivalent with at least B+ average, or comparable demonstrated research competence. Some departments offer direct entry from a bachelor’s degree to exceptional candidates, minimum A− average.",
       "deadline": "Varies by graduate programme.",
-      "notes": "The direct-entry route is department-specific; it is not available automatically in every programme."
+      "notes": "The direct-entry route is department-specific; it is not available automatically in every programme.",
+      "sourceFingerprints": {
+        "https://www.sgs.utoronto.ca/admissions/admission-application-requirements/": {
+          "sha256": "cdcd0273f6aa83da3f446bc0354732c4d027a44a957223ced091162253a70ccb"
+        }
+      }
     },
     {
       "schoolId": "qs-678",
@@ -290,7 +433,12 @@
       },
       "gpa": "Minimum 3.00 GPA over the equivalent of the last 60 undergraduate semester hours, or a master’s cumulative GPA of 3.00. International academic records are assessed on their own grading scale; do not self-convert.",
       "english": "Unless exempt: TOEFL 92 before 21 January 2026 or 5.0 on/after; IELTS 7.0. Other accepted tests and programme-specific conditions are on the official source.",
-      "notes": "A comparable bachelor’s degree must be completed before graduate enrollment. Departments may set stricter requirements."
+      "notes": "A comparable bachelor’s degree must be completed before graduate enrollment. Departments may set stricter requirements.",
+      "sourceFingerprints": {
+        "https://grad.wisc.edu/apply/requirements/": {
+          "sha256": "05533bd84312839c52682ab6c3021da4c96d5843060ecd3aa1b2fe316435ef12"
+        }
+      }
     },
     {
       "schoolId": "qs-678",
@@ -302,7 +450,12 @@
       },
       "gpa": "Minimum 3.00 GPA over the equivalent of the last 60 undergraduate semester hours, or a master’s cumulative GPA of 3.00. International academic records are assessed on their own grading scale; do not self-convert.",
       "english": "Unless exempt: TOEFL 92 before 21 January 2026 or 5.0 on/after; IELTS 7.0. Other accepted tests and programme-specific conditions are on the official source.",
-      "notes": "A comparable bachelor’s degree must be completed before graduate enrollment. Departments may set stricter requirements."
+      "notes": "A comparable bachelor’s degree must be completed before graduate enrollment. Departments may set stricter requirements.",
+      "sourceFingerprints": {
+        "https://grad.wisc.edu/apply/requirements/": {
+          "sha256": "05533bd84312839c52682ab6c3021da4c96d5843060ecd3aa1b2fe316435ef12"
+        }
+      }
     },
     {
       "schoolId": "qs-70",
@@ -315,7 +468,12 @@
       "english": "IELTS Academic 7.0 with each component 6.5. TOEFL before 21 January 2026: overall 100, R22/W21/S21/L22; from that date: overall 5.0, R4.5/W4.5/S4.0/L5.0. DET 130 with the published subscores is also accepted.",
       "documents": "Transcripts from all post-secondary institutions and three references; check the programme page for additional application materials.",
       "notes": "The programme states that GRE is not required. Country-specific degree eligibility and competitive academic expectations must also be checked.",
-      "programId": "msc-computer-science"
+      "programId": "msc-computer-science",
+      "sourceFingerprints": {
+        "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-computer-science": {
+          "sha256": "75d1b388f312320d526ed32c664893004691095e79b3ac65b46749744d675c88"
+        }
+      }
     },
     {
       "schoolId": "qs-70",
@@ -328,7 +486,12 @@
       "english": "IELTS Academic 7.0 with each component 6.5. TOEFL before 21 January 2026: overall 100, R22/W21/S21/L22; from that date: overall 5.0, R4.5/W4.5/S4.0/L5.0. DET 130 with the published subscores is also accepted.",
       "documents": "Transcripts from all post-secondary institutions and three references; check the programme page for additional application materials.",
       "notes": "The programme states that GRE is not required. Country-specific degree eligibility and competitive academic expectations must also be checked.",
-      "programId": "phd-computer-science"
+      "programId": "phd-computer-science",
+      "sourceFingerprints": {
+        "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-computer-science": {
+          "sha256": "9e7de12f58ab062ada22b34ba4c4a60800ab0c05f547d9eaf09bf2280a7a322f"
+        }
+      }
     },
     {
       "schoolId": "qs-478",
@@ -341,7 +504,12 @@
       "gpa": "First-class or strong upper-second four-year honours degree in a relevant subject; alternatively a qualifying three-year honours degree plus a master’s with merit/distinction. Normally GPA 3.5/4.0 for a US undergraduate qualification.",
       "english": "Standard level: IELTS Academic 7.0 with each component 6.5. The source lists TOEFL 100 and component minima for the old test, but says tests taken from 21 January 2026 are not accepted pending review of the revised test.",
       "notes": "Do not apply the US GPA conversion to qualifications from other countries. GRE/GMAT scores are not sought. Check the source again before choosing a TOEFL test date.",
-      "programId": "dphil-in-computer-science"
+      "programId": "dphil-in-computer-science",
+      "sourceFingerprints": {
+        "https://www.ox.ac.uk/admissions/graduate/courses/dphil-computer-science": {
+          "sha256": "47d91b688feced6721c5dad3864d4f151cc231f53fb8f6e33e18805d11d65b5a"
+        }
+      }
     },
     {
       "schoolId": "qs-356",
@@ -354,7 +522,15 @@
       "gpa": "UK first-class degree or equivalent in a subject without substantial computing content, plus good A-level Mathematics or equivalent.",
       "english": "Higher level: IELTS Academic 7.0 with each component 6.5, or another accepted Higher-level qualification.",
       "notes": "This is a conversion MSc intended for graduates of non-computing subjects; it must not be confused with Imperial’s Advanced Computing MSc.",
-      "programId": "msc-computing"
+      "programId": "msc-computing",
+      "sourceFingerprints": {
+        "https://www.imperial.ac.uk/study/apply/english-language/": {
+          "sha256": "3fbc9363b0ff69c75fcc60230d01befa04287759da7e5fa5867749a8f0dee2ae"
+        },
+        "https://www.imperial.ac.uk/study/courses/postgraduate-taught/computing/": {
+          "sha256": "ffe759f1f59f8ae63c5f85571f931335a041adf8e2ee1007229a3e87ce357e17"
+        }
+      }
     },
     {
       "schoolId": "qs-253",
@@ -365,7 +541,12 @@
         "documents": "https://college.harvard.edu/admissions/apply/first-year-applicants"
       },
       "deadline": "Restrictive Early Action: 1 November; Regular Decision: 1 January. Confirm the entry year on the admissions page.",
-      "documents": "Application; school report including counselor letter and high-school transcript; two teacher recommendations; midyear report. Final school report is for admitted students."
+      "documents": "Application; school report including counselor letter and high-school transcript; two teacher recommendations; midyear report. Final school report is for admitted students.",
+      "sourceFingerprints": {
+        "https://college.harvard.edu/admissions/apply/first-year-applicants": {
+          "sha256": "c5b451460e30dc13bf83ff518ed4785afa0b5752105204092219ba6f95167dd8"
+        }
+      }
     },
     {
       "schoolId": "qs-684",
@@ -375,7 +556,12 @@
         "documents": "https://admissions.yale.edu/instructions"
       },
       "documents": "Two recent core-academic teacher recommendations; academic records and school report through the selected application platform; self-reported ACT/SAT per the published testing policy. Non-native speakers from non-English-medium secondary schools also submit English test results.",
-      "notes": "Check the linked testing policy and applicant category. No English score threshold is inferred from this overview."
+      "notes": "Check the linked testing policy and applicant category. No English score threshold is inferred from this overview.",
+      "sourceFingerprints": {
+        "https://admissions.yale.edu/instructions": {
+          "sha256": "27296509b51ed352da5fa752a6ffcc72ad278fc9709df2d9a655d9eab8aac19f"
+        }
+      }
     },
     {
       "schoolId": "qs-508",
@@ -384,7 +570,12 @@
       "fieldSources": {
         "documents": "https://admission.princeton.edu/apply/application-checklist"
       },
-      "documents": "Common Application with Princeton-specific questions; fee or waiver; school report and counselor recommendation; two teacher recommendations from different core academic areas; transcript and midyear report. Check the full checklist for additional items."
+      "documents": "Common Application with Princeton-specific questions; fee or waiver; school report and counselor recommendation; two teacher recommendations from different core academic areas; transcript and midyear report. Check the full checklist for additional items.",
+      "sourceFingerprints": {
+        "https://admission.princeton.edu/apply/application-checklist": {
+          "sha256": "500475a6a309392ecde79fc968182c73406807227d64ba5e44075c869a64d7a1"
+        }
+      }
     },
     {
       "schoolId": "qs-495",
@@ -397,7 +588,12 @@
       },
       "deadline": "Early Decision: 1 November 2026; Regular Decision: 5 January 2027.",
       "intake": "Fall 2027.",
-      "documents": "Apply through the Common App, Coalition App or QuestBridge; select one of Penn’s four undergraduate schools or an eligible coordinated dual-degree programme."
+      "documents": "Apply through the Common App, Coalition App or QuestBridge; select one of Penn’s four undergraduate schools or an eligible coordinated dual-degree programme.",
+      "sourceFingerprints": {
+        "https://admissions.upenn.edu/how-to-apply/first-year-applicants": {
+          "sha256": "604ba53149ae14ae146392b106daeee2248519a72bfe312fb2fe029efa3f3a3a"
+        }
+      }
     },
     {
       "schoolId": "qs-143",
@@ -409,7 +605,12 @@
       },
       "deadline": "ED application: 1 November; other required materials: 13 November. RD application: 2 January; other required materials: 19 January. Confirm the entry cycle on the source.",
       "documents": "Application and Cornell supplement; counselor recommendation and two teacher recommendations; academic records; portfolio/design supplement only if required by the intended programme.",
-      "notes": "Financial-aid deadlines differ by applicant category and are not the same as the application-materials deadlines."
+      "notes": "Financial-aid deadlines differ by applicant category and are not the same as the application-materials deadlines.",
+      "sourceFingerprints": {
+        "https://admissions.cornell.edu/how-to-apply/first-year-applicants": {
+          "sha256": "e8533b9f31b825566bba6c1340b9f210c62089415f7fb475c8bd97fbae409635"
+        }
+      }
     },
     {
       "schoolId": "qs-138",
@@ -421,7 +622,12 @@
       },
       "documents": "Common Application or Coalition on Scoir; official high-school transcripts; counselor recommendation and school profile; midyear report; two academic teacher recommendations. For Engineering, one teacher must be in math or science.",
       "intake": "Fall 2027: ACT/SAT submission is optional under the policy cited on the page.",
-      "notes": "The page gives typical-cycle dates as well as current-cycle announcements; check the exact current deadline before submitting."
+      "notes": "The page gives typical-cycle dates as well as current-cycle announcements; check the exact current deadline before submitting.",
+      "sourceFingerprints": {
+        "https://undergrad.admissions.columbia.edu/apply/firstyear": {
+          "sha256": "d72ae2f29dbed1b560a01a13890f646c0bfaec2081de66545839f990a77f25d6"
+        }
+      }
     },
     {
       "schoolId": "qs-456",
@@ -431,7 +637,12 @@
         "documents": "https://admissions.northwestern.edu/apply/requirements.html"
       },
       "documents": "ACT/SAT scores are optional under the published first-year/transfer testing policy; applicants choosing to submit scores should follow Northwestern’s self-reporting and superscoring guidance.",
-      "notes": "This summary reviews the testing policy only. School-specific supplements and the rest of the application checklist must also be checked."
+      "notes": "This summary reviews the testing policy only. School-specific supplements and the rest of the application checklist must also be checked.",
+      "sourceFingerprints": {
+        "https://admissions.northwestern.edu/apply/requirements.html": {
+          "sha256": "6987f18dc2791f32ad52eaecb6a36d2f484910b09ade64e83c6968fd1ded52a8"
+        }
+      }
     },
     {
       "schoolId": "qs-72",
@@ -443,7 +654,12 @@
       },
       "deadline": "Early Decision: 1 November; Regular Decision: 5 January, at 11:59 p.m. applicant local time. Confirm the entry cycle on the source.",
       "documents": "Common Application and Brown supplements; school report and counselor recommendation; two academic teacher recommendations; SAT or ACT required under the reinstated testing policy.",
-      "notes": "PLME and Brown–RISD applicants have additional requirements; Brown does not publish a minimum standardized-test score on this checklist."
+      "notes": "PLME and Brown–RISD applicants have additional requirements; Brown does not publish a minimum standardized-test score on this checklist.",
+      "sourceFingerprints": {
+        "https://admission.brown.edu/first-year/application-checklist": {
+          "sha256": "76535708de8b41e90a7f684debf8b15facf03555b241373da32811aab223b58e"
+        }
+      }
     },
     {
       "schoolId": "qs-168",
@@ -454,7 +670,12 @@
         "intake": "https://admissions.duke.edu/apply/"
       },
       "documents": "Application; high-school transcript; secondary school report and counselor recommendation; two teacher recommendations. SAT/ACT submission is optional under the published 2026–27 cycle policy.",
-      "intake": "2026–27 application cycle."
+      "intake": "2026–27 application cycle.",
+      "sourceFingerprints": {
+        "https://admissions.duke.edu/apply/": {
+          "sha256": "22c0a0f6e6c54ba96f489e568ac40ef03165ee07b29c506893b77b67f67f8724"
+        }
+      }
     },
     {
       "schoolId": "qs-89",
@@ -467,7 +688,12 @@
       },
       "gpa": "Non-California residents, including international applicants: at least 3.4 in the UC-defined 10th/11th-grade A–G courses, with no grade below C. This is not an unrestricted cumulative GPA calculation.",
       "english": "Where required: IELTS 7.0 or DET 115. The page also gives TOEFL requirements differentiated by the January 2026 test change; check that exact table before submitting a TOEFL result.",
-      "documents": "UC application, UC A–G subject preparation and personal-insight responses. SAT/ACT scores are not considered for admission or scholarship selection."
+      "documents": "UC application, UC A–G subject preparation and personal-insight responses. SAT/ACT scores are not considered for admission or scholarship selection.",
+      "sourceFingerprints": {
+        "https://admissions.ucsd.edu/first-year/application-requirements.html": {
+          "sha256": "48048ebf5dbca1ac57d0405c1d798ad037f7a9530eba98423445c181775151f7"
+        }
+      }
     },
     {
       "schoolId": "qs-667",
@@ -479,7 +705,12 @@
       },
       "deadline": "Autumn first-year applications: 15 November under the published schedule; confirm the entry year. UW does not use Early Action or Early Decision.",
       "english": "International first-year applicants submit an official TOEFL or IELTS result meeting the linked UW English requirement; no score cutoff is inferred from this overview.",
-      "notes": "The winter first-year route is not open to international applicants."
+      "notes": "The winter first-year route is not open to international applicants.",
+      "sourceFingerprints": {
+        "https://admit.washington.edu/apply/freshman/": {
+          "sha256": "9c712b8e2f3c669cc29b4416a49bf5cc5365545b5e368bf7b60c472654d099e3"
+        }
+      }
     },
     {
       "schoolId": "the-559",
@@ -489,7 +720,12 @@
         "documents": "https://admissions.umd.edu/apply/freshman-applicants"
       },
       "documents": "Application; two recommendations (one counselor and one teacher); official high-school transcripts and college transcripts where applicable. English evidence and international academic documents depend on applicant category.",
-      "notes": "The page describes competitive A−/B+ preparation; this is not converted into an invented minimum GPA."
+      "notes": "The page describes competitive A−/B+ preparation; this is not converted into an invented minimum GPA.",
+      "sourceFingerprints": {
+        "https://admissions.umd.edu/apply/freshman-applicants": {
+          "sha256": "e0d1ac013d3b78eeb57d68793d4431a982e10f24506f3f7edf2139df5f23c634"
+        }
+      }
     },
     {
       "schoolId": "qs-63",
@@ -498,7 +734,12 @@
       "fieldSources": {
         "documents": "https://www.bu.edu/admissions/apply/first-year/"
       },
-      "documents": "Common Application or QuestBridge; high-school transcript and senior grades; counselor recommendation and school report; teacher evaluation. Standardized testing is optional on this overview; College of Fine Arts has extra requirements."
+      "documents": "Common Application or QuestBridge; high-school transcript and senior grades; counselor recommendation and school report; teacher evaluation. Standardized testing is optional on this overview; College of Fine Arts has extra requirements.",
+      "sourceFingerprints": {
+        "https://www.bu.edu/admissions/apply/first-year/": {
+          "sha256": "8c3955b34fcd7468358ed616bfebdf9914f824c8fe176f820618fd1e8b6123d5"
+        }
+      }
     },
     {
       "schoolId": "the-519",
@@ -508,7 +749,12 @@
         "documents": "https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/"
       },
       "documents": "Application; official high-school and college transcripts; one counselor or teacher recommendation (some programmes require more); fall grades when available. Portfolios, résumés, writing samples or auditions are major-specific.",
-      "notes": "EA/ED participation and regular-decision deadlines differ for performing arts and World Bachelor in Business. Check the programme-specific plan before applying."
+      "notes": "EA/ED participation and regular-decision deadlines differ for performing arts and World Bachelor in Business. Check the programme-specific plan before applying.",
+      "sourceFingerprints": {
+        "https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/": {
+          "sha256": "1f45d36efeef7e683d8f5aa944df8577da2e0617d9552348b5bb74720abeec4d"
+        }
+      }
     },
     {
       "schoolId": "qs-95",
@@ -525,7 +771,12 @@
       "english": "IELTS Academic 7.5 overall with every component at least 7.0. The page also lists a legacy-scale TOEFL requirement; confirm the currently accepted test version and do not infer a new-scale conversion.",
       "deadline": "2027-02-25",
       "intake": "Michaelmas 2027.",
-      "notes": "The course funding deadline is 8 December 2026 and is earlier than the final course-application deadline. Courses may close early."
+      "notes": "The course funding deadline is 8 December 2026 and is earlier than the final course-application deadline. Courses may close early.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/cscsmpacs/requirements": {
+          "sha256": "0fc4ec819288c2174c8b13bf5c3d65754794fab00be33cfa31e942e16893d6f3"
+        }
+      }
     },
     {
       "schoolId": "qs-95",
@@ -542,7 +793,12 @@
       "english": "IELTS Academic 7.5 overall with every component at least 7.0. The page also lists a legacy-scale TOEFL requirement; confirm the currently accepted test version and do not infer a new-scale conversion.",
       "deadline": "Michaelmas 2027: 13 May 2027. Course funding: 8 December 2026. Other entry terms have separate deadlines.",
       "intake": "Michaelmas 2027.",
-      "notes": "The course funding deadline is 8 December 2026 and is earlier than the final course-application deadline. Courses may close early."
+      "notes": "The course funding deadline is 8 December 2026 and is earlier than the final course-application deadline. Courses may close early.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/cscspdpcs/requirements": {
+          "sha256": "333f8b8fc657a9c8d4c8ae00e2a67c62d1c40011ba0d334162ece188370eb848"
+        }
+      }
     },
     {
       "schoolId": "qs-95",
@@ -559,7 +815,12 @@
       "english": "IELTS Academic 7.5 overall with every component at least 7.0. The page also lists a legacy-scale TOEFL requirement; confirm the currently accepted test version and do not infer a new-scale conversion.",
       "deadline": "2027-01-26",
       "intake": "Michaelmas 2027.",
-      "notes": "The course funding deadline is 8 December 2026 and is earlier than the final course-application deadline. Courses may close early."
+      "notes": "The course funding deadline is 8 December 2026 and is earlier than the final course-application deadline. Courses may close early.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbmpfin/requirements": {
+          "sha256": "7fe9861fada9d5bd39550b32cf53432924910a6ee79c442608e25b707a89a550"
+        }
+      }
     },
     {
       "schoolId": "qs-95",
@@ -576,7 +837,12 @@
       "english": "IELTS Academic 7.5 overall with every component at least 7.0. The page also lists a legacy-scale TOEFL requirement; confirm the currently accepted test version and do not infer a new-scale conversion.",
       "deadline": "2027-02-02",
       "intake": "Michaelmas 2027.",
-      "notes": "The course funding deadline is 8 December 2026 and is earlier than the final course-application deadline. Courses may close early."
+      "notes": "The course funding deadline is 8 December 2026 and is earlier than the final course-application deadline. Courses may close early.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/ececmpmec/requirements": {
+          "sha256": "c4df754206e8a8818158548a9c8836522e4baaf98655fbd3159d65210d287d1e"
+        }
+      }
     },
     {
       "schoolId": "qs-365",
@@ -589,7 +855,12 @@
       },
       "gpa": "At least UK upper second-class bachelor’s or equivalent in a subject other than computer science/information technology, including their subfields. Evidence of A-level-standard mathematics, analytical skills and computational thinking is required.",
       "deadline": "Applicants requiring a visa: 22 March 2027, 17:00 UK time. Applicants not requiring a visa: 27 August 2027; the closing time differs by course, so check its source page.",
-      "notes": "Applications open 19 October 2026. The Computer Science MSc is a conversion course; it is not intended for CS/IT graduates."
+      "notes": "Applications open 19 October 2026. The Computer Science MSc is a conversion course; it is not intended for CS/IT graduates.",
+      "sourceFingerprints": {
+        "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/computer-science-msc": {
+          "sha256": "b36f405b1e3d0dbbd7ec4e39771cc75a2dcc6eed30817782b31a134edab64d6d"
+        }
+      }
     },
     {
       "schoolId": "qs-365",
@@ -602,7 +873,12 @@
       },
       "gpa": "At least UK upper second-class bachelor’s or equivalent in a quantitative discipline. University-level mathematical methods and linear algebra, introductory probability/statistics, and high-level programming experience such as R, MATLAB or Python are expected.",
       "deadline": "Applicants requiring a visa: 22 March 2027, 17:00 UK time. Applicants not requiring a visa: 27 August 2027; the closing time differs by course, so check its source page.",
-      "notes": "Applications open 19 October 2026. Programme-specific entry standards are separate from UCL’s university-wide language policy."
+      "notes": "Applications open 19 October 2026. Programme-specific entry standards are separate from UCL’s university-wide language policy.",
+      "sourceFingerprints": {
+        "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/data-science-msc": {
+          "sha256": "1a19d4121613a8dbd4029db0bf16e8d710f3576d54afe1ef74662ec702cef266"
+        }
+      }
     },
     {
       "schoolId": "qs-478",
@@ -615,7 +891,12 @@
       },
       "gpa": "First-class honours degree or equivalent in computer science or mathematics. For a US bachelor’s qualification, normally at least 3.7/4.0 overall; use Oxford’s country equivalency guidance for other countries.",
       "english": "IELTS Academic 7.5 with each component 7.0. The page lists old-scale TOEFL 110 with component thresholds but says tests from 21 January 2026 are not accepted pending review of the revised test.",
-      "notes": "No GRE or GMAT scores are sought. Check current acceptance of the revised TOEFL before booking a test."
+      "notes": "No GRE or GMAT scores are sought. Check current acceptance of the revised TOEFL before booking a test.",
+      "sourceFingerprints": {
+        "https://www.ox.ac.uk/admissions/graduate/courses/msc-advanced-computer-science": {
+          "sha256": "46ed285bcccbf4f9627059794f50de0173c6c3708587e408d76fc36b41e3eaa5"
+        }
+      }
     },
     {
       "schoolId": "qs-431",
@@ -628,7 +909,12 @@
       },
       "english": "TOEFL iBT at least 100/120 or 5.0/6; IELTS at least 6.5; or qualifying certification of English-medium instruction.",
       "documents": "CV; identity/passport documents; degree certificate and transcripts (with English versions where required); English evidence; GPA and reason for pursuing the programme in the application. GRE and reference letters are optional.",
-      "notes": "The academic eligibility has separate degree/experience routes in the official programme page; do not infer a universal GPA minimum."
+      "notes": "The academic eligibility has separate degree/experience routes in the official programme page; do not infer a universal GPA minimum.",
+      "sourceFingerprints": {
+        "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence": {
+          "sha256": "d7a506016c2aae03aacd38653a6935bab68eeac03711b81c2bff1d9b2c03a694"
+        }
+      }
     },
     {
       "schoolId": "qs-101",
@@ -641,7 +927,12 @@
       },
       "deadline": "Early application: 18 November 2026 at 15:00 EST; final application: 9 December 2026 at 15:00 EST.",
       "documents": "Statement of purpose; transcripts; three recommendations, with at least two from faculty or recent employers; English-language evidence under SCS policy. GRE is strongly recommended under the current programme guidance.",
-      "notes": "Admission is for fall only. Language waivers are not issued by the CS Department for non-native English speakers; consult SCS’s policy."
+      "notes": "Admission is for fall only. Language waivers are not issued by the CS Department for non-native English speakers; consult SCS’s policy.",
+      "sourceFingerprints": {
+        "https://csd.cmu.edu/academics/masters/admissions": {
+          "sha256": "e9a37cfa4cd1bfb4310d9008cca94618b019a308a60c055a9cef1ba91d899a73"
+        }
+      }
     },
     {
       "schoolId": "qs-101",
@@ -654,7 +945,12 @@
       },
       "deadline": "Early application: 18 November 2026 at 15:00 EST; final application: 9 December 2026 at 15:00 EST.",
       "documents": "Complete online application and required supporting documents, including recommendation letters, required test scores and unofficial transcripts, must arrive by the final deadline.",
-      "notes": "The CS Department is one of several separate doctoral programmes in SCS. Select the intended programme and consult its full requirements."
+      "notes": "The CS Department is one of several separate doctoral programmes in SCS. Select the intended programme and consult its full requirements.",
+      "sourceFingerprints": {
+        "https://csd.cmu.edu/academics/doctoral/admissions": {
+          "sha256": "3d9652644d73ddb9c58d2f87423b02fc7060640b1a2f8680f2739ce922f88973"
+        }
+      }
     },
     {
       "schoolId": "qs-143",
@@ -667,7 +963,12 @@
       },
       "deadline": "15 December for fall admission under the published recurring schedule; confirm the entry year.",
       "documents": "Scanned academic transcripts for all previous college/university work; certified English translations where required; other supporting materials and English results specified on the programme page.",
-      "notes": "Applicants intending a PhD should apply directly to the PhD programme, whether their prior degree is bachelor’s or master’s. No score threshold is inferred from this summary."
+      "notes": "Applicants intending a PhD should apply directly to the PhD programme, whether their prior degree is bachelor’s or master’s. No score threshold is inferred from this summary.",
+      "sourceFingerprints": {
+        "https://www.cs.cornell.edu/phd/admissions": {
+          "sha256": "46126ffad8457bb7a1af7d738489940acc087592cca5baf2000b427c28595764"
+        }
+      }
     },
     {
       "schoolId": "qs-399",
@@ -680,7 +981,12 @@
       },
       "gpa": "For the published no-work-experience stream: bachelor’s degree in any discipline, at least 65% WAM or equivalent, and at least one tertiary computer-programming subject.",
       "english": "IELTS Academic 6.5 overall with each component 6.0; other accepted tests and component minima are listed on the source.",
-      "notes": "The 65% requirement is an Australian WAM/equivalent, not a fabricated 4-point GPA conversion. Check the appropriate stream and eligibility; meeting the minimum does not guarantee selection."
+      "notes": "The 65% requirement is an Australian WAM/equivalent, not a fabricated 4-point GPA conversion. Check the appropriate stream and eligibility; meeting the minimum does not guarantee selection.",
+      "sourceFingerprints": {
+        "https://study.unimelb.edu.au/find/courses/graduate/master-of-information-technology/entry-requirements/": {
+          "sha256": "e90a4bce59142950a64a6f73ca098dc319d15b2873f77dd9bb069452ed97dbce"
+        }
+      }
     },
     {
       "schoolId": "qs-588",
@@ -691,7 +997,12 @@
         "gpa": "https://www.sydney.edu.au/courses/courses/pc/master-of-computer-science.html"
       },
       "gpa": "Australian bachelor’s degree in any discipline with a credit average of 65%, or an equivalent qualification.",
-      "notes": "The page separates academic admission from English evidence; no unverified English cutoff is filled in."
+      "notes": "The page separates academic admission from English evidence; no unverified English cutoff is filled in.",
+      "sourceFingerprints": {
+        "https://www.sydney.edu.au/courses/courses/pc/master-of-computer-science.html": {
+          "sha256": "423fb2605f6d7455c281bfbf79b48bdd715aceb67c8ad22df8d0138c9b410f14"
+        }
+      }
     },
     {
       "schoolId": "qs-410",
@@ -706,7 +1017,12 @@
       "english": "MFin does not require an English proficiency examination and does not accept TOEFL/IELTS scores. English ability is assessed in the interview.",
       "deadline": "5 January 2027 at 15:00 Eastern Time.",
       "documents": "Academic records; three recommendation letters under the current-student/working-professional categories; application statements and video components. GMAT/GRE is optional and encouraged if available.",
-      "notes": "Programme-specific policy: do not substitute the central OGE English-test guidance for the MFin policy."
+      "notes": "Programme-specific policy: do not substitute the central OGE English-test guidance for the MFin policy.",
+      "sourceFingerprints": {
+        "https://mitsloan.mit.edu/mfin/admissions/how-to-apply": {
+          "sha256": "b6043b189a03d4a79af6501a6989a6cbd7977f9ab128829a0970682cb8e482c3"
+        }
+      }
     },
     {
       "schoolId": "qs-410",
@@ -719,7 +1035,12 @@
       },
       "deadline": "Round 1: 29 September 2026 (past); Round 2: 12 January 2027. Applications are due at 15:00 Eastern Time.",
       "documents": "Valid GMAT or GRE score is required; academic records; recommendation/reference components and the application’s written/video materials. Check the full checklist for each component.",
-      "notes": "The MBA requires GMAT/GRE, while the indexed MFin treats it as optional. These are separate programme policies."
+      "notes": "The MBA requires GMAT/GRE, while the indexed MFin treats it as optional. These are separate programme policies.",
+      "sourceFingerprints": {
+        "https://mitsloan.mit.edu/mba/admissions/how-to-apply": {
+          "sha256": "dc662a18da61259139bb23af1a07be28ea372722715e28986fa346e9541ba211"
+        }
+      }
     },
     {
       "schoolId": "qs-253",
@@ -730,7 +1051,12 @@
         "documents": "https://www.hbs.edu/mba/admissions/application-process"
       },
       "documents": "Transcripts; GMAT or GRE; English-language test where applicable; essays; recommendations; résumé; application fee or waiver. An invitation-only interview and post-interview reflection are later stages.",
-      "notes": "HBS MBA policy is separate from Harvard Griffin GSAS. No GSAS English cutoff is copied into the MBA record."
+      "notes": "HBS MBA policy is separate from Harvard Griffin GSAS. No GSAS English cutoff is copied into the MBA record.",
+      "sourceFingerprints": {
+        "https://www.hbs.edu/mba/admissions/application-process": {
+          "sha256": "92071651f7827ac0f9e1713a70189bcb501ade1c96685004043f953b59f5744d"
+        }
+      }
     },
     {
       "schoolId": "qs-356",
@@ -743,7 +1069,12 @@
       },
       "gpa": "First-class honours degree is preferred; upper second-class honours or equivalent is also considered. A highly quantitative discipline such as mathematics, engineering, economics, finance or science is expected.",
       "english": "IELTS Academic 7.0 with each component 6.5; TOEFL before 21 January 2026: 100 with each component 22; revised TOEFL: 5.0 with each component 5.0. DET 125 overall with no band below 115 is also listed.",
-      "notes": "A strong GMAT/GRE may strengthen the application, but GMAT is not required. Course-specific quantitative preparation matters."
+      "notes": "A strong GMAT/GRE may strengthen the application, but GMAT is not required. Course-specific quantitative preparation matters.",
+      "sourceFingerprints": {
+        "https://www.imperial.ac.uk/business-school/masters/finance/admissions/": {
+          "sha256": "0756e14e5e3d96ded3bc36483567009dfef51511bd3f2b3e6de6a6d0da9f492c"
+        }
+      }
     },
     {
       "schoolId": "qs-123",
@@ -758,7 +1089,12 @@
       "gpa": "Recognized bachelor’s degree with at least second-class honours or average grade B, or an equivalent professional qualification.",
       "deadline": "2027–28 admission: full-time 31 March 2027; part-time 30 April 2027. Rolling review; may close early when full.",
       "intake": "2027–28; September commencement.",
-      "notes": "GMAT/GRE is not mandatory for full-time applicants but a good result strengthens the application. Part-time applicants preferably have two years of post-qualification work experience. Graduation/probation GPAs on the same page are not admission cutoffs."
+      "notes": "GMAT/GRE is not mandatory for full-time applicants but a good result strengthens the application. Part-time applicants preferably have two years of post-qualification work experience. Graduation/probation GPAs on the same page are not admission cutoffs.",
+      "sourceFingerprints": {
+        "https://masters.bschool.cuhk.edu.hk/programmes/mscfin/": {
+          "sha256": "5c601dc9e636d02ea20bf29959d7586e5dabfe3c6222d971bb98186cd1b93b28"
+        }
+      }
     },
     {
       "schoolId": "qs-70",
@@ -771,7 +1107,12 @@
       },
       "gpa": "Recognized three- or four-year bachelor’s degree with a B+ average or equivalent; acceptance of a three-year degree depends on the country/region.",
       "english": "IELTS Academic overall 7.0 or PTE Academic 70 are among the accepted options; test validity and exemptions follow Sauder’s published rules.",
-      "notes": "Meeting the minimum does not guarantee admission. GMAT/GRE, work experience and other holistic criteria must also be checked on the programme page."
+      "notes": "Meeting the minimum does not guarantee admission. GMAT/GRE, work experience and other holistic criteria must also be checked on the programme page.",
+      "sourceFingerprints": {
+        "https://www.sauder.ubc.ca/programs/masters-degrees/ubc-mba/admissions-finance": {
+          "sha256": "1f665da551a3b35eba2a3145a065914f03fa243e079a856c3d41d0ca6f559e2e"
+        }
+      }
     },
     {
       "schoolId": "qs-399",
@@ -784,7 +1125,12 @@
       },
       "english": "IELTS Academic 7.5 overall with every component at least 7.0; other accepted tests and component requirements are listed on the source.",
       "intake": "The source states these published entry requirements apply from the 2027 intake onwards.",
-      "notes": "Academic selection and pathway rules must also be checked. No general WAM or LSAT requirement is inferred from the language-test section."
+      "notes": "Academic selection and pathway rules must also be checked. No general WAM or LSAT requirement is inferred from the language-test section.",
+      "sourceFingerprints": {
+        "https://study.unimelb.edu.au/find/courses/graduate/juris-doctor/entry-requirements/": {
+          "sha256": "fc6a8146238595b300bd6162dca0cc21596641417955d9ba3608cc2498c2dbf7"
+        }
+      }
     },
     {
       "schoolId": "qs-573",
@@ -796,7 +1142,12 @@
         "notes": "https://www.cs.stanford.edu/admissions/masters-admissions"
       },
       "gpa": "A recognized US bachelor’s degree or international equivalent must be completed before enrollment. No specific undergraduate coursework or Computer Science degree is required, but strong quantitative and analytical skills are expected.",
-      "notes": "The department page links to separate application checklist and deadline pages. Admission to the MS is not a guaranteed route into Stanford’s PhD programme."
+      "notes": "The department page links to separate application checklist and deadline pages. Admission to the MS is not a guaranteed route into Stanford’s PhD programme.",
+      "sourceFingerprints": {
+        "https://www.cs.stanford.edu/admissions/masters-admissions": {
+          "sha256": "1838da6b26f5fe55b2fecd0e7d246b4f338147cd74b5ac55de0de4dc31bb7a68"
+        }
+      }
     },
     {
       "schoolId": "qs-573",
@@ -808,7 +1159,12 @@
         "notes": "https://www.cs.stanford.edu/admissions/phd-admissions"
       },
       "gpa": "A recognized US bachelor’s degree or international equivalent must be completed before enrollment. No specific undergraduate coursework or Computer Science degree is required, but strong quantitative and analytical skills are expected.",
-      "notes": "The department page links to separate application checklist and deadline pages. Research-oriented doctoral programme; consult the department checklist for the complete application."
+      "notes": "The department page links to separate application checklist and deadline pages. Research-oriented doctoral programme; consult the department checklist for the complete application.",
+      "sourceFingerprints": {
+        "https://www.cs.stanford.edu/admissions/phd-admissions": {
+          "sha256": "05d7606f34e989e1abbc4a3ec875a4ee8181b72d8c110ed6256c4d0c3d6877db"
+        }
+      }
     },
     {
       "schoolId": "qs-443",
@@ -824,7 +1180,12 @@
       "gpa": "Good honours degree or equivalent in any discipline. Designed for applicants with non-computing degrees; preference is given to applicants with IT-related work experience.",
       "english": "If the prior university’s main medium of instruction was not English: TOEFL iBT 90 (legacy scale) or 4.5 (new scale), or IELTS 6.0. TOEFL/IELTS scores are valid for two years.",
       "documents": "Submit GRE or GMAT scores: GRE verbal + quantitative at least 320 and analytical writing at least 3.5, or GMAT at least 650 as published on the source. Graduates of Indian universities may submit GATE instead.",
-      "notes": "GRE/GMAT scores are valid for five years. The source does not identify a GMAT Focus equivalent; no conversion is inferred. Admission is competitive even when minima are met."
+      "notes": "GRE/GMAT scores are valid for five years. The source does not identify a GMAT Focus equivalent; no conversion is inferred. Admission is competitive even when minima are met.",
+      "sourceFingerprints": {
+        "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/": {
+          "sha256": "a6307d5b40eb100645e388b7bdd8f98ad90264669e0edace59afb45e08e48e61"
+        }
+      }
     },
     {
       "schoolId": "qs-443",
@@ -840,7 +1201,12 @@
       "gpa": "Good relevant bachelor’s or master’s degree. Research scholarship applicants normally need at least second-class upper honours or equivalent in Computing or a related discipline, and ability to pursue the proposed research.",
       "english": "International applicants whose prior university did not use English as the main medium of communication must submit TOEFL iBT at least 90 (legacy scale) or IELTS at least 6.0. The page does not publish a new TOEFL-scale threshold.",
       "documents": "Recommendations from two academic referees. GRE is not required but is encouraged; graduates of Indian universities may submit GATE instead.",
-      "notes": "Research scholarship applicants may be interviewed. Check the linked application information for cycle-specific deadlines."
+      "notes": "Research scholarship applicants may be interviewed. Check the linked application information for cycle-specific deadlines.",
+      "sourceFingerprints": {
+        "https://www.comp.nus.edu.sg/programmes/pg/phdcs/admissions/": {
+          "sha256": "df4b7c21b8c03bd0bca01f7063c1ddd28b6287b68d5b4615f39c461f6ee4bb15"
+        }
+      }
     },
     {
       "schoolId": "qs-268",
@@ -856,7 +1222,12 @@
       "intake": "2027/28 Fall intake, September 2027.",
       "deadline": "Main round: 1 December 2026 at 12:00 noon Hong Kong time. Clearing round: 30 April 2027 at 12:00 noon Hong Kong time.",
       "documents": "Upload academic qualifications and transcripts with grading systems; proof of CGPA or average grade; class rank if available; CV; identity and applicable visa documents. English test evidence is required where the prior institution’s language of instruction and examination was not English.",
-      "notes": "The page links to University Entrance Requirements and English Language Requirements separately; no numeric GPA or English minimum is inferred from those links. Originals may be required after an offer."
+      "notes": "The page links to University Entrance Requirements and English Language Requirements separately; no numeric GPA or English minimum is inferred from those links. Originals may be required after an offer.",
+      "sourceFingerprints": {
+        "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/": {
+          "sha256": "5ec641e929c1099a3f06a6ba23b46a250f33af95d22d107082f7a8b436212170"
+        }
+      }
     }
   ]
 }

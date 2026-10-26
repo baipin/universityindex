@@ -4,7 +4,7 @@
     "schemaVersion": 2,
     "status": "partial",
     "verified": false,
-    "generatedAt": "2026-10-26T16:10:54+00:00",
+    "generatedAt": "2026-10-26T16:30:37+00:00",
     "rankLimit": 150,
     "rankings": [
       {
@@ -1285,7 +1285,10 @@
           "scope": "master",
           "kind": "program"
         }
-      ]
+      ],
+      "nameZhHant": "麻省理工學院",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-356",
@@ -1737,7 +1740,10 @@
           "scope": "undergraduate",
           "kind": "program"
         }
-      ]
+      ],
+      "nameZhHant": "帝國理工學院",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-573",
@@ -2208,7 +2214,10 @@
           "scope": "phd",
           "kind": "program"
         }
-      ]
+      ],
+      "nameZhHant": "斯坦福大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-478",
@@ -2517,7 +2526,10 @@
           "scope": "phd",
           "kind": "program"
         }
-      ]
+      ],
+      "nameZhHant": "牛津大學",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-253",
@@ -2916,7 +2928,10 @@
           "scope": "master",
           "kind": "program"
         }
-      ]
+      ],
+      "nameZhHant": "哈佛大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-95",
@@ -3476,7 +3491,10 @@
           "scope": "undergraduate",
           "kind": "program"
         }
-      ]
+      ],
+      "nameZhHant": "劍橋大學",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-94",
@@ -3663,7 +3681,10 @@
           "scope": "graduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "加州理工大學（Caltech)",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-201",
@@ -3942,7 +3963,10 @@
           "scope": "master",
           "kind": "program"
         }
-      ]
+      ],
+      "nameZhHant": "蘇黎世聯邦理工大學（瑞士聯邦理工學院）",
+      "countryDisplayEn": "Switzerland",
+      "countryZhHant": "瑞士"
     },
     {
       "id": "qs-365",
@@ -4342,7 +4366,10 @@
           "scope": "master",
           "kind": "program"
         }
-      ]
+      ],
+      "nameZhHant": "倫敦大學學院",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-443",
@@ -4695,14 +4722,17 @@
           "scope": "phd",
           "kind": "program"
         }
-      ]
+      ],
+      "nameZhHant": "新加坡國立大學",
+      "countryDisplayEn": "Singapore",
+      "countryZhHant": "新加坡"
     },
     {
       "id": "qs-268",
       "name": "The University of Hong Kong",
       "nameZh": "香港大学（HKU）",
       "country": "Hong Kong",
-      "countryZh": "中国香港",
+      "countryZh": "香港特别行政区",
       "website": "https://www.hku.hk/",
       "ranks": {
         "qs": 11,
@@ -5030,7 +5060,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "香港大學（HKU）",
+      "countryDisplayEn": "Hong Kong SAR",
+      "countryZhHant": "香港特別行政區"
     },
     {
       "id": "qs-431",
@@ -5305,7 +5338,10 @@
           "scope": "master",
           "kind": "program"
         }
-      ]
+      ],
+      "nameZhHant": "南洋理工大學",
+      "countryDisplayEn": "Singapore",
+      "countryZhHant": "新加坡"
     },
     {
       "id": "qs-50",
@@ -5455,7 +5491,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "北京大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "qs-626",
@@ -5677,7 +5716,10 @@
           "scope": "graduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "清華大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "qs-495",
@@ -5890,7 +5932,10 @@
           "scope": "graduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "賓夕法尼亞大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-143",
@@ -6211,7 +6256,10 @@
           "scope": "phd",
           "kind": "program"
         }
-      ]
+      ],
+      "nameZhHant": "康奈爾大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-684",
@@ -6477,14 +6525,17 @@
           "scope": "graduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "耶魯大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-123",
       "name": "The Chinese University of Hong Kong (CUHK)",
       "nameZh": "香港中文大学",
       "country": "Hong Kong",
-      "countryZh": "中国香港",
+      "countryZh": "香港特别行政区",
       "website": "https://www.cuhk.edu.hk/",
       "ranks": {
         "qs": 18,
@@ -6775,7 +6826,10 @@
           "scope": "master",
           "kind": "program"
         }
-      ]
+      ],
+      "nameZhHant": "香港中文大學",
+      "countryDisplayEn": "Hong Kong SAR",
+      "countryZhHant": "香港特別行政區"
     },
     {
       "id": "qs-447",
@@ -7022,7 +7076,10 @@
           "scope": "phd",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "新南威爾士大學（UNSW）",
+      "countryDisplayEn": "Australia",
+      "countryZhHant": "澳大利亞"
     },
     {
       "id": "qs-305",
@@ -7175,7 +7232,10 @@
           "scope": "undergraduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "約翰霍普金斯大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-84",
@@ -7555,7 +7615,10 @@
           "scope": "phd",
           "kind": "program"
         }
-      ]
+      ],
+      "nameZhHant": "加州大學伯克利分校",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-177",
@@ -7713,7 +7776,10 @@
           "scope": "master",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "洛桑聯邦理工學院（EPFL)",
+      "countryDisplayEn": "Switzerland",
+      "countryZhHant": "瑞士"
     },
     {
       "id": "qs-399",
@@ -8062,7 +8128,10 @@
           "scope": "master",
           "kind": "program"
         }
-      ]
+      ],
+      "nameZhHant": "墨爾本大學",
+      "countryDisplayEn": "Australia",
+      "countryZhHant": "澳大利亞"
     },
     {
       "id": "qs-120",
@@ -8267,7 +8336,10 @@
           "scope": "graduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "芝加哥大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-599",
@@ -8479,7 +8551,10 @@
           "scope": "phd",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "慕尼黑工業大學",
+      "countryDisplayEn": "Germany",
+      "countryZhHant": "德國"
     },
     {
       "id": "qs-218",
@@ -8619,7 +8694,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "復旦大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "qs-508",
@@ -8877,7 +8955,10 @@
           "scope": "graduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "普林斯頓大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-588",
@@ -9116,7 +9197,10 @@
           "scope": "undergraduate",
           "kind": "program"
         }
-      ]
+      ],
+      "nameZhHant": "悉尼大學",
+      "countryDisplayEn": "Australia",
+      "countryZhHant": "澳大利亞"
     },
     {
       "id": "qs-40",
@@ -9246,7 +9330,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "澳大利亞國立大學（ANU)",
+      "countryDisplayEn": "Australia",
+      "countryZhHant": "澳大利亞"
     },
     {
       "id": "qs-396",
@@ -9423,7 +9510,10 @@
           "scope": "undergraduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "麥吉爾大學",
+      "countryDisplayEn": "Canada",
+      "countryZhHant": "加拿大"
     },
     {
       "id": "qs-412",
@@ -9571,7 +9661,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "蒙納士大學",
+      "countryDisplayEn": "Australia",
+      "countryZhHant": "澳大利亞"
     },
     {
       "id": "qs-619",
@@ -9874,14 +9967,17 @@
           "scope": "master",
           "kind": "program"
         }
-      ]
+      ],
+      "nameZhHant": "多倫多大學",
+      "countryDisplayEn": "Canada",
+      "countryZhHant": "加拿大"
     },
     {
       "id": "qs-269",
       "name": "The Hong Kong University of Science and Technology",
       "nameZh": "香港科技大学（HKUST)",
       "country": "Hong Kong",
-      "countryZh": "中国香港",
+      "countryZh": "香港特别行政区",
       "website": "https://hkust.edu.hk/",
       "ranks": {
         "qs": 33,
@@ -10054,7 +10150,10 @@
           "scope": "graduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "香港科技大學（HKUST)",
+      "countryDisplayEn": "Hong Kong SAR",
+      "countryZhHant": "香港特別行政區"
     },
     {
       "id": "qs-27067",
@@ -10156,7 +10255,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/paris-sciences-et-lettres-psl-research-university-paris",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "巴黎科學藝術人文大學",
+      "countryDisplayEn": "France",
+      "countryZhHant": "法國"
     },
     {
       "id": "qs-180",
@@ -10384,7 +10486,10 @@
           "scope": "graduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "愛丁堡大學",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-556",
@@ -10512,7 +10617,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "上海交通大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "qs-357",
@@ -10628,7 +10736,10 @@
         "source": "https://www.kcl.ac.uk/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "倫敦國王學院",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-553",
@@ -10776,7 +10887,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "首爾國立大學",
+      "countryDisplayEn": "South Korea",
+      "countryZhHant": "韓國"
     },
     {
       "id": "qs-615",
@@ -10928,7 +11042,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "東京大學",
+      "countryDisplayEn": "Japan",
+      "countryZhHant": "日本"
     },
     {
       "id": "qs-389",
@@ -11153,7 +11270,10 @@
           "scope": "phd",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "曼徹斯特大學",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-515",
@@ -11307,7 +11427,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "昆士蘭大學（UQ）",
+      "countryDisplayEn": "Australia",
+      "countryZhHant": "澳大利亞"
     },
     {
       "id": "qs-688",
@@ -11447,7 +11570,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "延世大學",
+      "countryDisplayEn": "South Korea",
+      "countryZhHant": "韓國"
     },
     {
       "id": "qs-138",
@@ -11706,7 +11832,10 @@
           "scope": "graduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "哥倫比亞大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-47890",
@@ -11769,7 +11898,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/institut-polytechnique-de-paris",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "巴黎理工學院",
+      "countryDisplayEn": "France",
+      "countryZhHant": "法國"
     },
     {
       "id": "qs-456",
@@ -12005,7 +12137,10 @@
           "scope": "graduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "西北大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-70",
@@ -12438,7 +12573,10 @@
           "scope": "master",
           "kind": "program"
         }
-      ]
+      ],
+      "nameZhHant": "不列顛哥倫比亞大學",
+      "countryDisplayEn": "Canada",
+      "countryZhHant": "加拿大"
     },
     {
       "id": "qs-692",
@@ -12584,7 +12722,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "浙江大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "qs-155",
@@ -12701,7 +12842,10 @@
           "scope": "master",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "代爾夫特理工大學",
+      "countryDisplayEn": "Netherlands",
+      "countryZhHant": "荷蘭"
     },
     {
       "id": "qs-87",
@@ -12939,14 +13083,17 @@
           "scope": "graduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "加州大學洛杉磯分校",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-267",
       "name": "The Hong Kong Polytechnic University",
       "nameZh": "香港理工大学",
       "country": "Hong Kong",
-      "countryZh": "中国香港",
+      "countryZh": "香港特别行政区",
       "website": "https://www.polyu.edu.hk/",
       "ranks": {
         "qs": 50,
@@ -13161,7 +13308,10 @@
           "scope": "phd",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "香港理工大學",
+      "countryDisplayEn": "Hong Kong SAR",
+      "countryZhHant": "香港特別行政區"
     },
     {
       "id": "qs-403",
@@ -13342,14 +13492,17 @@
           "scope": "undergraduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "密歇根大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-130",
       "name": "City University of Hong Kong",
       "nameZh": "香港城市大学",
       "country": "Hong Kong",
-      "countryZh": "中国香港",
+      "countryZh": "香港特别行政区",
       "website": "https://www.cityu.edu.hk/",
       "ranks": {
         "qs": 52,
@@ -13565,7 +13718,10 @@
           "scope": "phd",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "香港城市大學",
+      "countryDisplayEn": "Hong Kong SAR",
+      "countryZhHant": "香港特別行政區"
     },
     {
       "id": "qs-325",
@@ -13682,14 +13838,17 @@
         "source": "https://www.korea.ac.kr/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "高麗大學",
+      "countryDisplayEn": "South Korea",
+      "countryZhHant": "韓國"
     },
     {
       "id": "qs-441",
       "name": "National Taiwan University (NTU)",
       "nameZh": "台湾大学",
       "country": "Taiwan",
-      "countryZh": "中国台湾",
+      "countryZh": "台湾",
       "website": "https://www.ntu.edu.tw/",
       "ranks": {
         "qs": 54,
@@ -13809,7 +13968,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/national-taiwan-university-ntu",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "臺灣大學",
+      "countryDisplayEn": "Taiwan",
+      "countryZhHant": "臺灣"
     },
     {
       "id": "qs-101",
@@ -14080,7 +14242,10 @@
           "scope": "phd",
           "kind": "program"
         }
-      ]
+      ],
+      "nameZhHant": "卡內基梅隆大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-383",
@@ -14194,7 +14359,10 @@
       "websiteProvenance": {
         "source": "https://www.um.edu.my/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "馬來亞大學（UM）",
+      "countryDisplayEn": "Malaysia",
+      "countryZhHant": "馬來西亞"
     },
     {
       "id": "qs-69",
@@ -14410,7 +14578,10 @@
           "scope": "graduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "布里斯托大學",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-448",
@@ -14532,7 +14703,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/new-york-university-nyu",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "紐約大學（NYU）",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-105",
@@ -14668,7 +14842,10 @@
         "source": "https://www.kuleuven.be/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "魯汶大學",
+      "countryDisplayEn": "Belgium",
+      "countryZhHant": "比利時"
     },
     {
       "id": "qs-18",
@@ -14794,7 +14971,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "阿姆斯特丹大學",
+      "countryDisplayEn": "Netherlands",
+      "countryZhHant": "荷蘭"
     },
     {
       "id": "qs-420",
@@ -14904,7 +15084,10 @@
         "source": "https://www.lmu.de/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "路德維希 - 馬克西米利安 - 慕尼黑大學",
+      "countryDisplayEn": "Germany",
+      "countryZhHant": "德國"
     },
     {
       "id": "qs-362",
@@ -14989,7 +15172,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "倫敦經濟政治學院",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-779",
@@ -15055,7 +15241,10 @@
       "websiteProvenance": {
         "source": "https://www.kfupm.edu.sa/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "法赫德法國石油和礦物大學（KFUPM）",
+      "countryDisplayEn": "Saudi Arabia",
+      "countryZhHant": "沙特阿拉伯"
     },
     {
       "id": "qs-328",
@@ -15196,7 +15385,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "京都大學",
+      "countryDisplayEn": "Japan",
+      "countryZhHant": "日本"
     },
     {
       "id": "qs-324",
@@ -15237,7 +15429,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "韓國科學技術研究所",
+      "countryDisplayEn": "South Korea",
+      "countryZhHant": "韓國"
     },
     {
       "id": "qs-72",
@@ -15455,7 +15650,10 @@
           "scope": "graduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "布朗大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-37",
@@ -15585,7 +15783,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "奧克蘭大學",
+      "countryDisplayEn": "New Zealand",
+      "countryZhHant": "新西蘭"
     },
     {
       "id": "qs-664",
@@ -15705,7 +15906,10 @@
           "scope": "undergraduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "華威大學",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-59",
@@ -15827,7 +16031,10 @@
         "source": "https://www.birmingham.ac.uk/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "伯明翰大學",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-168",
@@ -16088,7 +16295,10 @@
           "scope": "graduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "杜克大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-371",
@@ -16192,7 +16402,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "隆德大學",
+      "countryDisplayEn": "Sweden",
+      "countryZhHant": "瑞典"
     },
     {
       "id": "qs-604",
@@ -16328,7 +16541,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "德克薩斯大學奧斯汀分校",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-34362",
@@ -16433,7 +16649,10 @@
       "websiteProvenance": {
         "source": "https://www.sorbonne-universite.fr/en",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "索邦大學",
+      "countryDisplayEn": "France",
+      "countryZhHant": "法國"
     },
     {
       "id": "qs-2090",
@@ -16625,7 +16844,10 @@
           "scope": "graduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "伊利諾伊大學香檳分校",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-167",
@@ -16735,7 +16957,10 @@
       "websiteProvenance": {
         "source": "https://www.tcd.ie/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "都柏林三一學院",
+      "countryDisplayEn": "Ireland",
+      "countryZhHant": "愛爾蘭"
     },
     {
       "id": "qs-490",
@@ -16827,7 +17052,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "巴黎薩克雷大學",
+      "countryDisplayEn": "France",
+      "countryZhHant": "法國"
     },
     {
       "id": "qs-673",
@@ -16921,7 +17149,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "西澳大學（UWA）",
+      "countryDisplayEn": "Australia",
+      "countryZhHant": "澳大利亞"
     },
     {
       "id": "qs-338",
@@ -17047,7 +17278,10 @@
         "source": "https://www.leeds.ac.uk/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "利茲大學",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-20748591",
@@ -17169,7 +17403,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "Adelaide University",
+      "countryDisplayEn": "Australia",
+      "countryZhHant": "澳大利亞"
     },
     {
       "id": "qs-231",
@@ -17322,7 +17559,10 @@
           "scope": "undergraduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "格拉斯哥大學",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-89",
@@ -17481,7 +17721,10 @@
           "scope": "undergraduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "加州大學聖地亞哥分校",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-535",
@@ -17544,7 +17787,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/kth-royal-institute-technology",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "皇家理工學院",
+      "countryDisplayEn": "Sweden",
+      "countryZhHant": "瑞典"
     },
     {
       "id": "qs-558",
@@ -17655,14 +17901,17 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "謝菲爾德大學",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-78",
       "name": "Universidad de Buenos Aires (UBA)",
       "nameZh": "布宜诺斯艾利斯大学",
       "country": "Argentina",
-      "countryZh": "Argentina",
+      "countryZh": "阿根廷",
       "website": "https://www.uba.ar/",
       "ranks": {
         "qs": 84,
@@ -17733,7 +17982,10 @@
       "websiteProvenance": {
         "source": "https://www.uba.ar/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "布宜諾斯艾利斯大學",
+      "countryDisplayEn": "Argentina",
+      "countryZhHant": "阿根廷"
     },
     {
       "id": "qs-170",
@@ -17818,7 +18070,10 @@
         "source": "https://www.dur.ac.uk/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "杜倫大學",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-259",
@@ -17910,7 +18165,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "魯普萊希特-卡爾斯-海德堡大學",
+      "countryDisplayEn": "Germany",
+      "countryZhHant": "德國"
     },
     {
       "id": "qs-407",
@@ -17983,7 +18241,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/politecnico-di-milano",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "米蘭理工大學",
+      "countryDisplayEn": "Italy",
+      "countryZhHant": "意大利"
     },
     {
       "id": "qs-587",
@@ -18071,7 +18332,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "悉尼科技大學（UTS）",
+      "countryDisplayEn": "Australia",
+      "countryZhHant": "澳大利亞"
     },
     {
       "id": "qs-643",
@@ -18161,7 +18425,10 @@
         "source": "https://www.uu.se/en",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "烏普薩拉大學",
+      "countryDisplayEn": "Sweden",
+      "countryZhHant": "瑞典"
     },
     {
       "id": "qs-430",
@@ -18269,7 +18536,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "南京大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "qs-141",
@@ -18383,7 +18653,10 @@
         "source": "https://www.ku.dk/english/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "哥本哈根大學",
+      "countryDisplayEn": "Denmark",
+      "countryZhHant": "丹麥"
     },
     {
       "id": "qs-494",
@@ -18531,7 +18804,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "賓夕法尼亞州立大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-667",
@@ -18796,7 +19072,10 @@
           "scope": "graduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "華盛頓大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-63",
@@ -18948,7 +19227,10 @@
           "scope": "undergraduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "波士頓大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-472",
@@ -19031,7 +19313,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "大阪大學",
+      "countryDisplayEn": "Japan",
+      "countryZhHant": "日本"
     },
     {
       "id": "qs-15",
@@ -19150,7 +19435,10 @@
           "scope": "undergraduate",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "阿爾伯塔大學",
+      "countryDisplayEn": "Canada",
+      "countryZhHant": "加拿大"
     },
     {
       "id": "qs-20745160",
@@ -19219,7 +19507,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "Institute of Science Tokyo",
+      "countryDisplayEn": "Japan",
+      "countryZhHant": "日本"
     },
     {
       "id": "qs-459",
@@ -19332,7 +19623,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "諾丁漢大學",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-215",
@@ -19424,7 +19718,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/free-university-berlin",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "柏林自由大學",
+      "countryDisplayEn": "Germany",
+      "countryZhHant": "德國"
     },
     {
       "id": "qs-693",
@@ -19533,7 +19830,10 @@
       "websiteProvenance": {
         "source": "https://www.uzh.ch/en.html",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "蘇黎世大學",
+      "countryDisplayEn": "Switzerland",
+      "countryZhHant": "瑞士"
     },
     {
       "id": "qs-510",
@@ -19618,7 +19918,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/purdue-university-west-lafayette",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "普渡大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-166",
@@ -19701,7 +20004,10 @@
         "source": "https://www.ucd.ie/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "都柏林大學",
+      "countryDisplayEn": "Ireland",
+      "countryZhHant": "愛爾蘭"
     },
     {
       "id": "qs-611",
@@ -19778,7 +20084,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "東北大學",
+      "countryDisplayEn": "Japan",
+      "countryZhHant": "日本"
     },
     {
       "id": "qs-359",
@@ -19864,7 +20173,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "倫敦大學皇后瑪麗學院（QMUL）",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-4",
@@ -19937,7 +20249,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "亞琛工業大學",
+      "countryDisplayEn": "Germany",
+      "countryZhHant": "德國"
     },
     {
       "id": "qs-597",
@@ -20000,7 +20315,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/technical-university-denmark",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "丹麥技術大學",
+      "countryDisplayEn": "Denmark",
+      "countryZhHant": "丹麥"
     },
     {
       "id": "qs-502",
@@ -20055,7 +20373,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/pohang-university-science-and-technology-postech",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "浦項科技大學",
+      "countryDisplayEn": "South Korea",
+      "countryZhHant": "韓國"
     },
     {
       "id": "qs-1175",
@@ -20123,7 +20444,10 @@
         "source": "https://ksu.edu.sa/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "沙特國王大學（KSU）",
+      "countryDisplayEn": "Saudi Arabia",
+      "countryZhHant": "沙特阿拉伯"
     },
     {
       "id": "qs-582",
@@ -20180,14 +20504,17 @@
         "source": "https://www.skku.edu/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "成均館大學",
+      "countryDisplayEn": "South Korea",
+      "countryZhHant": "韓國"
     },
     {
       "id": "qs-2537",
       "name": "Qatar University",
       "nameZh": "卡塔尔大学",
       "country": "Qatar",
-      "countryZh": "Qatar",
+      "countryZh": "卡塔尔",
       "website": "https://www.qu.edu.qa/",
       "ranks": {
         "qs": 109,
@@ -20231,7 +20558,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "卡塔爾大學",
+      "countryDisplayEn": "Qatar",
+      "countryZhHant": "卡塔爾"
     },
     {
       "id": "qs-310",
@@ -20300,7 +20630,10 @@
         "source": "https://www.kit.edu/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "卡爾斯魯厄理工學院",
+      "countryDisplayEn": "Germany",
+      "countryZhHant": "德國"
     },
     {
       "id": "qs-532",
@@ -20425,7 +20758,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "薩皮恩扎 - 羅馬大學",
+      "countryDisplayEn": "Italy",
+      "countryZhHant": "意大利"
     },
     {
       "id": "qs-567",
@@ -20509,7 +20845,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "南安普敦大學",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-670",
@@ -20630,7 +20969,10 @@
           "scope": "undergraduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "滑鐵盧大學",
+      "countryDisplayEn": "Canada",
+      "countryZhHant": "加拿大"
     },
     {
       "id": "qs-646",
@@ -20727,7 +21069,10 @@
       "websiteProvenance": {
         "source": "https://www.uu.nl/en",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "烏得勒支大學",
+      "countryDisplayEn": "Netherlands",
+      "countryZhHant": "荷蘭"
     },
     {
       "id": "qs-418",
@@ -20791,7 +21136,10 @@
       "websiteProvenance": {
         "source": "https://www.msu.ru/en/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "羅蒙諾索夫莫斯科國立大學",
+      "countryDisplayEn": "Russia",
+      "countryZhHant": "俄羅斯"
     },
     {
       "id": "qs-570",
@@ -20860,7 +21208,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "聖安德魯斯大學",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-282",
@@ -20936,7 +21287,10 @@
       "websiteProvenance": {
         "source": "https://home.iitd.ac.in/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "印度理工學院德里分校",
+      "countryDisplayEn": "India",
+      "countryZhHant": "印度"
     },
     {
       "id": "qs-340",
@@ -21024,7 +21378,10 @@
         "source": "https://www.universiteitleiden.nl/en/education?utm_source=THE&utm_medium=portal&utm_campaign=Enhanced%20Profile&utm_content=contact_website",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "萊頓大學",
+      "countryDisplayEn": "Netherlands",
+      "countryZhHant": "荷蘭"
     },
     {
       "id": "qs-107",
@@ -21116,7 +21473,10 @@
       "websiteProvenance": {
         "source": "https://www.uc.cl/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "智利天主教大學",
+      "countryDisplayEn": "Chile",
+      "countryZhHant": "智利"
     },
     {
       "id": "qs-528",
@@ -21187,7 +21547,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "皇家墨爾本理工大學",
+      "countryDisplayEn": "Australia",
+      "countryZhHant": "澳大利亞"
     },
     {
       "id": "qs-524",
@@ -21256,7 +21619,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "賴斯大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-61",
@@ -21390,7 +21756,10 @@
         "source": "https://www.unibo.it/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "博洛尼亞大學",
+      "countryDisplayEn": "Italy",
+      "countryZhHant": "意大利"
     },
     {
       "id": "qs-260",
@@ -21482,7 +21851,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/university-helsinki",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "赫爾辛基大學",
+      "countryDisplayEn": "Finland",
+      "countryZhHant": "芬蘭"
     },
     {
       "id": "qs-47",
@@ -21543,7 +21915,10 @@
         "source": "https://www.bath.ac.uk/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "巴斯大學",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-261",
@@ -21592,7 +21967,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/aalto-university",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "阿爾託大學",
+      "countryDisplayEn": "Finland",
+      "countryZhHant": "芬蘭"
     },
     {
       "id": "qs-378",
@@ -21679,7 +22057,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/macquarie-university",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "麥考瑞大學",
+      "countryDisplayEn": "Australia",
+      "countryZhHant": "澳大利亞"
     },
     {
       "id": "qs-6",
@@ -21773,7 +22154,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "奧胡斯大學",
+      "countryDisplayEn": "Denmark",
+      "countryZhHant": "丹麥"
     },
     {
       "id": "qs-386",
@@ -21825,7 +22209,10 @@
       "websiteProvenance": {
         "source": "https://www.usm.my/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "馬來西亞理科大學（USM）",
+      "countryDisplayEn": "Malaysia",
+      "countryZhHant": "馬來西亞"
     },
     {
       "id": "qs-384",
@@ -21861,7 +22248,10 @@
         "phd": null
       },
       "programs": [],
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "馬來西亞國立大學（UKM）",
+      "countryDisplayEn": "Malaysia",
+      "countryZhHant": "馬來西亞"
     },
     {
       "id": "qs-473",
@@ -21951,7 +22341,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/university-oslo",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "奧斯陸大學",
+      "countryDisplayEn": "Norway",
+      "countryZhHant": "挪威"
     },
     {
       "id": "qs-678",
@@ -22198,7 +22591,10 @@
           "scope": "graduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "威斯康星大學麥迪遜分校",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-550",
@@ -22344,7 +22740,10 @@
         "source": "https://www5.usp.br/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "聖保羅大學",
+      "countryDisplayEn": "Brazil",
+      "countryZhHant": "巴西"
     },
     {
       "id": "qs-281",
@@ -22414,7 +22813,10 @@
         "phd": null
       },
       "programs": [],
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "印度理工學院孟買分校",
+      "countryDisplayEn": "India",
+      "countryZhHant": "印度"
     },
     {
       "id": "qs-122",
@@ -22486,7 +22888,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "中國科學技術大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "qs-204",
@@ -22582,7 +22987,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "埃克塞特大學",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-85",
@@ -22672,7 +23080,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "加州大學戴維斯分校",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-385",
@@ -22708,7 +23119,10 @@
         "phd": null
       },
       "programs": [],
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "馬來西亞博特拉大學（UPM）",
+      "countryDisplayEn": "Malaysia",
+      "countryZhHant": "馬來西亞"
     },
     {
       "id": "qs-350",
@@ -22799,7 +23213,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "利物浦大學",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-272",
@@ -22895,7 +23312,10 @@
         "source": "https://www.hu-berlin.de/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "柏林洪堡大學",
+      "countryDisplayEn": "Germany",
+      "countryZhHant": "德國"
     },
     {
       "id": "qs-652",
@@ -22984,7 +23404,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/university-vienna",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "維也納大學",
+      "countryDisplayEn": "Austria",
+      "countryZhHant": "奧地利"
     },
     {
       "id": "qs-225",
@@ -23070,14 +23493,17 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "喬治亞理工學院(Georgia Tech)",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "qs-442",
       "name": "National Tsing Hua University",
       "nameZh": "国立清华大学",
       "country": "Taiwan",
-      "countryZh": "中国台湾",
+      "countryZh": "台湾",
       "website": "https://www.nthu.edu.tw/",
       "ranks": {
         "qs": 142,
@@ -23117,7 +23543,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/national-tsing-hua-university",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "國立清華大學",
+      "countryDisplayEn": "Taiwan",
+      "countryZhHant": "臺灣"
     },
     {
       "id": "qs-674",
@@ -23184,7 +23613,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "韋仕敦大學（西安大略大學）",
+      "countryDisplayEn": "Canada",
+      "countryZhHant": "加拿大"
     },
     {
       "id": "qs-425",
@@ -23306,7 +23738,10 @@
       "websiteProvenance": {
         "source": "https://www.unam.mx/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "墨西哥國立自治大學",
+      "countryDisplayEn": "Mexico",
+      "countryZhHant": "墨西哥"
     },
     {
       "id": "qs-617",
@@ -23384,7 +23819,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "同濟大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "qs-22873",
@@ -23436,7 +23874,10 @@
       "websiteProvenance": {
         "source": "https://www.ku.ac.ae/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "哈利法大學",
+      "countryDisplayEn": "United Arab Emirates",
+      "countryZhHant": "阿聯酋"
     },
     {
       "id": "qs-190",
@@ -23506,7 +23947,10 @@
         "source": "https://www.eur.nl",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "鹿特丹伊拉斯謨大學",
+      "countryDisplayEn": "Netherlands",
+      "countryZhHant": "荷蘭"
     },
     {
       "id": "qs-450",
@@ -23597,7 +24041,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "紐卡斯爾大學",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "qs-228",
@@ -23703,7 +24150,10 @@
         "source": "https://www.ugent.be/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "根特大學",
+      "countryDisplayEn": "Belgium",
+      "countryZhHant": "比利時"
     },
     {
       "id": "qs-46",
@@ -23762,12 +24212,15 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "巴塞爾大學",
+      "countryDisplayEn": "Switzerland",
+      "countryZhHant": "瑞士"
     },
     {
       "id": "us-505700",
       "name": "Autonomous University of Barcelona",
-      "nameZh": null,
+      "nameZh": "巴塞罗那自治大学",
       "country": "Spain",
       "countryZh": "西班牙",
       "website": "https://www.uab.cat/",
@@ -23790,12 +24243,15 @@
       "websiteProvenance": {
         "source": "https://www.uab.cat/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "巴塞羅那自治大學",
+      "countryDisplayEn": "Spain",
+      "countryZhHant": "西班牙"
     },
     {
       "id": "us-223223",
       "name": "Baylor College of Medicine",
-      "nameZh": null,
+      "nameZh": "贝勒医学院",
       "country": "United States",
       "countryZh": "美国",
       "website": "https://www.bcm.edu/",
@@ -23828,7 +24284,10 @@
       "websiteProvenance": {
         "source": "https://www.bcm.edu/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "貝勒醫學院",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "the-623625",
@@ -23906,7 +24365,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/beijing-normal-university",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "北京師範大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "the-557",
@@ -23955,7 +24417,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "凱斯西儲大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "us-501467",
@@ -23989,12 +24454,15 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/central-south-university",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "中南大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "the-131692",
       "name": "Charité – Universitätsmedizin Berlin",
-      "nameZh": null,
+      "nameZh": "柏林夏里特医学院",
       "country": "Germany",
       "countryZh": "德国",
       "website": "https://www.charite.de/",
@@ -24017,7 +24485,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/charite-universitatsmedizin-berlin",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "柏林夏裏特醫學院",
+      "countryDisplayEn": "Germany",
+      "countryZhHant": "德國"
     },
     {
       "id": "us-504884",
@@ -24067,7 +24538,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/deakin-university",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "迪肯大學",
+      "countryDisplayEn": "Australia",
+      "countryZhHant": "澳大利亞"
     },
     {
       "id": "the-539",
@@ -24133,14 +24607,17 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "埃默裏大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "the-623988",
       "name": "Hamad Bin Khalifa University",
       "nameZh": "Hamad bin Khalifa University",
       "country": "Qatar",
-      "countryZh": "Qatar",
+      "countryZh": "卡塔尔",
       "website": "http://www.hbku.edu.qa/",
       "ranks": {
         "the": 126
@@ -24172,7 +24649,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "Hamad bin Khalifa University",
+      "countryDisplayEn": "Qatar",
+      "countryZhHant": "卡塔爾"
     },
     {
       "id": "the-827",
@@ -24240,7 +24720,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "哈爾濱工業大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "us-505190",
@@ -24304,7 +24787,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "華中科技大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "us-505375",
@@ -24344,12 +24830,15 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "湖南大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "us-193405",
       "name": "Icahn School of Medicine at Mount Sinai",
-      "nameZh": null,
+      "nameZh": "西奈山伊坎医学院",
       "country": "United States",
       "countryZh": "美国",
       "website": null,
@@ -24368,12 +24857,15 @@
         "phd": null
       },
       "programs": [],
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "西奈山伊坎醫學院",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "the-496",
       "name": "Karolinska Institute",
-      "nameZh": null,
+      "nameZh": "卡罗林斯卡医学院",
       "country": "Sweden",
       "countryZh": "瑞典",
       "website": "https://ki.se/",
@@ -24399,7 +24891,10 @@
         "source": "https://ki.se/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "卡羅林斯卡醫學院",
+      "countryDisplayEn": "Sweden",
+      "countryZhHant": "瑞典"
     },
     {
       "id": "us-501597",
@@ -24463,12 +24958,15 @@
         "source": "http://www.kau.edu.sa",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "阿卜杜勒·阿齊茲國王大學（KAU）",
+      "countryDisplayEn": "Saudi Arabia",
+      "countryZhHant": "沙特阿拉伯"
     },
     {
       "id": "us-510489",
       "name": "King Abdullah University of Science and Technology",
-      "nameZh": null,
+      "nameZh": "阿卜杜拉国王科技大学",
       "country": "Saudi Arabia",
       "countryZh": "沙特阿拉伯",
       "website": "https://www.kaust.edu.sa/",
@@ -24501,12 +24999,15 @@
       "websiteProvenance": {
         "source": "https://www.kaust.edu.sa/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "阿卜杜拉國王科技大學",
+      "countryDisplayEn": "Saudi Arabia",
+      "countryZhHant": "沙特阿拉伯"
     },
     {
       "id": "us-503353",
       "name": "London School of Hygiene and Tropical Medicine",
-      "nameZh": null,
+      "nameZh": "伦敦卫生与热带医学院",
       "country": "United Kingdom",
       "countryZh": "英国",
       "website": "https://www.lshtm.ac.uk/",
@@ -24530,7 +25031,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/london-school-hygiene-and-tropical-medicine",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "倫敦衛生與熱帶醫學院",
+      "countryDisplayEn": "United Kingdom",
+      "countryZhHant": "英國"
     },
     {
       "id": "the-663",
@@ -24579,7 +25083,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/maastricht-university",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "馬斯特裏赫特大學",
+      "countryDisplayEn": "Netherlands",
+      "countryZhHant": "荷蘭"
     },
     {
       "id": "the-529",
@@ -24653,7 +25160,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "麥克馬斯特大學",
+      "countryDisplayEn": "Canada",
+      "countryZhHant": "加拿大"
     },
     {
       "id": "the-560",
@@ -24743,7 +25253,10 @@
         "source": "https://msu.edu/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "密歇根州立大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "us-505981",
@@ -24789,7 +25302,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "南開大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "the-521",
@@ -24899,12 +25415,15 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "俄亥俄州立大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "us-501519",
       "name": "Radboud University Nijmegen",
-      "nameZh": null,
+      "nameZh": "奈梅亨拉德堡德大学",
       "country": "Netherlands",
       "countryZh": "荷兰",
       "website": "https://www.ru.nl/en/about-us/contact",
@@ -24928,12 +25447,15 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/radboud-university-nijmegen",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "奈梅亨拉德堡德大學",
+      "countryDisplayEn": "Netherlands",
+      "countryZhHant": "荷蘭"
     },
     {
       "id": "us-195049",
       "name": "Rockefeller University",
-      "nameZh": null,
+      "nameZh": "洛克菲勒大学",
       "country": "United States",
       "countryZh": "美国",
       "website": "https://www.rockefeller.edu/",
@@ -24956,12 +25478,15 @@
       "websiteProvenance": {
         "source": "https://www.rockefeller.edu/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "洛克菲勒大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "the-1019",
       "name": "Scuola Normale Superiore di Pisa",
-      "nameZh": null,
+      "nameZh": "比萨高等师范学校",
       "country": "Italy",
       "countryZh": "意大利",
       "website": "https://www.sns.it/en",
@@ -24994,7 +25519,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "比薩高等師範學校",
+      "countryDisplayEn": "Italy",
+      "countryZhHant": "意大利"
     },
     {
       "id": "us-506145",
@@ -25052,7 +25580,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "四川大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "us-505648",
@@ -25100,7 +25631,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "東南大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "us-529428",
@@ -25125,7 +25659,10 @@
         "phd": null
       },
       "programs": [],
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "南方科技大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "us-506062",
@@ -25209,7 +25746,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "中山大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "the-561",
@@ -25283,12 +25823,15 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "亞利桑那大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "the-667",
       "name": "University of Barcelona",
-      "nameZh": null,
+      "nameZh": "巴塞罗那大学",
       "country": "Spain",
       "countryZh": "西班牙",
       "website": "https://web.ub.edu/en/?utm_source=rankingTHE",
@@ -25314,7 +25857,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/university-barcelona",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "巴塞羅那大學",
+      "countryDisplayEn": "Spain",
+      "countryZhHant": "西班牙"
     },
     {
       "id": "the-576",
@@ -25374,12 +25920,15 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "伯爾尼大學",
+      "countryDisplayEn": "Switzerland",
+      "countryZhHant": "瑞士"
     },
     {
       "id": "the-868",
       "name": "University of Bonn",
-      "nameZh": null,
+      "nameZh": "波恩大学",
       "country": "Germany",
       "countryZh": "德国",
       "website": "https://www.uni-bonn.de/",
@@ -25402,7 +25951,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/university-bonn",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "波恩大學",
+      "countryDisplayEn": "Germany",
+      "countryZhHant": "德國"
     },
     {
       "id": "the-550",
@@ -25472,12 +26024,15 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "加州大學歐文分校",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "the-499",
       "name": "University of California, Santa Barbara",
-      "nameZh": null,
+      "nameZh": "加利福尼亚大学圣塔芭芭拉分校",
       "country": "United States",
       "countryZh": "美国",
       "website": "https://www.ucsb.edu/",
@@ -25513,12 +26068,15 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "加利福尼亞大學聖塔芭芭拉分校",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "us-110699",
       "name": "University of California--San Francisco",
-      "nameZh": null,
+      "nameZh": "加利福尼亚大学旧金山分校",
       "country": "United States",
       "countryZh": "美国",
       "website": null,
@@ -25537,7 +26095,10 @@
         "phd": null
       },
       "programs": [],
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "加利福尼亞大學舊金山分校",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "us-110714",
@@ -25577,7 +26138,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/university-california-santa-cruz",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "加州大學聖克魯茲分校",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "the-567",
@@ -25649,12 +26213,15 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "開普敦大學",
+      "countryDisplayEn": "South Africa",
+      "countryZhHant": "南非"
     },
     {
       "id": "us-529679",
       "name": "University of Chinese Academy of Sciences",
-      "nameZh": null,
+      "nameZh": "中国科学院大学",
       "country": "China",
       "countryZh": "中国内地",
       "website": "https://english.ucas.ac.cn/",
@@ -25687,7 +26254,10 @@
       "websiteProvenance": {
         "source": "https://english.ucas.ac.cn/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "中國科學院大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "us-126614",
@@ -25760,7 +26330,10 @@
       "websiteProvenance": {
         "source": "https://www.colorado.edu/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "科羅拉多大學博爾德分校",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "the-590",
@@ -25854,12 +26427,15 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "佛羅里達大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "the-653",
       "name": "University of Freiburg",
-      "nameZh": null,
+      "nameZh": "弗赖堡大学",
       "country": "Germany",
       "countryZh": "德国",
       "website": "https://uni-freiburg.de/",
@@ -25882,7 +26458,10 @@
         "source": "https://uni-freiburg.de/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "弗賴堡大學",
+      "countryDisplayEn": "Germany",
+      "countryZhHant": "德國"
     },
     {
       "id": "us-504635",
@@ -25958,7 +26537,10 @@
         "source": "https://www.unige.ch/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "日內瓦大學",
+      "countryDisplayEn": "Switzerland",
+      "countryZhHant": "瑞士"
     },
     {
       "id": "the-598",
@@ -26040,7 +26622,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/university-groningen",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "格羅寧根大學",
+      "countryDisplayEn": "Netherlands",
+      "countryZhHant": "荷蘭"
     },
     {
       "id": "the-533",
@@ -26089,12 +26674,15 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/university-gottingen",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "喬治奧古斯特哥廷根大學",
+      "countryDisplayEn": "Germany",
+      "countryZhHant": "德國"
     },
     {
       "id": "the-701",
       "name": "University of Hamburg",
-      "nameZh": null,
+      "nameZh": "汉堡大学",
       "country": "Germany",
       "countryZh": "德国",
       "website": "http://www.uni-hamburg.de/",
@@ -26120,7 +26708,10 @@
         "source": "http://www.uni-hamburg.de/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "漢堡大學",
+      "countryDisplayEn": "Germany",
+      "countryZhHant": "德國"
     },
     {
       "id": "the-580",
@@ -26173,7 +26764,10 @@
         "source": "https://www.unil.ch/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "洛桑大學",
+      "countryDisplayEn": "Switzerland",
+      "countryZhHant": "瑞士"
     },
     {
       "id": "the-559",
@@ -26361,12 +26955,15 @@
           "scope": "graduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "馬里蘭大學，學院公園",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "the-528",
       "name": "University of Massachusetts",
-      "nameZh": null,
+      "nameZh": "马萨诸塞大学",
       "country": "United States",
       "countryZh": "美国",
       "website": "https://www.umassp.edu/",
@@ -26389,7 +26986,10 @@
         "source": "https://www.umassp.edu/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "馬薩諸塞大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "the-506",
@@ -26477,7 +27077,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/university-minnesota",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "明尼蘇達大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "the-507",
@@ -26575,7 +27178,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "北卡羅來納大學教堂山",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "us-215293",
@@ -26640,7 +27246,10 @@
       "websiteProvenance": {
         "source": "https://www.pitt.edu/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "匹茲堡大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "the-545",
@@ -26685,7 +27294,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "羅切斯特大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "the-519",
@@ -26888,12 +27500,15 @@
           "scope": "graduate",
           "kind": "institution"
         }
-      ]
+      ],
+      "nameZhHant": "南加州大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "us-228635",
       "name": "University of Texas Southwestern Medical Center--Dallas",
-      "nameZh": null,
+      "nameZh": "得克萨斯大学西南医学中心",
       "country": "United States",
       "countryZh": "美国",
       "website": null,
@@ -26912,12 +27527,15 @@
         "phd": null
       },
       "programs": [],
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "得克薩斯大學西南醫學中心",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "the-652",
       "name": "University of Tübingen",
-      "nameZh": null,
+      "nameZh": "图宾根大学",
       "country": "Germany",
       "countryZh": "德国",
       "website": "http://www.uni-tuebingen.de/en/landingpage.html",
@@ -26940,7 +27558,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/university-tubingen",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "圖賓根大學",
+      "countryDisplayEn": "Germany",
+      "countryZhHant": "德國"
     },
     {
       "id": "us-234076",
@@ -27001,7 +27622,10 @@
       "websiteProvenance": {
         "source": "https://www.virginia.edu/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "弗吉尼亞大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "the-569",
@@ -27096,7 +27720,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "蒙特利爾大學",
+      "countryDisplayEn": "Canada",
+      "countryZhHant": "加拿大"
     },
     {
       "id": "us-529677",
@@ -27145,7 +27772,10 @@
         "phd": null
       },
       "programs": [],
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "巴黎大學",
+      "countryDisplayEn": "France",
+      "countryZhHant": "法國"
     },
     {
       "id": "the-534",
@@ -27213,7 +27843,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "範德比爾特大學",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "us-500669",
@@ -27283,7 +27916,10 @@
         "source": "https://www.vu.nl/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "阿姆斯特丹自由大學",
+      "countryDisplayEn": "Netherlands",
+      "countryZhHant": "荷蘭"
     },
     {
       "id": "the-540",
@@ -27341,7 +27977,10 @@
         "source": "https://www.timeshighereducation.com/world-university-rankings/wageningen-university-research",
         "checkedAt": "2026-10-26T15:46:16+00:00"
       },
-      "admissionSources": []
+      "admissionSources": [],
+      "nameZhHant": "瓦赫寧根大學",
+      "countryDisplayEn": "Netherlands",
+      "countryZhHant": "荷蘭"
     },
     {
       "id": "the-505",
@@ -27405,7 +28044,10 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "華盛頓大學在聖路易斯",
+      "countryDisplayEn": "United States",
+      "countryZhHant": "美國"
     },
     {
       "id": "the-863",
@@ -27489,12 +28131,15 @@
           "scope": "all",
           "kind": "directory"
         }
-      ]
+      ],
+      "nameZhHant": "武漢大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     },
     {
       "id": "us-503987",
       "name": "Xi'an Jiaotong University",
-      "nameZh": null,
+      "nameZh": "西安交通大学",
       "country": "China",
       "countryZh": "中国内地",
       "website": "https://en.xjtu.edu.cn/",
@@ -27527,7 +28172,10 @@
       "websiteProvenance": {
         "source": "https://en.xjtu.edu.cn/",
         "checkedAt": "2026-10-26T15:58:10+00:00"
-      }
+      },
+      "nameZhHant": "西安交通大學",
+      "countryDisplayEn": "China (Mainland)",
+      "countryZhHant": "中國內地"
     }
   ]
 }

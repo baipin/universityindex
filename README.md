@@ -1,78 +1,100 @@
 # University Index
 
-按 QS、U.S. News、THE 综合排名及 QS 学科排名浏览大学，并查看本科、硕士、博士申请资料的静态网站。支持繁体中文、简体中文、英文和深色模式，无需后端。
+**English** · [繁體中文](README.zh-Hant.md) · [简体中文](README.zh-Hans.md)
 
-## 数据覆盖（2026-10-27）
+A multilingual university admissions directory with QS, U.S. News and Times Higher Education rankings, degree filters, programme search, original official sources, and review status. The static site supports English, Traditional Chinese, Simplified Chinese, light/dark themes and mobile screens.
 
-| 数据 | 当前覆盖 |
+## Coverage
+
+Snapshot: **27 October 2026**. Live counts and edition labels are generated from `data/universities.json`.
+
+| Dataset | Coverage |
 | --- | --- |
-| QS World University Rankings 2027 | 前 150 名，含并列共 151 所 |
-| THE World University Rankings 2027 | 前 150 名，含并列共 151 所 |
-| U.S. News Best Global Universities 2026–2027 | 前 150 名，含并列共 151 所 |
-| 三榜院校去重并集 | 216 所 |
-| QS 2026 学科/大类排名视图 | 59 类 |
-| 有已核对官方申请来源的院校 | 139 所 |
-| 已核对的申请来源记录 | 236 条 |
-| 具体专业 | 38 个，其中 29 个有逐项核对摘要 |
-| 已核对要求摘要 | 67 条：院校/学院通则 38 条，具体专业 29 条 |
+| QS World University Rankings 2027 | Ranks 1–150; 151 institutions including ties |
+| THE World University Rankings 2027 | Ranks 1–150; 151 institutions including ties |
+| U.S. News Best Global Universities 2026–2027 | Ranks 1–150; 151 institutions including ties |
+| Deduplicated global ranking union | 216 institutions |
+| QS 2026 subject / broad-area categories | 59 views |
+| Institutions with checked admissions sources | 139 |
+| Checked admissions source records | 236 |
+| Specific programmes | 38, including 29 with reviewed summaries |
+| Reviewed requirement records | 67: 38 institutional/faculty baselines and 29 programme records |
 
-**申请资料仍是首批补充，尚未覆盖全部院校的全部专业。** 77 所院校尚无可发布的申请来源，另有 46 条候选来源暂不可用。官网可访问、来源内容核对、要求字段核对是不同状态，不能把来源数视为完整的录取要求数。
+Admissions coverage is **partial**, not every programme at every institution. There are 77 institutions without a publishable admissions source and 46 unavailable candidate source records. Subject views show subject ranks up to 150 **within the global ranking union**; they are not complete subject league tables. U.S. News refers to its global ranking, not the US domestic undergraduate ranking. Ties and bands such as `=2` and `101-150` retain the publishers’ labels.
 
-学科视图仅包括上述综合排名院校并集中，QS 对应学科名次不超过 150 的学校；不包含只进入学科前 150、未进入三个综合榜前 150 的学校。名次保留官方并列号和区间，例如 `=2`、`101-150`。US News 使用全球大学榜，而非美国国内本科榜。
+## Automated GitHub bot
 
-## 来源与字段含义
+[University data bot](.github/workflows/update-data.yml) runs on the default branch:
 
-- `data/universities.json`：网站直接读取的发布数据，含排名版本、来源、院校、学位通则和具体专业。
-- `data/rankings/*.json`：62 个排名提取文件，保存官方链接、版本、核对时间、来源 SHA-256 和规范化名次。
-- `data/admissions/catalog.json`：候选官方招生页面，注明学校、学位、专业和页面类型。
-- `data/admissions/checks.json`：来源核对结果；不可用页面保留原因，不发布为要求。
-- `data/admissions/reviewed.json`：经逐项阅读核对的摘要，`fieldSources` 为各字段提供官方原始链接。
+| Job | Schedule in Hong Kong time (UTC+8) | Behaviour |
+| --- | --- | --- |
+| Rankings | Daily, 08:37 | Look for published QS/THE overall and QS subject editions, verify the live U.S. News edition, and import official ranking data |
+| Admissions | First day of each month, 10:17 | Fetch all active official candidate pages afresh, compare fingerprints and update source excerpts/status |
+| Manual | Actions → University data bot → Run workflow | Choose rankings, admissions, all, or offline validation; optional dry run |
 
-`null` 表示尚未核实，**不表示没有要求**。`source-checked` 仅表示取得相关官方来源，自动摘录不是已核实的最低分数；`reviewed` 表示所列字段有经过阅读核对的摘要，也不表示该专业所有条件已穷尽。院校通则不能代替专业附加要求。
+No separate bot account, paid AI service or API key is required. The workflow uses `GITHUB_TOKEN` and commits changed data as `github-actions[bot]`. GitHub Actions must be enabled and repository rules must allow the workflow to push to the default branch. Branch protection can reject that push; the bot never force-pushes. An optional Actions secret `DATA_BOT_TOKEN` can supply a separately authorized token when repository policy or downstream workflows require it. Do not commit credentials.
 
-`gpa` 目前兼容保存学位、成绩等级等学术资格描述，不应统一解释为数值 GPA。未公布的分数与日期不作推算；日期只在原文明确申请年度时写入年份。2026 年 1 月 21 日起 TOEFL 使用新分制，只有官网明确给出时才并列记录新旧分数，不自行换算。
+GitHub schedules can be delayed. Public-repository schedules may be disabled after 60 days without repository activity; inspect Actions if updates stop. Monthly successful checks normally create data activity. Failure notifications follow your GitHub notification settings. Pushes made using `GITHUB_TOKEN` do not normally trigger other push-based Actions; this workflow runs its own checks before committing.
 
-网站详情保留官方原始链接、核对时间和状态。`retrievedVia` 记录实际读取方式，部分公开页面通过 Jina Reader 读取；它不是招生规则的发布机构。原始页面缓存不提交到 Git。官方页面内容属于相应发布机构，本站仅提供归属明确的有限摘录与摘要。
+### Publication safeguards
 
-## 本地运行与检查
+- Calendar changes alone never advance an edition. Official headings/data metadata must confirm QS/THE years; U.S. News requires an explicit edition in the official publication article.
+- Downloads and validation run in a temporary candidate directory. Incomplete rankings, edition regressions or a widespread admissions-source outage leave published data unchanged.
+- If U.S. News temporarily blocks access or its live edition cannot be confirmed, retain its previously verified snapshot and original check date, record the reason in the report, and allow other rankings to update.
+- A reviewed summary is anchored to source fingerprints. If a referenced page changes or becomes unavailable, old scores/deadlines are not automatically certified again. Reachable changed pages publish as awaiting review with fresh excerpts; reviewers must verify and re-anchor any summary.
+- Unknown scores/deadlines remain `null`. The bot does not infer requirements from ranking, keywords or another faculty’s rules.
+- Daily timestamp-only ranking changes do not create commits. Changed source URLs, unavailable pages and pending-review records are recorded in a 90-day Actions report artifact.
 
-要求 Node.js 18+、Python 3.10+。静态网站可以直接部署到 GitHub Pages 等静态主机；本地应通过 HTTP 打开，避免 `file://` 下 JSON 请求受限。
+Automatic source refresh does **not** replace substantive review of new admission rules. A blocked/changed official website may need a parser or source-link update.
 
-```powershell
-cd F:/UIndex
+## Data and localization
+
+- `data/universities.json`: the published catalogue, editions, degree rules, programmes and coverage.
+- `data/ranking-editions.json`: persisted official edition entry points, updated after successful discovery/import.
+- `data/rankings/*.json`: normalized rank facts, original URLs, edition, check date and SHA-256.
+- `data/admissions/catalog.json`: candidate official pages and their scope.
+- `data/admissions/checks.json`: source checks and fingerprints, including unavailable-source reasons.
+- `data/admissions/reviewed.json`: reviewed field summaries, `fieldSources`, review dates and source revision fingerprints.
+
+`null` means unverified, not “no requirement”. `source-checked` means the page was readable; it does not certify automatically extracted scores. `reviewed` applies to the listed fields, not to every possible condition. Institutional/faculty baselines remain separate from programme rules. The legacy `gpa` field can contain broader academic qualifications rather than a numeric GPA. TOEFL scales are recorded only as stated by the institution, without inferred conversions.
+
+School and region display fields distinguish Traditional and Simplified Chinese. Region display uses **Hong Kong SAR / 香港特別行政區 / 香港特别行政区** and **Taiwan / 臺灣 / 台湾**, while original source identities remain intact. OpenCC creates Traditional characters during data builds, without a client-side CDN dependency. The header banner uses `img/ulist.jpg`.
+
+Official links, check dates and attribution are visible in the site. Some public pages are read via Jina Reader; the original institution/publisher remains the source. Raw cached pages are not committed. Source content belongs to its publisher; the catalogue uses limited attributed excerpts and summaries.
+
+## Development
+
+Requirements: Node.js 18+ and Python 3.10+. No npm dependencies are needed for the standard data tests.
+
+```sh
+python -m pip install -r requirements-dev.txt
 npm run serve
-# 浏览器访问 http://127.0.0.1:8080
+# Open http://127.0.0.1:8080
 npm run check
+python -m unittest discover -s tests -p "test_*.py"
 python -m compileall -q scripts
 ```
 
-`npm run check` 不需要安装 npm 依赖：使用 Node 内置测试，核对排名来源一致性、并列/区间、检索、学位隔离、来源字段及覆盖计数。
+Browser checks require Playwright and an installed browser. Set `PLAYWRIGHT_MODULE` to the Playwright module path if it is outside normal module resolution; set `BROWSER_CHANNEL=msedge` to use installed Edge, or provide Playwright Chromium. Run `npm run test:browser`. Checks cover language-specific names, region labels, banner loading, filters, provenance, themes and expanded ranking chips at five viewport widths. Screenshots are saved under ignored `.cache/`.
 
-浏览器检查另需 Playwright，可安装到独立工具目录并用 `PLAYWRIGHT_MODULE` 指定其模块位置；默认读取可用的 `playwright` 包。使用已安装的 Edge 时设置：
+## Updating and reviewing data
 
-```powershell
-$env:PLAYWRIGHT_MODULE='C:/path/to/node_modules/playwright'
-$env:BROWSER_CHANNEL='msedge'
-npm run test:browser
+```sh
+python scripts/update_data.py --mode rankings --dry-run
+python scripts/update_data.py --mode rankings
+python scripts/update_data.py --mode admissions
+python scripts/update_data.py --mode all
 ```
 
-浏览器检查覆盖排名与学位筛选、学校/专业检索、来源展示、三种语言、主题和手机宽度，并输出忽略提交的 `.cache/desktop.png`、`.cache/mobile.png`。
+The orchestrator always uses a fresh candidate cache. For lower-level manual maintenance:
 
-## 更新数据
-
-```powershell
-python -m pip install -r requirements-dev.txt
-$env:PYTHONIOENCODING='utf-8'
-python scripts/import_rankings.py
-# 可选：发现院校官方主页与候选招生目录；目录不会自动变成申请要求
-python scripts/discover_websites.py
-python scripts/discover_admissions.py
-python scripts/collect_admissions.py
+```sh
+python scripts/import_rankings.py --discover-latest --refresh
+python scripts/collect_admissions.py --refresh
+python scripts/localize_catalog.py
 npm run check
 ```
 
-排名脚本固定本次核实的版本和来源结构，换届需更新对应入口并检查发布机构页面结构。重新导入排名后必须运行申请收集脚本，重建申请覆盖计数。
+Always rebuild admissions after importing rankings. Optional `discover_websites.py` and `discover_admissions.py` discover official links; a directory never automatically becomes a requirement. Lower-level scripts otherwise reuse `.cache/`. `collect_admissions.py --reuse-checks` reapplies reviews without refreshing unchanged sources or check dates. It cannot be combined with `--refresh`.
 
-脚本默认使用 `.cache/` 内页面以减少重复请求。真正重新抓取时，应先将该目录移到备份位置，再运行更新；仅重跑命令不代表远端页面已刷新。`collect_admissions.py --reuse-checks` 只为新/变化的目录记录检查来源，复用其他检查并重新应用 `reviewed.json`，不会刷新历史检查日期。
-
-新增资料时先加入官方候选来源并运行收集；阅读实际规则后再向 `reviewed.json` 添加字段摘要和各字段来源。不要从学校综合排名、项目名称、其他学院规则或网页关键词自动推导分数、截止日。最后运行数据与浏览器检查，并检查来源版本和申请年度是否一致。
+To add a review, read the actual official rules, record the field-specific URLs and review date, and use `sourceFingerprints` from the checked source revisions. For an existing entry, replace those fingerprints only after reviewing its changed sources. Newly eligible institutions can have empty admissions coverage until their official sources are added. Run data, updater and browser checks before publishing.

@@ -53,10 +53,10 @@
   }
 
   function schoolName(s) {
-    return I18N.getLang() === "en" ? s.name : (s.nameZh || s.name);
+    return Catalog.schoolName(s, I18N.getLang());
   }
   function countryName(s) {
-    return I18N.getLang() === "en" ? s.country : (s.countryZh || s.country);
+    return Catalog.countryName(s, I18N.getLang());
   }
 
   /* ---------- Ranking and level selectors ---------- */
@@ -112,6 +112,7 @@
     root.textContent = "";
     root.appendChild(el("p", { text: t("rankingCount", { count: count, year: r.year }) }));
     root.appendChild(sourceLink(r.source, t("rankingSource")));
+    if (r.checkedAt) root.appendChild(el("p", { class: "hint", text: t("checkedOn", { date: fmtDate(r.checkedAt.slice(0, 10)) }) }));
     root.appendChild(el("p", { class: "hint", text: t(r.scope === "subject" ? "subjectScope" : "tieNote") }));
   }
 
@@ -328,7 +329,6 @@
         renderSelectors();
         renderTable();
         renderStatus();
-        document.getElementById("sample-notice").hidden = !!(data.meta && data.meta.verified);
         var first = visibleSchools()[0];
         if (first) select(first.id);
       })

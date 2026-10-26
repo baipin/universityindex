@@ -1,0 +1,92 @@
+name: University data bot
+
+on:
+  schedule:
+    # UTC; 08:37 Hong Kong time every day.
+    - cron: "37 0 * * *"
+    # UTC; 10:17 Hong Kong time on the first day of every month.
+    - cron: "17 2 1 * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Data to refresh (validate runs offline checks only)
+        type: choice
+        options: [rankings, admissions, all, validate]
+        default: rankings
+      dry_run:
+        description: Validate the candidate without publishing data
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: university-data-bot
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.DATA_BOT_TOKEN || github.token }}
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: python -m pip install -r requirements-dev.txt
+      - name: Validate updater and published data
+        run: |
+          python -m unittest discover -s tests -p "test_*.py"
+          npm run check
+      - name: Select refresh mode
+        id: mode
+        env:
+          REQUESTED: ${{ inputs.mode }}
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          mode="${REQUESTED:-rankings}"
+          if [ "$SCHEDULE" = "17 2 1 * *" ]; then mode=admissions; fi
+          echo "value=$mode" >> "$GITHUB_OUTPUT"
+      - name: Fetch, validate and update candidate
+        if: steps.mode.outputs.value != 'validate'
+        env:
+          MODE: ${{ steps.mode.outputs.value }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          flags=()
+          if [ "$DRY_RUN" = "true" ]; then flags+=(--dry-run); fi
+          python scripts/update_data.py --mode "$MODE" "${flags[@]}"
+      - name: Validate resulting data
+        run: npm run check
+      - name: Commit verified data as github-actions[bot]
+        if: steps.mode.outputs.value != 'validate' && inputs.dry_run != true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No data change to publish."
+            exit 0
+          fi
+          git diff --cached --check
+          git commit -m "chore(data): refresh official university data"
+          # A concurrent human push causes a safe rejection, never a force push.
+          git push origin "HEAD:${{ github.event.repository.default_branch }}"
+      - name: Save update report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: university-data-update-${{ github.run_id }}
+          path: .cache/update-report.json
+          if-no-files-found: ignore
+          retention-days: 90

@@ -10,6 +10,7 @@ import argparse
 from datetime import datetime, timezone
 import hashlib
 import json
+import os
 import re
 import threading
 import time
@@ -30,7 +31,7 @@ LAST_READER_REQUEST = 0.0
 def read_source(url):
     global LAST_READER_REQUEST
     cached = ROOT / '.cache' / (hashlib.sha256(url.encode()).hexdigest() + '.html')
-    if url.startswith('https://r.jina.ai/') and not cached.exists():
+    if url.startswith('https://r.jina.ai/') and (not cached.exists() or os.environ.get("UINDEX_REFRESH") == "1"):
         with READER_LOCK:
             wait = 3.2 - (time.monotonic() - LAST_READER_REQUEST)
             if wait > 0:
@@ -92,7 +93,7 @@ def check(item):
                 continue
             total += len(words)
             excerpts.append({'category': category, 'text': snippet, 'source': url})
-        result.update({'status': 'source-checked', 'title': title, 'checkedAt': datetime.now(timezone.utc).isoformat(timespec='seconds'), 'retrievedVia': transport, 'sha256': hashlib.sha256(raw.encode()).hexdigest(), 'excerpts': excerpts})
+        result.update({'status': 'source-checked', 'title': title, 'checkedAt': datetime.now(timezone.utc).isoformat(timespec='seconds'), 'retrievedVia': transport, 'sha256': hashlib.sha256(raw.encode()).hexdigest(), 'contentSha256': hashlib.sha256(re.sub(r"\s+", " ", content).strip().encode()).hexdigest(), 'excerpts': excerpts})
         (ROOT / '.cache' / ('admission-' + hashlib.sha256(url.encode()).hexdigest() + '.txt')).write_text(content, encoding='utf-8')
     except Exception as error:
         result.update({'status': 'unavailable', 'error': str(error)})
@@ -101,14 +102,29 @@ def check(item):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--reuse-checks', action='store_true', help='Reuse prior source checks for unchanged catalog records; check only new/changed records. Does not change prior check dates.')
+    parser.add_argument('--refresh', action='store_true', help='Fetch current official pages instead of using the disk cache.')
     args = parser.parse_args()
+    if args.refresh and args.reuse_checks:
+        parser.error("--refresh cannot be combined with --reuse-checks")
+    if args.refresh:
+        os.environ["UINDEX_REFRESH"] = "1"
     catalog = json.loads((ROOT / 'data' / 'admissions' / 'catalog.json').read_text(encoding='utf-8'))['sources']
     data_path = ROOT / 'data' / 'universities.json'
     initial = json.loads(data_path.read_text(encoding='utf-8'))
     lookup = {key(s['name']): s['id'] for s in initial['schools']}
-    for item in catalog:
-        if key(item['school']) not in lookup:
-            raise ValueError('Unknown school in admissions catalog: ' + item['school'])
+    # A school can leave the top-150 union in a new ranking edition. Keep its
+    # catalog and reviews on disk, but do not attach them to a different school.
+    catalog = [item for item in catalog if key(item['school']) in lookup]
+    reviewed_path = ROOT / 'data' / 'admissions' / 'reviewed.json'
+    reviewed = json.loads(reviewed_path.read_text(encoding="utf-8"))
+    check_path = ROOT / 'data' / 'admissions' / 'checks.json'
+    old_checks = json.loads(check_path.read_text(encoding="utf-8"))["sources"] if check_path.exists() else []
+    old_urls = {item["url"]: item for item in old_checks if item["status"] == "source-checked"}
+    # Anchor a review to the source revision it was actually based on. This
+    # baseline must be captured BEFORE downloading a newer page.
+    for entry in reviewed["entries"]:
+        if "sourceFingerprints" not in entry:
+            entry["sourceFingerprints"] = {url: {k: old_urls[url][k] for k in ("sha256", "contentSha256") if k in old_urls[url]} for url in set(entry.get("fieldSources", {}).values()) if url in old_urls}
     checked = []
     def identity(item):
         return tuple(item.get(k) for k in ('school', 'level', 'url', 'kind', 'name', 'subject'))
@@ -156,14 +172,18 @@ def main():
             req = school['requirements'][level]
             req['sources'].append(source)
             req['sourceExcerpts'].extend(result['excerpts'])
-    reviewed_path = ROOT / 'data' / 'admissions' / 'reviewed.json'
     if reviewed_path.exists():
-        reviewed = json.loads(reviewed_path.read_text(encoding='utf-8'))
         for entry in reviewed['entries']:
+            if entry["schoolId"] not in schools:
+                continue
             school = schools[entry['schoolId']]
-            target = school['requirements'][entry['level']] if entry.get('programId') is None else next(p for p in school['programs'] if p['id'] == entry['programId'])
+            target = school['requirements'][entry['level']] if entry.get('programId') is None else next((p for p in school['programs'] if p['id'] == entry['programId']), None)
             if target is None:
-                raise ValueError('Reviewed entry has no checked official source: ' + entry['schoolId'])
+                continue
+            current_urls = {item["url"]: item for item in checked if item["schoolId"] == entry["schoolId"] and item["status"] == "source-checked"}
+            if not review_is_current(entry, current_urls):
+                target["reviewState"] = "source-changed-or-unavailable"
+                continue
             for field in ('gpa', 'english', 'deadline', 'documents', 'notes', 'intake', 'reviewedAt', 'fieldSources'):
                 if field in entry:
                     target[field] = entry[field]
@@ -179,7 +199,20 @@ def main():
     data['meta']['generatedAt'] = datetime.now(timezone.utc).isoformat(timespec='seconds')
     data_path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     (ROOT / 'data' / 'admissions' / 'checks.json').write_text(json.dumps({'sources': checked}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    reviewed_path.write_text(json.dumps(reviewed, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(coverage, ensure_ascii=False), flush=True)
+
+def review_is_current(entry, current_urls):
+    for url in set(entry.get("fieldSources", {}).values()):
+        current = current_urls.get(url)
+        baseline = entry.get("sourceFingerprints", {}).get(url)
+        if not current or not baseline:
+            return False
+        field = "contentSha256" if baseline.get("contentSha256") and current.get("contentSha256") else "sha256"
+        if baseline.get(field) != current.get(field):
+            return False
+    return bool(entry.get("fieldSources"))
+
 
 if __name__ == '__main__':
     main()

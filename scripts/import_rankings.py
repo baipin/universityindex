@@ -7,18 +7,21 @@ No third-party ranking lists or inferred ranks are used.
 """
 from __future__ import annotations
 import concurrent.futures
+import argparse
+import os
 from datetime import datetime, timezone
 import hashlib
 import html
 import json
 from pathlib import Path
 import re
+import time
 import unicodedata
 from fetch_sources import CACHE, ROOT, fetch, next_data, find_values
+from discover_editions import discover, subject_paths, qs_edition_matches
+from localize_catalog import localize
 
 QS_HOST = 'https://www.qs-topuniversities.cn'
-QS_PAGE = QS_HOST + '/university-rankings/world-university-rankings/2027'
-THE_PAGE = 'https://www.timeshighereducation.com/world-university-rankings/2027/world-ranking'
 US_PAGE = 'https://www.usnews.com/education/best-global-universities/rankings'
 COUNTRIES = {'United States': '美国', 'United Kingdom': '英国', 'China (Mainland)': '中国内地', 'China': '中国内地', 'Hong Kong SAR': '中国香港', 'Hong Kong': '中国香港', 'Singapore': '新加坡', 'Australia': '澳大利亚', 'Canada': '加拿大', 'Germany': '德国', 'France': '法国', 'Switzerland': '瑞士', 'Netherlands': '荷兰', 'Japan': '日本', 'South Korea': '韩国', 'Sweden': '瑞典', 'Denmark': '丹麦', 'Belgium': '比利时', 'Finland': '芬兰', 'Norway': '挪威', 'New Zealand': '新西兰', 'Ireland': '爱尔兰', 'Italy': '意大利', 'Spain': '西班牙', 'Austria': '奥地利', 'Taiwan': '中国台湾', 'Taiwan (China)': '中国台湾', 'Malaysia': '马来西亚', 'Saudi Arabia': '沙特阿拉伯', 'United Arab Emirates': '阿联酋', 'South Africa': '南非', 'Brazil': '巴西', 'Chile': '智利', 'Mexico': '墨西哥', 'Israel': '以色列', 'Russia': '俄罗斯', 'India': '印度', 'Luxembourg': '卢森堡', 'Portugal': '葡萄牙'}
 ALIASES = {
@@ -125,7 +128,39 @@ def qs_data(page):
     raw = fetch(english_url)
     return json.loads(raw)['data'], english_url, raw
 
+
+def us_pages(refresh):
+    pages = []
+    for page in range(1, 17):
+        url = US_PAGE + ("?page=" + str(page) if page > 1 else "")
+        cached = CACHE / ("jinaus.html" if page == 1 else "us2.html" if page == 2 else "us" + str(page) + ".md")
+        if cached.exists() and not refresh:
+            raw = cached.read_text(encoding="utf-8")
+        else:
+            if page > 1:
+                time.sleep(3.2)
+            raw = fetch("https://r.jina.ai/" + url)
+        pages.append((url, raw))
+    return pages
+
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--discover-latest", action="store_true")
+    parser.add_argument("--refresh", action="store_true")
+    args = parser.parse_args()
+    if args.refresh:
+        os.environ["UINDEX_REFRESH"] = "1"
+    edition_path = ROOT / "data" / "ranking-editions.json"
+    editions = json.loads(edition_path.read_text(encoding="utf-8"))
+    warnings = []
+    if args.discover_latest:
+        editions, warnings = discover(editions)
+        for warning in warnings:
+            print("Edition probe (not yet confirmed):", warning, flush=True)
+    qs_page, the_page = editions["qs"]["source"], editions["the"]["source"]
+    old = json.loads((ROOT / "data" / "universities.json").read_text(encoding="utf-8"))
+    previous = {s["id"]: s for s in old["schools"]}
+    previous_identity = {(key(s["name"]), s["country"]): s["id"] for s in old["schools"]}
     now = datetime.now(timezone.utc).isoformat(timespec='seconds')
     output = ROOT / 'data' / 'rankings'
     output.mkdir(exist_ok=True)
@@ -140,7 +175,7 @@ def main():
         canonical = key(name)
         country = {'China (Mainland)': 'China', 'Hong Kong SAR': 'Hong Kong', 'Taiwan (China)': 'Taiwan'}.get(country, country)
         existing = by_key.get((canonical, country))
-        sid = existing or sid
+        sid = existing or previous_identity.get((canonical, country)) or sid
         if sid not in schools:
             schools[sid] = {'id': sid, 'name': name, 'nameZh': None, 'country': country, 'countryZh': COUNTRIES.get(country, country), 'website': None, 'ranks': {}, 'rankLabels': {}, 'rankProfiles': {}, 'requirements': {'undergraduate': None, 'master': None, 'phd': None}, 'programs': []}
         school = schools[sid]
@@ -151,7 +186,9 @@ def main():
         school.update(extra)
         by_key[(canonical, country)] = sid
         return school
-    rows, qs_url, raw = qs_data(QS_PAGE)
+    rows, qs_url, raw = qs_data(qs_page)
+    if not qs_edition_matches(fetch(qs_page), editions["qs"]["year"]):
+        raise ValueError("QS page does not identify the requested edition")
     chinese = json.loads(fetch(qs_url.replace('/en/', '/cn/')))['data']
     names_zh = {r['core_id']: clean(r['title']) for r in chinese}
     qs_rows = []
@@ -162,14 +199,14 @@ def main():
         name = clean(row['title'])
         school = add('qs-' + row['core_id'], name, row['country'], 'qs', row['rank_display'], nameZh=names_zh.get(row['core_id']))
         href = re.search(r'href="([^"]+)"', row['title'])
-        school['rankProfiles']['qs'] = QS_HOST + href.group(1) if href else QS_PAGE
+        school['rankProfiles']['qs'] = QS_HOST + href.group(1) if href else qs_page
         qs_rows.append({'schoolId': school['id'], 'name': name, 'country': school['country'], 'rank': rank, 'rankLabel': row['rank_display']})
-    source_record('qs', 'QS World University Rankings', '2027', 'global', QS_PAGE, qs_url, raw, qs_rows)
+    source_record('qs', 'QS World University Rankings', editions["qs"]["year"], 'global', qs_page, qs_url, raw, qs_rows)
     print('Imported QS:', len(qs_rows), flush=True)
     # Explicit edition is the persisted source, even when the latest redirect was used for discovery.
-    raw_the = fetch(THE_PAGE)
+    raw_the = fetch(the_page)
     config = list(find_values(next_data(raw_the), 'rankingsTableConfig'))[0]
-    if config['year'] != '2027':
+    if str(config['year']) != editions["the"]["year"]:
         raise ValueError('Unexpected THE edition')
     the_rows = []
     for row in config['rankingsData']['data']:
@@ -179,16 +216,20 @@ def main():
         school = add('the-' + str(row['nid']), row['name'], row['location'], 'the', row['rank'])
         school['rankProfiles']['the'] = 'https://www.timeshighereducation.com' + row['url']
         the_rows.append({'schoolId': school['id'], 'name': row['name'], 'country': school['country'], 'rank': rank, 'rankLabel': row['rank']})
-    source_record('the', 'Times Higher Education World University Rankings', '2027', 'global', THE_PAGE, config['jsonUrl'], raw_the, the_rows)
+    source_record('the', 'Times Higher Education World University Rankings', editions["the"]["year"], 'global', the_page, config['jsonUrl'], raw_the, the_rows)
     print('Imported THE:', len(the_rows), flush=True)
     us_rows = []
     us_raw = []
     seen_us = set()
-    for page in range(1, 17):
-        url = US_PAGE + ('?page=' + str(page) if page > 1 else '')
-        # Discovery downloads can be reused; all future refreshes use the same public source.
-        cached = CACHE / ('jinaus.html' if page == 1 else 'us2.html' if page == 2 else 'us' + str(page) + '.md')
-        raw = cached.read_text(encoding='utf-8') if cached.exists() else fetch('https://r.jina.ai/' + url)
+    pages = []
+    if not editions["usnews"].get("unavailable"):
+        try:
+            pages = us_pages(args.refresh)
+        except Exception as error:
+            editions["usnews"]["unavailable"] = str(error)
+            warnings.append("US News download failed; preserving verified snapshot: " + str(error))
+    retained_publishers = ["usnews"] if editions["usnews"].get("unavailable") else []
+    for url, raw in pages:
         us_raw.append(raw)
         for match in re.finditer(r'^## \[([^\n]+?)\]\((https://www\.usnews\.com/education/best-global-universities/[^)]+)\)(.*?)(?=^## |\Z)', raw, re.M | re.S):
             name, profile, body = match.groups()
@@ -206,9 +247,20 @@ def main():
             school = add('us-' + profile.rsplit('-', 1)[-1], name, country.group(1).strip(), 'usnews', label)
             school['rankProfiles']['usnews'] = profile
             us_rows.append({'schoolId': school['id'], 'name': name, 'country': school['country'], 'rank': rank, 'rankLabel': label, 'source': url})
+    if editions["usnews"].get("unavailable"):
+        retained = json.loads((output / "usnews.json").read_text(encoding="utf-8"))
+        editions["usnews"]["year"] = retained["meta"]["year"]
+        for row in retained["rows"]:
+            school = add(row["schoolId"], row["name"], row["country"], "usnews", row["rankLabel"])
+            if row["schoolId"] in previous:
+                school["rankProfiles"]["usnews"] = previous[row["schoolId"]].get("rankProfiles", {}).get("usnews", US_PAGE)
+            us_rows.append({**row, "schoolId": school["id"]})
+        sources.append(retained["meta"])
+        editions["usnews"].pop("unavailable")
+    else:
+        source_record('usnews', 'U.S. News Best Global Universities', editions["usnews"]["year"], 'global', US_PAGE, 'https://r.jina.ai/' + US_PAGE, '\n'.join(us_raw), us_rows, editionSource=editions["usnews"]["editionSource"])
     if len(us_rows) < 150:
         raise ValueError('Incomplete US News import: ' + str(len(us_rows)))
-    source_record('usnews', 'U.S. News Best Global Universities', '2026–2027', 'global', US_PAGE, 'https://r.jina.ai/' + US_PAGE, '\n'.join(us_raw), us_rows, editionSource='https://www.usnews.com/education/best-global-universities/articles/us-news-ranks-best-global-universities')
     print('Imported US News:', len(us_rows), flush=True)
     # Resolve subject identities for globally eligible institutions outside the QS top 150.
     qs_ids = {}
@@ -226,8 +278,8 @@ def main():
         sid = by_key.get((key(row['name']), country))
         if sid:
             schools[sid]['rankProfiles']['the'] = 'https://www.timeshighereducation.com' + row['url']
-    hub = fetch(QS_HOST + '/subject-rankings/2026')
-    paths = sorted(set(re.findall(r'href="(/university-rankings/university-subject-rankings/2026/[^"]+)"', hub)))
+    hub = fetch(editions["subjects"]["source"])
+    paths = subject_paths(hub, editions["subjects"]["year"])
     def subject(path):
         subject_rows, transport, raw = qs_data(QS_HOST + path)
         return path.rsplit('/', 1)[-1], subject_rows, transport, raw
@@ -245,17 +297,21 @@ def main():
                 schools[sid]['ranks'][rid] = rank
                 schools[sid]['rankLabels'][rid] = row['rank_display']
                 normalized.append({'schoolId': sid, 'name': schools[sid]['name'], 'rank': rank, 'rankLabel': row['rank_display']})
-            source_record(rid, 'QS by Subject', '2026', 'subject', QS_HOST + '/university-rankings/university-subject-rankings/2026/' + slug, transport, raw, normalized, subject=title, eligiblePool='Global top 150 union (QS / THE / US News); subject ranks up to 150 only')
+            source_record(rid, 'QS by Subject', editions['subjects']['year'], 'subject', QS_HOST + '/university-rankings/university-subject-rankings/' + editions['subjects']['year'] + '/' + slug, transport, raw, normalized, subject=title, eligiblePool='Global top 150 union (QS / THE / US News); subject ranks up to 150 only')
             print('Imported subject:', slug, len(normalized), flush=True)
     old = json.loads((ROOT / 'data' / 'universities.json').read_text(encoding='utf-8'))
     previous = {s['id']: s for s in old['schools']}
     for sid, school in schools.items():
         if sid in previous:
-            for field in ('website', 'requirements', 'programs', 'admissionSources'):
+            for field in ('website', 'websiteProvenance', 'requirements', 'programs', 'admissionSources'):
                 if field in previous[sid]:
                     school[field] = previous[sid][field]
-    data = {'_notice': 'Real publisher rankings. Admissions coverage is partial: null means not yet verified, not no requirement. University-wide rules and specific programmes are kept separate. Subject views cover schools in the global top-150 union, not every subject-only institution.', 'meta': {'schemaVersion': 2, 'status': 'partial', 'verified': False, 'generatedAt': now, 'rankLimit': 150, 'rankings': sources, 'levels': ['undergraduate', 'master', 'phd'], 'coverage': {'schools': len(schools), 'globalRankings': {rid: sum(rid in s['ranks'] for s in schools.values()) for rid in ('qs', 'the', 'usnews')}, 'subjects': len(paths), 'scope': 'Union of schools ranked 1–150 globally in QS 2027, THE 2027 or US News 2026–2027. Subject views are restricted to this pool.'}}, 'schools': sorted(schools.values(), key=lambda s: (s['ranks'].get('qs', 9999), s['name']))}
+    data = {'_notice': 'Real publisher rankings. Admissions coverage is partial: null means not yet verified, not no requirement. University-wide rules and specific programmes are kept separate. Subject views cover schools in the global top-150 union, not every subject-only institution.', 'meta': {'schemaVersion': 2, 'status': 'partial', 'verified': False, 'generatedAt': now, 'rankLimit': 150, 'rankings': sources, 'levels': ['undergraduate', 'master', 'phd'], 'coverage': {'schools': len(schools), 'globalRankings': {rid: sum(rid in s['ranks'] for s in schools.values()) for rid in ('qs', 'the', 'usnews')}, 'subjects': len(paths), 'scope': f"Union of schools ranked 1–150 globally in QS {editions['qs']['year']}, THE {editions['the']['year']} or US News {editions['usnews']['year']}. Subject views are restricted to this pool."}}, 'schools': sorted(schools.values(), key=lambda s: (s['ranks'].get('qs', 9999), s['name']))}
+    localize(data)
     (ROOT / 'data' / 'universities.json').write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    edition_path.write_text(json.dumps(editions, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    CACHE.mkdir(exist_ok=True)
+    (CACHE / "ranking-report.json").write_text(json.dumps({"warnings": warnings, "retainedPublishers": retained_publishers}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(data['meta']['coverage'], ensure_ascii=False), flush=True)
 
 if __name__ == '__main__':
