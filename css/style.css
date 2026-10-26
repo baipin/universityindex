@@ -1,0 +1,656 @@
+/* ==========================================================================
+   HK Food Price Map — Material Design 3 (light + dark)
+   Tokens follow the MD3 colour roles; type follows the MD3 type scale (Roboto).
+   ========================================================================== */
+
+:root {
+  color-scheme: light;
+
+  /* colour roles (light) */
+  --md-primary: #1565c0;
+  --md-on-primary: #ffffff;
+  --md-primary-container: #d3e3fd;
+  --md-on-primary-container: #041e49;
+  --md-secondary-container: #dde3ea;
+  --md-on-secondary-container: #161c24;
+  --md-surface: #ffffff;
+  --md-surface-container-low: #f7f9fc;
+  --md-surface-container: #f1f4f9;
+  --md-surface-container-high: #e9eef6;
+  --md-on-surface: #1a1c1e;
+  --md-on-surface-variant: #43474e;
+  --md-outline: #73777f;
+  --md-outline-variant: #c3c7cf;
+  --md-scrim: #000000;
+
+  /* elevation (MD3 levels 1–3) */
+  --md-elev-1: 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 3px 1px rgba(0, 0, 0, 0.15);
+  --md-elev-2: 0 1px 2px rgba(0, 0, 0, 0.3), 0 2px 6px 2px rgba(0, 0, 0, 0.15);
+  --md-elev-3: 0 4px 8px 3px rgba(0, 0, 0, 0.15), 0 1px 3px rgba(0, 0, 0, 0.3);
+
+  /* shape */
+  --md-shape-s: 8px;
+  --md-shape-m: 12px;
+  --md-shape-l: 16px;
+  --md-shape-xl: 28px;
+  --md-shape-full: 999px;
+
+  /* price bands (map + list) */
+  --band-1: #2e7d32;
+  --band-2: #8bc34a;
+  --band-3: #fdd835;
+  --band-4: #fb8c00;
+  --band-5: #e53935;
+  --band-none: #bdbdbd;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --md-primary: #a8c7fa;
+  --md-on-primary: #003062;
+  --md-primary-container: #004a8d;
+  --md-on-primary-container: #d3e3fd;
+  --md-secondary-container: #3d4551;
+  --md-on-secondary-container: #dde3ea;
+  --md-surface: #1d1f22;
+  --md-surface-container-low: #1f2226;
+  --md-surface-container: #24272c;
+  --md-surface-container-high: #2b2f35;
+  --md-on-surface: #e3e5e8;
+  --md-on-surface-variant: #c3c7cf;
+  --md-outline: #8d9199;
+  --md-outline-variant: #44474e;
+  --md-elev-1: 0 1px 2px rgba(0, 0, 0, 0.6), 0 1px 3px 1px rgba(0, 0, 0, 0.4);
+  --md-elev-2: 0 1px 2px rgba(0, 0, 0, 0.6), 0 2px 6px 2px rgba(0, 0, 0, 0.4);
+  --md-elev-3: 0 4px 8px 3px rgba(0, 0, 0, 0.4), 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  background: var(--md-surface-container-low);
+  color: var(--md-on-surface);
+  font-family: Roboto, "Noto Sans HK", "Noto Sans SC", "Microsoft JhengHei", "PingFang HK", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+h1, h2, h3, p { margin: 0; }
+
+/* Icons: 24px Material Symbols-style SVG, inherit colour */
+.md-icon { width: 24px; height: 24px; fill: currentColor; flex: none; display: block; }
+
+/* State layer: a translucent overlay used for hover / focus / pressed */
+.md-state { position: relative; overflow: hidden; }
+.md-state::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: currentColor;
+  opacity: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+.md-state:hover::before { opacity: 0.08; }
+.md-state:focus-visible::before { opacity: 0.12; }
+.md-state:active::before { opacity: 0.12; }
+.md-state:focus-visible { outline: 2px solid var(--md-primary); outline-offset: 2px; }
+
+/* ==========================================================================
+   Top app bar (MD3 small, 64dp)
+   ========================================================================== */
+.app-bar {
+  position: sticky;
+  top: 0;
+  z-index: 1100; /* above the map's Leaflet panes and controls */
+  background: var(--md-surface);
+  color: var(--md-on-surface);
+  box-shadow: var(--md-elev-2);
+}
+.app-bar__inner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 64px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 12px 0 16px;
+}
+.app-bar__logo { width: 40px; height: 40px; object-fit: contain; flex: none; }
+.app-bar__titles { min-width: 0; flex: 1; }
+.app-bar__titles h1 {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.app-bar__titles p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--md-on-surface-variant);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.app-bar__actions { display: flex; align-items: center; gap: 8px; }
+
+/* Icon button (MD3 standard, 40dp target, 24dp icon) */
+.icon-btn {
+  display: inline-grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--md-shape-full);
+  background: transparent;
+  color: var(--md-on-surface-variant);
+  cursor: pointer;
+}
+
+/* Theme icon: show the moon in light mode (tap for dark), the sun in dark mode (tap for light). */
+.icon-btn .icon-sun { display: none; }
+:root[data-theme="dark"] .icon-btn .icon-moon { display: none; }
+:root[data-theme="dark"] .icon-btn .icon-sun { display: block; }
+
+/* Segmented button (MD3): connected group, 40dp high */
+.segmented {
+  display: inline-flex;
+  height: 40px;
+  border: 1px solid var(--md-outline);
+  border-radius: var(--md-shape-full);
+  overflow: hidden;
+}
+.segmented button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-width: 48px;
+  height: 100%;
+  padding: 0 12px;
+  border: 0;
+  background: transparent;
+  color: var(--md-on-surface);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+}
+.segmented button + button { border-left: 1px solid var(--md-outline); }
+.segmented button .md-icon { width: 18px; height: 18px; display: none; }
+.segmented button.is-on { background: var(--md-secondary-container); color: var(--md-on-secondary-container); }
+.segmented button.is-on .md-icon { display: block; }
+
+/* Switch (MD3): 52x32 track, 16dp handle (24dp with icon when on) */
+.md-switch {
+  position: relative;
+  flex: none;
+  width: 52px;
+  height: 32px;
+  border: 2px solid var(--md-outline);
+  border-radius: var(--md-shape-full);
+  background: var(--md-surface-container-high);
+  cursor: pointer;
+  padding: 0;
+}
+.md-switch::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 8px;
+  width: 16px;
+  height: 16px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: var(--md-outline);
+  transition: left 0.2s ease, width 0.2s ease, height 0.2s ease, background-color 0.2s ease;
+}
+.md-switch[aria-checked="true"] {
+  background: var(--md-primary);
+  border-color: var(--md-primary);
+}
+.md-switch[aria-checked="true"]::after {
+  left: 24px;
+  width: 24px;
+  height: 24px;
+  background: var(--md-on-primary);
+}
+
+/* ==========================================================================
+   Navigation drawer (MD3 modal) + scrim — used on small screens
+   ========================================================================== */
+.scrim {
+  position: fixed;
+  inset: 0;
+  z-index: 1150;
+  background: var(--md-scrim);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+.scrim.is-open { opacity: 0.32; pointer-events: auto; }
+
+/* Opens from the right edge, where the menu button sits. */
+.drawer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1200;
+  width: 360px;
+  max-width: calc(100vw - 56px);
+  display: flex;
+  flex-direction: column;
+  background: var(--md-surface-container-low);
+  color: var(--md-on-surface);
+  border-radius: var(--md-shape-xl) 0 0 var(--md-shape-xl);
+  box-shadow: var(--md-elev-3);
+  transform: translateX(100%);
+  visibility: hidden;
+  transition: transform 0.25s ease, visibility 0.25s;
+}
+.drawer.is-open { transform: none; visibility: visible; }
+
+.drawer__head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 64px;
+  padding: 0 12px 0 16px;
+}
+.drawer__head h2 { flex: 1; font-size: 22px; line-height: 28px; font-weight: 400; }
+
+.drawer__body { overflow-y: auto; padding: 0 12px 24px; }
+.drawer__section { padding: 8px 0; }
+.drawer__label {
+  padding: 16px 16px 8px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--md-on-surface-variant);
+}
+
+/* Drawer list item (MD3 navigation item, 56dp, pill indicator when active) */
+.drawer-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 56px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: var(--md-shape-full);
+  background: transparent;
+  color: var(--md-on-surface);
+  font: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  cursor: pointer;
+}
+.drawer-item.is-on { background: var(--md-secondary-container); color: var(--md-on-secondary-container); }
+.drawer-item .md-icon { color: inherit; }
+.drawer-item .label { flex: 1; }
+.drawer-item .check { display: none; }
+.drawer-item.is-on .check { display: block; }
+.drawer-item .md-switch { pointer-events: none; }
+
+/* ==========================================================================
+   Cards (MD3 outlined card)
+   ========================================================================== */
+.card {
+  background: var(--md-surface);
+  border: 1px solid var(--md-outline-variant);
+  border-radius: var(--md-shape-m);
+  overflow: hidden;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  grid-template-areas:
+    "map list"
+    "detail detail";
+  gap: 16px;
+  max-width: 1280px;
+  margin: 16px auto;
+  padding: 0 16px;
+}
+
+/* Isolate Leaflet's panes and controls so their z-index cannot escape the card. */
+.map-card {
+  grid-area: map;
+  position: relative;
+  z-index: 0;
+  isolation: isolate;
+}
+.list-card { grid-area: list; display: flex; flex-direction: column; max-height: 580px; }
+.detail-card { grid-area: detail; padding: 24px; min-height: 240px; }
+
+#map { height: 540px; width: 100%; }
+
+/* Legend sits below the map, never over it */
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 16px;
+  padding: 12px 16px;
+  border-top: 1px solid var(--md-outline-variant);
+  color: var(--md-on-surface-variant);
+  font-size: 12px;
+  line-height: 16px;
+}
+.legend__item { display: flex; align-items: center; gap: 6px; }
+.legend__item i { display: inline-block; width: 12px; height: 12px; border-radius: 50%; }
+
+/* ==========================================================================
+   District list (MD3 list items, 56dp min)
+   ========================================================================== */
+.list-card__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 16px 16px 12px;
+  border-bottom: 1px solid var(--md-outline-variant);
+}
+.list-card__head h2 { font-size: 16px; line-height: 24px; font-weight: 500; }
+.hint { font-size: 12px; line-height: 16px; color: var(--md-on-surface-variant); }
+
+.district-list { list-style: none; margin: 0; padding: 8px 0; overflow-y: auto; }
+.district-list li button {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 16px;
+  border: 0;
+  background: transparent;
+  color: var(--md-on-surface);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.district-list li button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--md-on-surface);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+.district-list li button:hover::before { opacity: 0.08; }
+.district-list li button:focus-visible { outline: 2px solid var(--md-primary); outline-offset: -2px; }
+.district-list li.is-active button { background: var(--md-primary-container); color: var(--md-on-primary-container); }
+.district-list .dot { width: 12px; height: 12px; border-radius: 50%; flex: none; }
+.district-list .name { flex: 1; min-width: 0; font-size: 16px; line-height: 24px; }
+.district-list .name small { display: block; font-size: 14px; line-height: 20px; color: var(--md-on-surface-variant); }
+.district-list li.is-active .name small { color: inherit; }
+.district-list .price { font-size: 16px; font-weight: 500; font-variant-numeric: tabular-nums; }
+.district-list .price.none { font-size: 14px; font-weight: 400; color: var(--md-on-surface-variant); }
+
+/* ==========================================================================
+   Map markers (MD3 label-style pill, colour = price band)
+   ========================================================================== */
+.price-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--md-surface);
+  color: var(--md-on-surface);
+  border: 2px solid var(--c, var(--band-none));
+  border-radius: var(--md-shape-s);
+  padding: 2px 8px;
+  line-height: 16px;
+  white-space: nowrap;
+  box-shadow: var(--md-elev-1);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.price-marker .pm-name { font-size: 11px; color: var(--md-on-surface-variant); }
+.price-marker .pm-price { font-size: 13px; font-weight: 500; font-variant-numeric: tabular-nums; }
+.price-marker.is-active { background: var(--c, var(--band-none)); color: #111; }
+.price-marker.is-active .pm-name { color: #111; }
+
+/* Dark map: invert the OSM tiles and tone them down */
+.map-dark .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(0.85) contrast(0.95); }
+.map-dark .leaflet-container { background: #1b1d21; }
+
+/* ==========================================================================
+   Detail panel
+   ========================================================================== */
+.detail__placeholder { color: var(--md-on-surface-variant); }
+.detail__placeholder h2 { font-size: 22px; line-height: 28px; font-weight: 400; color: var(--md-on-surface); margin-bottom: 8px; }
+
+.detail__head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px; margin-bottom: 16px; }
+.detail__head h2 { font-size: 28px; line-height: 36px; font-weight: 400; }
+.detail__head .en { font-size: 16px; line-height: 24px; color: var(--md-on-surface-variant); }
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.stat {
+  padding: 16px;
+  border: 1px solid var(--md-outline-variant);
+  border-radius: var(--md-shape-m);
+  background: var(--md-surface-container-low);
+}
+.stat__label { font-size: 12px; line-height: 16px; letter-spacing: 0.4px; color: var(--md-on-surface-variant); }
+.stat__value { margin-top: 4px; font-size: 28px; line-height: 36px; font-weight: 400; font-variant-numeric: tabular-nums; }
+.stat__value small { font-size: 14px; color: var(--md-on-surface-variant); }
+
+.section-title { font-size: 16px; line-height: 24px; font-weight: 500; margin: 8px 0 12px; }
+
+/* Assist chips (MD3): 32dp high, outlined */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  height: 32px;
+  padding: 0 12px;
+  border: 1px solid var(--md-outline);
+  border-radius: var(--md-shape-s);
+  background: transparent;
+  color: var(--md-on-surface);
+  font-size: 14px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+.chip b { font-weight: 500; }
+.chip--info { border-color: transparent; background: var(--md-surface-container-high); color: var(--md-on-surface-variant); }
+
+/* Post cards (MD3 outlined card inside the detail panel) */
+.posts { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.post {
+  padding: 16px;
+  border: 1px solid var(--md-outline-variant);
+  border-radius: var(--md-shape-m);
+  background: var(--md-surface);
+}
+.post__meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 12px; line-height: 16px; color: var(--md-on-surface-variant); margin-bottom: 8px; }
+/* Tonal label (MD3 label-medium on secondary-container) */
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: var(--md-shape-s);
+  background: var(--md-primary-container);
+  color: var(--md-on-primary-container);
+  font-weight: 500;
+}
+.post__title { font-size: 16px; line-height: 24px; font-weight: 500; margin-bottom: 4px; }
+.post__title a { color: var(--md-on-surface); text-decoration: none; }
+.post__title a:hover { color: var(--md-primary); text-decoration: underline; }
+.post__excerpt { font-size: 14px; line-height: 20px; color: var(--md-on-surface-variant); }
+
+.empty {
+  padding: 24px;
+  text-align: center;
+  color: var(--md-on-surface-variant);
+  border: 1px dashed var(--md-outline-variant);
+  border-radius: var(--md-shape-m);
+}
+
+/* ==========================================================================
+   Footer (MD3 text buttons, 40dp)
+   ========================================================================== */
+.footer {
+  max-width: 1280px;
+  margin: 0 auto 32px;
+  padding: 0 16px;
+  display: grid;
+  gap: 8px;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--md-on-surface-variant);
+}
+.footer__crawl { font-variant-numeric: tabular-nums; }
+.footer__links { display: flex; flex-wrap: wrap; gap: 4px; }
+.text-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: var(--md-shape-full);
+  background: transparent;
+  color: var(--md-primary);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.text-btn .md-icon { width: 18px; height: 18px; }
+.footer__wcag { display: block; height: auto; }
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; grid-template-areas: "map" "list" "detail"; }
+  #map { height: 440px; }
+  .list-card { max-height: 380px; }
+}
+
+/* Phones: language and theme move into the navigation drawer */
+@media (max-width: 599px) {
+  .app-bar__inner { padding: 0 4px 0 12px; }
+  .app-bar__titles h1 { font-size: 18px; line-height: 24px; }
+  .app-bar__titles p { display: none; }
+  .app-bar__actions .desktop-only { display: none; }
+  .layout { padding: 0 12px; }
+  .detail-card { padding: 16px; }
+  .detail__head h2 { font-size: 24px; line-height: 32px; }
+}
+
+@media (min-width: 600px) {
+  .drawer-trigger { display: none; }
+}
+
+/* ==========================================================================
+   UIndex additions (same design tokens as above)
+   ========================================================================== */
+
+/* Sample-data notice: a tonal card above the content */
+.notice {
+  grid-column: 1 / -1;
+  grid-area: notice;
+  padding: 12px 16px;
+  background: var(--md-secondary-container);
+  color: var(--md-on-secondary-container);
+  border: 0;
+}
+.notice p { font-size: 14px; line-height: 20px; }
+.notice[hidden] { display: none; }
+
+.layout {
+  grid-template-columns: minmax(0, 1fr) 360px;
+  grid-template-areas:
+    "notice notice"
+    "list detail";
+}
+.list-card { grid-area: list; max-height: none; }
+.detail-card { grid-area: detail; align-self: start; }
+
+/* Filters: MD3 outlined fields (40dp) */
+.filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  padding: 16px;
+  border-bottom: 1px solid var(--md-outline-variant);
+}
+.field { display: flex; flex-direction: column; gap: 4px; }
+.field--wide { grid-column: 1 / -1; }
+.field__label { font-size: 12px; line-height: 16px; color: var(--md-on-surface-variant); letter-spacing: 0.4px; }
+.field__input {
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid var(--md-outline);
+  border-radius: var(--md-shape-s);
+  background: var(--md-surface);
+  color: var(--md-on-surface);
+  font: inherit;
+  font-size: 14px;
+}
+.field__input:focus { outline: 2px solid var(--md-primary); outline-offset: -1px; border-color: var(--md-primary); }
+
+/* School table (MD3 data table) */
+.table-wrap { overflow-x: auto; }
+table.schools { width: 100%; border-collapse: collapse; font-size: 14px; }
+table.schools th {
+  text-align: left;
+  padding: 12px 16px;
+  font-weight: 500;
+  color: var(--md-on-surface-variant);
+  border-bottom: 1px solid var(--md-outline-variant);
+  white-space: nowrap;
+}
+table.schools td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--md-outline-variant);
+  vertical-align: middle;
+}
+table.schools td.num { width: 56px; font-variant-numeric: tabular-nums; color: var(--md-on-surface-variant); }
+table.schools td.name { font-weight: 500; }
+table.schools tbody tr { cursor: pointer; transition: background-color 0.15s ease; }
+table.schools tbody tr:hover { background: var(--md-surface-container); }
+table.schools tbody tr:focus-visible { outline: 2px solid var(--md-primary); outline-offset: -2px; }
+table.schools tbody tr.is-active { background: var(--md-primary-container); color: var(--md-on-primary-container); }
+table.schools tbody tr.is-active td { border-bottom-color: transparent; }
+
+.empty[hidden] { display: none; }
+
+/* Detail: subtitle and requirement lists */
+.sub { font-size: 14px; line-height: 20px; color: var(--md-on-surface-variant); margin: -8px 0 16px; }
+.reqs { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; margin: 0; font-size: 14px; line-height: 20px; }
+.reqs dt { color: var(--md-on-surface-variant); }
+.reqs dd { margin: 0; }
+.post.is-current { border-color: var(--md-primary); border-width: 2px; }
+
+/* Chip that is a link (official website) */
+.chip--link { color: var(--md-primary); text-decoration: none; border-color: var(--md-primary); }
+.chip--link:hover { background: var(--md-surface-container); }
+
+@media (max-width: 960px) {
+  .layout { grid-template-columns: 1fr; grid-template-areas: "notice" "list" "detail"; }
+}

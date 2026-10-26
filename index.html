@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>大學申請要求 · University Admission Requirements</title>
+  <meta name="description" content="QS、US News、泰晤士排名前150大學的申請要求。示例數據，請以官方資料為準。" />
+  <link rel="icon" href="img/logo.png" />
+  <!-- Apply saved / system theme before first paint to avoid a flash -->
+  <script>
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem("uindex-theme"); } catch (e) {}
+      if (!t) t = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Noto+Sans+HK:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Top app bar (MD3 small) -->
+  <header class="app-bar">
+    <div class="app-bar__inner">
+      <img class="app-bar__logo" src="img/logo.png" alt="" width="40" height="40" />
+      <div class="app-bar__titles">
+        <h1 data-i18n="appTitle">大學申請要求</h1>
+        <p data-i18n="appSubtitle">QS · US News · 泰晤士 排名前150</p>
+      </div>
+
+      <div class="app-bar__actions">
+        <div class="segmented desktop-only" role="group" data-i18n-aria="langLabel" aria-label="語言">
+          <button type="button" class="md-state" data-lang-btn="zh-Hant" aria-pressed="false">繁</button>
+          <button type="button" class="md-state" data-lang-btn="zh-Hans" aria-pressed="false">简</button>
+          <button type="button" class="md-state" data-lang-btn="en" aria-pressed="false">EN</button>
+        </div>
+        <button type="button" class="icon-btn md-state desktop-only" data-theme-toggle data-i18n-title="themeToDark" title="切換至黑夜模式" aria-label="切換至黑夜模式">
+          <svg class="md-icon icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.39 5.39 0 0 1-4.4 2.26 5.4 5.4 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
+          <svg class="md-icon icon-sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 9c1.65 0 3 1.35 3 3s-1.35 3-3 3-3-1.35-3-3 1.35-3 3-3m0-2c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1z"/></svg>
+        </button>
+        <button type="button" class="icon-btn md-state drawer-trigger" id="menu-toggle" data-i18n-aria="openMenu" aria-label="開啟選單" aria-controls="drawer" aria-expanded="false">
+          <svg class="md-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation drawer (phones): language and theme -->
+  <div class="scrim" id="scrim"></div>
+  <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" aria-hidden="true">
+    <div class="drawer__head">
+      <h2 id="drawer-title" data-i18n="settings">設定</h2>
+      <button type="button" class="icon-btn md-state" id="drawer-close" data-i18n-aria="closeMenu" aria-label="關閉選單">
+        <svg class="md-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+      </button>
+    </div>
+    <div class="drawer__body">
+      <section class="drawer__section" aria-labelledby="drawer-lang">
+        <h3 class="drawer__label" id="drawer-lang" data-i18n="langLabel">語言</h3>
+        <button type="button" class="drawer-item md-state" data-lang-btn="zh-Hant" aria-pressed="false"><span class="label">繁體中文</span></button>
+        <button type="button" class="drawer-item md-state" data-lang-btn="zh-Hans" aria-pressed="false"><span class="label">简体中文</span></button>
+        <button type="button" class="drawer-item md-state" data-lang-btn="en" aria-pressed="false"><span class="label">English</span></button>
+      </section>
+      <section class="drawer__section" aria-labelledby="drawer-appearance">
+        <h3 class="drawer__label" id="drawer-appearance" data-i18n="appearance">外觀</h3>
+        <div class="drawer-item" role="switch" tabindex="0" aria-checked="false" data-theme-toggle-row>
+          <svg class="md-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.39 5.39 0 0 1-4.4 2.26 5.4 5.4 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
+          <span class="label" data-i18n="darkMode">黑夜模式</span>
+          <span class="md-switch" data-theme-switch aria-hidden="true"></span>
+        </div>
+      </section>
+    </div>
+  </aside>
+
+  <main class="layout">
+    <!-- Sample-data notice (always visible) -->
+    <div class="notice card" role="note" id="sample-notice">
+      <p data-i18n="sampleBanner">示例數據：以下內容只用於展示版面，並非真實排名或申請要求。請先核實官方資料。</p>
+    </div>
+
+    <section class="card list-card" aria-labelledby="list-title">
+      <div class="list-card__head">
+        <h2 id="list-title" data-i18n="listTitle">學校列表</h2>
+        <span class="hint" data-i18n="listHint">點選學校查看詳情</span>
+      </div>
+
+      <div class="filters">
+        <label class="field">
+          <span class="field__label" data-i18n="rankingLabel">排名</span>
+          <select id="ranking-select" class="field__input"></select>
+        </label>
+        <label class="field">
+          <span class="field__label" data-i18n="levelLabel">課程類型</span>
+          <select id="level-select" class="field__input">
+            <option value="undergraduate" data-i18n="levelUndergrad">本科</option>
+            <option value="master" data-i18n="levelMaster">研究生（授課式）</option>
+            <option value="phd" data-i18n="levelPhd">博士</option>
+          </select>
+        </label>
+        <label class="field field--wide">
+          <span class="field__label" data-i18n="searchPlaceholder">搜尋學校或地區</span>
+          <input id="search" class="field__input" type="search" autocomplete="off" />
+        </label>
+      </div>
+
+      <div class="table-wrap">
+        <table class="schools">
+          <thead>
+            <tr>
+              <th scope="col" data-i18n="tableRank">排名</th>
+              <th scope="col" data-i18n="tableSchool">學校</th>
+              <th scope="col" data-i18n="tableCountry">地區</th>
+            </tr>
+          </thead>
+          <tbody id="school-rows"></tbody>
+        </table>
+        <div id="school-empty" class="empty" hidden data-i18n="tableEmpty">沒有符合條件的學校</div>
+      </div>
+    </section>
+
+    <section class="card detail-card" id="detail" aria-live="polite">
+      <div class="detail__placeholder">
+        <h2 data-i18n="detailPlaceholderTitle">請選擇一所學校</h2>
+        <p data-i18n="detailPlaceholderText">點擊左側列表中的學校，查看各課程的申請要求。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p data-i18n="footerDisclaimer">申請要求會因年份、課程及學院而改變。請以各校官方網站的最新公布為準。</p>
+    <p class="footer__crawl" id="footer-status" data-i18n="footerNotLoaded">數據尚未載入</p>
+    <nav class="footer__links" aria-label="Links">
+      <a class="text-btn md-state" href="https://baipon.com" target="_blank" rel="noopener noreferrer"><svg class="md-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg><span data-i18n="otherProjects">其他項目</span></a>
+      <a class="text-btn md-state" href="https://baipin.pw/donate" target="_blank" rel="noopener noreferrer"><svg class="md-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg><span data-i18n="donate">捐贈我們</span></a>
+      <a class="text-btn md-state" href="mailto:root@baipin.pw"><svg class="md-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg><span data-i18n="reportIssue">報告問題</span></a>
+    </nav>
+    <p>
+      <img class="footer__wcag" src="img/wcag2.2AA-blue.png" width="88" height="31"
+        alt="符合萬維網聯盟有關無障礙網頁設計指引中2A級別的要求" data-i18n-alt="wcagAlt" />
+    </p>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

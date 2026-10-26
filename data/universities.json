@@ -1,0 +1,59 @@
+{
+  "_notice": "SAMPLE DATA. These values are placeholders to demonstrate the layout. They are NOT real rankings or admission requirements. Replace them with figures copied from the official QS, US News and THE publications and each university's official admission pages, and set verified to true only after checking.",
+  "meta": {
+    "status": "sample",
+    "verified": false,
+    "generatedAt": null,
+    "rankings": [
+      { "id": "qs", "name": "QS World University Rankings", "year": "2026", "scope": "global", "source": "https://www.topuniversities.com/university-rankings" },
+      { "id": "usnews", "name": "U.S. News Best Global Universities", "year": "2026", "scope": "global", "source": "https://www.usnews.com/education/best-global-universities/rankings" },
+      { "id": "the", "name": "Times Higher Education World University Rankings", "year": "2026", "scope": "global", "source": "https://www.timeshighereducation.com/world-university-rankings" },
+      { "id": "qs-cs", "name": "QS World University Rankings by Subject: Computer Science", "year": "2026", "scope": "subject", "subject": "Computer Science", "source": "https://www.topuniversities.com/university-subject-rankings" }
+    ],
+    "levels": ["undergraduate", "master", "phd"]
+  },
+  "schools": [
+    {
+      "id": "sample-01",
+      "name": "Sample University A",
+      "nameZh": "示例大學 A",
+      "country": "United States",
+      "countryZh": "美國",
+      "website": "https://example.edu",
+      "ranks": { "qs": 1, "usnews": 1, "the": 1, "qs-cs": 1 },
+      "requirements": {
+        "undergraduate": { "gpa": "3.8 / 4.0", "english": "TOEFL 100 / IELTS 7.0", "deadline": "2027-01-15", "documents": "Transcript, SAT/ACT (optional), essays, 2 recommendations" },
+        "master": { "gpa": "3.7 / 4.0", "english": "TOEFL 100 / IELTS 7.0", "deadline": "2026-12-15", "documents": "Transcript, statement of purpose, CV, 3 recommendations" },
+        "phd": { "gpa": "3.8 / 4.0", "english": "TOEFL 104 / IELTS 7.5", "deadline": "2026-12-01", "documents": "Transcript, research statement, CV, 3 recommendations" }
+      }
+    },
+    {
+      "id": "sample-02",
+      "name": "Sample University B",
+      "nameZh": "示例大學 B",
+      "country": "United Kingdom",
+      "countryZh": "英國",
+      "website": "https://example.ac.uk",
+      "ranks": { "qs": 2, "usnews": 4, "the": 3, "qs-cs": 2 },
+      "requirements": {
+        "undergraduate": { "gpa": "A-level AAA / IB 40", "english": "IELTS 7.0", "deadline": "2027-01-15", "documents": "Predicted grades, personal statement, reference" },
+        "master": { "gpa": "2:1 honours or equivalent", "english": "IELTS 7.0", "deadline": "2027-06-30", "documents": "Transcript, personal statement, reference" },
+        "phd": { "gpa": "Master's with merit", "english": "IELTS 7.0", "deadline": "Rolling", "documents": "Research proposal, CV, 2 references" }
+      }
+    },
+    {
+      "id": "sample-03",
+      "name": "Sample Institute C",
+      "nameZh": "示例學院 C",
+      "country": "Singapore",
+      "countryZh": "新加坡",
+      "website": "https://example.sg",
+      "ranks": { "qs": 3, "usnews": 6, "the": 2 },
+      "requirements": {
+        "undergraduate": { "gpa": "Top 10% of cohort", "english": "IELTS 6.5", "deadline": "2027-02-28", "documents": "Transcript, personal statement, reference" },
+        "master": { "gpa": "Upper second class or equivalent", "english": "IELTS 6.5", "deadline": "2027-03-31", "documents": "Transcript, CV, statement of purpose" },
+        "phd": null
+      }
+    }
+  ]
+}
