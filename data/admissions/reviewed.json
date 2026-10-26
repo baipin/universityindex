@@ -1467,42 +1467,6 @@
       }
     },
     {
-      "schoolId": "qs-269",
-      "level": "master",
-      "reviewedAt": "2026-10-27",
-      "gpa": "Recognized bachelor’s degree or approved equivalent.",
-      "english": "IELTS Academic 6.5 overall with every component at least 5.5; TOEFL iBT 80 before 21 January 2026 or 4.5 on/after that date. Scores must be from one attempt; at-home tests are not accepted. Exemptions include native English or an English-medium bachelor’s degree.",
-      "fieldSources": {
-        "gpa": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements",
-        "english": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements"
-      },
-      "notes": "These are Hong Kong-campus minimums. Individual programmes can impose higher or additional requirements; meeting the minimum does not guarantee admission.",
-      "sourceFingerprints": {
-        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements": {
-          "sha256": "2d68c1cd513f896fad56b87a80e3fc263b960d22252d535dfabf78938060a51a",
-          "contentSha256": "3d8ae7e6b274a631b6561bec556314d12ead5db1804413471d96841a0403296d"
-        }
-      }
-    },
-    {
-      "schoolId": "qs-269",
-      "level": "phd",
-      "reviewedAt": "2026-10-27",
-      "gpa": "Recognized bachelor’s degree with outstanding performance, or evidence of satisfactory full-time postgraduate study for at least one year (two years part-time).",
-      "english": "IELTS Academic 6.5 overall with every component at least 5.5; TOEFL iBT 80 before 21 January 2026 or 4.5 on/after that date. Scores must be from one attempt; at-home tests are not accepted. Exemptions include native English or an English-medium bachelor’s degree.",
-      "fieldSources": {
-        "gpa": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements",
-        "english": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements"
-      },
-      "notes": "These are Hong Kong-campus minimums. Individual programmes can impose higher or additional requirements; meeting the minimum does not guarantee admission.",
-      "sourceFingerprints": {
-        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements": {
-          "sha256": "2d68c1cd513f896fad56b87a80e3fc263b960d22252d535dfabf78938060a51a",
-          "contentSha256": "3d8ae7e6b274a631b6561bec556314d12ead5db1804413471d96841a0403296d"
-        }
-      }
-    },
-    {
       "schoolId": "qs-441",
       "level": "undergraduate",
       "reviewedAt": "2026-10-27",
@@ -1683,6 +1647,1201 @@
           "sha256": "09a3d08d418ab9fd201d6be6fdcfd4ebae42f70f1864674065cb55045daeedbf"
         }
       }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "master",
+      "programId": "mphil-in-advanced-chemical-engineering",
+      "reviewedAt": "2026-10-27",
+      "gpa": "First-class honours in chemical engineering or a closely comparable discipline such as biochemical engineering.",
+      "english": "IELTS (Academic): overall 7.0; listening 7.0, writing 7.0, reading 6.5, speaking 7.0; TOEFL Internet Score: overall 100; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: May. 13, 2027. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Reasons for applying, maximum 5,000 characters. Shortlisted candidates are interviewed.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egcempace/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egcempace/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egcempace/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egcempace/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egcempace/requirements"
+      },
+      "notes": "This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/egcempace/requirements": {
+          "sha256": "bf8400177be2824a3dbd22066a0bacd2cd3777e75fcd695b9f4e9b9f0e34b3ea",
+          "contentSha256": "68cab0c8e08030f64580d5e19446272a533e2825c53224f751434258c44590e6"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/egcempace/apply": {
+          "sha256": "27135d4d245e35871f10dd38badc77db45cdb3e74891fb72e58a420b254bd89c",
+          "contentSha256": "8f722c565b07b7978f5a14586e52cc3c2ae0e9e212249219e026d9f0143b6262"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "phd",
+      "programId": "phd-in-architecture",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Undergraduate first-class or high 2:1 (at least 67%, or 3.6/4.0 in the US system) plus a research master’s in architecture/related field at distinction level (at least 70%). A professional MArch alone is not the qualifying research master’s.",
+      "english": "IELTS (Academic): overall 7.5; listening 7.0, writing 7.0, reading 7.0, speaking 7.0; TOEFL Internet Score: overall 110; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: May. 13, 2027. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Research proposal 1,000–1,500 words including references/footnotes; writing sample up to 5,000 words; proposed supervisor. Secure a willing departmental supervisor before formally applying.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aharpdahc/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aharpdahc/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aharpdahc/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aharpdahc/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aharpdahc/requirements"
+      },
+      "notes": "Initial funding round: 8 December 2026; later applications depend on available supervisory places. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/aharpdahc/requirements": {
+          "sha256": "874e6ecc47fc1ac24aa85cc1eb151a6d18a9a90e9479b0484d187b6aa0dccb67",
+          "contentSha256": "90e2812ebf03e12b19159306e9e6dafe6013b960cd7668f3c4fb9072e62d5de6"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/aharpdahc/apply": {
+          "sha256": "7d698d3d1a33f6c646f565056fee086c47f00fd44f812d99f763549f7e6f66b5",
+          "contentSha256": "74d0f5b1011190229a4bfbdc682d92590cc90b05f8edfb8529758a1841cf27d7"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "master",
+      "programId": "mphil-in-architecture-and-urban-studies",
+      "reviewedAt": "2026-10-27",
+      "gpa": "High upper-second-class (high 2:1) honours degree or its published international equivalent.",
+      "english": "IELTS (Academic): overall 7.5; listening 7.0, writing 7.0, reading 7.0, speaking 7.0; TOEFL Internet Score: overall 110; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: Mar. 4, 2027. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Research proposal 1,000–1,500 words including references/footnotes; writing sample up to 5,000 words excluding bibliography/citations/footnotes. No supervisor contact is required before application.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aharmpaus/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aharmpaus/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aharmpaus/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aharmpaus/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aharmpaus/requirements"
+      },
+      "notes": "This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/aharmpaus/apply": {
+          "sha256": "576f59ca352d38c9c39dd5c39fabd87cd386ea104d77997d4b923a71b415bebb",
+          "contentSha256": "4dee48ab96b45165fe8d4d69313a0fc1619301a0783357e27f5103de15ee009a"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/aharmpaus/requirements": {
+          "sha256": "08b8881fcccc4f66c1de3e5eae1d15d03d945e07fe001bb7d0ba0033896f9344",
+          "contentSha256": "9d52661447f9372afce70f05b3850b7b9730a5530431541cc44695394d12d231"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "master",
+      "programId": "mast-in-astrophysics",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Good upper-second-class (2:1) honours degree and strong mathematical preparation. Admitted students complete a preparatory CATAM scientific-programming project before October entry.",
+      "english": "IELTS (Academic): overall 7.0; listening 7.0, writing 7.0, reading 6.5, speaking 7.0; TOEFL Internet Score: overall 100; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: May. 13, 2027. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Statement of interest, maximum 1,500 characters.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcasasast/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcasasast/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcasasast/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcasasast/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcasasast/requirements"
+      },
+      "notes": "Cambridge’s internal Part II-to-Part III first-class progression rule illustrates mathematical preparation; it is not a replacement for this external admissions minimum. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcasasast/requirements": {
+          "sha256": "c8090a16b1f3f6e1d73a2aa18656d47d811ab4240b1270b7c136ed36ab22f7e2",
+          "contentSha256": "7122c30e4e4b795ed11c315d61ac7b57b91698297c72f90c3aae35c407338da0"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcasasast/apply": {
+          "sha256": "451743654964a6454a8b615a3a288815fe4e87e37e1107159fd69b2da69d3d8f",
+          "contentSha256": "dc3a8fcfde0664d39c7e19d7191a7be81447bad1dc06516271403731e6bb2ee4"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "phd",
+      "programId": "phd-in-biochemistry",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Good upper-second-class (2:1) honours degree. A laboratory group leader must confirm an available supervised place before an application can be submitted.",
+      "english": "IELTS (Academic): overall 7.0; listening 7.0, writing 7.0, reading 6.5, speaking 7.0; TOEFL Internet Score: overall 100; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: May. 13, 2027. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Proposed supervisor with prior agreement; statement explaining study/project motivation; research proposal discussed with the supervisor; School of Biological Sciences contextual questionnaire.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blbcpdpbc/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blbcpdpbc/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blbcpdpbc/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blbcpdpbc/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blbcpdpbc/requirements"
+      },
+      "notes": "This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/blbcpdpbc/requirements": {
+          "sha256": "2b0592f685796518eb749663c42372259fbad345d271fb5ba665858c37e64448",
+          "contentSha256": "353bbf0d9c68dbfa2689620886ca09d9677dd499de8fc7f3be7a4c968b404ae3"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/blbcpdpbc/apply": {
+          "sha256": "299f0e4017462eef087b1b324cfd42427876e809799fb30fcfdcc81c82a906d4",
+          "contentSha256": "f591616965eb99a644ac31e08c936ddb4bc323a3d70ae813ad2892aa406da2f0"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "master",
+      "programId": "mphil-in-biological-science-biochemistry-by-thesis",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Good upper-second-class (2:1) honours degree. Before applying, obtain confirmation of a laboratory place from a group leader.",
+      "english": "IELTS (Academic): overall 7.0; listening 7.0, writing 7.0, reading 6.5, speaking 7.0; TOEFL Internet Score: overall 100; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: May. 13, 2027. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Agreed proposed supervisor; motivation/laboratory/project statement of approximately 250 words; research proposal developed with that supervisor; biological-sciences contextual questionnaire.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blbcmpbsc/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blbcmpbsc/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blbcmpbsc/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blbcmpbsc/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blbcmpbsc/requirements"
+      },
+      "notes": "This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/blbcmpbsc/requirements": {
+          "sha256": "ec8b750df7a6bb3ef34692ad669979f5951d98f1525d38468123bc07a8dcbcbb",
+          "contentSha256": "35985e3222e3c5f46153ff1810ad576bc83741c600e429660e25bc3b9abd24bf"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/blbcmpbsc/apply": {
+          "sha256": "e6d99252dec66db1c6c836a53299f4af982b28805691ef2fb400d8edfb0d4755",
+          "contentSha256": "63a7af2f80546a1541131841c4a0efb316bbb7b61f927a92ce11f7a568b52460"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "master",
+      "programId": "mphil-in-chemistry",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Good upper-second-class (2:1) UK three-year honours bachelor’s degree or international equivalent.",
+      "english": "IELTS (Academic): overall 7.0; listening 7.0, writing 7.0, reading 6.5, speaking 7.0; TOEFL Internet Score: overall 100; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: Feb. 2, 2027. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Current undergraduate transcript, research-experience information, proposed supervisors and research interests. Contact suitable supervisors before applying.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcchmpmch/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcchmpmch/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcchmpmch/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcchmpmch/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcchmpmch/requirements"
+      },
+      "notes": "An English test result may follow the initial application, but an offer’s English condition must still be fulfilled; the requirement cannot be waived. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcchmpmch/apply": {
+          "sha256": "d0e48b4ebd3f449f08c3d9e79741d35356c08150d7e87c82ddd23c01e8d63b06",
+          "contentSha256": "f62ed0bd9ac9a0357384c381175e4919845f6e59406be746d0df8ca7b0044446"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcchmpmch/requirements": {
+          "sha256": "44bdf7688ac84d913416d685e487c3f62bf402a156d764961f32e154395b96ee",
+          "contentSha256": "80a6eb682800a1616a00e9827fabb8d06fded39e2ef0705aa71c921780247270"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "phd",
+      "programId": "phd-in-chemistry",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Normally a 2:1 four-year UK integrated master’s, or a 2:1 three-year honours bachelor’s followed by a relevant one/two-year master’s. Bachelor-only applications are generally ineligible; some four-year degrees with substantial research may qualify after supervisor discussion.",
+      "english": "IELTS (Academic): overall 7.0; listening 7.0, writing 7.0, reading 6.5, speaking 7.0; TOEFL Internet Score: overall 100; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: May. 13, 2027. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Undergraduate and available master’s transcripts; research experience, proposed supervisors and research-interest statement of at most 500 words. Contact prospective supervisors before applying.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcchpdpch/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcchpdpch/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcchpdpch/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcchpdpch/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcchpdpch/requirements"
+      },
+      "notes": "International bachelor’s equivalence tables do not establish master’s/integrated-master’s equivalence. English evidence may follow the application but cannot be waived as an admission condition. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcchpdpch/apply": {
+          "sha256": "8832a215192d67c63551950d14d12a86d089aa46248ac07ab7699404bdb3c733",
+          "contentSha256": "14c86be2d28ad612798020acdaf02523b5f34904ba3d9a1de227bdce973f41fd"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcchpdpch/requirements": {
+          "sha256": "724206df303bf13dd8eee85706dc71f8af71b17341116669a63db3b674d8f951",
+          "contentSha256": "1a452056b3eac3624ea9dcf902f8704f0f20744bcbf6f55b56476dfc11ebbfe8"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "master",
+      "programId": "mcl-in-corporate-law",
+      "reviewedAt": "2026-10-27",
+      "gpa": "First-class-equivalent performance, normally within the top 5–10% of a law class. Qualified practising lawyers with a different first degree can also apply. The course has approximately 25 places.",
+      "english": "IELTS (Academic): overall 7.5; listening 7.0, writing 7.0, reading 7.0, speaking 7.0; TOEFL Internet Score: overall 110; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: Jan. 6, 2027. Course-funding consideration deadline: Jan. 6, 2027; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Reasons for applying up to 5,000 characters; work-experience statement up to 5,000 characters is optional. Current university students must use two academic references. Academic-condition evidence must arrive by 31 July 2027.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwclcl/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwclcl/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwclcl/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwclcl/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwclcl/requirements"
+      },
+      "notes": "English scores are due with the application or as soon as possible afterwards, no later than 1 April 2027; all component minima must be met in one sitting. No MyBest or Language Centre assessment/waiver route; tests must remain under two years old at course start. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwclcl/requirements": {
+          "sha256": "031bedd8b6722958598b664daa7f93977b1f7f6ed81149e211466a4b930fa2e6",
+          "contentSha256": "dfc674cd2d2d9f523f193a0e23e9af166491ff4360b099287925c314c681adbc"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwclcl/apply": {
+          "sha256": "e145c13a078728fdd1d9865d0832722e5fe3d7b32496fbfbbd642301e03f93c0",
+          "contentSha256": "97f828e0b53bae44f8b041b80992444d8826afadcdacc2a7f26a048d699b2d63"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "master",
+      "programId": "mphil-in-engineering",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Good upper-second-class (2:1) honours degree. Common backgrounds include engineering, natural sciences, CS and mathematics; some research groups accept other relevant preparation.",
+      "english": "IELTS (Academic): overall 7.0; listening 7.0, writing 7.0, reading 6.5, speaking 7.0; TOEFL Internet Score: overall 100; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: May. 13, 2027. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. At least one named supervisor; research summary, reasons for applying and research-experience statement, each at most 2,500 characters. A longer research proposal is optional. Contact prospective MPhil supervisors before applying.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpmeg/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpmeg/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpmeg/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpmeg/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpmeg/requirements"
+      },
+      "notes": "Applications lacking both a named supervisor and research-interest statement are rejected. One academic and one professional referee may be used, subject to the course’s reference guidance. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpmeg/requirements": {
+          "sha256": "b01697dc15d07b0afe7369780b6b0b2acb680c4aa96d3c107a0428a4616a9bc1",
+          "contentSha256": "58759b01deac844c7b42c8901555cfccd2989440aa5296fcb12c93e3a8686c53"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpmeg/apply": {
+          "sha256": "ba34c0a0f81ddc2db17e116459c7721a9da8175de492a3e8fae589beb430d2c0",
+          "contentSha256": "ebb55df250fc3ee97802b1eaa43bd816a102bfd94973174f17b0db8ae937b3fe"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "phd",
+      "programId": "phd-in-engineering",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Good upper-second-class (2:1) honours degree with a research-relevant background. Current Cambridge taught-master’s students need 70% to progress to this PhD; this is a separate internal progression condition.",
+      "english": "IELTS (Academic): overall 7.0; listening 7.0, writing 7.0, reading 6.5, speaking 7.0; TOEFL Internet Score: overall 100; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: May. 13, 2027. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Named proposed supervisor; research summary, reasons for applying and research-experience statement (2,500 characters each); technology-school contextual questionnaire. A longer proposal is optional.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegpdpeg/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegpdpeg/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegpdpeg/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegpdpeg/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegpdpeg/requirements"
+      },
+      "notes": "A named supervisor and research-interest statement are compulsory. Unlike the MPhil guidance, prior supervisor contact is optional for this PhD; admission may involve a different supervisor. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegpdpeg/apply": {
+          "sha256": "4c8358c2c2550c60b3d6b26b8a0ff4c1c57393f6e68a445f927670c8ab2ba2b5",
+          "contentSha256": "17d92531e0f99ce3ea1a671ba02e3b953beac11475f1393ce932cc13671583e7"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegpdpeg/requirements": {
+          "sha256": "32b0ccec03f50cafe7b2ec8f6546f7a6d9f0b0c2cff084a757262f37204c2851",
+          "contentSha256": "93314918ac8bbfe94cee788faef99d76d4b495d6dc6838755dd248dda7da0958"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "master",
+      "programId": "mphil-in-engineering-for-sustainable-development",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Good upper-second-class (2:1) honours with engineering/quantitative technical preparation and post-graduation engineering-industry experience. A UK MEng is preferred.",
+      "english": "IELTS (Academic): overall 7.0; listening 7.0, writing 7.0, reading 7.0, speaking 7.0; TOEFL Internet Score: overall 100; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: May. 13, 2027. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Employment history up to 1,000 characters; two-page cover letter explaining course motivation and future career use; School of Technology contextual questionnaire.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpesd/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpesd/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpesd/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpesd/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpesd/requirements"
+      },
+      "notes": "This is a professional-practice course; the work-experience expectation is programme-specific. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpesd/requirements": {
+          "sha256": "8370e112c805cc08731d8aed5ab86aee5f81f1b1f12c424c37bca272963cfb2f",
+          "contentSha256": "b7bdfa0ab17c0c797b49c24c6d3921186537b33edd4f4c193b5a7d4a9a1815fc"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpesd/apply": {
+          "sha256": "c23ee5ba7e7dce72866c9338e7dc65794e2268c1d2dd9a2ffbbb60ed9253c253",
+          "contentSha256": "56b21a11f554ea91ed5510208c374ac75777a97387a535609ec664f377f674d3"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "master",
+      "programId": "mphil-in-environmental-policy",
+      "reviewedAt": "2026-10-27",
+      "gpa": "First-class honours degree or its published international equivalent.",
+      "english": "IELTS (Academic): overall 7.5; listening 7.0, writing 7.0, reading 7.0, speaking 7.0; TOEFL Internet Score: overall 110; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: Jan. 26, 2027. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Interest statement described as 500 words (portal field limit 5,000 characters), plus proposed research title and summary. There is no requirement to secure a supervisor before applying.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lelempepl/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lelempepl/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lelempepl/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lelempepl/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lelempepl/requirements"
+      },
+      "notes": "Language-test results should ideally accompany the application. A dissertation supervisor and topic are confirmed after admission. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/lelempepl/apply": {
+          "sha256": "391aae0ed0d146cb8735c93e9cc8c2e091c28740350476b618ccbb6c8066a8f7",
+          "contentSha256": "acbc692a28395a46ddd266c52660d0cc9cbda901fbb0fca0d98f97240dea1aab"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/lelempepl/requirements": {
+          "sha256": "7f7213185b23b3cd96fd67069bc271d4dd43375a7c37c20aca7fad861bc5cfbc",
+          "contentSha256": "e0ae584f1baafd068dbf56027645768917e3b107aa6c1d99ad4681ff2ca1a81a"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "master",
+      "programId": "mphil-in-foundations-of-clinical-psychology",
+      "reviewedAt": "2026-10-27",
+      "gpa": "High upper-second-class (2:1) in psychology or a related subject such as sociology, medicine or public health. Requires enhanced DBS/overseas equivalent and health checks; relevant service/research experience is desirable.",
+      "english": "IELTS (Academic): overall 7.5; listening 7.0, writing 7.0, reading 7.0, speaking 7.0; TOEFL Internet Score: overall 107; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: Dec. 8, 2026. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Personal statement up to 1,000 characters relating the course to experience and professional plans. Required health/security checks form conditions of admission.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/cvpcmpcps/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/cvpcmpcps/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/cvpcmpcps/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/cvpcmpcps/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/cvpcmpcps/requirements"
+      },
+      "notes": "The programme deadline is 8 December 2026, not the later May deadline used by some other Cambridge courses. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/cvpcmpcps/apply": {
+          "sha256": "8c10a6f8fb7024dfb10fe4775f6c835281e17e8da564dbb6b459810f38cb8861",
+          "contentSha256": "9ead7e76f768a89c5575f2e4fdef92cf724525656463bf99a4f42e71ad1e30a1"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/cvpcmpcps/requirements": {
+          "sha256": "b7a11c87ae12b96c2477277df94554f819fd6d971951723d5d7a17231f64d117",
+          "contentSha256": "4bbe62265ce755fbc706318cb42aefa1333c841aa5dd1e3381916049b0b93cbb"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "master",
+      "programId": "mphil-in-industrial-systems-manufacture-and-management",
+      "reviewedAt": "2026-10-27",
+      "gpa": "High upper-second-class (high 2:1) honours; strong numeracy, usually from engineering, technology, science or mathematics, with relevant work experience such as undergraduate/postgraduate internships.",
+      "english": "IELTS (Academic): overall 7.0; listening 7.0, writing 7.0, reading 6.5, speaking 7.0; TOEFL Internet Score: overall 100; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: May. 13, 2027. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Two-to-three-page additional statement covering professional roles/dates/learning, teamwork, career goals, volunteering, memberships and significant interests.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpimm/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpimm/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpimm/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpimm/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpimm/requirements"
+      },
+      "notes": "Rolling selection may fill all places before the advertised final deadline. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpimm/apply": {
+          "sha256": "0b5244822f21039232ce015844b73fed723eba0eb578915f3c252f208a1e22e3",
+          "contentSha256": "f2b80d04e93f865640faaedcbadc536e0520c3995285f30dbcb66c633c69fed7"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpimm/requirements": {
+          "sha256": "3db493f6da61578cef4895a90fc7ab6e4cd95bdf5e15bcdeb723eddf8cdad97c",
+          "contentSha256": "6d9f746d73422295d3dd3061d146996117354d96adac68d6c661d5a068d894a0"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "master",
+      "programId": "llm-in-law",
+      "reviewedAt": "2026-10-27",
+      "gpa": "First-class bachelor’s in law or overseas equivalent; successful applicants are typically well within the top 10% locally. Rare exceptions require equivalent exceptional legal academic/professional achievement.",
+      "english": "IELTS (Academic): overall 7.5; listening 7.0, writing 7.0, reading 7.0, speaking 7.0; TOEFL Internet Score: overall 110; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: Dec. 8, 2026. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Reasons for applying up to 5,000 characters. Current university students must provide two academic referees. Any academic admission condition must be satisfied by 31 July 2027.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwllll/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwllll/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwllll/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwllll/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwllll/requirements"
+      },
+      "notes": "Applicants required to take IELTS/TOEFL must pass before applying. Meet all scores in one sitting; MyBest and Language Centre assessment/waiver routes are unavailable. Results must be under two years old in October 2027; the specified recent English-country bachelor’s exception applies. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwllll/apply": {
+          "sha256": "a2c091961b10bbd405e29b17874ddeb2b11032ea3c627614100e17389db45583",
+          "contentSha256": "71893e9e241c1fb5f70687cc965469d8b9cc5ff9596908971e7f245c53dca29a"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwllll/requirements": {
+          "sha256": "430e8bb31c403c83473e5f262e0280823e62191642e3c0267036ab481a6e8f1a",
+          "contentSha256": "f8abc17cd7524f5e78d81bc5ed7ed31c9f3ecf33f4c9b980737a88e42f401dea"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "phd",
+      "programId": "phd-in-law",
+      "reviewedAt": "2026-10-27",
+      "gpa": "First-class law degree or a related degree suitable for the proposed research; alternatively, a very good 2:1 in a relevant subject plus an overall first/distinction in a relevant master’s.",
+      "english": "IELTS (Academic): overall 7.5; listening 7.0, writing 7.0, reading 7.0, speaking 7.0; TOEFL Internet Score: overall 110; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: Nov. 17, 2026. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Research proposal of 2,000–3,000 words including footnotes but excluding bibliography; separate reasons-for-applying and interest statements (1,500 characters each). Naming possible supervisors is encouraged; prior contact is not expected.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwpdlaw/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwpdlaw/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwpdlaw/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwpdlaw/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwpdlaw/requirements"
+      },
+      "notes": "Apply by 17 November 2026 even though the published funding deadline is later. A suitable research topic and available supervisor are essential; late course applications are not considered. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwpdlaw/requirements": {
+          "sha256": "700bd7626016df93c9b80bf7937f6216cf8c393a53cf54759bb5dbda3454cf94",
+          "contentSha256": "f8d4910bb9c714f34c8e4436139fa3cdb1729413a182d617ac2fae01f1bfd1ec"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwpdlaw/apply": {
+          "sha256": "d1a9d1ad9fe48ed25fc53d8e8b3dd0f731f4a29586eb6e988022bd056c82cbe0",
+          "contentSha256": "b73900f7c174da8bfd776b61fee8b7efd39ce22533c1c4960e0a65aed685ef87"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "master",
+      "programId": "mphil-in-management",
+      "reviewedAt": "2026-10-27",
+      "gpa": "First-class honours in a non-business/non-management subject, with no more than three credited business/management modules. Undergraduate study must have been completed no earlier than one academic year before entry.",
+      "english": "IELTS (Academic): overall 7.5; listening 7.0, writing 7.0, reading 7.0, speaking 7.0; TOEFL Internet Score: overall 110; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: Feb. 25, 2027. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Motivation statement up to 1,500 characters; teamwork/leadership response up to 3,000 characters; explanation of quantitative skills/preparation up to 2,000 characters.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbmpmgt/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbmpmgt/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbmpmgt/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbmpmgt/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbmpmgt/requirements"
+      },
+      "notes": "This is a management conversion programme, not a route intended for existing business/management majors. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbmpmgt/apply": {
+          "sha256": "542d88e0f4a276a7d9e9e6064464a63f58c5a568ffe18537af5ba8145e3e5331",
+          "contentSha256": "2a34c7953618950f47fbdca7af4b9c6ebf2d81d43d278b8ac28914ac154d1178"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbmpmgt/requirements": {
+          "sha256": "83d33b8a7eec7fd7a5341e644a904b8eb2bbfdc1f846daf60f0cfd13742791bc",
+          "contentSha256": "538a8c2e48a02ad66c5dcef6a7239e10f49c8058c3a73d4e33b61437df67262d"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "phd",
+      "programId": "phd-in-management-studies",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Normally restricted to current/completed CJBS research MPhil students, with occasional Cambridge Economics Research MPhil exceptions. Undergraduate first-class performance (minimum GPA 3.7/4.0) and MPhil overall/dissertation marks of at least 70% are expected.",
+      "english": "IELTS (Academic): overall 7.5; listening 7.0, writing 7.0, reading 7.0, speaking 7.0; TOEFL Internet Score: overall 110; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: Jan. 6, 2027. Course-funding consideration deadline: Jan. 6, 2027; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Choose a PhD pathway; submit its research proposal (Finance uses the faculty-set Winter Paper) and long-term research goals. Supervisor preference and research/teaching/publication histories are optional supplementary items.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbpdmst/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbpdmst/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbpdmst/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbpdmst/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbpdmst/requirements"
+      },
+      "notes": "Applicants outside the specified Cambridge MPhil routes normally apply to MRes first. Direct transfer of an exceptional MRes applicant with a qualifying master’s and strong published research is rare; do not interpret this as general external direct-entry PhD admission. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbpdmst/requirements": {
+          "sha256": "b4bbe57504d2327ffaf7319d9aaace722ce0bfd4d30f466afa723ed34c9db719",
+          "contentSha256": "2829823b5cf4ca541ec9395de17b73d8d965194be16bf14da2eec13eaaf3a31a"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbpdmst/apply": {
+          "sha256": "c42761ae0e6be862abe882534160c383a52ecb0a8aaa84574f43d977272e5dca",
+          "contentSha256": "c2fcad1f1420701c1124b962033abca101051a3ff6a40cd44c7fefcf707417ce"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "master",
+      "programId": "mphil-in-mathematics",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Normally first-class honours after three years in mathematics, physics, mathematics/statistics or engineering; exceptional non-standard applications may be considered individually.",
+      "english": "IELTS (Academic): overall 7.0; listening 7.0, writing 7.0, reading 6.5, speaking 7.0; TOEFL Internet Score: overall 100; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: Feb. 2, 2027. Course-funding consideration deadline: Jan. 6, 2027; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Research interests; up to three proposed supervisors (200-character field), project title (250), research summary (2,500), motivation (1,500), and physical-sciences contextual questionnaire. Research experience (2,500 characters) is optional.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/maammpmpm/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/maammpmpm/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/maammpmpm/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/maammpmpm/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/maammpmpm/requirements"
+      },
+      "notes": "Places and university funding are very limited; applicants commonly bring external funding. Supervisor contact is optional, but applications must identify a suitable research direction and staff member. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/maammpmpm/requirements": {
+          "sha256": "75f8421a6cd12cadf31f560ba9a119279fab8db234a6005b277d4614368de42d",
+          "contentSha256": "953c0f3fb5b91436c8e404b39f5e92de8ad87b105810e488044bdd12236d20df"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/maammpmpm/apply": {
+          "sha256": "0cf21552166c646bd226a13b1af1e4e120fab49176e1a5f8af41d67c4429a6cc",
+          "contentSha256": "0de6b95cd231ce7ee65fbdf24fad1c9e8787f80b5a3e93f0854f54c6654c02ac"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "master",
+      "programId": "mast-in-mathematics-applied-mathematics",
+      "reviewedAt": "2026-10-27",
+      "gpa": "First-class honours/equivalent in mathematics, physics, statistics or another discipline with substantial advanced mathematics.",
+      "english": "IELTS (Academic): overall 7.0; listening 7.0, writing 7.0, reading 6.5, speaking 7.0; TOEFL Internet Score: overall 100; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: Feb. 2, 2027. Course-funding consideration deadline: Jan. 6, 2027; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Reasons for applying up to 1,500 characters. Submit all documents and references through the portal. Apply to only one of the four MASt Mathematics streams; French-institution applicants have additional supporting-document guidance.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/maamasapm/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/maamasapm/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/maamasapm/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/maamasapm/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/maamasapm/requirements"
+      },
+      "notes": "Application deadline is 2 February 2027 at 23:59 UK time. The separate university funding deadline is 6 January 2027. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/maamasapm/requirements": {
+          "sha256": "5a69f7393c6d42872f0a1c9807091bd35baf94e867ab16e347d5aee29102c199",
+          "contentSha256": "229ac675b4c64714d9a52e9c9e80d0c583cc2bf210eddadab78594a0b7e957c0"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/maamasapm/apply": {
+          "sha256": "0e988df3bfbdf8ab334eb4f532bcd04b545bf70a04d20ef3004909e75cdc7765",
+          "contentSha256": "b7f88e1dae4b78523bcafe445fe1d49e7ee6a4e69d56730250414695b1c4d3c6"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "master",
+      "programId": "mast-in-mathematics-mathematical-statistics",
+      "reviewedAt": "2026-10-27",
+      "gpa": "First-class honours/equivalent in mathematics, physics, statistics or another discipline with substantial advanced mathematics.",
+      "english": "IELTS (Academic): overall 7.0; listening 7.0, writing 7.0, reading 6.5, speaking 7.0; TOEFL Internet Score: overall 100; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: Feb. 2, 2027. Course-funding consideration deadline: Jan. 6, 2027; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Reasons for applying up to 1,500 characters; all supporting documents and references. Apply to one Mathematics stream only; additional documentation guidance applies to applicants from French institutions.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmasmst/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmasmst/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmasmst/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmasmst/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmasmst/requirements"
+      },
+      "notes": "Application deadline is 2 February 2027 at 23:59 UK time; university funding deadline is 6 January 2027. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmasmst/apply": {
+          "sha256": "60c2fd20f6d200a950e76b4a9a8e2dba19f801f5e239e80d3c349312316397c0",
+          "contentSha256": "1c253d2b926d1acd847937879739838131613662d7b0a6b5ae11e3675fe1dd34"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmasmst/requirements": {
+          "sha256": "c89ecb43617365c951afc6c231dde89fdc78acbce5d06a4e9da7392d66b0276c",
+          "contentSha256": "7655e3ce3444e83393fd49c354af722562d761a8eefca5f5e8fd69d85467184e"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "master",
+      "programId": "mast-in-mathematics-pure-mathematics",
+      "reviewedAt": "2026-10-27",
+      "gpa": "First-class honours/equivalent in mathematics, physics, statistics or another discipline with substantial advanced mathematics.",
+      "english": "IELTS (Academic): overall 7.0; listening 7.0, writing 7.0, reading 6.5, speaking 7.0; TOEFL Internet Score: overall 100; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: Feb. 2, 2027. Course-funding consideration deadline: Jan. 6, 2027; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Reasons for applying up to 1,500 characters and all documents/references. Choose one MASt Mathematics stream only; check the additional-document rules for French-institution applicants.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/requirements"
+      },
+      "notes": "Application deadline is 2 February 2027 at 23:59 UK time; university funding deadline is 6 January 2027. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/apply": {
+          "sha256": "7e42e43d9820cf14558b787e65cc731ddc5342569219abc0b9d850f6c60acbab",
+          "contentSha256": "2c3032ed08a1241da9135eb554d493d29e1ab803935233bf51ddd94fd86d5dd3"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/requirements": {
+          "sha256": "7df7d18bccc39c42592c90d38da6b40eead1c0aabcc3fdd7fb0098945f2a6fad",
+          "contentSha256": "9cc98bd615cc82eb754cb1141f903cc38463a0bbda00bce9579dd9328467e757"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "master",
+      "programId": "mast-in-physics",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Published minimum: high upper-second-class (high 2:1) honours. Typical admitted students have a high first in physics and strong quantum, condensed-matter, thermal/statistical physics and electrodynamics preparation.",
+      "english": "IELTS (Academic): overall 7.0; listening 7.0, writing 7.0, reading 6.5, speaking 7.0; TOEFL Internet Score: overall 100; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: May. 13, 2027. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Personal statement up to 1,000 characters and School of Physical Sciences contextual questionnaire.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphasphy/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphasphy/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphasphy/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphasphy/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphasphy/requirements"
+      },
+      "notes": "The typical admitted grade is not the minimum threshold. This MASt admits only for Michaelmas entry. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphasphy/requirements": {
+          "sha256": "cf930807fd11399a1b69a39d9e6de3e576f6f69f9b2f0f209accc65b87544a0f",
+          "contentSha256": "041334098adb8ee6466fbad8288706dba79a8c0254b557333a02fc66aa9bcc3a"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphasphy/apply": {
+          "sha256": "627260c1005fa9d195f870ea036f93e86a7a8609cc95e9f3dd9daf5bb421b910",
+          "contentSha256": "96177bafc2227b6792afebce01ba255085408a27fdee15ca0ce76f4d85af8108"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "master",
+      "programId": "mphil-in-physics",
+      "reviewedAt": "2026-10-27",
+      "gpa": "High upper-second-class (high 2:1) honours degree or its published international equivalent.",
+      "english": "IELTS (Academic): overall 7.0; listening 7.0, writing 7.0, reading 6.5, speaking 7.0; TOEFL Internet Score: overall 100; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: May. 13, 2027. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Personal statement up to 1,000 characters; physical-sciences contextual questionnaire. Name at least one eligible supervisor and a relevant research direction.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphmpphy/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphmpphy/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphmpphy/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphmpphy/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphmpphy/requirements"
+      },
+      "notes": "Rolling admission; later applications may have fewer funding opportunities. Discuss part-time feasibility with the postgraduate office before applying. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphmpphy/apply": {
+          "sha256": "6376cf01362707ff218f01ecfe5ba5c20134a5028f78973e0f9893093b013b85",
+          "contentSha256": "3da0967932e5641fc0174b2e863b2cdb695c37fdd7ace3c79e26c2ed3193d270"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphmpphy/requirements": {
+          "sha256": "dd34dc94a5664f6aad220a318f1ed40b8dc2adfa08b89112b34a7cd07b6bff4d",
+          "contentSha256": "ffe2b9615160f043d6a18ac518eba3d0e1df64804e74ef5b3dd62c40ac44a7ca"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "phd",
+      "programId": "phd-in-physics",
+      "reviewedAt": "2026-10-27",
+      "gpa": "A UK master’s pass/equivalent, normally with at least a high 2:1 in a four-year integrated master’s or a high 2:1 three-year honours bachelor’s plus a relevant one/two-year master’s. A bachelor’s alone is normally insufficient.",
+      "english": "IELTS (Academic): overall 7.0; listening 7.0, writing 7.0, reading 6.5, speaking 7.0; TOEFL Internet Score: overall 100; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: May. 13, 2027. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Personal statement up to 1,000 characters and physical-sciences contextual questionnaire. Name an eligible prospective supervisor; contact before applying is optional.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphpdphy/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphpdphy/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphpdphy/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphpdphy/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphpdphy/requirements"
+      },
+      "notes": "The bachelor’s international-equivalence table does not establish master’s equivalence. Discuss part-time feasibility with the postgraduate office in advance. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphpdphy/requirements": {
+          "sha256": "f0d593456513b7cc2d299ec23e8f91ad6823e79faa617ba7389b5a7852454aa6",
+          "contentSha256": "dd37e11c11c6e788a33d0c35a37cb5147fe0ab689d969f943757a35f2b0142f7"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphpdphy/apply": {
+          "sha256": "e2f693a182c30904c2290153ebae829bfbc04ea0b22ee5bd6982bdfb254b1dbc",
+          "contentSha256": "6e69118710bc24bc6f119397a26fb51f152b9fecb35df196c7eed4c91bf56698"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-95",
+      "level": "phd",
+      "programId": "phd-in-psychology",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Good upper-second-class (2:1) in psychology, neuroscience or a related area such as physiology, sociology, linguistics, CS or engineering.",
+      "english": "IELTS (Academic): overall 7.5; listening 7.0, writing 7.0, reading 7.0, speaking 7.0; TOEFL Internet Score: overall 110; listening 25, writing 25, reading 25, speaking 25. Scores are reproduced on the scale published by the course; exemptions and other accepted evidence remain subject to the official policy.",
+      "deadline": "Michaelmas 2027 application deadline: Mar. 25, 2027. Course-funding consideration deadline: Dec. 8, 2026; other scholarships can have different deadlines.",
+      "documents": "Two references, academic transcript, CV and English-language evidence where required. Project title (250 characters), research summary (2,500), agreed supervisor (200), research experience (2,500), motivation, roughly two-A4-page research proposal including references, and biological-sciences contextual questionnaire.",
+      "intake": "Michaelmas 2027; course starts Oct. 1, 2027.",
+      "fieldSources": {
+        "gpa": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blpypdpsy/requirements",
+        "english": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blpypdpsy/requirements",
+        "deadline": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blpypdpsy/requirements",
+        "documents": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blpypdpsy/apply",
+        "intake": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blpypdpsy/requirements"
+      },
+      "notes": "Contact and obtain support from a supervisor before applying. Applications without a named supervisor are not considered; support alone does not guarantee admission or funding. This record describes the Michaelmas 2027 intake. Other entry terms and funding routes may differ; courses may close before the advertised final deadline.",
+      "sourceFingerprints": {
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/blpypdpsy/requirements": {
+          "sha256": "1ec9a364ec7a23ce4ca6f425e0761fa6ca3c8b5d656f7a5989ad1d9e352096e1",
+          "contentSha256": "a696294f0eeda5723da7e94e3a28b523690a951827d0f4bf740d81349fa6e959"
+        },
+        "https://www.postgraduate.study.cam.ac.uk/courses/directory/blpypdpsy/apply": {
+          "sha256": "fff545dc3f4a0dde8bc938f0a2f16ed462f551e9f2a934129cb9e455f7f84930",
+          "contentSha256": "ef6f84bbd009fc895b84dba553ec94cab7913e85d412e4b65102ee2e412dcdda"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-269",
+      "level": "master",
+      "programId": "msc-in-artificial-intelligence",
+      "gpa": "Bachelor’s in computer engineering, computer science or a related subject; applicants with a different degree need at least two years of relevant post-qualification work experience.",
+      "english": "IELTS Academic 6.5 overall and at least 5.5 in every component; TOEFL iBT 80 for tests before 21 January 2026 or 4.5 from that date onward. One test sitting only; at-home tests are not accepted. Native-English and English-medium bachelor’s exemptions apply.",
+      "deadline": "Fall 2027, local/non-local and full/part-time: round 1, 1 December 2026; round 2, 1 March 2027. Rolling selection.",
+      "documents": "Upload identity/visa evidence as applicable, full tertiary transcripts and degree certificates, institutional grading scale, and English-test report or qualifying English-medium letter. Nominate two to five referees. Scanned copies suffice initially unless the programme office requests originals.",
+      "intake": "2027/28 Fall intake, September 2027.",
+      "reviewedAt": "2026-10-27",
+      "fieldSources": {
+        "gpa": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai/",
+        "english": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai/",
+        "deadline": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai/",
+        "documents": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required",
+        "intake": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai/"
+      },
+      "notes": "Regular external application route. Separate internal bachelor–master progression and credit-transfer concessions are not universal admission thresholds.",
+      "sourceFingerprints": {
+        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required": {
+          "sha256": "00256ef1448e51722343dfbbab28ac1a92283e66b90ec746913c49bc4f251b8f",
+          "contentSha256": "6061a59b9e3359e66917c15507d3d8d80b86d179943cdc46d747f53891beb9f1"
+        },
+        "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai/": {
+          "sha256": "e98e99bda8786052e973e44e23887acd8d4f82a3d8ada48a9571bf43223ac556",
+          "contentSha256": "8a088c23ce9745240e219ec0813af5cfaa6332443a9166eec1533ed943227435"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-269",
+      "level": "master",
+      "programId": "msc-in-big-data-technology",
+      "gpa": "Bachelor’s in computer engineering, computer science, mathematics or a related area; other degrees require relevant IT/mathematics work experience.",
+      "english": "IELTS Academic 6.5 overall and at least 5.5 in every component; TOEFL iBT 80 for tests before 21 January 2026 or 4.5 from that date onward. One test sitting only; at-home tests are not accepted. Native-English and English-medium bachelor’s exemptions apply.",
+      "deadline": "Fall 2027, local/non-local and full/part-time: 1 December 2026 (round 1), 1 March 2027 (round 2). Rolling selection.",
+      "documents": "Upload identity/visa evidence as applicable, full tertiary transcripts and degree certificates, institutional grading scale, and English-test report or qualifying English-medium letter. Nominate two to five referees. Scanned copies suffice initially unless the programme office requests originals.",
+      "intake": "2027/28 Fall intake, September 2027.",
+      "reviewedAt": "2026-10-27",
+      "fieldSources": {
+        "gpa": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt/",
+        "english": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt/",
+        "deadline": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt/",
+        "documents": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required",
+        "intake": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt/"
+      },
+      "notes": "Regular external application route. Separate internal bachelor–master progression and credit-transfer concessions are not universal admission thresholds.",
+      "sourceFingerprints": {
+        "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt/": {
+          "sha256": "2f44f9311514af30ece52e8391c2bf0a82c1ae72bd7211f7288079098ec7a32f",
+          "contentSha256": "cc3e0566e76ca10195ea9a80011fd0d0bcfed23fbe31935ebb56e0890cf067ab"
+        },
+        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required": {
+          "sha256": "00256ef1448e51722343dfbbab28ac1a92283e66b90ec746913c49bc4f251b8f",
+          "contentSha256": "6061a59b9e3359e66917c15507d3d8d80b86d179943cdc46d747f53891beb9f1"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-269",
+      "level": "master",
+      "programId": "msc-in-information-technology",
+      "gpa": "Recognized bachelor’s in computer engineering, computer science or a related discipline.",
+      "english": "IELTS Academic 6.5 overall and at least 5.5 in every component; TOEFL iBT 80 for tests before 21 January 2026 or 4.5 from that date onward. One test sitting only; at-home tests are not accepted. Native-English and English-medium bachelor’s exemptions apply.",
+      "deadline": "Fall 2027, local/non-local and full/part-time: 1 December 2026 (round 1), 1 March 2027 (round 2). Rolling selection.",
+      "documents": "Upload identity/visa evidence as applicable, full tertiary transcripts and degree certificates, institutional grading scale, and English-test report or qualifying English-medium letter. Nominate two to five referees. Scanned copies suffice initially unless the programme office requests originals.",
+      "intake": "2027/28 Fall intake, September 2027.",
+      "reviewedAt": "2026-10-27",
+      "fieldSources": {
+        "gpa": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-it/",
+        "english": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-it/",
+        "deadline": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-it/",
+        "documents": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required",
+        "intake": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-it/"
+      },
+      "notes": "Regular external application route. Separate internal bachelor–master progression and credit-transfer concessions are not universal admission thresholds.",
+      "sourceFingerprints": {
+        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required": {
+          "sha256": "00256ef1448e51722343dfbbab28ac1a92283e66b90ec746913c49bc4f251b8f",
+          "contentSha256": "6061a59b9e3359e66917c15507d3d8d80b86d179943cdc46d747f53891beb9f1"
+        },
+        "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-it/": {
+          "sha256": "1994cdbe72d271bf0e60071c3eaa302103f8cdd69bfa8005ace162ca912b0145",
+          "contentSha256": "1786d15cacfb5162504a9bf8ebd5eb1910f282c3865adbc4ac77386f4175d41d"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-269",
+      "level": "master",
+      "programId": "msc-in-electronic-engineering",
+      "gpa": "Bachelor’s in electrical, electronic or computer engineering, or a related discipline.",
+      "english": "IELTS Academic 6.5 overall and at least 5.5 in every component; TOEFL iBT 80 for tests before 21 January 2026 or 4.5 from that date onward. One test sitting only; at-home tests are not accepted. Native-English and English-medium bachelor’s exemptions apply.",
+      "deadline": "Fall 2027, local/non-local and full/part-time: 1 December 2026 (round 1), 1 April 2027 (round 2). Rolling selection.",
+      "documents": "Upload identity/visa evidence as applicable, full tertiary transcripts and degree certificates, institutional grading scale, and English-test report or qualifying English-medium letter. Nominate two to five referees. Scanned copies suffice initially unless the programme office requests originals.",
+      "intake": "2027/28 Fall intake, September 2027.",
+      "reviewedAt": "2026-10-27",
+      "fieldSources": {
+        "gpa": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eleg/",
+        "english": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eleg/",
+        "deadline": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eleg/",
+        "documents": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required",
+        "intake": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eleg/"
+      },
+      "notes": "The second-class-honours condition in the separate internal bachelor–master pathway is not stated as a universal external-applicant GPA cutoff.",
+      "sourceFingerprints": {
+        "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eleg/": {
+          "sha256": "ee47524e8ca6f7792a8f4381e486410b4cd72328251e8cf33ab89a01fa5724e1",
+          "contentSha256": "f04564c64ff5ef2d6366828e4a816805236ba0e52fc19bbff3a99c72ae3e944e"
+        },
+        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required": {
+          "sha256": "00256ef1448e51722343dfbbab28ac1a92283e66b90ec746913c49bc4f251b8f",
+          "contentSha256": "6061a59b9e3359e66917c15507d3d8d80b86d179943cdc46d747f53891beb9f1"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-269",
+      "level": "master",
+      "programId": "msc-in-mechanical-engineering",
+      "gpa": "Second-class-honours bachelor’s in mechanical/manufacturing engineering, engineering management, materials science/engineering, electrical/electronic, civil or environmental engineering, or a related area.",
+      "english": "IELTS Academic 6.5 overall and at least 5.5 in every component; TOEFL iBT 80 for tests before 21 January 2026 or 4.5 from that date onward. One test sitting only; at-home tests are not accepted. Native-English and English-medium bachelor’s exemptions apply.",
+      "deadline": "Fall 2027: non-local applicants 1 December 2026 and 1 March 2027; local applicants also have a third round on 1 June 2027. Applies to full-time and part-time modes; rolling selection.",
+      "documents": "Upload identity/visa evidence as applicable, full tertiary transcripts and degree certificates, institutional grading scale, and English-test report or qualifying English-medium letter. Nominate two to five referees. Scanned copies suffice initially unless the programme office requests originals.",
+      "intake": "2027/28 Fall intake, September 2027.",
+      "reviewedAt": "2026-10-27",
+      "fieldSources": {
+        "gpa": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech/",
+        "english": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech/",
+        "deadline": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech/",
+        "documents": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required",
+        "intake": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech/"
+      },
+      "notes": "Regular external application route. Separate internal bachelor–master progression and credit-transfer concessions are not universal admission thresholds.",
+      "sourceFingerprints": {
+        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required": {
+          "sha256": "00256ef1448e51722343dfbbab28ac1a92283e66b90ec746913c49bc4f251b8f",
+          "contentSha256": "6061a59b9e3359e66917c15507d3d8d80b86d179943cdc46d747f53891beb9f1"
+        },
+        "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech/": {
+          "sha256": "c4586467ae9d671639941e5b4b5e089745b0ec2809d98ef8189f972396c83589",
+          "contentSha256": "3c34f05267c24ace236c4df8dcd924bdea662d30947b5c2409c9a8e2ac82816f"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-269",
+      "level": "master",
+      "programId": "msc-in-economics",
+      "gpa": "Bachelor’s from a recognized institution or an approved equivalent qualification. The catalogue page states no extra programme-specific numeric GPA minimum.",
+      "english": "IELTS Academic 6.5 overall and at least 5.5 in every component; TOEFL iBT 80 for tests before 21 January 2026 or 4.5 from that date onward. One test sitting only; at-home tests are not accepted. Native-English and English-medium bachelor’s exemptions apply.",
+      "deadline": "Fall 2027: 15 February 2027, both local and non-local full-time applicants. Rolling selection. The July–August 2026 priority round has already ended.",
+      "documents": "Upload identity/visa evidence as applicable, full tertiary transcripts and degree certificates, institutional grading scale, and English-test report or qualifying English-medium letter. Nominate two to five referees. Scanned copies suffice initially unless the programme office requests originals.",
+      "intake": "2027/28 Fall intake, September 2027.",
+      "reviewedAt": "2026-10-27",
+      "fieldSources": {
+        "gpa": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-econ/",
+        "english": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-econ/",
+        "deadline": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-econ/",
+        "documents": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required",
+        "intake": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-econ/"
+      },
+      "notes": "Regular external application route. Separate internal bachelor–master progression and credit-transfer concessions are not universal admission thresholds.",
+      "sourceFingerprints": {
+        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required": {
+          "sha256": "00256ef1448e51722343dfbbab28ac1a92283e66b90ec746913c49bc4f251b8f",
+          "contentSha256": "6061a59b9e3359e66917c15507d3d8d80b86d179943cdc46d747f53891beb9f1"
+        },
+        "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-econ/": {
+          "sha256": "d24ea3d9fb53d18cdc842f08adce03d28b642fbc40a2a9e77d3cd5539d2b109d",
+          "contentSha256": "d8e2a716d86a4a8d2ffdbfc6d6893c5facbf8c8ab029cfe2d166019673db5b79"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-269",
+      "level": "master",
+      "programId": "msc-in-finance",
+      "gpa": "Recognized bachelor’s/equivalent. Full-time: work experience is not required; part-time: at least one year of full-time post-qualification experience.",
+      "english": "IELTS Academic 6.5 overall and at least 5.5 in every component; TOEFL iBT 80 for tests before 21 January 2026 or 4.5 from that date onward. One test sitting only; at-home tests are not accepted. Native-English and English-medium bachelor’s exemptions apply.",
+      "deadline": "Fall 2027: full-time 28 February 2027; part-time 2 May 2027, both local and non-local. Rolling selection; the 2026 summer priority round has ended.",
+      "documents": "Upload identity/visa evidence as applicable, full tertiary transcripts and degree certificates, institutional grading scale, and English-test report or qualifying English-medium letter. Nominate two to five referees. Scanned copies suffice initially unless the programme office requests originals.",
+      "intake": "2027/28 Fall intake, September 2027.",
+      "reviewedAt": "2026-10-27",
+      "fieldSources": {
+        "gpa": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fina/",
+        "english": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fina/",
+        "deadline": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fina/",
+        "documents": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required",
+        "intake": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fina/"
+      },
+      "notes": "GMAT/GRE is optional; strong scores help. Work experience benefits a full-time application but is not a mandatory full-time minimum.",
+      "sourceFingerprints": {
+        "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fina/": {
+          "sha256": "ae84bd689a67fd6b640231a3dffef323cfd5e36bd57c9699d0860d401d9f71fe",
+          "contentSha256": "532a594dc8233514abfe013d39a9b4b942225ee314652e350feccd6a16144a03"
+        },
+        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required": {
+          "sha256": "00256ef1448e51722343dfbbab28ac1a92283e66b90ec746913c49bc4f251b8f",
+          "contentSha256": "6061a59b9e3359e66917c15507d3d8d80b86d179943cdc46d747f53891beb9f1"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-269",
+      "level": "master",
+      "programId": "msc-in-business-analytics",
+      "gpa": "Recognized bachelor’s/equivalent; information systems, operations management, statistics or related study is preferred. For part-time applicants, two years of relevant full-time post-qualification work is preferred, not stated as mandatory.",
+      "english": "IELTS Academic 6.5 overall and at least 5.5 in every component; TOEFL iBT 80 for tests before 21 January 2026 or 4.5 from that date onward. One test sitting only; at-home tests are not accepted. Native-English and English-medium bachelor’s exemptions apply.",
+      "deadline": "Fall 2027: full-time 28 February 2027; part-time 2 May 2027, both local and non-local. Rolling selection; the summer 2026 priority round has ended.",
+      "documents": "Upload identity/visa evidence as applicable, full tertiary transcripts and degree certificates, institutional grading scale, and English-test report or qualifying English-medium letter. Nominate two to five referees. Scanned copies suffice initially unless the programme office requests originals.",
+      "intake": "2027/28 Fall intake, September 2027.",
+      "reviewedAt": "2026-10-27",
+      "fieldSources": {
+        "gpa": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ba/",
+        "english": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ba/",
+        "deadline": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ba/",
+        "documents": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required",
+        "intake": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ba/"
+      },
+      "notes": "A satisfactory GMAT/GRE score is strongly recommended, not listed as a required fixed score. Relevant experience adds weight to full-time applications.",
+      "sourceFingerprints": {
+        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required": {
+          "sha256": "00256ef1448e51722343dfbbab28ac1a92283e66b90ec746913c49bc4f251b8f",
+          "contentSha256": "6061a59b9e3359e66917c15507d3d8d80b86d179943cdc46d747f53891beb9f1"
+        },
+        "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ba/": {
+          "sha256": "f61a1ba9cc5a1edf3b8abff00aaf9573ac56779de044fb96cb695e195a387354",
+          "contentSha256": "01ca6221d0971341291acb193f1c92d781b075f7e964b459d9af2bacc5639679"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-269",
+      "level": "master",
+      "programId": "mphil-in-computer-science-and-engineering",
+      "gpa": "Bachelor’s from a recognized institution or an approved equivalent qualification.",
+      "english": "IELTS Academic 6.5 overall and at least 5.5 in every component; TOEFL iBT 80 for tests before 21 January 2026 or 4.5 from that date onward. One test sitting only; at-home tests are not accepted. Native-English and English-medium bachelor’s exemptions apply.",
+      "deadline": "Fall 2027: non-local 1 June 2027; local 15 July 2027. Spring 2027: non-local 1 November 2026; local 15 December 2026. Full-time/eligible part-time; rolling selection.",
+      "documents": "Upload identity/visa evidence as applicable, full tertiary transcripts and degree certificates, institutional grading scale, and English-test report or qualifying English-medium letter. Nominate two to five referees. Scanned copies suffice initially unless the programme office requests originals. Research applications also need a proposed research plan and past research-experience information.",
+      "intake": "Spring 2027 or Fall 2027, as specified in the deadline row.",
+      "reviewedAt": "2026-10-27",
+      "fieldSources": {
+        "gpa": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse/",
+        "english": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse/",
+        "deadline": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse/",
+        "documents": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required",
+        "intake": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse/"
+      },
+      "notes": "Non-local students using a student visa/entry permit cannot undertake part-time research postgraduate study in Hong Kong.",
+      "sourceFingerprints": {
+        "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse/": {
+          "sha256": "49909b4006b0e2f3185b93331b5a16b12cbc593ba7059547b13fece2a23a0a6e",
+          "contentSha256": "867fa6fffd996eb31570798d3819a6e0f5023410cecc69074813f17201c1b3a6"
+        },
+        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required": {
+          "sha256": "00256ef1448e51722343dfbbab28ac1a92283e66b90ec746913c49bc4f251b8f",
+          "contentSha256": "6061a59b9e3359e66917c15507d3d8d80b86d179943cdc46d747f53891beb9f1"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-269",
+      "level": "phd",
+      "programId": "phd-in-computer-science-and-engineering",
+      "gpa": "Recognized bachelor’s with outstanding performance, or satisfactory postgraduate study for at least one full-time year/two part-time years.",
+      "english": "IELTS Academic 6.5 overall and at least 5.5 in every component; TOEFL iBT 80 for tests before 21 January 2026 or 4.5 from that date onward. One test sitting only; at-home tests are not accepted. Native-English and English-medium bachelor’s exemptions apply.",
+      "deadline": "Fall 2027: non-local 1 June 2027; local 15 July 2027. Spring 2027: non-local 1 November 2026; local 15 December 2026. HKPFS: RGC reference-number step 1 December 2026 at 12:00 noon GMT+8; HKUST step at 23:59 that day.",
+      "documents": "Upload identity/visa evidence as applicable, full tertiary transcripts and degree certificates, institutional grading scale, and English-test report or qualifying English-medium letter. Nominate two to five referees. Scanned copies suffice initially unless the programme office requests originals. Research applications also need a proposed research plan and past research-experience information.",
+      "intake": "Spring 2027 or Fall 2027, as specified in the deadline row.",
+      "reviewedAt": "2026-10-27",
+      "fieldSources": {
+        "gpa": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse/",
+        "english": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse/",
+        "deadline": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse/",
+        "documents": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required",
+        "intake": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse/"
+      },
+      "notes": "Student-visa holders cannot take part-time research postgraduate study in Hong Kong. Do not confuse the earlier HKPFS competition with the ordinary PhD application deadline.",
+      "sourceFingerprints": {
+        "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse/": {
+          "sha256": "49909b4006b0e2f3185b93331b5a16b12cbc593ba7059547b13fece2a23a0a6e",
+          "contentSha256": "867fa6fffd996eb31570798d3819a6e0f5023410cecc69074813f17201c1b3a6"
+        },
+        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required": {
+          "sha256": "00256ef1448e51722343dfbbab28ac1a92283e66b90ec746913c49bc4f251b8f",
+          "contentSha256": "6061a59b9e3359e66917c15507d3d8d80b86d179943cdc46d747f53891beb9f1"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-269",
+      "level": "phd",
+      "programId": "integrated-mphil-phd-in-economics",
+      "gpa": "Doctoral admission: recognized bachelor’s with outstanding performance, or qualifying postgraduate study. Satisfactory GMAT or GRE required, except for holders of an MPhil from HKUST Business School.",
+      "english": "IELTS Academic 6.5 overall and at least 5.5 in every component; TOEFL iBT 80 for tests before 21 January 2026 or 4.5 from that date onward. One test sitting only; at-home tests are not accepted. Native-English and English-medium bachelor’s exemptions apply.",
+      "deadline": "Fall 2027: 1 December 2026, local/non-local and eligible full/part-time applicants. HKPFS RGC step closes at 12:00 noon GMT+8; HKUST fellowship step at 23:59 on the same day.",
+      "documents": "Upload identity/visa evidence as applicable, full tertiary transcripts and degree certificates, institutional grading scale, and English-test report or qualifying English-medium letter. Nominate two to five referees. Scanned copies suffice initially unless the programme office requests originals. Research applications also need a proposed research plan and past research-experience information. Supply required GMAT/GRE evidence unless the programme exemption applies.",
+      "intake": "2027/28 Fall intake, September 2027.",
+      "reviewedAt": "2026-10-27",
+      "fieldSources": {
+        "gpa": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-econ/",
+        "english": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-econ/",
+        "deadline": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-econ/",
+        "documents": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required",
+        "intake": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-econ/"
+      },
+      "notes": "MPhil is available only within the integrated MPhil–PhD scheme; apply using the PhD choice, not a standalone MPhil application. Non-local student-visa holders cannot pursue part-time research study.",
+      "sourceFingerprints": {
+        "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-econ/": {
+          "sha256": "8dcfa9eafbeab8a232e4cd56de17aa558ee43062fe9ad495966d3dc731e92011",
+          "contentSha256": "d04cb02e296de314b470908c32e890e8a93c2a11c0aa3f168caf03ff5c9360b1"
+        },
+        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required": {
+          "sha256": "00256ef1448e51722343dfbbab28ac1a92283e66b90ec746913c49bc4f251b8f",
+          "contentSha256": "6061a59b9e3359e66917c15507d3d8d80b86d179943cdc46d747f53891beb9f1"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-269",
+      "level": "phd",
+      "programId": "integrated-mphil-phd-in-finance",
+      "gpa": "Doctoral admission: recognized bachelor’s with outstanding performance, or qualifying postgraduate study. Satisfactory GMAT or GRE required; HKUST Business School MPhil graduates are exempt.",
+      "english": "IELTS Academic 6.5 overall and at least 5.5 in every component; TOEFL iBT 80 for tests before 21 January 2026 or 4.5 from that date onward. One test sitting only; at-home tests are not accepted. Native-English and English-medium bachelor’s exemptions apply.",
+      "deadline": "Fall 2027: 1 February 2027, local/non-local and eligible full/part-time applicants. HKPFS is earlier: 1 December 2026 at 12:00 noon GMT+8 for RGC, then 23:59 for HKUST.",
+      "documents": "Upload identity/visa evidence as applicable, full tertiary transcripts and degree certificates, institutional grading scale, and English-test report or qualifying English-medium letter. Nominate two to five referees. Scanned copies suffice initially unless the programme office requests originals. Research applications also need a proposed research plan and past research-experience information. Supply required GMAT/GRE evidence unless the programme exemption applies.",
+      "intake": "2027/28 Fall intake, September 2027.",
+      "reviewedAt": "2026-10-27",
+      "fieldSources": {
+        "gpa": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-fina/",
+        "english": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-fina/",
+        "deadline": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-fina/",
+        "documents": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required",
+        "intake": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-fina/"
+      },
+      "notes": "MPhil is not open to standalone application: select the integrated route through the PhD application. Non-local student-visa holders cannot pursue part-time research study.",
+      "sourceFingerprints": {
+        "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-fina/": {
+          "sha256": "5cd3e1923275cb786d2ebd71a1282799b99bbbbb18a418fef86fbf488117bcc6",
+          "contentSha256": "6bc6212c99c1ba8a295ac8b3722363270e443be1c4bae0f8e33ad96979da5415"
+        },
+        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required": {
+          "sha256": "00256ef1448e51722343dfbbab28ac1a92283e66b90ec746913c49bc4f251b8f",
+          "contentSha256": "6061a59b9e3359e66917c15507d3d8d80b86d179943cdc46d747f53891beb9f1"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-269",
+      "level": "master",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Recognized bachelor’s degree or approved equivalent.",
+      "english": "IELTS Academic 6.5 overall with every component at least 5.5; TOEFL iBT 80 before 21 January 2026 or 4.5 on/after that date. Scores must be from one attempt; at-home tests are not accepted. Exemptions include native English or an English-medium bachelor’s degree.",
+      "fieldSources": {
+        "gpa": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements",
+        "english": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements",
+        "documents": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required",
+        "deadline": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-timeline",
+        "intake": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-timeline"
+      },
+      "notes": "These are Hong Kong-campus minimums. Individual programmes can impose higher or additional requirements; meeting the minimum does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements": {
+          "sha256": "2d68c1cd513f896fad56b87a80e3fc263b960d22252d535dfabf78938060a51a",
+          "contentSha256": "3d8ae7e6b274a631b6561bec556314d12ead5db1804413471d96841a0403296d"
+        },
+        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required": {
+          "sha256": "00256ef1448e51722343dfbbab28ac1a92283e66b90ec746913c49bc4f251b8f",
+          "contentSha256": "6061a59b9e3359e66917c15507d3d8d80b86d179943cdc46d747f53891beb9f1"
+        },
+        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-timeline": {
+          "sha256": "2d658606d1f782772fa400139a619d1d920d7db6a999b61f3e3214225d9bc6b1",
+          "contentSha256": "370017901b797274c92003a7474960c1fa75cbc8d921785609c1749bfaed7b1a"
+        }
+      },
+      "documents": "Upload identity/visa evidence as applicable, full tertiary transcripts and degree certificates, institutional grading scale, and English-test report or qualifying English-medium letter. Nominate two to five referees. Scanned copies suffice initially unless the programme office requests originals.",
+      "deadline": "Individual programmes set their own deadlines; the 2027/28 Fall application cycle opened on 1 September 2026.",
+      "intake": "Fall 2027; classes start 1 September 2027."
+    },
+    {
+      "schoolId": "qs-269",
+      "level": "phd",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Recognized bachelor’s degree with outstanding performance, or evidence of satisfactory full-time postgraduate study for at least one year (two years part-time).",
+      "english": "IELTS Academic 6.5 overall with every component at least 5.5; TOEFL iBT 80 before 21 January 2026 or 4.5 on/after that date. Scores must be from one attempt; at-home tests are not accepted. Exemptions include native English or an English-medium bachelor’s degree.",
+      "fieldSources": {
+        "gpa": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements",
+        "english": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements",
+        "documents": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required",
+        "deadline": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-timeline",
+        "intake": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-timeline"
+      },
+      "notes": "These are Hong Kong-campus minimums. Individual programmes can impose higher or additional requirements; meeting the minimum does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-requirements": {
+          "sha256": "2d68c1cd513f896fad56b87a80e3fc263b960d22252d535dfabf78938060a51a",
+          "contentSha256": "3d8ae7e6b274a631b6561bec556314d12ead5db1804413471d96841a0403296d"
+        },
+        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required": {
+          "sha256": "00256ef1448e51722343dfbbab28ac1a92283e66b90ec746913c49bc4f251b8f",
+          "contentSha256": "6061a59b9e3359e66917c15507d3d8d80b86d179943cdc46d747f53891beb9f1"
+        },
+        "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-timeline": {
+          "sha256": "2d658606d1f782772fa400139a619d1d920d7db6a999b61f3e3214225d9bc6b1",
+          "contentSha256": "370017901b797274c92003a7474960c1fa75cbc8d921785609c1749bfaed7b1a"
+        }
+      },
+      "documents": "Upload identity/visa evidence as applicable, full tertiary transcripts and degree certificates, institutional grading scale, and English-test report or qualifying English-medium letter. Nominate two to five referees. Scanned copies suffice initially unless the programme office requests originals.",
+      "deadline": "Individual programmes set their own deadlines; the 2027/28 Fall application cycle opened on 1 September 2026.",
+      "intake": "Fall 2027; classes start 1 September 2027."
     }
   ]
 }

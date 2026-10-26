@@ -470,12 +470,6 @@
       "kind": "institution"
     },
     {
-      "school": "Hong Kong University of Science and Technology",
-      "level": "graduate",
-      "url": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/admission-requirements",
-      "kind": "institution"
-    },
-    {
       "school": "University of Edinburgh",
       "level": "undergraduate",
       "url": "https://study.ed.ac.uk/undergraduate/entry-requirements",
@@ -1276,14 +1270,6 @@
       "subject": "Accounting & Finance"
     },
     {
-      "school": "Hong Kong University of Science and Technology",
-      "level": "master",
-      "url": "https://msc-cse.hkust.edu.hk/",
-      "kind": "program",
-      "name": "MSc in Information Technology",
-      "subject": "Computer Science"
-    },
-    {
       "school": "City University of Hong Kong",
       "level": "master",
       "url": "https://www.cityu.edu.hk/pg/programme/p70",
@@ -2036,6 +2022,546 @@
       "level": "master",
       "url": "https://ethz.ch/en/studies/master/application/language-requirements.html",
       "kind": "institution"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egcempace/requirements",
+      "kind": "program",
+      "name": "MPhil in Advanced Chemical Engineering",
+      "subject": "Chemical Engineering"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egcempace/apply",
+      "kind": "program",
+      "name": "MPhil in Advanced Chemical Engineering",
+      "subject": "Chemical Engineering"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aharpdahc/requirements",
+      "kind": "program",
+      "name": "PhD in Architecture",
+      "subject": "Architecture"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aharpdahc/apply",
+      "kind": "program",
+      "name": "PhD in Architecture",
+      "subject": "Architecture"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aharmpaus/requirements",
+      "kind": "program",
+      "name": "MPhil in Architecture and Urban Studies",
+      "subject": "Architecture"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aharmpaus/apply",
+      "kind": "program",
+      "name": "MPhil in Architecture and Urban Studies",
+      "subject": "Architecture"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcasasast/requirements",
+      "kind": "program",
+      "name": "MASt in Astrophysics",
+      "subject": "Astronomy"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcasasast/apply",
+      "kind": "program",
+      "name": "MASt in Astrophysics",
+      "subject": "Astronomy"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blbcpdpbc/requirements",
+      "kind": "program",
+      "name": "PhD in Biochemistry",
+      "subject": "Biochemistry"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blbcpdpbc/apply",
+      "kind": "program",
+      "name": "PhD in Biochemistry",
+      "subject": "Biochemistry"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blbcmpbsc/requirements",
+      "kind": "program",
+      "name": "MPhil in Biological Science (Biochemistry) by thesis",
+      "subject": "Biochemistry"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blbcmpbsc/apply",
+      "kind": "program",
+      "name": "MPhil in Biological Science (Biochemistry) by thesis",
+      "subject": "Biochemistry"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcchmpmch/requirements",
+      "kind": "program",
+      "name": "MPhil in Chemistry",
+      "subject": "Chemistry"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcchmpmch/apply",
+      "kind": "program",
+      "name": "MPhil in Chemistry",
+      "subject": "Chemistry"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcchpdpch/requirements",
+      "kind": "program",
+      "name": "PhD in Chemistry",
+      "subject": "Chemistry"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcchpdpch/apply",
+      "kind": "program",
+      "name": "PhD in Chemistry",
+      "subject": "Chemistry"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwclcl/requirements",
+      "kind": "program",
+      "name": "MCL in Corporate Law",
+      "subject": "Law"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwclcl/apply",
+      "kind": "program",
+      "name": "MCL in Corporate Law",
+      "subject": "Law"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpmeg/requirements",
+      "kind": "program",
+      "name": "MPhil in Engineering",
+      "subject": "Engineering"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpmeg/apply",
+      "kind": "program",
+      "name": "MPhil in Engineering",
+      "subject": "Engineering"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegpdpeg/requirements",
+      "kind": "program",
+      "name": "PhD in Engineering",
+      "subject": "Engineering"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegpdpeg/apply",
+      "kind": "program",
+      "name": "PhD in Engineering",
+      "subject": "Engineering"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpesd/requirements",
+      "kind": "program",
+      "name": "MPhil in Engineering for Sustainable Development",
+      "subject": "Engineering"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpesd/apply",
+      "kind": "program",
+      "name": "MPhil in Engineering for Sustainable Development",
+      "subject": "Engineering"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lelempepl/requirements",
+      "kind": "program",
+      "name": "MPhil in Environmental Policy",
+      "subject": "Environmental Policy"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lelempepl/apply",
+      "kind": "program",
+      "name": "MPhil in Environmental Policy",
+      "subject": "Environmental Policy"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/cvpcmpcps/requirements",
+      "kind": "program",
+      "name": "MPhil in Foundations of Clinical Psychology",
+      "subject": "Psychology"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/cvpcmpcps/apply",
+      "kind": "program",
+      "name": "MPhil in Foundations of Clinical Psychology",
+      "subject": "Psychology"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpimm/requirements",
+      "kind": "program",
+      "name": "MPhil in Industrial Systems, Manufacture, and Management",
+      "subject": "Engineering"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/egegmpimm/apply",
+      "kind": "program",
+      "name": "MPhil in Industrial Systems, Manufacture, and Management",
+      "subject": "Engineering"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwllll/requirements",
+      "kind": "program",
+      "name": "LLM in Law",
+      "subject": "Law"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwllll/apply",
+      "kind": "program",
+      "name": "LLM in Law",
+      "subject": "Law"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwpdlaw/requirements",
+      "kind": "program",
+      "name": "PhD in Law",
+      "subject": "Law"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlwpdlaw/apply",
+      "kind": "program",
+      "name": "PhD in Law",
+      "subject": "Law"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbmpmgt/requirements",
+      "kind": "program",
+      "name": "MPhil in Management",
+      "subject": "Business & Management"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbmpmgt/apply",
+      "kind": "program",
+      "name": "MPhil in Management",
+      "subject": "Business & Management"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbpdmst/requirements",
+      "kind": "program",
+      "name": "PhD in Management Studies",
+      "subject": "Business & Management"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbpdmst/apply",
+      "kind": "program",
+      "name": "PhD in Management Studies",
+      "subject": "Business & Management"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/maammpmpm/requirements",
+      "kind": "program",
+      "name": "MPhil in Mathematics",
+      "subject": "Mathematics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/maammpmpm/apply",
+      "kind": "program",
+      "name": "MPhil in Mathematics",
+      "subject": "Mathematics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/maamasapm/requirements",
+      "kind": "program",
+      "name": "MASt in Mathematics (Applied Mathematics)",
+      "subject": "Mathematics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/maamasapm/apply",
+      "kind": "program",
+      "name": "MASt in Mathematics (Applied Mathematics)",
+      "subject": "Mathematics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmasmst/requirements",
+      "kind": "program",
+      "name": "MASt in Mathematics (Mathematical Statistics)",
+      "subject": "Statistics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmasmst/apply",
+      "kind": "program",
+      "name": "MASt in Mathematics (Mathematical Statistics)",
+      "subject": "Statistics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/requirements",
+      "kind": "program",
+      "name": "MASt in Mathematics (Pure Mathematics)",
+      "subject": "Mathematics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/apply",
+      "kind": "program",
+      "name": "MASt in Mathematics (Pure Mathematics)",
+      "subject": "Mathematics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphasphy/requirements",
+      "kind": "program",
+      "name": "MASt in Physics",
+      "subject": "Physics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphasphy/apply",
+      "kind": "program",
+      "name": "MASt in Physics",
+      "subject": "Physics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphmpphy/requirements",
+      "kind": "program",
+      "name": "MPhil in Physics",
+      "subject": "Physics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphmpphy/apply",
+      "kind": "program",
+      "name": "MPhil in Physics",
+      "subject": "Physics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphpdphy/requirements",
+      "kind": "program",
+      "name": "PhD in Physics",
+      "subject": "Physics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphpdphy/apply",
+      "kind": "program",
+      "name": "PhD in Physics",
+      "subject": "Physics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blpypdpsy/requirements",
+      "kind": "program",
+      "name": "PhD in Psychology",
+      "subject": "Psychology"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/blpypdpsy/apply",
+      "kind": "program",
+      "name": "PhD in Psychology",
+      "subject": "Psychology"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "graduate",
+      "url": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required",
+      "kind": "institution"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "graduate",
+      "url": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/admission-timeline",
+      "kind": "institution"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ai/",
+      "kind": "program",
+      "name": "MSc in Artificial Intelligence",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-bdt/",
+      "kind": "program",
+      "name": "MSc in Big Data Technology",
+      "subject": "Data Science"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-it/",
+      "kind": "program",
+      "name": "MSc in Information Technology",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eleg/",
+      "kind": "program",
+      "name": "MSc in Electronic Engineering",
+      "subject": "Electrical Engineering"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mech/",
+      "kind": "program",
+      "name": "MSc in Mechanical Engineering",
+      "subject": "Mechanical Engineering"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-econ/",
+      "kind": "program",
+      "name": "MSc in Economics",
+      "subject": "Economics"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fina/",
+      "kind": "program",
+      "name": "MSc in Finance",
+      "subject": "Finance"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ba/",
+      "kind": "program",
+      "name": "MSc in Business Analytics",
+      "subject": "Business Analytics"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse/",
+      "kind": "program",
+      "name": "MPhil in Computer Science and Engineering",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "phd",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse/",
+      "kind": "program",
+      "name": "PhD in Computer Science and Engineering",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "phd",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-econ/",
+      "kind": "program",
+      "name": "Integrated MPhil-PhD in Economics",
+      "subject": "Economics"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "phd",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-fina/",
+      "kind": "program",
+      "name": "Integrated MPhil-PhD in Finance",
+      "subject": "Finance"
     }
   ]
 }

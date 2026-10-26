@@ -128,6 +128,34 @@ const data = JSON.parse(fs.readFileSync(path.join(root, 'data/universities.json'
     assert.ok(await loadingPage.locator('#detail .detail__placeholder').isVisible());
     await loadingPage.locator('#school-rows tr').first().click();
     assert.ok((await loadingPage.locator('#detail').innerText()).includes('MSc Computing'));
+    // Check enriched programme fields at the actual detail output surface.
+    for (const query of ['Cambridge', 'Hong Kong University of Science', 'Toronto']) {
+      await loadingPage.fill('#search', query);
+      const schoolId = await loadingPage.locator('#school-rows tr').first().getAttribute('data-id');
+      const school = data.schools.find(s => s.id === schoolId);
+      await loadingPage.locator('#school-rows tr').first().click();
+      const locale = await loadingPage.evaluate(() => window.UINDEX_I18N.locale());
+      for (const level of ['master', 'phd']) {
+        await loadingPage.selectOption('#level-select', level);
+        const cards = await loadingPage.locator('.program-card').evaluateAll(nodes => nodes.map(node => ({
+          title: node.querySelector('h4').textContent,
+          fields: [...node.querySelectorAll('dd')].map(dd => dd.textContent),
+        })));
+        const programs = school.programs.filter(p => p.level === level);
+        assert.equal(cards.length, programs.length, school.name + ': missing programme cards');
+        for (const p of programs.filter(p => p.status === 'reviewed')) {
+          const card = cards.find(c => c.title === p.name);
+          assert.ok(card, p.name);
+          for (const field of ['gpa', 'english', 'deadline', 'documents', 'intake']) {
+            if (!p[field]) continue;
+            const expected = field === 'deadline' && /^[0-9]{4}-[0-9]{2}-[0-9]{2}$/.test(p[field])
+              ? new Date(p[field] + 'T00:00:00').toLocaleDateString(locale, { year: 'numeric', month: '2-digit', day: '2-digit' })
+              : p[field];
+            assert.ok(card.fields.includes(expected), p.name + ': missing rendered ' + field);
+          }
+        }
+      }
+    }
     await loadingPage.close();
     assert.deepEqual(errors, []);
     console.log('Browser smoke passed: initial empty selection, delayed catalogue interactions, independent official link, rankings, degree/programme filter, search, Traditional names, region labels, bounded banner, themes and five-width overflow checks.');

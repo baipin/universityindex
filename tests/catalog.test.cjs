@@ -132,6 +132,37 @@ test('published admission and programme coverage agrees with actual records', ()
   for (const check of checks) assert.ok(ids.has(check.schoolId));
 });
 
+test('published reviewed summaries match their checked source revisions', () => {
+  const reviews = JSON.parse(fs.readFileSync(path.join(root, 'data/admissions/reviewed.json'), 'utf8')).entries;
+  const checks = JSON.parse(fs.readFileSync(path.join(root, 'data/admissions/checks.json'), 'utf8')).sources;
+  const identity = (schoolId, level, programId) => JSON.stringify([schoolId, level, programId || null]);
+  const byIdentity = new Map();
+  for (const review of reviews) {
+    const id = identity(review.schoolId, review.level, review.programId);
+    assert.ok(!byIdentity.has(id), 'Duplicate reviewed entry: ' + id);
+    byIdentity.set(id, review);
+  }
+  const sources = new Map(checks.filter(c => c.status === 'source-checked').map(c => [JSON.stringify([c.schoolId, c.url]), c]));
+  for (const school of data.schools) {
+    const records = [...Object.entries(school.requirements).map(([level, r]) => ({ level, r })), ...school.programs.map(r => ({ level: r.level, r }))];
+    for (const { level, r } of records) {
+      if (!r || r.status !== 'reviewed') continue;
+      const review = byIdentity.get(identity(school.id, level, r.id));
+      assert.ok(review, school.id + ': missing review provenance');
+      for (const url of new Set(Object.values(r.fieldSources))) {
+        const source = sources.get(JSON.stringify([school.id, url]));
+        const baseline = review.sourceFingerprints[url];
+        assert.ok(source && baseline, school.id + ': unchecked review source');
+        const field = baseline.contentSha256 && source.contentSha256 ? 'contentSha256' : 'sha256';
+        assert.equal(baseline[field], source[field], school.id + ': stale review at ' + url);
+      }
+      for (const field of ['gpa', 'english', 'deadline', 'documents', 'intake']) {
+        assert.equal(r[field] ?? null, review[field] ?? null, school.id + ': published field differs from review ' + field);
+      }
+    }
+  }
+});
+
 test('Traditional names, QS-style region display and multilingual search', () => {
   const mit = data.schools.find(s => s.id === 'qs-410');
   assert.equal(catalog.schoolName(mit, 'zh-Hant'), '麻省理工學院');

@@ -16,11 +16,11 @@ Snapshot: **27 October 2026**. Live counts and edition labels are generated from
 | Deduplicated global ranking union | 216 institutions |
 | QS 2026 subject / broad-area categories | 59 views |
 | Institutions with checked admissions sources | 140 |
-| Checked admissions source records | 249 |
-| Specific programmes | 39, including 35 with reviewed summaries |
-| Reviewed requirement records | 86: 51 institutional/faculty baselines and 35 programme records |
+| Checked admissions source records | 316 |
+| Specific programmes | 78, including 74 with reviewed summaries |
+| Reviewed requirement records | 125: 51 institutional/faculty baselines and 74 programme records |
 
-Admissions coverage is **partial**, not every programme at every institution. There are 76 institutions without a publishable admissions source and 46 unavailable candidate source records. Subject views show subject ranks up to 150 **within the global ranking union**; they are not complete subject league tables. U.S. News refers to its global ranking, not the US domestic undergraduate ranking. Ties and bands such as `=2` and `101-150` retain the publishers’ labels.
+Admissions coverage is **partial**, not every programme at every institution. There are 76 institutions without a publishable admissions source and 45 unavailable candidate source records. Subject views show subject ranks up to 150 **within the global ranking union**; they are not complete subject league tables. U.S. News refers to its global ranking, not the US domestic undergraduate ranking. Ties and bands such as `=2` and `101-150` retain the publishers’ labels.
 
 ## Automated GitHub bot
 
