@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "id": "qs-engineering-petroleum",
+    "name": "QS by Subject",
+    "year": "2026",
+    "scope": "subject",
+    "source": "https://www.qs-topuniversities.cn/university-rankings/university-subject-rankings/2026/engineering-petroleum",
+    "dataSource": "https://www.qs-topuniversities.cn/sites/default/files/qs-rankings-data/en/06576f8a9839209c2a7b471081abbd86.txt",
+    "checkedAt": "2026-10-26T15:45:00+00:00",
+    "sha256": "612ab81a630ca3c6e3dd2a24132ef666ae2c89329f3ea49a5b5c7bc5d336231a",
+    "status": "verified",
+    "subject": "Engineering Petroleum",
+    "eligiblePool": "Global top 150 union (QS / THE / US News); subject ranks up to 150 only"
+  },
+  "rows": [
+    {
+      "schoolId": "qs-356",
+      "name": "Imperial College London",
+      "rank": 5,
+      "rankLabel": "5"
+    },
+    {
+      "schoolId": "qs-389",
+      "name": "The University of Manchester",
+      "rank": 12,
+      "rankLabel": "12"
+    },
+    {
+      "schoolId": "qs-494",
+      "name": "Pennsylvania State University",
+      "rank": 21,
+      "rankLabel": "21"
+    },
+    {
+      "schoolId": "qs-378",
+      "name": "Macquarie University",
+      "rank": 49,
+      "rankLabel": "49"
+    },
+    {
+      "schoolId": "qs-447",
+      "name": "The University of New South Wales (UNSW Sydney)",
+      "rank": 13,
+      "rankLabel": "13"
+    },
+    {
+      "schoolId": "qs-515",
+      "name": "The University of Queensland",
+      "rank": 15,
+      "rankLabel": "15"
+    },
+    {
+      "schoolId": "qs-550",
+      "name": "Universidade de São Paulo",
+      "rank": 29,
+      "rankLabel": "=29"
+    },
+    {
+      "schoolId": "qs-383",
+      "name": "Universiti Malaya (UM)",
+      "rank": 34,
+      "rankLabel": "34"
+    },
+    {
+      "schoolId": "qs-338",
+      "name": "University of Leeds",
+      "rank": 18,
+      "rankLabel": "18"
+    },
+    {
+      "schoolId": "qs-350",
+      "name": "University of Liverpool",
+      "rank": 51,
+      "rankLabel": "51-100"
+    },
+    {
+      "schoolId": "qs-328",
+      "name": "Kyoto University",
+      "rank": 16,
+      "rankLabel": "16"
+    },
+    {
+      "schoolId": "qs-604",
+      "name": "University of Texas at Austin",
+      "rank": 1,
+      "rankLabel": "1"
+    },
+    {
+      "schoolId": "qs-425",
+      "name": "Universidad Nacional Autónoma de México  (UNAM)",
+      "rank": 26,
+      "rankLabel": "26"
+    },
+    {
+      "schoolId": "qs-779",
+      "name": "King Fahd University of Petroleum & Minerals",
+      "rank": 4,
+      "rankLabel": "4"
+    },
+    {
+      "schoolId": "qs-15",
+      "name": "University of Alberta",
+      "rank": 3,
+      "rankLabel": "3"
+    },
+    {
+      "schoolId": "qs-22873",
+      "name": "Khalifa University of Science and Technology",
+      "rank": 6,
+      "rankLabel": "6"
+    },
+    {
+      "schoolId": "qs-141",
+      "name": "University of Copenhagen",
+      "rank": 31,
+      "rankLabel": "31"
+    },
+    {
+      "schoolId": "qs-78",
+      "name": "Universidad de Buenos Aires (UBA)",
+      "rank": 35,
+      "rankLabel": "35"
+    },
+    {
+      "schoolId": "qs-20748591",
+      "name": "Adelaide University",
+      "rank": 25,
+      "rankLabel": "25"
+    },
+    {
+      "schoolId": "qs-61",
+      "name": "Alma Mater Studiorum - University of Bologna",
+      "rank": 24,
+      "rankLabel": "24"
+    },
+    {
+      "schoolId": "qs-1175",
+      "name": "King Saud University",
+      "rank": 39,
+      "rankLabel": "=39"
+    },
+    {
+      "schoolId": "qs-2537",
+      "name": "Qatar University",
+      "rank": 51,
+      "rankLabel": "51-100"
+    },
+    {
+      "schoolId": "qs-385",
+      "name": "Universiti Putra Malaysia (UPM)",
+      "rank": 51,
+      "rankLabel": "51-100"
+    },
+    {
+      "schoolId": "qs-166",
+      "name": "University College Dublin",
+      "rank": 44,
+      "rankLabel": "44"
+    },
+    {
+      "schoolId": "qs-473",
+      "name": "University of Oslo",
+      "rank": 46,
+      "rankLabel": "=46"
+    },
+    {
+      "schoolId": "us-215293",
+      "name": "University of Pittsburgh",
+      "rank": 51,
+      "rankLabel": "51-100"
+    },
+    {
+      "schoolId": "the-519",
+      "name": "University of Southern California",
+      "rank": 33,
+      "rankLabel": "33"
+    },
+    {
+      "schoolId": "the-557",
+      "name": "Case Western Reserve University",
+      "rank": 51,
+      "rankLabel": "51-100"
+    }
+  ]
+}

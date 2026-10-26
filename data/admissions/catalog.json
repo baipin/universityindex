@@ -1,0 +1,1959 @@
+{
+  "notice": "Candidate official sources. Only successfully checked pages are published; source linkage alone does not verify all requirements.",
+  "sources": [
+    {
+      "school": "Massachusetts Institute of Technology",
+      "level": "undergraduate",
+      "url": "https://mitadmissions.org/apply/firstyear/tests-scores/",
+      "kind": "institution"
+    },
+    {
+      "school": "Massachusetts Institute of Technology",
+      "level": "undergraduate",
+      "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+      "kind": "institution"
+    },
+    {
+      "school": "Massachusetts Institute of Technology",
+      "level": "graduate",
+      "url": "https://oge.mit.edu/graduate-admissions/applications/",
+      "kind": "institution"
+    },
+    {
+      "school": "Massachusetts Institute of Technology",
+      "level": "graduate",
+      "url": "https://oge.mit.edu/graduate-admissions/applications/international-applicants/",
+      "kind": "institution"
+    },
+    {
+      "school": "Imperial College London",
+      "level": "undergraduate",
+      "url": "https://www.imperial.ac.uk/study/apply/undergraduate/entry-requirements/",
+      "kind": "institution"
+    },
+    {
+      "school": "Imperial College London",
+      "level": "graduate",
+      "url": "https://www.imperial.ac.uk/study/apply/postgraduate-taught/entry-requirements/",
+      "kind": "institution"
+    },
+    {
+      "school": "Imperial College London",
+      "level": "phd",
+      "url": "https://www.imperial.ac.uk/study/apply/postgraduate-doctoral/entry-requirements/",
+      "kind": "institution"
+    },
+    {
+      "school": "Imperial College London",
+      "level": "all",
+      "url": "https://www.imperial.ac.uk/study/apply/english-language/",
+      "kind": "english-standard"
+    },
+    {
+      "school": "Stanford University",
+      "level": "undergraduate",
+      "url": "https://admission.stanford.edu/apply/first-year/index.html",
+      "kind": "institution"
+    },
+    {
+      "school": "Stanford University",
+      "level": "graduate",
+      "url": "https://gradadmissions.stanford.edu/apply/eligibility",
+      "kind": "institution"
+    },
+    {
+      "school": "Stanford University",
+      "level": "graduate",
+      "url": "https://gradadmissions.stanford.edu/apply/test-scores",
+      "kind": "institution"
+    },
+    {
+      "school": "Stanford University",
+      "level": "graduate",
+      "url": "https://gradadmissions.stanford.edu/apply/recommendations",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Oxford",
+      "level": "undergraduate",
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/admission-requirements/admission-requirements-table",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Oxford",
+      "level": "graduate",
+      "url": "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide/qualifications-experience-languages-funding/english-language-proficiency",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Oxford",
+      "level": "graduate",
+      "url": "https://www.ox.ac.uk/admissions/graduate/applying-to-oxford/application-guide",
+      "kind": "institution"
+    },
+    {
+      "school": "Harvard University",
+      "level": "undergraduate",
+      "url": "https://college.harvard.edu/admissions/apply/first-year-applicants",
+      "kind": "institution"
+    },
+    {
+      "school": "Harvard University",
+      "level": "graduate",
+      "url": "https://gsas.harvard.edu/apply/applying-degree-programs",
+      "kind": "institution"
+    },
+    {
+      "school": "Harvard University",
+      "level": "graduate",
+      "url": "https://gsas.harvard.edu/apply/applying-degree-programs/english-proficiency",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "undergraduate",
+      "url": "https://www.undergraduate.study.cam.ac.uk/apply/before/entry-requirements",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "graduate",
+      "url": "https://www.postgraduate.study.cam.ac.uk/application-process/entry-requirements",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "graduate",
+      "url": "https://www.postgraduate.study.cam.ac.uk/international/competence-english",
+      "kind": "institution"
+    },
+    {
+      "school": "California Institute of Technology",
+      "level": "undergraduate",
+      "url": "https://www.admissions.caltech.edu/apply/first-year-applicants",
+      "kind": "institution"
+    },
+    {
+      "school": "California Institute of Technology",
+      "level": "graduate",
+      "url": "https://gradoffice.caltech.edu/admissions",
+      "kind": "institution"
+    },
+    {
+      "school": "ETH Zurich",
+      "level": "undergraduate",
+      "url": "https://ethz.ch/en/studies/bachelor/application.html",
+      "kind": "institution"
+    },
+    {
+      "school": "ETH Zurich",
+      "level": "master",
+      "url": "https://ethz.ch/en/studies/master/application.html",
+      "kind": "institution"
+    },
+    {
+      "school": "ETH Zurich",
+      "level": "phd",
+      "url": "https://ethz.ch/en/doctorate/registration-admission.html",
+      "kind": "institution"
+    },
+    {
+      "school": "UCL",
+      "level": "undergraduate",
+      "url": "https://www.ucl.ac.uk/prospective-students/undergraduate/application/entry-requirements",
+      "kind": "institution"
+    },
+    {
+      "school": "UCL",
+      "level": "graduate",
+      "url": "https://www.ucl.ac.uk/prospective-students/graduate/english-language-requirements",
+      "kind": "institution"
+    },
+    {
+      "school": "UCL",
+      "level": "master",
+      "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees",
+      "kind": "directory"
+    },
+    {
+      "school": "UCL",
+      "level": "phd",
+      "url": "https://www.ucl.ac.uk/prospective-students/graduate/research-degrees",
+      "kind": "directory"
+    },
+    {
+      "school": "National University of Singapore",
+      "level": "undergraduate",
+      "url": "https://nus.edu.sg/oam/admissions/international-qualifications/international-qualifications",
+      "kind": "institution"
+    },
+    {
+      "school": "National University of Singapore",
+      "level": "graduate",
+      "url": "https://nusgs.nus.edu.sg/admissions/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Hong Kong",
+      "level": "undergraduate",
+      "url": "https://admissions.hku.hk/apply/international-qualifications",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Hong Kong",
+      "level": "master",
+      "url": "https://admissions.hku.hk/tpg/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Hong Kong",
+      "level": "phd",
+      "url": "https://gradsch.hku.hk/prospective_students/application/admission_requirement",
+      "kind": "institution"
+    },
+    {
+      "school": "Nanyang Technological University",
+      "level": "undergraduate",
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/admission-guide/international-qualifications",
+      "kind": "institution"
+    },
+    {
+      "school": "Nanyang Technological University",
+      "level": "master",
+      "url": "https://www.ntu.edu.sg/admissions/graduate/admission-guide/coursework",
+      "kind": "institution"
+    },
+    {
+      "school": "Nanyang Technological University",
+      "level": "phd",
+      "url": "https://www.ntu.edu.sg/admissions/graduate/radmissionguide",
+      "kind": "institution"
+    },
+    {
+      "school": "Peking University",
+      "level": "all",
+      "url": "https://www.isd.pku.edu.cn/",
+      "kind": "directory"
+    },
+    {
+      "school": "Tsinghua University",
+      "level": "undergraduate",
+      "url": "https://international.join-tsinghua.edu.cn/Admission1.htm",
+      "kind": "institution"
+    },
+    {
+      "school": "Tsinghua University",
+      "level": "graduate",
+      "url": "https://yz.tsinghua.edu.cn/en/Admissions/How_to_Apply.htm",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Pennsylvania",
+      "level": "undergraduate",
+      "url": "https://admissions.upenn.edu/how-to-apply/first-year-applicants",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Pennsylvania",
+      "level": "graduate",
+      "url": "https://www.upenn.edu/academics/graduate",
+      "kind": "institution"
+    },
+    {
+      "school": "Cornell University",
+      "level": "undergraduate",
+      "url": "https://admissions.cornell.edu/how-to-apply/first-year-applicants",
+      "kind": "institution"
+    },
+    {
+      "school": "Cornell University",
+      "level": "graduate",
+      "url": "https://gradschool.cornell.edu/admissions/",
+      "kind": "institution"
+    },
+    {
+      "school": "Yale University",
+      "level": "undergraduate",
+      "url": "https://admissions.yale.edu/instructions",
+      "kind": "institution"
+    },
+    {
+      "school": "Yale University",
+      "level": "graduate",
+      "url": "https://gsas.yale.edu/admissions/phdmasters-application-process",
+      "kind": "institution"
+    },
+    {
+      "school": "Chinese University of Hong Kong",
+      "level": "undergraduate",
+      "url": "https://admission.cuhk.edu.hk/application/non-jupas/",
+      "kind": "institution"
+    },
+    {
+      "school": "Chinese University of Hong Kong",
+      "level": "graduate",
+      "url": "https://www.gs.cuhk.edu.hk/admissions/admissions/requirements",
+      "kind": "institution"
+    },
+    {
+      "school": "University of New South Wales",
+      "level": "undergraduate",
+      "url": "https://www.unsw.edu.au/study/how-to-apply/undergraduate",
+      "kind": "institution"
+    },
+    {
+      "school": "University of New South Wales",
+      "level": "master",
+      "url": "https://www.unsw.edu.au/study/how-to-apply/postgraduate",
+      "kind": "institution"
+    },
+    {
+      "school": "University of New South Wales",
+      "level": "phd",
+      "url": "https://www.unsw.edu.au/research/hdr/application",
+      "kind": "institution"
+    },
+    {
+      "school": "Johns Hopkins University",
+      "level": "undergraduate",
+      "url": "https://apply.jhu.edu/how-to-apply/",
+      "kind": "institution"
+    },
+    {
+      "school": "Johns Hopkins University",
+      "level": "graduate",
+      "url": "https://www.jhu.edu/admissions/graduate-admissions/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of California Berkeley",
+      "level": "undergraduate",
+      "url": "https://admissions.berkeley.edu/apply-to-berkeley/freshmen/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of California Berkeley",
+      "level": "graduate",
+      "url": "https://grad.berkeley.edu/admissions/steps-to-apply/requirements/",
+      "kind": "institution"
+    },
+    {
+      "school": "EPFL",
+      "level": "undergraduate",
+      "url": "https://www.epfl.ch/education/admission/admission-2/bachelor-admission-criteria-and-application/",
+      "kind": "institution"
+    },
+    {
+      "school": "EPFL",
+      "level": "master",
+      "url": "https://www.epfl.ch/education/admission/admission-2/master-admission-criteria-application/",
+      "kind": "institution"
+    },
+    {
+      "school": "EPFL",
+      "level": "phd",
+      "url": "https://www.epfl.ch/education/phd/admission/admission-criteria/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Melbourne",
+      "level": "undergraduate",
+      "url": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Melbourne",
+      "level": "master",
+      "url": "https://study.unimelb.edu.au/how-to-apply/graduate-coursework-study/international-applications",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Melbourne",
+      "level": "phd",
+      "url": "https://study.unimelb.edu.au/how-to-apply/graduate-research",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Chicago",
+      "level": "undergraduate",
+      "url": "https://collegeadmissions.uchicago.edu/apply/first-year-applicants",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Chicago",
+      "level": "graduate",
+      "url": "https://grad.uchicago.edu/admissions/",
+      "kind": "institution"
+    },
+    {
+      "school": "Technical University of Munich",
+      "level": "undergraduate",
+      "url": "https://www.tum.de/en/studies/application/bachelors-degree-programs",
+      "kind": "institution"
+    },
+    {
+      "school": "Technical University of Munich",
+      "level": "master",
+      "url": "https://www.tum.de/en/studies/application/master",
+      "kind": "institution"
+    },
+    {
+      "school": "Technical University of Munich",
+      "level": "phd",
+      "url": "https://www.gs.tum.de/en/gs/path-to-a-doctorate/application/",
+      "kind": "institution"
+    },
+    {
+      "school": "Fudan University",
+      "level": "all",
+      "url": "https://iso.fudan.edu.cn/isoenglish/",
+      "kind": "directory"
+    },
+    {
+      "school": "Princeton University",
+      "level": "undergraduate",
+      "url": "https://admission.princeton.edu/apply/application-checklist",
+      "kind": "institution"
+    },
+    {
+      "school": "Princeton University",
+      "level": "graduate",
+      "url": "https://gradschool.princeton.edu/admission-onboarding/prepare",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Sydney",
+      "level": "all",
+      "url": "https://www.sydney.edu.au/study/applying/how-to-apply.html",
+      "kind": "directory"
+    },
+    {
+      "school": "Australian National University",
+      "level": "all",
+      "url": "https://study.anu.edu.au/apply",
+      "kind": "directory"
+    },
+    {
+      "school": "McGill University",
+      "level": "undergraduate",
+      "url": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements",
+      "kind": "institution"
+    },
+    {
+      "school": "McGill University",
+      "level": "graduate",
+      "url": "https://www.mcgill.ca/gradapplicants/how-apply/you-apply-mcgill/minimum-requirements",
+      "kind": "institution"
+    },
+    {
+      "school": "Monash University",
+      "level": "all",
+      "url": "https://www.monash.edu/study/how-to-apply",
+      "kind": "directory"
+    },
+    {
+      "school": "University of Toronto",
+      "level": "undergraduate",
+      "url": "https://future.utoronto.ca/apply/requirements/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Toronto",
+      "level": "graduate",
+      "url": "https://www.sgs.utoronto.ca/admissions/admission-application-requirements/",
+      "kind": "institution"
+    },
+    {
+      "school": "Hong Kong University of Science and Technology",
+      "level": "undergraduate",
+      "url": "https://join.hkust.edu.hk/admissions/international-qualifications",
+      "kind": "institution"
+    },
+    {
+      "school": "Hong Kong University of Science and Technology",
+      "level": "graduate",
+      "url": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/admission-requirements",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Edinburgh",
+      "level": "undergraduate",
+      "url": "https://study.ed.ac.uk/undergraduate/entry-requirements",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Edinburgh",
+      "level": "graduate",
+      "url": "https://study.ed.ac.uk/postgraduate/applying/entry-requirements",
+      "kind": "institution"
+    },
+    {
+      "school": "Shanghai Jiao Tong University",
+      "level": "all",
+      "url": "https://isc.sjtu.edu.cn/EN/",
+      "kind": "directory"
+    },
+    {
+      "school": "King's College London",
+      "level": "all",
+      "url": "https://www.kcl.ac.uk/study/apply",
+      "kind": "directory"
+    },
+    {
+      "school": "Seoul National University",
+      "level": "all",
+      "url": "https://en.snu.ac.kr/admission",
+      "kind": "directory"
+    },
+    {
+      "school": "University of Tokyo",
+      "level": "all",
+      "url": "https://www.u-tokyo.ac.jp/en/prospective-students/",
+      "kind": "directory"
+    },
+    {
+      "school": "University of Manchester",
+      "level": "undergraduate",
+      "url": "https://www.manchester.ac.uk/study/undergraduate/applications/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/admissions/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Manchester",
+      "level": "phd",
+      "url": "https://www.manchester.ac.uk/study/postgraduate-research/admissions/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Queensland",
+      "level": "all",
+      "url": "https://study.uq.edu.au/admissions",
+      "kind": "directory"
+    },
+    {
+      "school": "Yonsei University",
+      "level": "all",
+      "url": "https://admission.yonsei.ac.kr/seoul/admission/html/international/guide.asp",
+      "kind": "directory"
+    },
+    {
+      "school": "Columbia University",
+      "level": "undergraduate",
+      "url": "https://undergrad.admissions.columbia.edu/apply/firstyear",
+      "kind": "institution"
+    },
+    {
+      "school": "Columbia University",
+      "level": "graduate",
+      "url": "https://www.gsas.columbia.edu/content/admissions",
+      "kind": "institution"
+    },
+    {
+      "school": "Northwestern University",
+      "level": "undergraduate",
+      "url": "https://admissions.northwestern.edu/apply/requirements.html",
+      "kind": "institution"
+    },
+    {
+      "school": "Northwestern University",
+      "level": "graduate",
+      "url": "https://www.tgs.northwestern.edu/admission/application-procedures/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of British Columbia",
+      "level": "undergraduate",
+      "url": "https://you.ubc.ca/applying-ubc/requirements/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of British Columbia",
+      "level": "graduate",
+      "url": "https://www.grad.ubc.ca/prospective-students/application-admission/check-your-eligibility",
+      "kind": "institution"
+    },
+    {
+      "school": "Zhejiang University",
+      "level": "all",
+      "url": "https://iczu.zju.edu.cn/admissionsen/",
+      "kind": "directory"
+    },
+    {
+      "school": "Delft University of Technology",
+      "level": "master",
+      "url": "https://www.tudelft.nl/en/education/admission-and-application/msc-international-diploma",
+      "kind": "institution"
+    },
+    {
+      "school": "Delft University of Technology",
+      "level": "phd",
+      "url": "https://www.tudelft.nl/en/education/programmes/phd/admission",
+      "kind": "institution"
+    },
+    {
+      "school": "University of California Los Angeles",
+      "level": "undergraduate",
+      "url": "https://admission.ucla.edu/apply/freshman",
+      "kind": "institution"
+    },
+    {
+      "school": "University of California Los Angeles",
+      "level": "graduate",
+      "url": "https://grad.ucla.edu/admissions/steps-to-apply/",
+      "kind": "institution"
+    },
+    {
+      "school": "Hong Kong Polytechnic University",
+      "level": "undergraduate",
+      "url": "https://www.polyu.edu.hk/study/ug/admissions/international-other-qualifications",
+      "kind": "institution"
+    },
+    {
+      "school": "Hong Kong Polytechnic University",
+      "level": "master",
+      "url": "https://www.polyu.edu.hk/study/pg/taught-postgraduate/admission-requirements-tpg",
+      "kind": "institution"
+    },
+    {
+      "school": "Hong Kong Polytechnic University",
+      "level": "phd",
+      "url": "https://www.polyu.edu.hk/gs/prospective-students/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Michigan Ann Arbor",
+      "level": "undergraduate",
+      "url": "https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Michigan Ann Arbor",
+      "level": "graduate",
+      "url": "https://rackham.umich.edu/admissions/applying/",
+      "kind": "institution"
+    },
+    {
+      "school": "City University of Hong Kong",
+      "level": "undergraduate",
+      "url": "https://www.cityu.edu.hk/admo/admissions/international-admissions",
+      "kind": "institution"
+    },
+    {
+      "school": "City University of Hong Kong",
+      "level": "master",
+      "url": "https://www.cityu.edu.hk/pg/taught-postgraduate-programmes/entrance-requirements",
+      "kind": "institution"
+    },
+    {
+      "school": "City University of Hong Kong",
+      "level": "phd",
+      "url": "https://www.cityu.edu.hk/pg/research-degree-programmes/entrance-requirements",
+      "kind": "institution"
+    },
+    {
+      "school": "Carnegie Mellon University",
+      "level": "undergraduate",
+      "url": "https://www.cmu.edu/admission/admission/first-year-admission-requirements",
+      "kind": "institution"
+    },
+    {
+      "school": "Carnegie Mellon University",
+      "level": "graduate",
+      "url": "https://www.cmu.edu/graduate/admissions/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "undergraduate",
+      "url": "https://www.bristol.ac.uk/study/undergraduate/entry-requirements-qualifications/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "graduate",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/apply/",
+      "kind": "institution"
+    },
+    {
+      "school": "New York University",
+      "level": "undergraduate",
+      "url": "https://www.nyu.edu/admissions/undergraduate-admissions/how-to-apply/first-year-applicants.html",
+      "kind": "institution"
+    },
+    {
+      "school": "New York University",
+      "level": "graduate",
+      "url": "https://gsas.nyu.edu/admissions/arc.html",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Amsterdam",
+      "level": "master",
+      "url": "https://www.uva.nl/en/education/admissions/masters/masters-programmes.html",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Amsterdam",
+      "level": "phd",
+      "url": "https://www.uva.nl/en/research/phd/obtaining-a-phd-at-the-uva/obtaining-a-phd-at-the-uva.html",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Warwick",
+      "level": "undergraduate",
+      "url": "https://warwick.ac.uk/study/undergraduate/apply/entry-requirements/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Warwick",
+      "level": "graduate",
+      "url": "https://warwick.ac.uk/study/postgraduate/apply/entry-requirements/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Birmingham",
+      "level": "all",
+      "url": "https://www.birmingham.ac.uk/study/apply",
+      "kind": "directory"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "undergraduate",
+      "url": "https://www.gla.ac.uk/undergraduate/entryrequirements/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "graduate",
+      "url": "https://www.gla.ac.uk/postgraduate/entryrequirements/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Leeds",
+      "level": "all",
+      "url": "https://www.leeds.ac.uk/international-admissions",
+      "kind": "directory"
+    },
+    {
+      "school": "Durham University",
+      "level": "all",
+      "url": "https://www.durham.ac.uk/study/apply/",
+      "kind": "directory"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "all",
+      "url": "https://www.southampton.ac.uk/study/how-to-apply",
+      "kind": "directory"
+    },
+    {
+      "school": "University of Sheffield",
+      "level": "all",
+      "url": "https://www.sheffield.ac.uk/study",
+      "kind": "directory"
+    },
+    {
+      "school": "University of Nottingham",
+      "level": "all",
+      "url": "https://www.nottingham.ac.uk/studywithus/international-applicants/index.aspx",
+      "kind": "directory"
+    },
+    {
+      "school": "University of Auckland",
+      "level": "all",
+      "url": "https://www.auckland.ac.nz/en/study/applications-and-admissions.html",
+      "kind": "directory"
+    },
+    {
+      "school": "University of Wisconsin Madison",
+      "level": "undergraduate",
+      "url": "https://admissions.wisc.edu/how-do-i-apply-to-uw-madison/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Wisconsin Madison",
+      "level": "graduate",
+      "url": "https://grad.wisc.edu/apply/requirements/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Washington",
+      "level": "undergraduate",
+      "url": "https://admit.washington.edu/apply/freshman/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Washington",
+      "level": "graduate",
+      "url": "https://grad.uw.edu/admission/understanding-the-application-process/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of California San Diego",
+      "level": "undergraduate",
+      "url": "https://admissions.ucsd.edu/first-year/application-requirements.html",
+      "kind": "institution"
+    },
+    {
+      "school": "University of California San Diego",
+      "level": "graduate",
+      "url": "https://grad.ucsd.edu/admissions/requirements.html",
+      "kind": "institution"
+    },
+    {
+      "school": "Purdue University",
+      "level": "undergraduate",
+      "url": "https://www.admissions.purdue.edu/apply/firstyear.php",
+      "kind": "institution"
+    },
+    {
+      "school": "Purdue University",
+      "level": "graduate",
+      "url": "https://www.purdue.edu/gradschool/prospective/gradrequirements.html",
+      "kind": "institution"
+    },
+    {
+      "school": "Brown University",
+      "level": "undergraduate",
+      "url": "https://admission.brown.edu/first-year/application-checklist",
+      "kind": "institution"
+    },
+    {
+      "school": "Brown University",
+      "level": "graduate",
+      "url": "https://graduateschool.brown.edu/apply",
+      "kind": "institution"
+    },
+    {
+      "school": "Duke University",
+      "level": "undergraduate",
+      "url": "https://admissions.duke.edu/apply/",
+      "kind": "institution"
+    },
+    {
+      "school": "Duke University",
+      "level": "graduate",
+      "url": "https://gradschool.duke.edu/admissions/application-instructions/",
+      "kind": "institution"
+    },
+    {
+      "school": "Boston University",
+      "level": "undergraduate",
+      "url": "https://www.bu.edu/admissions/apply/first-year/",
+      "kind": "institution"
+    },
+    {
+      "school": "Boston University",
+      "level": "graduate",
+      "url": "https://www.bu.edu/grad/admission-funding/admissions/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Southern California",
+      "level": "undergraduate",
+      "url": "https://admission.usc.edu/prospective-students/how-to-apply/first-year-students/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Southern California",
+      "level": "graduate",
+      "url": "https://gradadm.usc.edu/apply/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Illinois Urbana Champaign",
+      "level": "undergraduate",
+      "url": "https://www.admissions.illinois.edu/apply/freshman/requirements",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Illinois Urbana Champaign",
+      "level": "graduate",
+      "url": "https://grad.illinois.edu/admissions/instructions",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Maryland College Park",
+      "level": "undergraduate",
+      "url": "https://admissions.umd.edu/apply/freshman-applicants",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Maryland College Park",
+      "level": "graduate",
+      "url": "https://gradschool.umd.edu/admissions/application-process",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Alberta",
+      "level": "undergraduate",
+      "url": "https://www.ualberta.ca/en/admissions/index.html",
+      "kind": "directory"
+    },
+    {
+      "school": "University of Waterloo",
+      "level": "undergraduate",
+      "url": "https://uwaterloo.ca/future-students/admissions/admission-requirements",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Waterloo",
+      "level": "graduate",
+      "url": "https://uwaterloo.ca/graduate-studies-postdoctoral-affairs/future-students/admission-requirements",
+      "kind": "institution"
+    },
+    {
+      "school": "Stanford University",
+      "level": "master",
+      "url": "https://www.cs.stanford.edu/admissions/masters-admissions",
+      "kind": "program",
+      "name": "Computer Science MS",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "Stanford University",
+      "level": "phd",
+      "url": "https://www.cs.stanford.edu/admissions/phd-admissions",
+      "kind": "program",
+      "name": "Computer Science PhD",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of Oxford",
+      "level": "master",
+      "url": "https://www.ox.ac.uk/admissions/graduate/courses/msc-advanced-computer-science",
+      "kind": "program",
+      "name": "MSc in Advanced Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of Oxford",
+      "level": "phd",
+      "url": "https://www.ox.ac.uk/admissions/graduate/courses/dphil-computer-science",
+      "kind": "program",
+      "name": "DPhil in Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/cscsmpacs/requirements",
+      "kind": "program",
+      "name": "MPhil in Advanced Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/cscspdpcs/requirements",
+      "kind": "program",
+      "name": "PhD in Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "Imperial College London",
+      "level": "master",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/computing/",
+      "kind": "program",
+      "name": "MSc Computing",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "UCL",
+      "level": "master",
+      "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/computer-science-msc",
+      "kind": "program",
+      "name": "Computer Science MSc",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "UCL",
+      "level": "master",
+      "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/data-science-msc",
+      "kind": "program",
+      "name": "Data Science MSc",
+      "subject": "Data Science"
+    },
+    {
+      "school": "University of Edinburgh",
+      "level": "master",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/118-computer-science",
+      "kind": "program",
+      "name": "Computer Science MSc",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "ETH Zurich",
+      "level": "master",
+      "url": "https://ethz.ch/en/studies/master/degree-programmes/engineering-sciences/computer-science.html",
+      "kind": "program",
+      "name": "MSc Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "National University of Singapore",
+      "level": "master",
+      "url": "https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/admissions/",
+      "kind": "program",
+      "name": "Master of Computing (General Track)",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "National University of Singapore",
+      "level": "phd",
+      "url": "https://www.comp.nus.edu.sg/programmes/pg/phdcs/admissions/",
+      "kind": "program",
+      "name": "PhD in Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "Nanyang Technological University",
+      "level": "master",
+      "url": "https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence",
+      "kind": "program",
+      "name": "MSc Artificial Intelligence",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of Hong Kong",
+      "level": "master",
+      "url": "https://master.cds.hku.hk/msccs/about/msc-in-computer-science-application-procedure-2027-28/",
+      "kind": "program",
+      "name": "MSc Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "Chinese University of Hong Kong",
+      "level": "master",
+      "url": "https://www.cse.cuhk.edu.hk/admission/msc-in-computer-science/",
+      "kind": "program",
+      "name": "MSc Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "City University of Hong Kong",
+      "level": "master",
+      "url": "https://www.cs.cityu.edu.hk/prospective-students/msc-computer-science",
+      "kind": "program",
+      "name": "MSc Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of California Berkeley",
+      "level": "master",
+      "url": "https://eecs.berkeley.edu/academics/graduate/industry-programs/meng/",
+      "kind": "program",
+      "name": "Master of Engineering EECS",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of California Berkeley",
+      "level": "phd",
+      "url": "https://eecs.berkeley.edu/academics/graduate/research-programs/admissions/",
+      "kind": "program",
+      "name": "EECS MS/PhD",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "Carnegie Mellon University",
+      "level": "master",
+      "url": "https://csd.cmu.edu/academics/masters/admissions",
+      "kind": "program",
+      "name": "MS in Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "Carnegie Mellon University",
+      "level": "phd",
+      "url": "https://csd.cmu.edu/academics/doctoral/admissions",
+      "kind": "program",
+      "name": "PhD in Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "Cornell University",
+      "level": "phd",
+      "url": "https://www.cs.cornell.edu/phd/admissions",
+      "kind": "program",
+      "name": "PhD in Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of Toronto",
+      "level": "master",
+      "url": "https://web.cs.toronto.edu/graduate/admissions",
+      "kind": "program",
+      "name": "MSc in Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of British Columbia",
+      "level": "master",
+      "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-computer-science",
+      "kind": "program",
+      "name": "MSc Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of British Columbia",
+      "level": "phd",
+      "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-computer-science",
+      "kind": "program",
+      "name": "PhD Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of Waterloo",
+      "level": "master",
+      "url": "https://cs.uwaterloo.ca/future-graduate-students/applying-admissions",
+      "kind": "program",
+      "name": "Master of Mathematics in Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of Melbourne",
+      "level": "master",
+      "url": "https://study.unimelb.edu.au/find/courses/graduate/master-of-information-technology/entry-requirements/",
+      "kind": "program",
+      "name": "Master of Information Technology",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of Sydney",
+      "level": "master",
+      "url": "https://www.sydney.edu.au/courses/courses/pc/master-of-computer-science.html",
+      "kind": "program",
+      "name": "Master of Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/08340/msc-advanced-computer-science/",
+      "kind": "program",
+      "name": "MSc Advanced Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "Massachusetts Institute of Technology",
+      "level": "master",
+      "url": "https://mitsloan.mit.edu/mfin/admissions/how-to-apply",
+      "kind": "program",
+      "name": "Master of Finance",
+      "subject": "Accounting & Finance"
+    },
+    {
+      "school": "Massachusetts Institute of Technology",
+      "level": "master",
+      "url": "https://mitsloan.mit.edu/mba/admissions/how-to-apply",
+      "kind": "program",
+      "name": "MBA",
+      "subject": "Business & Management"
+    },
+    {
+      "school": "Harvard University",
+      "level": "master",
+      "url": "https://www.hbs.edu/mba/admissions/application-process",
+      "kind": "program",
+      "name": "MBA",
+      "subject": "Business & Management"
+    },
+    {
+      "school": "Harvard University",
+      "level": "master",
+      "url": "https://hsph.harvard.edu/education/masters-programs/master-of-public-health/",
+      "kind": "program",
+      "name": "Master of Public Health",
+      "subject": "Medicine"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwlawmlaw/requirements",
+      "kind": "program",
+      "name": "LLM",
+      "subject": "Law"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/bmjbmpfin/requirements",
+      "kind": "program",
+      "name": "MPhil in Finance",
+      "subject": "Accounting & Finance"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ececmpmec/requirements",
+      "kind": "program",
+      "name": "MPhil in Economics",
+      "subject": "Economics & Econometrics"
+    },
+    {
+      "school": "University of Oxford",
+      "level": "master",
+      "url": "https://www.ox.ac.uk/admissions/graduate/courses/master-public-policy",
+      "kind": "program",
+      "name": "Master of Public Policy",
+      "subject": "Social Policy & Administration"
+    },
+    {
+      "school": "University of Oxford",
+      "level": "master",
+      "url": "https://www.ox.ac.uk/admissions/graduate/courses/msc-financial-economics",
+      "kind": "program",
+      "name": "MSc in Financial Economics",
+      "subject": "Accounting & Finance"
+    },
+    {
+      "school": "University of Oxford",
+      "level": "undergraduate",
+      "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/computer-science",
+      "kind": "program",
+      "name": "Computer Science BA or MCompSci",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "undergraduate",
+      "url": "https://www.undergraduate.study.cam.ac.uk/courses/computer-science-ba-hons-meng",
+      "kind": "program",
+      "name": "Computer Science BA Hons or MEng",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "Imperial College London",
+      "level": "master",
+      "url": "https://www.imperial.ac.uk/business-school/masters/finance/admissions/",
+      "kind": "program",
+      "name": "MSc Finance",
+      "subject": "Accounting & Finance"
+    },
+    {
+      "school": "Imperial College London",
+      "level": "undergraduate",
+      "url": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+      "kind": "program",
+      "name": "Computing BEng",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "UCL",
+      "level": "master",
+      "url": "https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/law-llm",
+      "kind": "program",
+      "name": "Law LLM",
+      "subject": "Law"
+    },
+    {
+      "school": "ETH Zurich",
+      "level": "master",
+      "url": "https://ethz.ch/en/studies/master/degree-programmes/engineering-sciences/mechanical-engineering.html",
+      "kind": "program",
+      "name": "MSc Mechanical Engineering",
+      "subject": "Mechanical Engineering"
+    },
+    {
+      "school": "University of Hong Kong",
+      "level": "master",
+      "url": "https://masters.hkubs.hku.hk/articles/programme/mfin",
+      "kind": "program",
+      "name": "Master of Finance",
+      "subject": "Accounting & Finance"
+    },
+    {
+      "school": "Chinese University of Hong Kong",
+      "level": "master",
+      "url": "https://masters.bschool.cuhk.edu.hk/programmes/mscfin/",
+      "kind": "program",
+      "name": "MSc in Finance",
+      "subject": "Accounting & Finance"
+    },
+    {
+      "school": "Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://msc-cse.hkust.edu.hk/",
+      "kind": "program",
+      "name": "MSc in Information Technology",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "City University of Hong Kong",
+      "level": "master",
+      "url": "https://www.cityu.edu.hk/pg/programme/p70",
+      "kind": "program",
+      "name": "MSc in Data Science",
+      "subject": "Data Science"
+    },
+    {
+      "school": "University of California Berkeley",
+      "level": "master",
+      "url": "https://gspp.berkeley.edu/programs/masters-of-public-policy-mpp/apply",
+      "kind": "program",
+      "name": "Master of Public Policy",
+      "subject": "Social Policy & Administration"
+    },
+    {
+      "school": "University of Toronto",
+      "level": "master",
+      "url": "https://www.dlsph.utoronto.ca/programs/mph-programs/",
+      "kind": "program",
+      "name": "Master of Public Health",
+      "subject": "Medicine"
+    },
+    {
+      "school": "University of British Columbia",
+      "level": "master",
+      "url": "https://www.sauder.ubc.ca/programs/masters-degrees/ubc-mba/admissions-finance",
+      "kind": "program",
+      "name": "Master of Business Administration",
+      "subject": "Business & Management"
+    },
+    {
+      "school": "University of Melbourne",
+      "level": "master",
+      "url": "https://study.unimelb.edu.au/find/courses/graduate/juris-doctor/entry-requirements/",
+      "kind": "program",
+      "name": "Juris Doctor",
+      "subject": "Law"
+    },
+    {
+      "school": "University of Sydney",
+      "level": "undergraduate",
+      "url": "https://www.sydney.edu.au/courses/courses/uc/bachelor-of-engineering-honours-civil.html",
+      "kind": "program",
+      "name": "Bachelor of Engineering Honours (Civil)",
+      "subject": "Civil Engineering"
+    },
+    {
+      "school": "University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/02173/msc-management/",
+      "kind": "program",
+      "name": "MSc Management",
+      "subject": "Business & Management"
+    },
+    {
+      "school": "The University of Hong Kong",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.hku.hk/en/admission-aid",
+      "discoveredFrom": "https://www.hku.hk/",
+      "linkText": "Admission & Aid"
+    },
+    {
+      "school": "Shanghai Jiao Tong University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://en.sjtu.edu.cn/home-top/26",
+      "discoveredFrom": "https://en.sjtu.edu.cn/",
+      "linkText": "Prospective Students"
+    },
+    {
+      "school": "The University of Tokyo",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://design.adm.u-tokyo.ac.jp/admissions/",
+      "discoveredFrom": "https://www.u-tokyo.ac.jp/",
+      "linkText": "2026年9月14日 令和9(2027)年度UTokyo College of Design入学者選抜の募集要項公表"
+    },
+    {
+      "school": "Universiti Malaya (UM)",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.um.edu.my/",
+      "discoveredFrom": "https://www.um.edu.my/",
+      "linkText": "Admissions"
+    },
+    {
+      "school": "University of Amsterdam",
+      "level": "all",
+      "kind": "directory",
+      "url": "http://www.uva.nl/en/education/master-s/masters.html",
+      "discoveredFrom": "http://www.uva.nl/en/home",
+      "linkText": "Prospective Master's students"
+    },
+    {
+      "school": "The London School of Economics and Political Science (LSE)",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.lse.ac.uk/study-at-lse/Graduate/Prospective-students/How-to-Apply",
+      "discoveredFrom": "https://www.lse.ac.uk/",
+      "linkText": "How to apply to postgraduate programmes"
+    },
+    {
+      "school": "King Fahd University of Petroleum & Minerals",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.kfupm.edu.sa/e-services/admissions-office",
+      "discoveredFrom": "https://www.kfupm.edu.sa/",
+      "linkText": "Admissions Office"
+    },
+    {
+      "school": "Kyoto University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.kyoto-u.ac.jp/ja/admissions",
+      "discoveredFrom": "https://www.kyoto-u.ac.jp/",
+      "linkText": "入試・高大連携"
+    },
+    {
+      "school": "KAIST - Korea Advanced Institute of Science & Technology",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://admission.kaist.ac.kr/",
+      "discoveredFrom": "https://kaist.ac.kr/en/",
+      "linkText": "Admissions"
+    },
+    {
+      "school": "Lund University",
+      "level": "all",
+      "kind": "directory",
+      "url": "http://www.lunduniversity.lu.se/study/admission-degree-studies",
+      "discoveredFrom": "http://www.lunduniversity.lu.se/",
+      "linkText": "Admission to degree studies"
+    },
+    {
+      "school": "University of Texas at Austin",
+      "level": "all",
+      "kind": "directory",
+      "url": "http://dellmedschool.utexas.edu/prospective-students",
+      "discoveredFrom": "http://www.utexas.edu/",
+      "linkText": "Dell Medical School Admissions"
+    },
+    {
+      "school": "Sorbonne University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.sorbonne-universite.fr/en/doctorate/application-and-admission",
+      "discoveredFrom": "https://www.sorbonne-universite.fr/en",
+      "linkText": "Application and admission"
+    },
+    {
+      "school": "Université Paris-Saclay",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.universite-paris-saclay.fr/admission/cesure-universitaire",
+      "discoveredFrom": "https://www.universite-paris-saclay.fr/",
+      "linkText": "Césure universitaire"
+    },
+    {
+      "school": "The University of Western Australia",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.search.uwa.edu.au/s/search.html?collection=uowa%7Esp-search&query=admissions",
+      "discoveredFrom": "https://www.uwa.edu.au/",
+      "linkText": "Admissions"
+    },
+    {
+      "school": "Adelaide University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://adelaide.edu.au/study/how-to-apply/",
+      "discoveredFrom": "https://adelaide.edu.au",
+      "linkText": "How to apply"
+    },
+    {
+      "school": "Ruprecht-Karls-Universität Heidelberg",
+      "level": "all",
+      "kind": "directory",
+      "url": "http://www.uni-heidelberg.de/en/study/application-enrolment",
+      "discoveredFrom": "http://www.uni-heidelberg.de/",
+      "linkText": "Applying & Enrolment"
+    },
+    {
+      "school": "University of Technology Sydney",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.uts.edu.au/for-students/admissions-entry/how-to-apply",
+      "discoveredFrom": "https://www.uts.edu.au/",
+      "linkText": "How to apply"
+    },
+    {
+      "school": "Nanjing University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.nju.edu.cn/zsjy/zs.htm",
+      "discoveredFrom": "https://www.nju.edu.cn/",
+      "linkText": "招生"
+    },
+    {
+      "school": "Pennsylvania State University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://gradschool.psu.edu/admissions/how-to-apply",
+      "discoveredFrom": "http://www.psu.edu/",
+      "linkText": "How to Apply"
+    },
+    {
+      "school": "Osaka University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.osaka-u.ac.jp/ja/admissions",
+      "discoveredFrom": "https://www.osaka-u.ac.jp/ja",
+      "linkText": "入学情報"
+    },
+    {
+      "school": "Institute of Science Tokyo",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://admissions.isct.ac.jp/en",
+      "discoveredFrom": "https://www.isct.ac.jp/en",
+      "linkText": "Prospective students"
+    },
+    {
+      "school": "University of Zurich",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.uzh.ch/en/studies/application.html",
+      "discoveredFrom": "https://www.uzh.ch/en.html",
+      "linkText": "Application and Admission"
+    },
+    {
+      "school": "Tohoku University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.tohoku.ac.jp/en/admissions/index.html",
+      "discoveredFrom": "https://www.tohoku.ac.jp/",
+      "linkText": "Admissions"
+    },
+    {
+      "school": "Queen Mary University of London",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.qmul.ac.uk/postgraduate/january-2027-start/",
+      "discoveredFrom": "https://www.qmul.ac.uk/",
+      "linkText": "Apply now and start your masters in January Find out more"
+    },
+    {
+      "school": "RWTH Aachen University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.rwth-aachen.de/cms/root/studium/Vor-dem-Studium/~ege/Zugangsvoraussetzungen/lidx/1/",
+      "discoveredFrom": "https://www.rwth-aachen.de/",
+      "linkText": "Admission Requirements"
+    },
+    {
+      "school": "Sungkyunkwan University(SKKU)",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://admission.skku.edu/admission/html/high/vr.html",
+      "discoveredFrom": "https://www.skku.edu/",
+      "linkText": "VR 캠퍼스 투어"
+    },
+    {
+      "school": "Qatar University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.qu.edu.qa/ar/students/admission-and-enrollment/Pages/default.aspx",
+      "discoveredFrom": "https://www.qu.edu.qa/",
+      "linkText": "القبول والالتحاق"
+    },
+    {
+      "school": "Sapienza University of Rome",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.uniroma1.it/en/pagina/applying-sapienza-international-student",
+      "discoveredFrom": "https://www.uniroma1.it/",
+      "linkText": "Iscrizioni internazionali"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.southampton.ac.uk/study/undergraduate/apply",
+      "discoveredFrom": "https://www.southampton.ac.uk/",
+      "linkText": "How to apply"
+    },
+    {
+      "school": "University of St Andrews",
+      "level": "all",
+      "kind": "directory",
+      "url": "http://www.st-andrews.ac.uk/study/postgraduate/apply/",
+      "discoveredFrom": "http://www.st-andrews.ac.uk",
+      "linkText": "How to apply for postgraduate study"
+    },
+    {
+      "school": "Indian Institute of Technology Delhi (IITD)",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://academics.iitd.ac.in/",
+      "discoveredFrom": "https://home.iitd.ac.in/",
+      "linkText": "Admissions Process"
+    },
+    {
+      "school": "RMIT University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.rmit.edu.au/study-with-us/applying-to-rmit",
+      "discoveredFrom": "https://www.rmit.edu.au/",
+      "linkText": "Applying to RMIT"
+    },
+    {
+      "school": "Rice University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://graduate.rice.edu/admissions/how-to-apply",
+      "discoveredFrom": "https://www.rice.edu/",
+      "linkText": "Graduate Application"
+    },
+    {
+      "school": "Aarhus University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://international.au.dk/education/admissions/summeruniversity/",
+      "discoveredFrom": "https://www.au.dk/",
+      "linkText": "Summer University"
+    },
+    {
+      "school": "Universiti Sains Malaysia (USM)",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.usm.my/en/admission",
+      "discoveredFrom": "https://www.usm.my/",
+      "linkText": "Discover USM ↗"
+    },
+    {
+      "school": "University of Science and Technology of China",
+      "level": "all",
+      "kind": "directory",
+      "url": "http://en.ustc.edu.cn/Admission.htm",
+      "discoveredFrom": "http://en.ustc.edu.cn/",
+      "linkText": "Admission"
+    },
+    {
+      "school": "The University of Exeter",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.exeter.ac.uk/about/prospective/",
+      "discoveredFrom": "https://www.exeter.ac.uk/",
+      "linkText": "Prospective staff"
+    },
+    {
+      "school": "University of California, Davis",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.ucdavis.edu/admissions/apply",
+      "discoveredFrom": "https://www.ucdavis.edu/",
+      "linkText": "Apply"
+    },
+    {
+      "school": "University of Liverpool",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.liverpool.ac.uk/study/",
+      "discoveredFrom": "https://www.liverpool.ac.uk/",
+      "linkText": "Prospective students"
+    },
+    {
+      "school": "Georgia Institute of Technology",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.gatech.edu/admissions",
+      "discoveredFrom": "https://www.gatech.edu/",
+      "linkText": "Apply"
+    },
+    {
+      "school": "Western University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://grad.uwo.ca/admissions/apply.html",
+      "discoveredFrom": "https://www.uwo.ca/",
+      "linkText": "Applying"
+    },
+    {
+      "school": "Tongji University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://bkzs.tongji.edu.cn",
+      "discoveredFrom": "https://www.tongji.edu.cn/",
+      "linkText": "本科生招生"
+    },
+    {
+      "school": "Khalifa University of Science and Technology",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.ku.ac.ae/admissions",
+      "discoveredFrom": "https://www.ku.ac.ae/",
+      "linkText": "Admissions"
+    },
+    {
+      "school": "Newcastle University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.ncl.ac.uk/postgraduate-research/how-to-apply/",
+      "discoveredFrom": "https://www.ncl.ac.uk/",
+      "linkText": "How to Apply"
+    },
+    {
+      "school": "University of Basel",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.unibas.ch/de/Universitaet/Administration-Services/Vizerektorat-Forschung/Grants-Office/Foerderungsmoeglichkeiten/Apply-for-ERC-at-Unibas.html",
+      "discoveredFrom": "https://www.unibas.ch/",
+      "linkText": "ERC Antragstellung an der Universität Basel"
+    },
+    {
+      "school": "Baylor College of Medicine",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.bcm.edu/education/education-programs",
+      "discoveredFrom": "https://www.bcm.edu/",
+      "linkText": "Programs & Admissions"
+    },
+    {
+      "school": "Case Western Reserve University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://case.edu/admission/apply",
+      "discoveredFrom": "https://case.edu/",
+      "linkText": "apply Early Action or Early Decision I"
+    },
+    {
+      "school": "Emory University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.emory.edu/admission-and-aid",
+      "discoveredFrom": "https://www.emory.edu/",
+      "linkText": "Explore Admission"
+    },
+    {
+      "school": "Hamad Bin Khalifa University",
+      "level": "all",
+      "kind": "directory",
+      "url": "http://www.hbku.edu.qa/admissions",
+      "discoveredFrom": "http://www.hbku.edu.qa/",
+      "linkText": "Learn More"
+    },
+    {
+      "school": "Harbin Institute of Technology",
+      "level": "all",
+      "kind": "directory",
+      "url": "http://www.hit.edu.cn",
+      "discoveredFrom": "http://www.hit.edu.cn",
+      "linkText": "本科生招生办公室"
+    },
+    {
+      "school": "Huazhong University of Science and Technology",
+      "level": "all",
+      "kind": "directory",
+      "url": "http://english.hust.edu.cn/ADMISSION.htm",
+      "discoveredFrom": "http://english.hust.edu.cn",
+      "linkText": "ADMISSION"
+    },
+    {
+      "school": "Hunan University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www-en.hnu.edu.cn/Admission/Contact.htm",
+      "discoveredFrom": "https://www-en.hnu.edu.cn/",
+      "linkText": "Contact"
+    },
+    {
+      "school": "King Abdullah University of Science and Technology",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://admissions.kaust.edu.sa",
+      "discoveredFrom": "https://www.kaust.edu.sa/",
+      "linkText": "Applying to\n            KAUST"
+    },
+    {
+      "school": "McMaster University",
+      "level": "all",
+      "kind": "directory",
+      "url": "http://future.mcmaster.ca/admission/",
+      "discoveredFrom": "https://www.mcmaster.ca/",
+      "linkText": "< Admissions Learn More"
+    },
+    {
+      "school": "Nankai University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://sie.nankai.edu.cn",
+      "discoveredFrom": "https://www.nankai.edu.cn/",
+      "linkText": "留学生招生"
+    },
+    {
+      "school": "Ohio State University (Main campus)",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://gpadmissions.osu.edu/",
+      "discoveredFrom": "https://www.osu.edu/",
+      "linkText": "Admissions"
+    },
+    {
+      "school": "Scuola Normale Superiore di Pisa",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.sns.it/en/admission-single-courses",
+      "discoveredFrom": "https://www.sns.it/en",
+      "linkText": "How to apply"
+    },
+    {
+      "school": "Sichuan University",
+      "level": "all",
+      "kind": "directory",
+      "url": "http://cce.scu.edu.cn",
+      "discoveredFrom": "http://www.scu.edu.cn/",
+      "linkText": "继续教育招生"
+    },
+    {
+      "school": "Southeast University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.seu.edu.cn/28441/list.htm",
+      "discoveredFrom": "https://www.seu.edu.cn",
+      "linkText": "招生就业"
+    },
+    {
+      "school": "Sun Yat-sen University",
+      "level": "all",
+      "kind": "directory",
+      "url": "http://admission.sysu.edu.cn",
+      "discoveredFrom": "https://www.sysu.edu.cn/",
+      "linkText": "本科招生网"
+    },
+    {
+      "school": "University of Arizona",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.arizona.edu/admissions/apply",
+      "discoveredFrom": "https://www.arizona.edu/",
+      "linkText": "Apply"
+    },
+    {
+      "school": "University of Bern",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.unibe.ch/studies/prospective_students/online_application_for_admission_to_study/index_eng.html",
+      "discoveredFrom": "https://www.unibe.ch/index_eng.html",
+      "linkText": "Online application"
+    },
+    {
+      "school": "University of California, Irvine",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.admissions.uci.edu/apply/international-students.php",
+      "discoveredFrom": "https://www.uci.edu/",
+      "linkText": "International Undergraduate Admissions"
+    },
+    {
+      "school": "University of California, Santa Barbara",
+      "level": "all",
+      "kind": "directory",
+      "url": "http://admissions.sa.ucsb.edu/applying/freshman",
+      "discoveredFrom": "https://www.ucsb.edu/",
+      "linkText": "Freshman Applicants - Office of Admissions"
+    },
+    {
+      "school": "University of Cape Town",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.uct.ac.za/students/prospective-students-faqs/applications-admissions-faq",
+      "discoveredFrom": "https://www.uct.ac.za/",
+      "linkText": "Prospective student FAQs"
+    },
+    {
+      "school": "University of Chinese Academy of Sciences",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://english.ucas.ac.cn/index.php/admission",
+      "discoveredFrom": "https://english.ucas.ac.cn/",
+      "linkText": "Admission"
+    },
+    {
+      "school": "University of Colorado--Boulder",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.colorado.edu/admissions",
+      "discoveredFrom": "https://www.colorado.edu/",
+      "linkText": "Apply for Admission"
+    },
+    {
+      "school": "University of Florida",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.ufl.edu/admissions/",
+      "discoveredFrom": "https://www.ufl.edu/",
+      "linkText": "ADMISSIONS"
+    },
+    {
+      "school": "University of North Carolina at Chapel Hill",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.unc.edu/admissions-aid/",
+      "discoveredFrom": "https://www.unc.edu/",
+      "linkText": "Apply to Carolina"
+    },
+    {
+      "school": "University of Pittsburgh",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.pitt.edu/admissions",
+      "discoveredFrom": "https://www.pitt.edu/",
+      "linkText": "Admissions"
+    },
+    {
+      "school": "University of Rochester",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.rochester.edu/admissions/",
+      "discoveredFrom": "https://www.rochester.edu/",
+      "linkText": "Apply"
+    },
+    {
+      "school": "University of Virginia",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://admission.virginia.edu/",
+      "discoveredFrom": "https://www.virginia.edu/",
+      "linkText": "Undergraduate Admission"
+    },
+    {
+      "school": "Université de Montréal",
+      "level": "all",
+      "kind": "directory",
+      "url": "http://admission.umontreal.ca/",
+      "discoveredFrom": "https://www.umontreal.ca/",
+      "linkText": "ADMISSION ET PROGRAMMES"
+    },
+    {
+      "school": "Vanderbilt University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://www.vanderbilt.edu/admissions/",
+      "discoveredFrom": "https://www.vanderbilt.edu/",
+      "linkText": "Apply"
+    },
+    {
+      "school": "Washington University in St Louis",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://washu.edu/admission-aid/",
+      "discoveredFrom": "https://washu.edu/",
+      "linkText": "Apply"
+    },
+    {
+      "school": "Wuhan University",
+      "level": "all",
+      "kind": "directory",
+      "url": "http://aoff.whu.edu.cn/",
+      "discoveredFrom": "https://www.whu.edu.cn/",
+      "linkText": "阳光招生"
+    },
+    {
+      "school": "Xi'an Jiaotong University",
+      "level": "all",
+      "kind": "directory",
+      "url": "https://en.xjtu.edu.cn/undergraduate.html",
+      "discoveredFrom": "https://en.xjtu.edu.cn/",
+      "linkText": "Admissions +"
+    }
+  ]
+}

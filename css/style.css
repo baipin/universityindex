@@ -645,6 +645,25 @@ table.schools tbody tr.is-active td { border-bottom-color: transparent; }
 .reqs { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; margin: 0; font-size: 14px; line-height: 20px; }
 .reqs dt { color: var(--md-on-surface-variant); }
 .reqs dd { margin: 0; }
+.reqs dd { overflow-wrap: anywhere; }
+.reqs { grid-template-columns: minmax(70px, 100px) minmax(0, 1fr); margin-top: 12px; }
+.scope-note { font-size: 13px; line-height: 1.6; margin: 10px 0; color: var(--md-on-surface-variant); }
+.source-list { margin: 12px 0 0; padding-left: 18px; font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }
+.source-list li + li { margin-top: 8px; }
+.source-list small { display: block; color: var(--md-on-surface-variant); }
+.source-list a, .source-excerpts a, .ranking-context a { color: var(--md-primary); }
+.badge--reviewed { background: var(--md-secondary-container); color: var(--md-on-secondary-container); }
+.badge--source { white-space: normal; line-height: 1.6; }
+.ranking-context { padding: 12px 16px; border-bottom: 1px solid var(--md-outline-variant); font-size: 13px; line-height: 1.6; }
+.ranking-context .hint { margin-top: 8px; }
+.coverage-summary { margin-top: 8px; font-weight: 500; }
+.rankings-detail { margin-bottom: 20px; }
+.rankings-detail summary, .source-excerpts summary { cursor: pointer; font-size: 13px; color: var(--md-primary); line-height: 1.6; }
+.rankings-detail .chips { margin-top: 12px; }
+.rankings-detail .chip { height: auto; min-height: 32px; white-space: normal; padding-top: 6px; padding-bottom: 6px; max-width: 100%; }
+.source-excerpts { margin-top: 12px; }
+.source-excerpts blockquote { border-left: 2px solid var(--md-outline-variant); margin: 12px 0; padding-left: 12px; font-size: 12px; line-height: 1.7; overflow-wrap: anywhere; }
+.program-card { margin: 12px 0; }
 .post.is-current { border-color: var(--md-primary); border-width: 2px; }
 
 /* Chip that is a link (official website) */

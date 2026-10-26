@@ -1,0 +1,743 @@
+{
+  "meta": {
+    "id": "qs-psychology",
+    "name": "QS by Subject",
+    "year": "2026",
+    "scope": "subject",
+    "source": "https://www.qs-topuniversities.cn/university-rankings/university-subject-rankings/2026/psychology",
+    "dataSource": "https://www.qs-topuniversities.cn/sites/default/files/qs-rankings-data/en/494140919382749fc0f9143ff5e63c96.txt",
+    "checkedAt": "2026-10-26T15:45:00+00:00",
+    "sha256": "2f0dcc8ff4799155adcbca697361722c5d093b50b4e9faefdae927cf3e6e4ab5",
+    "status": "verified",
+    "subject": "Psychology",
+    "eligiblePool": "Global top 150 union (QS / THE / US News); subject ranks up to 150 only"
+  },
+  "rows": [
+    {
+      "schoolId": "qs-448",
+      "name": "New York University (NYU)",
+      "rank": 13,
+      "rankLabel": "13"
+    },
+    {
+      "schoolId": "us-215293",
+      "name": "University of Pittsburgh",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-40",
+      "name": "The Australian National University",
+      "rank": 74,
+      "rankLabel": "=74"
+    },
+    {
+      "schoolId": "qs-478",
+      "name": "University of Oxford",
+      "rank": 3,
+      "rankLabel": "=3"
+    },
+    {
+      "schoolId": "qs-95",
+      "name": "University of Cambridge",
+      "rank": 2,
+      "rankLabel": "2"
+    },
+    {
+      "schoolId": "qs-362",
+      "name": "The London School of Economics and Political Science (LSE)",
+      "rank": 19,
+      "rankLabel": "19"
+    },
+    {
+      "schoolId": "qs-253",
+      "name": "Harvard University",
+      "rank": 1,
+      "rankLabel": "1"
+    },
+    {
+      "schoolId": "qs-619",
+      "name": "University of Toronto",
+      "rank": 8,
+      "rankLabel": "8"
+    },
+    {
+      "schoolId": "qs-420",
+      "name": "Ludwig-Maximilians-Universität München",
+      "rank": 41,
+      "rankLabel": "=41"
+    },
+    {
+      "schoolId": "qs-570",
+      "name": "University of St Andrews",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-272",
+      "name": "Humboldt-Universität zu Berlin",
+      "rank": 53,
+      "rankLabel": "53"
+    },
+    {
+      "schoolId": "qs-508",
+      "name": "Princeton University",
+      "rank": 18,
+      "rankLabel": "18"
+    },
+    {
+      "schoolId": "qs-357",
+      "name": "King's College London",
+      "rank": 15,
+      "rankLabel": "=15"
+    },
+    {
+      "schoolId": "qs-588",
+      "name": "The University of Sydney",
+      "rank": 37,
+      "rankLabel": "37"
+    },
+    {
+      "schoolId": "qs-84",
+      "name": "University of California, Berkeley (UCB)",
+      "rank": 12,
+      "rankLabel": "12"
+    },
+    {
+      "schoolId": "qs-573",
+      "name": "Stanford University",
+      "rank": 3,
+      "rankLabel": "=3"
+    },
+    {
+      "schoolId": "qs-378",
+      "name": "Macquarie University",
+      "rank": 68,
+      "rankLabel": "=68"
+    },
+    {
+      "schoolId": "qs-684",
+      "name": "Yale University",
+      "rank": 6,
+      "rankLabel": "6"
+    },
+    {
+      "schoolId": "qs-120",
+      "name": "University of Chicago",
+      "rank": 28,
+      "rankLabel": "=28"
+    },
+    {
+      "schoolId": "qs-410",
+      "name": "Massachusetts Institute of Technology (MIT)",
+      "rank": 10,
+      "rankLabel": "10"
+    },
+    {
+      "schoolId": "qs-180",
+      "name": "The University of Edinburgh",
+      "rank": 23,
+      "rankLabel": "23"
+    },
+    {
+      "schoolId": "qs-105",
+      "name": "KU Leuven",
+      "rank": 24,
+      "rankLabel": "24"
+    },
+    {
+      "schoolId": "qs-328",
+      "name": "Kyoto University",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-403",
+      "name": "University of Michigan-Ann Arbor",
+      "rank": 14,
+      "rankLabel": "14"
+    },
+    {
+      "schoolId": "qs-259",
+      "name": "Ruprecht-Karls-Universität Heidelberg",
+      "rank": 91,
+      "rankLabel": "=91"
+    },
+    {
+      "schoolId": "qs-443",
+      "name": "National University of Singapore (NUS)",
+      "rank": 15,
+      "rankLabel": "=15"
+    },
+    {
+      "schoolId": "the-519",
+      "name": "University of Southern California",
+      "rank": 62,
+      "rankLabel": "=62"
+    },
+    {
+      "schoolId": "qs-412",
+      "name": "Monash University",
+      "rank": 45,
+      "rankLabel": "45"
+    },
+    {
+      "schoolId": "the-550",
+      "name": "University of California, Irvine",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-215",
+      "name": "Freie Universitaet Berlin",
+      "rank": 74,
+      "rankLabel": "=74"
+    },
+    {
+      "schoolId": "qs-431",
+      "name": "Nanyang Technological University, Singapore (NTU)",
+      "rank": 25,
+      "rankLabel": "25"
+    },
+    {
+      "schoolId": "qs-27067",
+      "name": "Université PSL",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-18",
+      "name": "University of Amsterdam",
+      "rank": 9,
+      "rankLabel": "9"
+    },
+    {
+      "schoolId": "the-507",
+      "name": "University of North Carolina at Chapel Hill",
+      "rank": 60,
+      "rankLabel": "60"
+    },
+    {
+      "schoolId": "qs-218",
+      "name": "Fudan University",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-123",
+      "name": "The Chinese University of Hong Kong (CUHK)",
+      "rank": 43,
+      "rankLabel": "=43"
+    },
+    {
+      "schoolId": "qs-664",
+      "name": "The University of Warwick",
+      "rank": 72,
+      "rankLabel": "=72"
+    },
+    {
+      "schoolId": "qs-170",
+      "name": "Durham University",
+      "rank": 70,
+      "rankLabel": "70"
+    },
+    {
+      "schoolId": "qs-69",
+      "name": "University of Bristol",
+      "rank": 55,
+      "rankLabel": "=55"
+    },
+    {
+      "schoolId": "qs-338",
+      "name": "University of Leeds",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-6",
+      "name": "Aarhus University",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-20748591",
+      "name": "Adelaide University",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-61",
+      "name": "Alma Mater Studiorum - University of Bologna",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "the-623625",
+      "name": "Beijing Normal University",
+      "rank": 54,
+      "rankLabel": "54"
+    },
+    {
+      "schoolId": "qs-63",
+      "name": "Boston University",
+      "rank": 49,
+      "rankLabel": "=49"
+    },
+    {
+      "schoolId": "qs-72",
+      "name": "Brown University",
+      "rank": 86,
+      "rankLabel": "=86"
+    },
+    {
+      "schoolId": "qs-101",
+      "name": "Carnegie Mellon University",
+      "rank": 77,
+      "rankLabel": "=77"
+    },
+    {
+      "schoolId": "qs-138",
+      "name": "Columbia University",
+      "rank": 7,
+      "rankLabel": "7"
+    },
+    {
+      "schoolId": "qs-143",
+      "name": "Cornell University",
+      "rank": 33,
+      "rankLabel": "33"
+    },
+    {
+      "schoolId": "us-504884",
+      "name": "Deakin University",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-168",
+      "name": "Duke University",
+      "rank": 34,
+      "rankLabel": "34"
+    },
+    {
+      "schoolId": "qs-190",
+      "name": "Erasmus University Rotterdam",
+      "rank": 49,
+      "rankLabel": "=49"
+    },
+    {
+      "schoolId": "qs-228",
+      "name": "Ghent University",
+      "rank": 66,
+      "rankLabel": "=66"
+    },
+    {
+      "schoolId": "qs-305",
+      "name": "Johns Hopkins University",
+      "rank": 61,
+      "rankLabel": "61"
+    },
+    {
+      "schoolId": "qs-340",
+      "name": "Leiden University",
+      "rank": 65,
+      "rankLabel": "65"
+    },
+    {
+      "schoolId": "qs-396",
+      "name": "McGill University",
+      "rank": 22,
+      "rankLabel": "22"
+    },
+    {
+      "schoolId": "the-560",
+      "name": "Michigan State University",
+      "rank": 49,
+      "rankLabel": "=49"
+    },
+    {
+      "schoolId": "qs-456",
+      "name": "Northwestern University",
+      "rank": 32,
+      "rankLabel": "32"
+    },
+    {
+      "schoolId": "qs-50",
+      "name": "Peking University",
+      "rank": 41,
+      "rankLabel": "=41"
+    },
+    {
+      "schoolId": "qs-494",
+      "name": "Pennsylvania State University",
+      "rank": 46,
+      "rankLabel": "46"
+    },
+    {
+      "schoolId": "qs-107",
+      "name": "Pontificia Universidad Católica de Chile (UC)",
+      "rank": 79,
+      "rankLabel": "=79"
+    },
+    {
+      "schoolId": "qs-532",
+      "name": "Sapienza University of Rome",
+      "rank": 57,
+      "rankLabel": "=57"
+    },
+    {
+      "schoolId": "qs-556",
+      "name": "Shanghai Jiao Tong University",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-37",
+      "name": "The University of Auckland",
+      "rank": 28,
+      "rankLabel": "=28"
+    },
+    {
+      "schoolId": "qs-268",
+      "name": "The University of Hong Kong",
+      "rank": 35,
+      "rankLabel": "35"
+    },
+    {
+      "schoolId": "qs-389",
+      "name": "The University of Manchester",
+      "rank": 49,
+      "rankLabel": "=49"
+    },
+    {
+      "schoolId": "qs-399",
+      "name": "The University of Melbourne",
+      "rank": 20,
+      "rankLabel": "20"
+    },
+    {
+      "schoolId": "qs-447",
+      "name": "The University of New South Wales (UNSW Sydney)",
+      "rank": 26,
+      "rankLabel": "26"
+    },
+    {
+      "schoolId": "qs-515",
+      "name": "The University of Queensland",
+      "rank": 27,
+      "rankLabel": "27"
+    },
+    {
+      "schoolId": "qs-558",
+      "name": "The University of Sheffield",
+      "rank": 89,
+      "rankLabel": "89"
+    },
+    {
+      "schoolId": "qs-615",
+      "name": "The University of Tokyo",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-673",
+      "name": "The University of Western Australia",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-167",
+      "name": "Trinity College Dublin, The University of Dublin",
+      "rank": 96,
+      "rankLabel": "=96"
+    },
+    {
+      "schoolId": "qs-626",
+      "name": "Tsinghua University",
+      "rank": 82,
+      "rankLabel": "=82"
+    },
+    {
+      "schoolId": "qs-365",
+      "name": "UCL",
+      "rank": 5,
+      "rankLabel": "5"
+    },
+    {
+      "schoolId": "qs-425",
+      "name": "Universidad Nacional Autónoma de México  (UNAM)",
+      "rank": 88,
+      "rankLabel": "88"
+    },
+    {
+      "schoolId": "qs-78",
+      "name": "Universidad de Buenos Aires (UBA)",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-59",
+      "name": "University of Birmingham",
+      "rank": 82,
+      "rankLabel": "=82"
+    },
+    {
+      "schoolId": "qs-70",
+      "name": "University of British Columbia",
+      "rank": 21,
+      "rankLabel": "21"
+    },
+    {
+      "schoolId": "qs-85",
+      "name": "University of California, Davis",
+      "rank": 99,
+      "rankLabel": "=99"
+    },
+    {
+      "schoolId": "qs-87",
+      "name": "University of California, Los Angeles (UCLA)",
+      "rank": 11,
+      "rankLabel": "11"
+    },
+    {
+      "schoolId": "qs-89",
+      "name": "University of California, San Diego (UCSD)",
+      "rank": 68,
+      "rankLabel": "=68"
+    },
+    {
+      "schoolId": "qs-141",
+      "name": "University of Copenhagen",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-204",
+      "name": "The University of Exeter",
+      "rank": 82,
+      "rankLabel": "=82"
+    },
+    {
+      "schoolId": "us-504635",
+      "name": "University of Geneva",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-231",
+      "name": "University of Glasgow",
+      "rank": 91,
+      "rankLabel": "=91"
+    },
+    {
+      "schoolId": "the-598",
+      "name": "University of Groningen",
+      "rank": 36,
+      "rankLabel": "36"
+    },
+    {
+      "schoolId": "qs-459",
+      "name": "University of Nottingham",
+      "rank": 94,
+      "rankLabel": "=94"
+    },
+    {
+      "schoolId": "qs-473",
+      "name": "University of Oslo",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-495",
+      "name": "University of Pennsylvania",
+      "rank": 15,
+      "rankLabel": "=15"
+    },
+    {
+      "schoolId": "qs-604",
+      "name": "University of Texas at Austin",
+      "rank": 39,
+      "rankLabel": "39"
+    },
+    {
+      "schoolId": "qs-652",
+      "name": "University of Vienna",
+      "rank": 82,
+      "rankLabel": "=82"
+    },
+    {
+      "schoolId": "us-234076",
+      "name": "University of Virginia",
+      "rank": 94,
+      "rankLabel": "=94"
+    },
+    {
+      "schoolId": "qs-693",
+      "name": "University of Zurich",
+      "rank": 40,
+      "rankLabel": "40"
+    },
+    {
+      "schoolId": "qs-646",
+      "name": "Utrecht University",
+      "rank": 28,
+      "rankLabel": "=28"
+    },
+    {
+      "schoolId": "the-534",
+      "name": "Vanderbilt University",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "us-500669",
+      "name": "Vrije Universiteit Amsterdam",
+      "rank": 38,
+      "rankLabel": "38"
+    },
+    {
+      "schoolId": "the-505",
+      "name": "Washington University in St Louis",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-674",
+      "name": "Western University",
+      "rank": 90,
+      "rankLabel": "90"
+    },
+    {
+      "schoolId": "qs-688",
+      "name": "Yonsei University",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-692",
+      "name": "Zhejiang University",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-553",
+      "name": "Seoul National University",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-2090",
+      "name": "University of Illinois at Urbana-Champaign",
+      "rank": 31,
+      "rankLabel": "31"
+    },
+    {
+      "schoolId": "the-559",
+      "name": "University of Maryland, College Park",
+      "rank": 47,
+      "rankLabel": "47"
+    },
+    {
+      "schoolId": "qs-550",
+      "name": "Universidade de São Paulo",
+      "rank": 64,
+      "rankLabel": "64"
+    },
+    {
+      "schoolId": "qs-667",
+      "name": "University of Washington",
+      "rank": 55,
+      "rankLabel": "=55"
+    },
+    {
+      "schoolId": "qs-510",
+      "name": "Purdue University",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-670",
+      "name": "University of Waterloo",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-325",
+      "name": "Korea University",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-678",
+      "name": "University of Wisconsin-Madison",
+      "rank": 77,
+      "rankLabel": "=77"
+    },
+    {
+      "schoolId": "the-529",
+      "name": "McMaster University",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-267",
+      "name": "The Hong Kong Polytechnic University",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "the-521",
+      "name": "Ohio State University (Main campus)",
+      "rank": 71,
+      "rankLabel": "71"
+    },
+    {
+      "schoolId": "qs-15",
+      "name": "University of Alberta",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-47",
+      "name": "University of Bath",
+      "rank": 57,
+      "rankLabel": "=57"
+    },
+    {
+      "schoolId": "the-590",
+      "name": "University of Florida",
+      "rank": 96,
+      "rankLabel": "=96"
+    },
+    {
+      "schoolId": "the-580",
+      "name": "University of Lausanne",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "qs-350",
+      "name": "University of Liverpool",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "the-506",
+      "name": "University of Minnesota",
+      "rank": 43,
+      "rankLabel": "=43"
+    },
+    {
+      "schoolId": "the-569",
+      "name": "Université de Montréal",
+      "rank": 101,
+      "rankLabel": "101-150"
+    },
+    {
+      "schoolId": "the-663",
+      "name": "Maastricht University",
+      "rank": 62,
+      "rankLabel": "=62"
+    }
+  ]
+}

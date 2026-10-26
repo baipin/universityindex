@@ -9,6 +9,7 @@
   var DATA_URL = "data/universities.json";
   var I18N = window.UINDEX_I18N;
   var t = I18N.t;
+  var Catalog = window.UINDEX_CATALOG;
   var state = { data: null, rankId: "qs", level: "undergraduate", query: "", activeId: null };
 
   function el(tag, attrs, children) {
@@ -39,12 +40,13 @@
   }
 
   function rankLabel(r) {
-    var base = r.name;
-    return r.scope === "subject" && r.subject ? base + " — " + r.subject : base;
+    var base = r.name + " " + r.year;
+    return r.scope === "subject" && r.subject ? base + " — " + (I18N.getLang() !== "en" && r.subjectZh || r.subject) : base;
   }
 
   function fmtDate(iso) {
     if (!iso) return "—";
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(iso)) return iso;
     var d = new Date(iso + "T00:00:00");
     if (isNaN(d.getTime())) return iso;
     return d.toLocaleDateString(I18N.locale(), { year: "numeric", month: "2-digit", day: "2-digit" });
@@ -61,24 +63,20 @@
   function renderSelectors() {
     var sel = document.getElementById("ranking-select");
     sel.textContent = "";
+    var globalGroup = el("optgroup", { label: t("globalRankings") });
+    var subjectGroup = el("optgroup", { label: t("subjectRankings") });
     state.data.meta.rankings.forEach(function (r) {
-      sel.appendChild(el("option", { value: r.id, text: rankLabel(r) }));
+      (r.scope === "subject" ? subjectGroup : globalGroup).appendChild(el("option", { value: r.id, text: rankLabel(r) }));
     });
+    sel.appendChild(globalGroup);
+    sel.appendChild(subjectGroup);
     sel.value = state.rankId;
     document.getElementById("level-select").value = state.level;
   }
 
   /* ---------- Table ---------- */
   function visibleSchools() {
-    var rank = state.rankId;
-    var q = state.query.trim().toLowerCase();
-    return state.data.schools
-      .filter(function (s) { return s.ranks && s.ranks[rank] != null; })
-      .filter(function (s) {
-        if (!q) return true;
-        return [s.name, s.nameZh, s.country, s.countryZh].join(" ").toLowerCase().indexOf(q) !== -1;
-      })
-      .sort(function (a, b) { return a.ranks[rank] - b.ranks[rank]; });
+    return Catalog.visibleSchools(state.data, state.rankId, state.query);
   }
 
   function renderTable() {
@@ -87,7 +85,7 @@
     var rows = visibleSchools();
     rows.forEach(function (s) {
       var tr = el("tr", { "data-id": s.id, tabindex: "0", "aria-selected": s.id === state.activeId ? "true" : "false" }, [
-        el("td", { class: "num", text: String(s.ranks[state.rankId]) }),
+        el("td", { class: "num", text: Catalog.rankLabel(s, state.rankId) }),
         el("td", { class: "name" }, [schoolName(s)]),
         el("td", { text: countryName(s) }),
       ]);
@@ -99,24 +97,61 @@
       tbody.appendChild(tr);
     });
     document.getElementById("school-empty").hidden = rows.length > 0;
+    renderRankingContext(rows.length);
+  }
+
+  function sourceLink(source, label) {
+    var href = safeHttpUrl(typeof source === "string" ? source : source.url);
+    if (!href) return null;
+    return el("a", { href: href, target: "_blank", rel: "noopener noreferrer", text: label || source.title || new URL(href).hostname });
+  }
+
+  function renderRankingContext(count) {
+    var r = rankingById(state.rankId);
+    var root = document.getElementById("ranking-context");
+    root.textContent = "";
+    root.appendChild(el("p", { text: t("rankingCount", { count: count, year: r.year }) }));
+    root.appendChild(sourceLink(r.source, t("rankingSource")));
+    root.appendChild(el("p", { class: "hint", text: t(r.scope === "subject" ? "subjectScope" : "tieNote") }));
   }
 
   /* ---------- Detail ---------- */
   function requirementRows(req) {
     if (!req) return el("div", { class: "empty", text: t("noRequirement") });
+    var container = el("div");
+    container.appendChild(el("span", { class: "badge " + (req.status === "reviewed" ? "badge--reviewed" : "badge--source"), text: t(req.status === "reviewed" ? "reviewed" : "sourceChecked") }));
+    if (req.scope === "institution") container.appendChild(el("p", { class: "scope-note", text: t("institutionScope") }));
     var items = [
       [t("tableGpa"), req.gpa],
       [t("tableEnglish"), req.english],
       [t("tableDeadline"), fmtDate(req.deadline)],
       [t("tableDocuments"), req.documents],
+      [t("intake"), req.intake],
     ];
     var dl = el("dl", { class: "reqs" });
     items.forEach(function (pair) {
-      if (!pair[0]) return;
+      if (!pair[1]) return;
       dl.appendChild(el("dt", { text: pair[0] }));
-      dl.appendChild(el("dd", { text: pair[1] || "—" }));
+      dl.appendChild(el("dd", { text: pair[1] }));
     });
-    return dl;
+    if (dl.children.length) container.appendChild(dl);
+    if (req.status !== "reviewed") container.appendChild(el("p", { class: "scope-note", text: t("unreviewedNote") }));
+    if (req.notes) container.appendChild(el("p", { class: "scope-note", text: req.notes }));
+    var sources = el("ul", { class: "source-list" });
+    (req.sources || []).forEach(function (source) {
+      var link = sourceLink(source);
+      if (!link) return;
+      sources.appendChild(el("li", null, [link, el("small", { text: " · " + t("checkedOn", { date: fmtDate(source.checkedAt.slice(0, 10)) }) })]));
+    });
+    container.appendChild(sources);
+    if (req.status !== "reviewed" && req.sourceExcerpts && req.sourceExcerpts.length) {
+      var excerpts = el("details", { class: "source-excerpts" }, [el("summary", { text: t("officialExcerpts") })]);
+      req.sourceExcerpts.forEach(function (excerpt) {
+        excerpts.appendChild(el("blockquote", null, [el("p", { text: excerpt.text }), sourceLink(excerpt.source, t("viewSource"))]));
+      });
+      container.appendChild(excerpts);
+    }
+    return container;
   }
 
   function renderDetail(id) {
@@ -133,7 +168,8 @@
     var rankChips = state.data.meta.rankings
       .filter(function (r) { return s.ranks && s.ranks[r.id] != null; })
       .map(function (r) {
-        return el("span", { class: "chip" }, [el("b", { text: "#" + s.ranks[r.id] }), " " + rankLabel(r)]);
+        var href = safeHttpUrl(r.source);
+        return el("a", { class: "chip chip--link", href: href, target: "_blank", rel: "noopener noreferrer" }, [el("b", { text: "#" + Catalog.rankLabel(s, r.id) }), " " + rankLabel(r)]);
       });
     var site = safeHttpUrl(s.website);
     var links = el("div", { class: "chips" }, rankChips.concat(site ? [
@@ -143,10 +179,16 @@
     root.appendChild(head);
     root.appendChild(el("p", { class: "sub", text: countryName(s) }));
     root.appendChild(el("h3", { class: "section-title", text: t("detailRanks") }));
-    root.appendChild(links);
+    var rankings = el("details", { class: "rankings-detail" }, [el("summary", { text: t("expandRankings", { count: rankChips.length }) }), links]);
+    root.appendChild(rankings);
+    var directories = (s.admissionSources || []).filter(function (source) { return source.kind === "directory" || source.scope === "all"; });
+    if (directories.length) {
+      root.appendChild(el("h3", { class: "section-title", text: t("admissionDirectories") }));
+      root.appendChild(el("ul", { class: "source-list" }, directories.map(function (source) { return el("li", null, [sourceLink(source)]); })));
+    }
 
     root.appendChild(el("h3", { class: "section-title", text: t("detailLevels") }));
-    state.data.meta.levels.forEach(function (lv) {
+    [state.level].forEach(function (lv) {
       var levelLabel = t(lv === "undergraduate" ? "levelUndergrad" : lv === "master" ? "levelMaster" : "levelPhd");
       var req = s.requirements ? s.requirements[lv] : null;
       var card = el("article", { class: "post" + (lv === state.level ? " is-current" : "") }, [
@@ -154,6 +196,12 @@
         requirementRows(req),
       ]);
       root.appendChild(card);
+      var programs = Catalog.requirementsFor(s, lv).programs;
+      root.appendChild(el("h3", { class: "section-title", text: t("specificPrograms", { count: programs.length }) }));
+      if (!programs.length) root.appendChild(el("p", { class: "scope-note", text: t("noPrograms") }));
+      programs.forEach(function (program) {
+        root.appendChild(el("article", { class: "post program-card" }, [el("h4", { class: "post__title", text: program.name }), el("p", { class: "hint", text: program.subject }), requirementRows(program)]));
+      });
     });
   }
 
@@ -173,6 +221,18 @@
     node.textContent = meta.generatedAt
       ? t("footerUpdated", { time: new Date(meta.generatedAt).toLocaleString(I18N.locale()) })
       : t("footerNotLoaded");
+    var coverage = meta.coverage || {};
+    document.getElementById("coverage-summary").textContent = t("coverageSummary", { schools: coverage.schools || 0, subjects: coverage.subjects || 0, admissionSchools: coverage.admissionSchools || 0, sources: coverage.checkedAdmissionSources || 0, programs: coverage.programs || 0, reviewed: coverage.reviewedRequirementRecords || 0 });
+  }
+
+  function syncSelection() {
+    var rows = visibleSchools();
+    if (!rows.some(function (s) { return s.id === state.activeId; })) {
+      state.activeId = rows.length ? rows[0].id : null;
+    }
+    renderTable();
+    if (state.activeId) renderDetail(state.activeId);
+    else document.getElementById("detail").textContent = t("tableEmpty");
   }
 
   /* ---------- Drawer and theme (same behaviour as HKFM) ---------- */
@@ -230,7 +290,7 @@
 
     document.getElementById("ranking-select").addEventListener("change", function (e) {
       state.rankId = e.target.value;
-      renderTable();
+      syncSelection();
     });
     document.getElementById("level-select").addEventListener("change", function (e) {
       state.level = e.target.value;
@@ -238,7 +298,7 @@
     });
     document.getElementById("search").addEventListener("input", function (e) {
       state.query = e.target.value;
-      renderTable();
+      syncSelection();
     });
 
     document.addEventListener("uindex:langchange", function () {

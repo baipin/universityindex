@@ -1,0 +1,133 @@
+'use strict';
+const test = require('node:test');
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
+const catalog = require('../js/catalog.js');
+const root = path.resolve(__dirname, '..');
+const data = JSON.parse(fs.readFileSync(path.join(root, 'data/universities.json'), 'utf8'));
+const ids = new Set(data.schools.map(s => s.id));
+const rankings = new Map(data.meta.rankings.map(r => [r.id, r]));
+
+test('real institutional identities, explicit partial coverage, no demonstration data', () => {
+  assert.equal(data.meta.schemaVersion, 2);
+  assert.equal(data.meta.status, 'partial');
+  assert.equal(data.meta.verified, false);
+  assert.equal(data.meta.rankLimit, 150);
+  assert.equal(ids.size, data.schools.length);
+  assert.equal(data.meta.coverage.schools, data.schools.length);
+  assert.ok(data.schools.length >= 150);
+  for (const school of data.schools) {
+    assert.ok(school.name && school.country);
+    assert.doesNotMatch(school.id + school.name, /sample|example university/i);
+    assert.ok(['qs', 'the', 'usnews'].some(r => school.ranks[r] <= 150));
+    assert.ok(school.website === null || /^https?:\/\//.test(school.website));
+    for (const [id, value] of Object.entries(school.ranks)) {
+      assert.ok(rankings.has(id), id);
+      assert.ok(Number.isInteger(value) && value >= 1 && value <= 150);
+      assert.equal(Number(school.rankLabels[id].replace(/^=/, '').split(/[-–—]/)[0]), value);
+    }
+  }
+});
+
+test('all published rank facts tie to a publisher extract and the right edition', () => {
+  assert.equal(rankings.get('qs').year, '2027');
+  assert.equal(rankings.get('the').year, '2027');
+  assert.equal(rankings.get('usnews').year, '2026–2027');
+  assert.equal(rankings.size, 62);
+  for (const ranking of rankings.values()) {
+    const extract = JSON.parse(fs.readFileSync(path.join(root, 'data/rankings', ranking.id + '.json'), 'utf8'));
+    assert.equal(ranking.status, 'verified');
+    assert.match(ranking.sha256, /^[0-9a-f]{64}$/);
+    assert.ok(/^https:\/\//.test(ranking.source));
+    const indexed = catalog.visibleSchools(data, ranking.id);
+    assert.equal(indexed.length, extract.rows.length, ranking.id);
+    assert.equal(new Set(extract.rows.map(r => r.schoolId)).size, extract.rows.length);
+    for (const row of extract.rows) {
+      const school = data.schools.find(s => s.id === row.schoolId);
+      assert.ok(school, row.schoolId);
+      assert.equal(school.ranks[ranking.id], row.rank);
+      assert.equal(school.rankLabels[ranking.id], row.rankLabel);
+    }
+    for (let i = 1; i < indexed.length; i++) assert.ok(indexed[i - 1].ranks[ranking.id] <= indexed[i].ranks[ranking.id]);
+  }
+  for (const id of ['qs', 'the', 'usnews']) {
+    const count = catalog.visibleSchools(data, id).length;
+    assert.equal(count, data.meta.coverage.globalRankings[id]);
+    assert.ok(count >= 150, id);
+  }
+});
+
+test('ties and subject bands preserve publisher labels and sort by lower bound', () => {
+  const tied = data.schools.find(s => s.rankLabels.qs === '=2');
+  assert.ok(tied);
+  assert.equal(catalog.rankLabel(tied, 'qs'), '=2');
+  const band = data.schools.flatMap(s => Object.entries(s.rankLabels).filter(([id, label]) => id.startsWith('qs-') && /[-–—]/.test(label)).map(([id, label]) => ({ s, id, label })))[0];
+  assert.ok(band, 'At least one subject rank band must be preserved');
+  assert.equal(catalog.rankLabel(band.s, band.id), band.label);
+});
+
+test('case-insensitive school, Chinese-name, country and programme search', () => {
+  assert.equal(catalog.visibleSchools(data, 'qs', 'MASSACHUSETTS')[0].id, 'qs-410');
+  assert.equal(catalog.visibleSchools(data, 'qs', '麻省')[0].id, 'qs-410');
+  assert.ok(catalog.visibleSchools(data, 'qs', 'Hong Kong').length >= 5);
+  const programs = data.schools.flatMap(s => s.programs);
+  assert.ok(programs.length > 0);
+  const program = programs.find(p => p.name === 'MSc Computing');
+  assert.ok(program);
+  assert.ok(catalog.visibleSchools(data, 'qs', program.name).some(s => s.id === 'qs-356'));
+  assert.equal(catalog.visibleSchools(data, 'qs', 'nonexistent-institution-xyz').length, 0);
+});
+
+test('degree filtering keeps institutional rules separate from programmes', () => {
+  for (const school of data.schools) {
+    assert.equal(new Set(school.programs.map(p => p.id)).size, school.programs.length, school.id);
+    for (const level of data.meta.levels) {
+      const result = catalog.requirementsFor(school, level);
+      assert.equal(result.institution, school.requirements[level]);
+      assert.ok(result.programs.every(p => p.level === level));
+      assert.equal(result.programs.length, school.programs.filter(p => p.level === level).length);
+    }
+  }
+});
+
+test('reviewed fields have checked official sources; unknown fields are never guessed', () => {
+  let reviewedCount = 0;
+  for (const school of data.schools) {
+    for (const req of [...Object.values(school.requirements), ...school.programs]) {
+      if (!req) continue;
+      assert.ok(['reviewed', 'source-checked'].includes(req.status));
+      assert.ok(req.sources.length > 0);
+      for (const source of req.sources) {
+        assert.ok(/^https?:\/\//.test(source.url));
+        assert.ok(!source.url.startsWith('https://r.jina.ai/'), 'Display the original official source');
+        assert.ok(Number.isFinite(Date.parse(source.checkedAt)));
+        assert.match(source.sha256, /^[0-9a-f]{64}$/);
+        assert.doesNotMatch(source.title, /404|page not found|could not be found|human verification|just a moment|access denied/i);
+      }
+      if (req.status === 'reviewed') {
+        reviewedCount++;
+        assert.ok(req.reviewedAt);
+        for (const field of ['gpa', 'english', 'deadline', 'documents', 'intake']) {
+          if (req[field] === null || req[field] === undefined) continue;
+          assert.ok(req.fieldSources[field], school.id + ': ' + field);
+          assert.ok(req.sources.some(s => s.url === req.fieldSources[field]));
+        }
+      } else {
+        for (const field of ['gpa', 'english', 'deadline', 'documents']) assert.equal(req[field], null);
+      }
+      for (const excerpt of req.sourceExcerpts || []) assert.ok(req.sources.some(s => s.url === excerpt.source));
+    }
+  }
+  assert.equal(reviewedCount, data.meta.coverage.reviewedRequirementRecords);
+  assert.ok(reviewedCount >= 40);
+});
+
+test('published admission and programme coverage agrees with actual records', () => {
+  const checks = JSON.parse(fs.readFileSync(path.join(root, 'data/admissions/checks.json'), 'utf8')).sources;
+  assert.equal(data.meta.coverage.admissionSchools, data.schools.filter(s => s.admissionSources.length).length);
+  assert.equal(data.meta.coverage.programs, data.schools.reduce((sum, s) => sum + s.programs.length, 0));
+  assert.equal(data.meta.coverage.checkedAdmissionSources, checks.filter(s => s.status === 'source-checked').length);
+  assert.equal(data.meta.coverage.unavailableAdmissionSources, checks.filter(s => s.status !== 'source-checked').length);
+  for (const check of checks) assert.ok(ids.has(check.schoolId));
+});
