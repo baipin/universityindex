@@ -571,10 +571,11 @@ h1, h2, h3, p { margin: 0; }
    ========================================================================== */
 
 /* Catalogue coverage summary */
-.hero-banner { max-width: 1248px; margin: 24px auto 0; overflow: hidden; border-radius: var(--md-shape-l); }
-.hero-banner img { display: block; width: 100%; aspect-ratio: 2.2; height: auto; object-fit: cover; object-position: center bottom; }
+.hero-banner { max-width: 1248px; margin: 24px auto 0; padding: 12px; overflow: hidden; border-radius: var(--md-shape-l); }
+.hero-banner__media { width: 100%; height: clamp(180px, 26vw, 320px); overflow: hidden; border-radius: var(--md-shape-s); background: var(--md-surface-container); }
+.hero-banner img { display: block; width: 100%; height: 100%; max-width: 100%; object-fit: cover; object-position: center bottom; }
 @media (max-width: 1296px) { .hero-banner { margin-left: 24px; margin-right: 24px; } }
-@media (max-width: 600px) { .hero-banner { margin: 12px 12px 0; } .hero-banner img { aspect-ratio: 1.5; } }
+@media (max-width: 600px) { .hero-banner { margin: 12px 12px 0; padding: 8px; } }
 .notice {
   grid-column: 1 / -1;
   grid-area: notice;
@@ -662,6 +663,7 @@ table.schools tbody tr.is-active td { border-bottom-color: transparent; }
 .ranking-context .hint { margin-top: 8px; }
 .coverage-summary { margin-top: 8px; font-weight: 500; }
 .rankings-detail { margin-bottom: 20px; }
+.school-actions { margin: 12px 0 20px; }
 .rankings-detail summary, .source-excerpts summary { cursor: pointer; font-size: 13px; color: var(--md-primary); line-height: 1.6; }
 .rankings-detail .chips { margin-top: 12px; }
 .rankings-detail .chip { height: auto; min-height: 32px; white-space: normal; padding-top: 6px; padding-bottom: 6px; max-width: 100%; }

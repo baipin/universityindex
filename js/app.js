@@ -36,6 +36,7 @@
   }
 
   function rankingById(id) {
+    if (!state.data) return null;
     return state.data.meta.rankings.filter(function (r) { return r.id === id; })[0] || null;
   }
 
@@ -61,6 +62,7 @@
 
   /* ---------- Ranking and level selectors ---------- */
   function renderSelectors() {
+    if (!state.data) return;
     var sel = document.getElementById("ranking-select");
     sel.textContent = "";
     var globalGroup = el("optgroup", { label: t("globalRankings") });
@@ -76,6 +78,7 @@
 
   /* ---------- Table ---------- */
   function visibleSchools() {
+    if (!state.data) return [];
     return Catalog.visibleSchools(state.data, state.rankId, state.query);
   }
 
@@ -110,6 +113,7 @@
     var r = rankingById(state.rankId);
     var root = document.getElementById("ranking-context");
     root.textContent = "";
+    if (!r) return;
     root.appendChild(el("p", { text: t("rankingCount", { count: count, year: r.year }) }));
     root.appendChild(sourceLink(r.source, t("rankingSource")));
     if (r.checkedAt) root.appendChild(el("p", { class: "hint", text: t("checkedOn", { date: fmtDate(r.checkedAt.slice(0, 10)) }) }));
@@ -117,6 +121,15 @@
   }
 
   /* ---------- Detail ---------- */
+  function renderEmptyDetail() {
+    var root = document.getElementById("detail");
+    root.textContent = "";
+    root.appendChild(el("div", { class: "detail__placeholder" }, [
+      el("h2", { text: t("detailPlaceholderTitle") }),
+      el("p", { text: t("detailPlaceholderText") }),
+    ]));
+  }
+
   function requirementRows(req) {
     if (!req) return el("div", { class: "empty", text: t("noRequirement") });
     var container = el("div");
@@ -125,7 +138,7 @@
     var items = [
       [t("tableGpa"), req.gpa],
       [t("tableEnglish"), req.english],
-      [t("tableDeadline"), fmtDate(req.deadline)],
+      [t("tableDeadline"), req.deadline ? fmtDate(req.deadline) : null],
       [t("tableDocuments"), req.documents],
       [t("intake"), req.intake],
     ];
@@ -156,10 +169,11 @@
   }
 
   function renderDetail(id) {
+    if (!state.data || !id) { renderEmptyDetail(); return; }
     var s = state.data.schools.filter(function (x) { return x.id === id; })[0];
     var root = document.getElementById("detail");
     root.textContent = "";
-    if (!s) return;
+    if (!s) { state.activeId = null; renderEmptyDetail(); return; }
 
     var head = el("div", { class: "detail__head" }, [
       el("h2", { text: schoolName(s) }),
@@ -173,12 +187,13 @@
         return el("a", { class: "chip chip--link", href: href, target: "_blank", rel: "noopener noreferrer" }, [el("b", { text: "#" + Catalog.rankLabel(s, r.id) }), " " + rankLabel(r)]);
       });
     var site = safeHttpUrl(s.website);
-    var links = el("div", { class: "chips" }, rankChips.concat(site ? [
-      el("a", { class: "chip chip--link", href: site, target: "_blank", rel: "noopener noreferrer nofollow", text: t("detailOfficial") }),
-    ] : []));
+    var links = el("div", { class: "chips" }, rankChips);
 
     root.appendChild(head);
     root.appendChild(el("p", { class: "sub", text: countryName(s) }));
+    if (site) root.appendChild(el("div", { class: "school-actions" }, [
+      el("a", { class: "chip chip--link official-site", href: site, target: "_blank", rel: "noopener noreferrer", text: t("detailOfficial") }),
+    ]));
     root.appendChild(el("h3", { class: "section-title", text: t("detailRanks") }));
     var rankings = el("details", { class: "rankings-detail" }, [el("summary", { text: t("expandRankings", { count: rankChips.length }) }), links]);
     root.appendChild(rankings);
@@ -217,6 +232,7 @@
 
   /* ---------- Footer ---------- */
   function renderStatus() {
+    if (!state.data) return;
     var meta = state.data.meta;
     var node = document.getElementById("footer-status");
     node.textContent = meta.generatedAt
@@ -229,11 +245,11 @@
   function syncSelection() {
     var rows = visibleSchools();
     if (!rows.some(function (s) { return s.id === state.activeId; })) {
-      state.activeId = rows.length ? rows[0].id : null;
+      state.activeId = null;
     }
     renderTable();
     if (state.activeId) renderDetail(state.activeId);
-    else document.getElementById("detail").textContent = t("tableEmpty");
+    else renderEmptyDetail();
   }
 
   /* ---------- Drawer and theme (same behaviour as HKFM) ---------- */
@@ -296,6 +312,7 @@
     document.getElementById("level-select").addEventListener("change", function (e) {
       state.level = e.target.value;
       if (state.activeId) renderDetail(state.activeId);
+      else renderEmptyDetail();
     });
     document.getElementById("search").addEventListener("input", function (e) {
       state.query = e.target.value;
@@ -304,10 +321,12 @@
 
     document.addEventListener("uindex:langchange", function () {
       document.title = t("appTitle") + " · University Admission Requirements";
+      if (!state.data) { renderEmptyDetail(); setTheme(isDark() ? "dark" : "light", false); return; }
       renderSelectors();
       renderTable();
       renderStatus();
       if (state.activeId) renderDetail(state.activeId);
+      else renderEmptyDetail();
       setTheme(isDark() ? "dark" : "light", false);
     });
   }
@@ -325,12 +344,12 @@
         return r.json();
       })
       .then(function (data) {
+        if (!data || !Array.isArray(data.schools) || !data.meta || !Array.isArray(data.meta.rankings)) throw new Error("Invalid catalogue data");
         state.data = data;
         renderSelectors();
         renderTable();
         renderStatus();
-        var first = visibleSchools()[0];
-        if (first) select(first.id);
+        renderEmptyDetail();
       })
       .catch(function (err) {
         document.getElementById("footer-status").textContent = t("loadFailed");
