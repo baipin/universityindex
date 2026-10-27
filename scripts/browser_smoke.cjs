@@ -129,7 +129,8 @@ const data = JSON.parse(fs.readFileSync(path.join(root, 'data/universities.json'
     await loadingPage.locator('#school-rows tr').first().click();
     assert.ok((await loadingPage.locator('#detail').innerText()).includes('MSc Computing'));
     // Check enriched programme fields at the actual detail output surface.
-    for (const query of ['Cambridge', 'Hong Kong University of Science', 'Toronto']) {
+    await loadingPage.selectOption('#ranking-select', 'usnews');
+    for (const query of ['Cambridge', 'Hong Kong University of Science', 'Toronto', 'Imperial', 'San Francisco']) {
       await loadingPage.fill('#search', query);
       const schoolId = await loadingPage.locator('#school-rows tr').first().getAttribute('data-id');
       const school = data.schools.find(s => s.id === schoolId);

@@ -2562,6 +2562,1270 @@
       "kind": "program",
       "name": "Integrated MPhil-PhD in Finance",
       "subject": "Finance"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-anchem/",
+      "kind": "program",
+      "name": "MSc in Analytical Chemistry",
+      "subject": "Chemistry"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-chem/",
+      "kind": "program",
+      "name": "MPhil in Chemistry",
+      "subject": "Chemistry"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "phd",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-chem/",
+      "kind": "program",
+      "name": "PhD in Chemistry",
+      "subject": "Chemistry"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-biot/",
+      "kind": "program",
+      "name": "MSc in Biotechnology",
+      "subject": "Biotechnology"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-drap/",
+      "kind": "program",
+      "name": "MSc in Drug Regulatory Affairs and Policy",
+      "subject": "Health Policy"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-elbt/",
+      "kind": "program",
+      "name": "MSc in Entrepreneurial Leadership in Biotechnology",
+      "subject": "Biotechnology"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-lifs/",
+      "kind": "program",
+      "name": "MPhil in Life Science",
+      "subject": "Life Science"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "phd",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-lifs/",
+      "kind": "program",
+      "name": "PhD in Life Science",
+      "subject": "Life Science"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mafm/",
+      "kind": "program",
+      "name": "MSc in Financial Mathematics",
+      "subject": "Mathematics & Finance"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math/",
+      "kind": "program",
+      "name": "MPhil in Mathematics",
+      "subject": "Mathematics"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "phd",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math/",
+      "kind": "program",
+      "name": "PhD in Mathematics",
+      "subject": "Mathematics"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-maed/",
+      "kind": "program",
+      "name": "MSc in Mathematics for Educators",
+      "subject": "Mathematics & Education"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ehs/",
+      "kind": "program",
+      "name": "MSc in Environmental Health and Safety",
+      "subject": "Environmental Science"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gmrm/",
+      "kind": "program",
+      "name": "MSc in Global Marine Resources Management",
+      "subject": "Marine Science"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ddm/",
+      "kind": "program",
+      "name": "MSc in Data-Driven Modeling",
+      "subject": "Data Science"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-phys/",
+      "kind": "program",
+      "name": "MPhil in Physics",
+      "subject": "Physics"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "phd",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-phys/",
+      "kind": "program",
+      "name": "PhD in Physics",
+      "subject": "Physics"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-phys/",
+      "kind": "program",
+      "name": "MSc in Physics",
+      "subject": "Physics"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fintech/",
+      "kind": "program",
+      "name": "MSc in Financial Technology",
+      "subject": "Financial Technology"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-bien/",
+      "kind": "program",
+      "name": "MPhil in Bioengineering",
+      "subject": "Bioengineering"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "phd",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-bien/",
+      "kind": "program",
+      "name": "PhD in Bioengineering",
+      "subject": "Bioengineering"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-behi/",
+      "kind": "program",
+      "name": "MSc in Biomolecular Engineering and Health Informatics",
+      "subject": "Bioengineering"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cbme/",
+      "kind": "program",
+      "name": "MPhil in Chemical and Biomolecular Engineering",
+      "subject": "Chemical Engineering"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "phd",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cbme/",
+      "kind": "program",
+      "name": "PhD in Chemical and Biomolecular Engineering",
+      "subject": "Chemical Engineering"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-cee/",
+      "kind": "program",
+      "name": "MSc in Chemical and Energy Engineering",
+      "subject": "Chemical Engineering"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mate/",
+      "kind": "program",
+      "name": "MSc in Materials Engineering",
+      "subject": "Materials Science"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-civl/",
+      "kind": "program",
+      "name": "MPhil in Civil Engineering",
+      "subject": "Civil Engineering"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "phd",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-civl/",
+      "kind": "program",
+      "name": "PhD in Civil Engineering",
+      "subject": "Civil Engineering"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ece/",
+      "kind": "program",
+      "name": "MPhil in Electronic and Computer Engineering",
+      "subject": "Electrical Engineering"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "phd",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ece/",
+      "kind": "program",
+      "name": "PhD in Electronic and Computer Engineering",
+      "subject": "Electrical Engineering"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ic/",
+      "kind": "program",
+      "name": "MSc in Integrated Circuits",
+      "subject": "Electrical Engineering"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-telecom/",
+      "kind": "program",
+      "name": "MSc in Telecommunications",
+      "subject": "Electrical Engineering"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-eem/",
+      "kind": "program",
+      "name": "MSc in Engineering Enterprise Management",
+      "subject": "Engineering Management"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ieda/",
+      "kind": "program",
+      "name": "MPhil in Industrial Engineering and Decision Analytics",
+      "subject": "Industrial Engineering"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "phd",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ieda/",
+      "kind": "program",
+      "name": "PhD in Industrial Engineering and Decision Analytics",
+      "subject": "Industrial Engineering"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ae/",
+      "kind": "program",
+      "name": "MSc in Aeronautical Engineering",
+      "subject": "Aerospace Engineering"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ibtm/",
+      "kind": "program",
+      "name": "MSc in Intelligent Building Technology and Management",
+      "subject": "Building Engineering"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-imt/",
+      "kind": "program",
+      "name": "MSc in International Management",
+      "subject": "Business & Management"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-acct/",
+      "kind": "program",
+      "name": "MSc in Accounting",
+      "subject": "Accounting"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-go/",
+      "kind": "program",
+      "name": "MSc in Global Operations",
+      "subject": "Operations Management"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-icsm/",
+      "kind": "program",
+      "name": "MSc in Information and Cyber Security Management",
+      "subject": "Cybersecurity"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-ism/",
+      "kind": "program",
+      "name": "MSc in Information Systems Management",
+      "subject": "Information Systems"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-fofb/",
+      "kind": "program",
+      "name": "MSc in Family Office and Family Business",
+      "subject": "Business & Management"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-mark/",
+      "kind": "program",
+      "name": "MSc in Marketing",
+      "subject": "Marketing"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-gcs/",
+      "kind": "program",
+      "name": "MSc in Global China Studies",
+      "subject": "Social Science"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile/",
+      "kind": "program",
+      "name": "MA in International Language Education (Teaching English as a Second Language)",
+      "subject": "Language Education"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-ile/",
+      "kind": "program",
+      "name": "MA in International Language Education (Teaching Chinese as a Second Language)",
+      "subject": "Language Education"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-cc/",
+      "kind": "program",
+      "name": "MA in Chinese Culture",
+      "subject": "Humanities"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-huma/",
+      "kind": "program",
+      "name": "MPhil in Humanities",
+      "subject": "Humanities"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "phd",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-huma/",
+      "kind": "program",
+      "name": "PhD in Humanities",
+      "subject": "Humanities"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-sosc/",
+      "kind": "program",
+      "name": "MPhil in Social Science",
+      "subject": "Social Science"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "phd",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-sosc/",
+      "kind": "program",
+      "name": "PhD in Social Science",
+      "subject": "Social Science"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/ma-amc/",
+      "kind": "program",
+      "name": "MA in Arts and Machine Creativity",
+      "subject": "Arts & Technology"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-evsm/",
+      "kind": "program",
+      "name": "MSc in Environmental Science, Management and Sustainability",
+      "subject": "Environmental Science"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/msc-tle/",
+      "kind": "program",
+      "name": "MSc in Technology Leadership and Entrepreneurship",
+      "subject": "Engineering Management"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mpm/",
+      "kind": "program",
+      "name": "MPM in Public Management",
+      "subject": "Public Policy"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-pp/",
+      "kind": "program",
+      "name": "MPhil in Public Policy",
+      "subject": "Public Policy"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "phd",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-pp/",
+      "kind": "program",
+      "name": "PhD in Public Policy",
+      "subject": "Public Policy"
+    },
+    {
+      "school": "The Hong Kong University of Science and Technology",
+      "level": "master",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mpp/",
+      "kind": "program",
+      "name": "MPP in Public Policy",
+      "subject": "Public Policy"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcmmmpame/requirements",
+      "kind": "program",
+      "name": "MPhil in Advanced Materials for the Energy Transition",
+      "subject": "Materials Science"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcmmmpame/apply",
+      "kind": "program",
+      "name": "MPhil in Advanced Materials for the Energy Transition",
+      "subject": "Materials Science"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/hihimpamh/requirements",
+      "kind": "program",
+      "name": "MPhil in American History",
+      "subject": "History"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/hihimpamh/apply",
+      "kind": "program",
+      "name": "MPhil in American History",
+      "subject": "History"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwcrmpmcr/requirements",
+      "kind": "program",
+      "name": "MPhil in Criminology",
+      "subject": "Criminology"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwcrmpmcr/apply",
+      "kind": "program",
+      "name": "MPhil in Criminology",
+      "subject": "Criminology"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwcrpdpcr/requirements",
+      "kind": "program",
+      "name": "PhD in Criminology",
+      "subject": "Criminology"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/lwcrpdpcr/apply",
+      "kind": "program",
+      "name": "PhD in Criminology",
+      "subject": "Criminology"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphmpdis/requirements",
+      "kind": "program",
+      "name": "MPhil in Data Intensive Science",
+      "subject": "Data Science"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcphmpdis/apply",
+      "kind": "program",
+      "name": "MPhil in Data Intensive Science",
+      "subject": "Data Science"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/hihimpemh/requirements",
+      "kind": "program",
+      "name": "MPhil in Early Modern History",
+      "subject": "History"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/hihimpemh/apply",
+      "kind": "program",
+      "name": "MPhil in Early Modern History",
+      "subject": "History"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/hihimpesh/requirements",
+      "kind": "program",
+      "name": "MPhil in Economic and Social History",
+      "subject": "History"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/hihimpesh/apply",
+      "kind": "program",
+      "name": "MPhil in Economic and Social History",
+      "subject": "History"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ececmpmer/requirements",
+      "kind": "program",
+      "name": "MPhil in Economic Research",
+      "subject": "Economics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ececmpmer/apply",
+      "kind": "program",
+      "name": "MPhil in Economic Research",
+      "subject": "Economics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ececmpmec/requirements",
+      "kind": "program",
+      "name": "MPhil in Economics",
+      "subject": "Economics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ececmpmec/apply",
+      "kind": "program",
+      "name": "MPhil in Economics",
+      "subject": "Economics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ececpdpec/requirements",
+      "kind": "program",
+      "name": "PhD in Economics",
+      "subject": "Economics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ececpdpec/apply",
+      "kind": "program",
+      "name": "PhD in Economics",
+      "subject": "Economics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ececmpeds/requirements",
+      "kind": "program",
+      "name": "MPhil in Economics and Data Science",
+      "subject": "Economics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ececmpeds/apply",
+      "kind": "program",
+      "name": "MPhil in Economics and Data Science",
+      "subject": "Economics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ededmpeac/requirements",
+      "kind": "program",
+      "name": "MPhil in Education (Arts, Creativity & Education)",
+      "subject": "Education"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ededmpeac/apply",
+      "kind": "program",
+      "name": "MPhil in Education (Arts, Creativity & Education)",
+      "subject": "Education"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ededmpecl/requirements",
+      "kind": "program",
+      "name": "MPhil in Education (Critical Approaches to Children's Literature)",
+      "subject": "Education"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ededmpecl/apply",
+      "kind": "program",
+      "name": "MPhil in Education (Critical Approaches to Children's Literature)",
+      "subject": "Education"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ededmpegd/requirements",
+      "kind": "program",
+      "name": "MPhil in Education (Education, Globalisation and International Development)",
+      "subject": "Education"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ededmpegd/apply",
+      "kind": "program",
+      "name": "MPhil in Education (Education, Globalisation and International Development)",
+      "subject": "Education"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ededmpels/requirements",
+      "kind": "program",
+      "name": "MPhil in Education (Educational Policy, Leadership and Improvement) full-time",
+      "subject": "Education"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ededmpels/apply",
+      "kind": "program",
+      "name": "MPhil in Education (Educational Policy, Leadership and Improvement) full-time",
+      "subject": "Education"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ededmpkpp/requirements",
+      "kind": "program",
+      "name": "MPhil in Education (Knowledge, Power and Politics)",
+      "subject": "Education"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ededmpkpp/apply",
+      "kind": "program",
+      "name": "MPhil in Education (Knowledge, Power and Politics)",
+      "subject": "Education"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ededmpemm/requirements",
+      "kind": "program",
+      "name": "MPhil in Education (Mathematics Education)",
+      "subject": "Education"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ededmpemm/apply",
+      "kind": "program",
+      "name": "MPhil in Education (Mathematics Education)",
+      "subject": "Education"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ededmpepy/requirements",
+      "kind": "program",
+      "name": "MPhil in Education (Psychology and Education) full time",
+      "subject": "Education"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ededmpepy/apply",
+      "kind": "program",
+      "name": "MPhil in Education (Psychology and Education) full time",
+      "subject": "Education"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ededmpesl/requirements",
+      "kind": "program",
+      "name": "MPhil in Education (Research in Second Language Education)",
+      "subject": "Education"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ededmpesl/apply",
+      "kind": "program",
+      "name": "MPhil in Education (Research in Second Language Education)",
+      "subject": "Education"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ececmpmfe/requirements",
+      "kind": "program",
+      "name": "MPhil in Finance and Economics",
+      "subject": "Finance & Economics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/ececmpmfe/apply",
+      "kind": "program",
+      "name": "MPhil in Finance and Economics",
+      "subject": "Finance & Economics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/eaggmpgeo/requirements",
+      "kind": "program",
+      "name": "MPhil in Geography",
+      "subject": "Geography"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/eaggmpgeo/apply",
+      "kind": "program",
+      "name": "MPhil in Geography",
+      "subject": "Geography"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/eaggpdgeo/requirements",
+      "kind": "program",
+      "name": "PhD in Geography",
+      "subject": "Geography"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/eaggpdgeo/apply",
+      "kind": "program",
+      "name": "PhD in Geography",
+      "subject": "Geography"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mmalmptld/requirements",
+      "kind": "program",
+      "name": "MPhil in Linguistics and Language Sciences (Research)",
+      "subject": "Linguistics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mmalmptld/apply",
+      "kind": "program",
+      "name": "MPhil in Linguistics and Language Sciences (Research)",
+      "subject": "Linguistics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mmalmptal/requirements",
+      "kind": "program",
+      "name": "MPhil in Linguistics and Language Sciences (Taught)",
+      "subject": "Linguistics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mmalmptal/apply",
+      "kind": "program",
+      "name": "MPhil in Linguistics and Language Sciences (Taught)",
+      "subject": "Linguistics"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcmmmpmsm/requirements",
+      "kind": "program",
+      "name": "MPhil in Materials Science and Metallurgy",
+      "subject": "Materials Science"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcmmmpmsm/apply",
+      "kind": "program",
+      "name": "MPhil in Materials Science and Metallurgy",
+      "subject": "Materials Science"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcmmpdmsm/requirements",
+      "kind": "program",
+      "name": "PhD in Materials Science and Metallurgy",
+      "subject": "Materials Science"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/pcmmpdmsm/apply",
+      "kind": "program",
+      "name": "PhD in Materials Science and Metallurgy",
+      "subject": "Materials Science"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/hihimpmmh/requirements",
+      "kind": "program",
+      "name": "MPhil in Medieval History",
+      "subject": "History"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/hihimpmmh/apply",
+      "kind": "program",
+      "name": "MPhil in Medieval History",
+      "subject": "History"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/hihimpmbh/requirements",
+      "kind": "program",
+      "name": "MPhil in Modern British History",
+      "subject": "History"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/hihimpmbh/apply",
+      "kind": "program",
+      "name": "MPhil in Modern British History",
+      "subject": "History"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/hihimpmeh/requirements",
+      "kind": "program",
+      "name": "MPhil in Modern European History",
+      "subject": "History"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/hihimpmeh/apply",
+      "kind": "program",
+      "name": "MPhil in Modern European History",
+      "subject": "History"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/hihimppth/requirements",
+      "kind": "program",
+      "name": "MPhil in Political Thought and Intellectual History",
+      "subject": "History"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/hihimppth/apply",
+      "kind": "program",
+      "name": "MPhil in Political Thought and Intellectual History",
+      "subject": "History"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/popimpirp/requirements",
+      "kind": "program",
+      "name": "MPhil in Politics and International Studies",
+      "subject": "Politics & International Studies"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/popimpirp/apply",
+      "kind": "program",
+      "name": "MPhil in Politics and International Studies",
+      "subject": "Politics & International Studies"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/popipdpis/requirements",
+      "kind": "program",
+      "name": "PhD in Politics and International Studies",
+      "subject": "Politics & International Studies"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/popipdpis/apply",
+      "kind": "program",
+      "name": "PhD in Politics and International Studies",
+      "subject": "Politics & International Studies"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/popimppup/requirements",
+      "kind": "program",
+      "name": "MPhil in Public Policy",
+      "subject": "Public Policy"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/popimppup/apply",
+      "kind": "program",
+      "name": "MPhil in Public Policy",
+      "subject": "Public Policy"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aasopdsoc/requirements",
+      "kind": "program",
+      "name": "PhD in Sociology",
+      "subject": "Sociology"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "phd",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aasopdsoc/apply",
+      "kind": "program",
+      "name": "PhD in Sociology",
+      "subject": "Sociology"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aasomppes/requirements",
+      "kind": "program",
+      "name": "MPhil in Sociology (Political and Economic Sociology)",
+      "subject": "Sociology"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aasomppes/apply",
+      "kind": "program",
+      "name": "MPhil in Sociology (Political and Economic Sociology)",
+      "subject": "Sociology"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aasompsgt/requirements",
+      "kind": "program",
+      "name": "MPhil in Sociology (The Sociology of Marginality and Exclusion)",
+      "subject": "Sociology"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aasompsgt/apply",
+      "kind": "program",
+      "name": "MPhil in Sociology (The Sociology of Marginality and Exclusion)",
+      "subject": "Sociology"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aasompsmc/requirements",
+      "kind": "program",
+      "name": "MPhil in Sociology (The Sociology of Media and Culture)",
+      "subject": "Sociology"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/aasompsmc/apply",
+      "kind": "program",
+      "name": "MPhil in Sociology (The Sociology of Media and Culture)",
+      "subject": "Sociology"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/hihimpwhs/requirements",
+      "kind": "program",
+      "name": "MPhil in World History",
+      "subject": "History"
+    },
+    {
+      "school": "University of Cambridge",
+      "level": "master",
+      "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/hihimpwhs/apply",
+      "kind": "program",
+      "name": "MPhil in World History",
+      "subject": "History"
+    },
+    {
+      "school": "Imperial College London",
+      "level": "master",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/advanced-computing/",
+      "kind": "program",
+      "name": "MSc Advanced Computing",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "Imperial College London",
+      "level": "master",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/artificial-intelligence/",
+      "kind": "program",
+      "name": "MSc Artificial Intelligence",
+      "subject": "Artificial Intelligence"
+    },
+    {
+      "school": "Imperial College London",
+      "level": "master",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/business-analytics/",
+      "kind": "program",
+      "name": "MSc Business Analytics and AI",
+      "subject": "Business Analytics"
+    },
+    {
+      "school": "Imperial College London",
+      "level": "master",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/statistics/",
+      "kind": "program",
+      "name": "MSc Statistics",
+      "subject": "Statistics"
+    },
+    {
+      "school": "Imperial College London",
+      "level": "master",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/statistics-data-science/",
+      "kind": "program",
+      "name": "MSc Statistics (Data Science and Machine Learning)",
+      "subject": "Data Science"
+    },
+    {
+      "school": "Imperial College London",
+      "level": "master",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/applied-mathematics/",
+      "kind": "program",
+      "name": "MSc Applied Mathematics",
+      "subject": "Mathematics"
+    },
+    {
+      "school": "Imperial College London",
+      "level": "master",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/advanced-aeronautical-engineering/",
+      "kind": "program",
+      "name": "MSc Advanced Aeronautical Engineering",
+      "subject": "Aerospace Engineering"
+    },
+    {
+      "school": "Imperial College London",
+      "level": "master",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/advanced-mechanical-engineering/",
+      "kind": "program",
+      "name": "MSc Advanced Mechanical Engineering",
+      "subject": "Mechanical Engineering"
+    },
+    {
+      "school": "Imperial College London",
+      "level": "master",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/environmental-technology/",
+      "kind": "program",
+      "name": "MSc Sustainability, Environmental Policy and Innovation",
+      "subject": "Environmental Science"
+    },
+    {
+      "school": "Imperial College London",
+      "level": "master",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/epidemiology/",
+      "kind": "program",
+      "name": "MSc Epidemiology",
+      "subject": "Public Health"
+    },
+    {
+      "school": "Imperial College London",
+      "level": "master",
+      "url": "https://www.imperial.ac.uk/study/courses/postgraduate-taught/sustainable-energy-futures/",
+      "kind": "program",
+      "name": "MSc Sustainable Energy Futures",
+      "subject": "Energy Engineering"
+    },
+    {
+      "school": "University of California--San Francisco",
+      "level": "master",
+      "url": "https://catalog.ucsf.edu/programs/ai-comp-drug-discovery-development/",
+      "kind": "program",
+      "name": "MS in Artificial Intelligence and Computational Drug Discovery and Development",
+      "subject": "Artificial Intelligence"
+    },
+    {
+      "school": "University of California--San Francisco",
+      "level": "phd",
+      "url": "https://catalog.ucsf.edu/programs/biochem-molec-bio-tetrad/",
+      "kind": "program",
+      "name": "PhD in Biochemistry and Molecular Biology (Tetrad)",
+      "subject": "Biochemistry"
+    },
+    {
+      "school": "University of California--San Francisco",
+      "level": "phd",
+      "url": "https://catalog.ucsf.edu/programs/bioengineering/",
+      "kind": "program",
+      "name": "PhD in Bioengineering (joint UCSF–UC Berkeley)",
+      "subject": "Bioengineering"
+    },
+    {
+      "school": "University of California--San Francisco",
+      "level": "master",
+      "url": "https://catalog.ucsf.edu/programs/biomedical-imaging/",
+      "kind": "program",
+      "name": "MS in Biomedical Imaging",
+      "subject": "Biomedical Imaging"
+    },
+    {
+      "school": "University of California--San Francisco",
+      "level": "master",
+      "url": "https://catalog.ucsf.edu/programs/clinical-epidemiological-research-ms/",
+      "kind": "program",
+      "name": "MS in Clinical and Epidemiological Research",
+      "subject": "Clinical Research"
+    },
+    {
+      "school": "University of California--San Francisco",
+      "level": "phd",
+      "url": "https://catalog.ucsf.edu/programs/epidemiology-translational-science/",
+      "kind": "program",
+      "name": "PhD in Epidemiology and Translational Science",
+      "subject": "Epidemiology"
+    },
+    {
+      "school": "University of California--San Francisco",
+      "level": "master",
+      "url": "https://catalog.ucsf.edu/programs/genetic-counseling-ms/",
+      "kind": "program",
+      "name": "MS in Genetic Counseling",
+      "subject": "Genetics"
+    },
+    {
+      "school": "University of California--San Francisco",
+      "level": "master",
+      "url": "https://catalog.ucsf.edu/programs/global-health-sciences-ms/",
+      "kind": "program",
+      "name": "MS in Global Health Sciences",
+      "subject": "Global Health"
+    },
+    {
+      "school": "University of California--San Francisco",
+      "level": "phd",
+      "url": "https://catalog.ucsf.edu/programs/global-health-sciences/",
+      "kind": "program",
+      "name": "PhD in Global Health Sciences",
+      "subject": "Global Health"
+    },
+    {
+      "school": "University of California--San Francisco",
+      "level": "master",
+      "url": "https://catalog.ucsf.edu/programs/health-data-sci-ms/",
+      "kind": "program",
+      "name": "MS in Health Data Science",
+      "subject": "Data Science"
+    },
+    {
+      "school": "University of California--San Francisco",
+      "level": "master",
+      "url": "https://catalog.ucsf.edu/programs/health-policy-and-law-ms/",
+      "kind": "program",
+      "name": "MS in Health Policy and Law",
+      "subject": "Health Policy"
+    },
+    {
+      "school": "University of California--San Francisco",
+      "level": "master",
+      "url": "https://catalog.ucsf.edu/programs/healthcare-administration-interprofessional-leadership-ms/",
+      "kind": "program",
+      "name": "MS in Healthcare Administration and Interprofessional Leadership",
+      "subject": "Healthcare Management"
     }
   ]
 }
