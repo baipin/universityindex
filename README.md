@@ -17,13 +17,13 @@ Snapshot: **27 October 2026**. Live counts and edition labels are generated from
 | QS 2026 subject / broad-area categories | 59 views |
 | Institutions with official course/admissions lookup | 216 / 216 (5 currently access-limited) |
 | Institutions with checked admissions sources | 141 |
-| Checked admissions source records | 474 |
-| Specific programmes | 197, including 193 with reviewed summaries |
-| Reviewed requirement records | 249: 56 institutional/faculty baselines and 193 programme records |
+| Checked admissions source records | 533 |
+| Specific programmes | 252, including 248 with reviewed summaries |
+| Reviewed requirement records | 304: 56 institutional/faculty baselines and 248 programme records |
 
-This expansion adds 119 programme records and reviews 121 new/existing programmes across Cambridge, HKUST, Imperial and UCSF. It covers academic backgrounds and prerequisite courses, programme-specific English levels, application materials, supervisor/proposal rules and published 2027 deadlines. UCSF catalogue entries without intake-specific dates retain unknown deadlines; a conflicting Imperial visa date is explicitly flagged. All new sources participate in the monthly bot refresh.
+The latest addition provides 55 reviewed programmes at Manchester (12), Edinburgh (8), Bristol (12), Southampton (13) and Glasgow (10), including four undergraduate degrees and two PhDs. Summaries distinguish prerequisite modules, conversion-course restrictions, reference requirements, English-score routes and 2027 application rounds. Earlier detailed Cambridge, HKUST, Imperial and UCSF records remain included. All new sources participate in the monthly bot refresh.
 
-All 216 institutions have official course/admissions lookup routes. Five currently block automated access or report maintenance and are explicitly labelled access-limited; their content is not counted as verified. Detailed admissions summaries remain **partial**: 75 institutions lack checked sources in that separate dataset, with 45 unavailable candidate sources. Subject views show subject ranks up to 150 **within the global ranking union**, not complete subject tables. U.S. News refers to its global ranking. Ties and bands preserve publisher labels.
+All 216 institutions have official course/admissions lookup routes. Five currently block automated access or report maintenance and are explicitly labelled access-limited; their content is not counted as verified. Detailed admissions summaries remain **partial**: 75 institutions lack checked sources in that separate dataset, with 44 unavailable candidate sources. Subject views show subject ranks up to 150 **within the global ranking union**, not complete subject tables. U.S. News refers to its global ranking. Ties and bands preserve publisher labels.
 
 ## Automated GitHub bot
 

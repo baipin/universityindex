@@ -974,14 +974,6 @@
       "subject": "Data Science"
     },
     {
-      "school": "University of Edinburgh",
-      "level": "master",
-      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/118-computer-science",
-      "kind": "program",
-      "name": "Computer Science MSc",
-      "subject": "Computer Science"
-    },
-    {
       "school": "ETH Zurich",
       "level": "master",
       "url": "https://ethz.ch/en/studies/master/degree-programmes/engineering-sciences/computer-science.html",
@@ -3826,6 +3818,470 @@
       "kind": "program",
       "name": "MS in Healthcare Administration and Interprofessional Leadership",
       "subject": "Healthcare Management"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/02061/msc-accounting-and-finance/",
+      "kind": "program",
+      "name": "Accounting and Finance MSc",
+      "subject": "Accounting & Finance"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "graduate",
+      "url": "https://www.alliancembs.manchester.ac.uk/study/masters/masters-entry-requirements/",
+      "kind": "institution"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "graduate",
+      "url": "https://www.alliancembs.manchester.ac.uk/study/masters/how-to-apply/",
+      "kind": "institution"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+      "kind": "program",
+      "name": "Advanced Computer Science MSc",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/21574/msc-artificial-intelligence/",
+      "kind": "program",
+      "name": "Artificial Intelligence MSc",
+      "subject": "Artificial Intelligence"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/22197/msc-data-science-and-artificial-intelligence-mathematics/",
+      "kind": "program",
+      "name": "Data Science and Artificial Intelligence (Mathematics) MSc",
+      "subject": "Data Science"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/01380/msc-economics/",
+      "kind": "program",
+      "name": "Economics MSc",
+      "subject": "Economics"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/21299/msc-economics-and-data-science/",
+      "kind": "program",
+      "name": "Economics and Data Science MSc",
+      "subject": "Economics & Data Science"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/01383/msc-finance/",
+      "kind": "program",
+      "name": "Finance MSc",
+      "subject": "Finance"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/08446/llm-law/",
+      "kind": "program",
+      "name": "Law LLM",
+      "subject": "Law"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/08633/msc-management/",
+      "kind": "program",
+      "name": "Management MSc",
+      "subject": "Business & Management"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/04342/msc-mechanical-engineering-design/",
+      "kind": "program",
+      "name": "Mechanical Engineering Design MSc",
+      "subject": "Mechanical Engineering"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/10251/msc-quantitative-finance/",
+      "kind": "program",
+      "name": "Quantitative Finance MSc",
+      "subject": "Finance"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/02362/msc-statistics/",
+      "kind": "program",
+      "name": "Statistics MSc",
+      "subject": "Statistics"
+    },
+    {
+      "school": "The University of Edinburgh",
+      "level": "master",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1126-accounting-and-financial-management",
+      "kind": "program",
+      "name": "Accounting and Financial Management MSc",
+      "subject": "Accounting & Finance"
+    },
+    {
+      "school": "The University of Edinburgh",
+      "level": "master",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/107-artificial-intelligence",
+      "kind": "program",
+      "name": "Artificial Intelligence MSc",
+      "subject": "Artificial Intelligence"
+    },
+    {
+      "school": "The University of Edinburgh",
+      "level": "master",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/161-commercial-law",
+      "kind": "program",
+      "name": "Commercial Law LLM",
+      "subject": "Law"
+    },
+    {
+      "school": "The University of Edinburgh",
+      "level": "master",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/110-computer-science",
+      "kind": "program",
+      "name": "Computer Science MSc",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "The University of Edinburgh",
+      "level": "master",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/902-data-science",
+      "kind": "program",
+      "name": "Data Science MSc",
+      "subject": "Data Science"
+    },
+    {
+      "school": "The University of Edinburgh",
+      "level": "master",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/669-electronics",
+      "kind": "program",
+      "name": "Electronics MSc",
+      "subject": "Electrical Engineering"
+    },
+    {
+      "school": "The University of Edinburgh",
+      "level": "master",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/116-operational-research",
+      "kind": "program",
+      "name": "Operational Research MSc",
+      "subject": "Operations Research"
+    },
+    {
+      "school": "The University of Edinburgh",
+      "level": "master",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/916-statistics-with-data-science",
+      "kind": "program",
+      "name": "Statistics with Data Science MSc",
+      "subject": "Statistics"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-advanced-microelectronic-systems-engineering/",
+      "kind": "program",
+      "name": "MSc Advanced Microelectronic Systems Engineering",
+      "subject": "Electrical Engineering"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "graduate",
+      "url": "https://www.bristol.ac.uk/study/language-requirements/profile-e/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-communication-networks-and-signal-processing/",
+      "kind": "program",
+      "name": "MSc Communication Networks and Signal Processing",
+      "subject": "Electrical Engineering"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics/",
+      "kind": "program",
+      "name": "MSc Economics",
+      "subject": "Economics"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "graduate",
+      "url": "https://www.bristol.ac.uk/study/language-requirements/profile-b/",
+      "kind": "institution"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics-and-finance/",
+      "kind": "program",
+      "name": "MSc Economics and Finance",
+      "subject": "Economics & Finance"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-mathematics/",
+      "kind": "program",
+      "name": "MSc Engineering Mathematics",
+      "subject": "Mathematics & Engineering"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-with-management/",
+      "kind": "program",
+      "name": "MSc Engineering with Management",
+      "subject": "Engineering Management"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-resource-management/",
+      "kind": "program",
+      "name": "MSc Human Resource Management",
+      "subject": "Human Resources"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-centred-artificial-intelligence-conversion/",
+      "kind": "program",
+      "name": "MSc Human-Centred Artificial Intelligence (Conversion)",
+      "subject": "Artificial Intelligence"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-international-relations/",
+      "kind": "program",
+      "name": "MSc International Relations",
+      "subject": "International Relations"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-management-sustainability/",
+      "kind": "program",
+      "name": "MSc Management (Sustainability)",
+      "subject": "Business & Sustainability"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-power-electronics-and-energy-systems/",
+      "kind": "program",
+      "name": "MSc Power Electronics and Energy Systems",
+      "subject": "Electrical Engineering"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-psychology-conversion/",
+      "kind": "program",
+      "name": "MSc Psychology (Conversion)",
+      "subject": "Psychology"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "master",
+      "url": "https://www.southampton.ac.uk/courses/accounting-finance-masters-msc",
+      "kind": "program",
+      "name": "MSc Accounting and Finance",
+      "subject": "Accounting & Finance"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "master",
+      "url": "https://www.southampton.ac.uk/courses/artificial-intelligence-masters-msc",
+      "kind": "program",
+      "name": "MSc Artificial Intelligence",
+      "subject": "Artificial Intelligence"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "undergraduate",
+      "url": "https://www.southampton.ac.uk/courses/civil-engineering-degree-beng",
+      "kind": "program",
+      "name": "BEng Civil Engineering",
+      "subject": "Civil Engineering"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "master",
+      "url": "https://www.southampton.ac.uk/courses/civil-engineering-masters-msc",
+      "kind": "program",
+      "name": "MSc Civil Engineering",
+      "subject": "Civil Engineering"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "undergraduate",
+      "url": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+      "kind": "program",
+      "name": "BSc Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "master",
+      "url": "https://www.southampton.ac.uk/courses/computer-science-masters-msc",
+      "kind": "program",
+      "name": "MSc Computer Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "master",
+      "url": "https://www.southampton.ac.uk/courses/cyber-security-masters-msc",
+      "kind": "program",
+      "name": "MSc Cyber Security",
+      "subject": "Cybersecurity"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "master",
+      "url": "https://www.southampton.ac.uk/courses/data-science-masters-msc",
+      "kind": "program",
+      "name": "MSc Data Science",
+      "subject": "Data Science"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "master",
+      "url": "https://www.southampton.ac.uk/courses/economics-masters-msc",
+      "kind": "program",
+      "name": "MSc Economics",
+      "subject": "Economics"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "undergraduate",
+      "url": "https://www.southampton.ac.uk/courses/economics-degree-bsc",
+      "kind": "program",
+      "name": "BSc Economics",
+      "subject": "Economics"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "undergraduate",
+      "url": "https://www.southampton.ac.uk/courses/electrical-electronic-engineering-degree-beng",
+      "kind": "program",
+      "name": "BEng Electrical and Electronic Engineering",
+      "subject": "Electrical Engineering"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "master",
+      "url": "https://www.southampton.ac.uk/courses/electronic-engineering-masters-msc",
+      "kind": "program",
+      "name": "MSc Electronic Engineering",
+      "subject": "Electrical Engineering"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "master",
+      "url": "https://www.southampton.ac.uk/courses/software-engineering-masters-msc",
+      "kind": "program",
+      "name": "MSc Software Engineering",
+      "subject": "Software Engineering"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "master",
+      "url": "https://www.gla.ac.uk/postgraduate/taught/computingscience/",
+      "kind": "program",
+      "name": "MSc Computing Science",
+      "subject": "Computer Science"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "master",
+      "url": "https://www.gla.ac.uk/postgraduate/taught/softwaredevelopment/",
+      "kind": "program",
+      "name": "MSc Software Development",
+      "subject": "Software Engineering"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "master",
+      "url": "https://www.gla.ac.uk/postgraduate/taught/datascience/",
+      "kind": "program",
+      "name": "MSc Data Science",
+      "subject": "Data Science"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "master",
+      "url": "https://www.gla.ac.uk/postgraduate/taught/financialtechnology/",
+      "kind": "program",
+      "name": "MSc Financial Technology",
+      "subject": "Financial Technology"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "master",
+      "url": "https://www.gla.ac.uk/postgraduate/taught/mechanicalengineering/",
+      "kind": "program",
+      "name": "MSc Mechanical Engineering",
+      "subject": "Mechanical Engineering"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "master",
+      "url": "https://www.gla.ac.uk/postgraduate/taught/civilengineering/",
+      "kind": "program",
+      "name": "MSc Civil Engineering",
+      "subject": "Civil Engineering"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "master",
+      "url": "https://www.gla.ac.uk/postgraduate/taught/publichealth/",
+      "kind": "program",
+      "name": "MPH (Master of Public Health)",
+      "subject": "Public Health"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "master",
+      "url": "https://www.gla.ac.uk/postgraduate/taught/statistics/",
+      "kind": "program",
+      "name": "MSc Statistics",
+      "subject": "Statistics"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "phd",
+      "url": "https://www.gla.ac.uk/postgraduate/research/economics/",
+      "kind": "program",
+      "name": "PhD Economics",
+      "subject": "Economics"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "phd",
+      "url": "https://www.gla.ac.uk/postgraduate/research/psychology/",
+      "kind": "program",
+      "name": "PhD Psychology",
+      "subject": "Psychology"
     }
   ]
 }

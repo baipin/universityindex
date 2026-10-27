@@ -3362,17 +3362,6 @@
       "schoolId": "qs-365"
     },
     {
-      "school": "University of Edinburgh",
-      "level": "master",
-      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/118-computer-science",
-      "kind": "program",
-      "name": "Computer Science MSc",
-      "subject": "Computer Science",
-      "status": "unavailable",
-      "error": "Source returned an error or challenge page: Page not found",
-      "schoolId": "qs-180"
-    },
-    {
       "school": "ETH Zurich",
       "level": "master",
       "url": "https://ethz.ch/en/studies/master/degree-programmes/engineering-sciences/computer-science.html",
@@ -14828,6 +14817,2081 @@
         }
       ],
       "schoolId": "us-110699"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/02061/msc-accounting-and-finance/",
+      "kind": "program",
+      "name": "Accounting and Finance MSc",
+      "subject": "Accounting & Finance",
+      "status": "source-checked",
+      "title": "MSc Accounting and Finance (2027 entry) | The University of Manchester",
+      "checkedAt": "2026-10-27T01:20:32+00:00",
+      "retrievedVia": "https://www.manchester.ac.uk/study/masters/courses/list/02061/msc-accounting-and-finance/",
+      "sha256": "04a297417d56c45ebb5cd719e77b8bbf68a92c02e535384bbdd262ea92da63b1",
+      "contentSha256": "9db71e96b62b9fc12ddcb04ac2602dfc7254a1e93c608d92c518ff4decc4d679",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "Academic entry qualification overview We require a UK bachelor degree with first or upper second class honours or the overseas equivalent, with excellent results in accounting and finance subjects. When assessing y",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/02061/msc-accounting-and-finance/"
+        },
+        {
+          "category": "english",
+          "text": "guage For the latest information on demonstrating your English proficiency for those whose first language is not English, please see our language requirements . English language test validity Some English Language test",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/02061/msc-accounting-and-finance/"
+        },
+        {
+          "category": "deadline",
+          "text": "te a staged admissions process with multiple selection deadlines throughout the year, to maintain a fair and transparent approach. Full entry requirements How to apply Book an open day Explore our campus, mee",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/02061/msc-accounting-and-finance/"
+        },
+        {
+          "category": "documents",
+          "text": "you register on the course. Advice to applicants Your statement of purpose should answer the specific questions outlined below. Please tell us your current overall average, the average for your accounting and/or finance",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/02061/msc-accounting-and-finance/"
+        }
+      ],
+      "schoolId": "qs-389"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "graduate",
+      "url": "https://www.alliancembs.manchester.ac.uk/study/masters/masters-entry-requirements/",
+      "kind": "institution",
+      "status": "source-checked",
+      "title": "Masters Degree Entry Requirements | Masters In Business | Alliance MBS",
+      "checkedAt": "2026-10-27T01:20:32+00:00",
+      "retrievedVia": "https://www.alliancembs.manchester.ac.uk/study/masters/masters-entry-requirements/",
+      "sha256": "9773081aee526ff3ae5f03446640033f959ba166d80c8d5a86fb7abf0a77af34",
+      "contentSha256": "d1c1f87dd30950fcd6ba87bbfeec5727a139c599934566e850a6ff590a111da7",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "Master's degree entry requirements Check if you meet the entry requirements for our business master's degree courses Entry to our master's courses is competitiv",
+          "source": "https://www.alliancembs.manchester.ac.uk/study/masters/masters-entry-requirements/"
+        },
+        {
+          "category": "english",
+          "text": ", take a look at the international entry requirements. English language requirements We can only accept the most recent English language test submitted with your application. We are unable to lower our English language requireme",
+          "source": "https://www.alliancembs.manchester.ac.uk/study/masters/masters-entry-requirements/"
+        },
+        {
+          "category": "documents",
+          "text": "sh course at The University of Manchester. This formal recommendation is an alternative option to retaking an English Language test and only comes as a condition in your official offer letter. What if I need to stu",
+          "source": "https://www.alliancembs.manchester.ac.uk/study/masters/masters-entry-requirements/"
+        }
+      ],
+      "schoolId": "qs-389"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "graduate",
+      "url": "https://www.alliancembs.manchester.ac.uk/study/masters/how-to-apply/",
+      "kind": "institution",
+      "status": "source-checked",
+      "title": "Applying for a Masters Degree | Alliance Manchester Business School | Alliance MBS",
+      "checkedAt": "2026-10-27T01:20:32+00:00",
+      "retrievedVia": "https://www.alliancembs.manchester.ac.uk/study/masters/how-to-apply/",
+      "sha256": "67a96e59d398b6cf60032da8dafae8cc946177768e95aa333cac85c819556d3a",
+      "contentSha256": "7fc778cc3d14d9d30e10528ce5ccfeeca718ca6b5c0fcd92c36bcdb20be85d07",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "Applying for a master's degree A step-by-step guide to the application process. If you're considering applying for a master's degree, you will need to check that you meet the",
+          "source": "https://www.alliancembs.manchester.ac.uk/study/masters/how-to-apply/"
+        },
+        {
+          "category": "english",
+          "text": "oes as smoothly as possible. 1. Check the academic and English language requirements >> 2. Prepare your supporting documents >> 3. Check if you need to pay an application fee 4. Apply online >> The final decision on your applica",
+          "source": "https://www.alliancembs.manchester.ac.uk/study/masters/how-to-apply/"
+        },
+        {
+          "category": "deadline",
+          "text": "we operate a staged admissions process with selection deadlines throughout the year. Due to the large number of high-quality applications we receive, we give preference to students from high-ranking institut",
+          "source": "https://www.alliancembs.manchester.ac.uk/study/masters/how-to-apply/"
+        },
+        {
+          "category": "documents",
+          "text": "plete your studies - make sure you include your latest transcripts with your supporting documents. Follow the steps below to ensure the application process goes as smoothly as possible. 1. Check the academic an",
+          "source": "https://www.alliancembs.manchester.ac.uk/study/masters/how-to-apply/"
+        }
+      ],
+      "schoolId": "qs-389"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+      "kind": "program",
+      "name": "Advanced Computer Science MSc",
+      "subject": "Computer Science",
+      "status": "source-checked",
+      "title": "MSc Advanced Computer Science (2027 entry) | The University of Manchester",
+      "checkedAt": "2026-10-27T01:20:32+00:00",
+      "retrievedVia": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+      "sha256": "eb1cf34da9601000fb0f28aafc75fdee81b8b2a20cef3e07fc2173a9835b9f1e",
+      "contentSha256": "c2c25b194e46cfdb521d666f6e52accafc62447263cc9095068c62bef89ef239",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "g institutions. Successful applicants typically hold a First-class honours degree (70% average) from a UK university, or the overseas equivalent, in a Computer Science degree with a minimum of 50% Computer Scien",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/"
+        },
+        {
+          "category": "english",
+          "text": "level in a recognised English language qualification. IELTS : overall score of 7.0 with no subskill below 6.5. TOEFL iBT : at least 100 overall with no subskill less than 22. We do not accept 'MyBestScore",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/"
+        },
+        {
+          "category": "deadline",
+          "text": "te a staged admissions process with multiple selection deadlines throughout the year, to maintain a fair and transparent approach. Full entry requirements How to apply Book an open day Explore our campus, mee",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/"
+        },
+        {
+          "category": "documents",
+          "text": "an consider your application: Official Bachelor degree transcripts, including official translations and original language copies if study not undertaken in English. 2+2 and 3+1 applicants must provide official",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/"
+        }
+      ],
+      "schoolId": "qs-389"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/21574/msc-artificial-intelligence/",
+      "kind": "program",
+      "name": "Artificial Intelligence MSc",
+      "subject": "Artificial Intelligence",
+      "status": "source-checked",
+      "title": "MSc Artificial Intelligence (2027 entry) | The University of Manchester",
+      "checkedAt": "2026-10-27T01:20:32+00:00",
+      "retrievedVia": "https://www.manchester.ac.uk/study/masters/courses/list/21574/msc-artificial-intelligence/",
+      "sha256": "a5f490e750ea9b0a54a7b69c8c750620d9d64f6d903d71b59a2b0529f39a1b3c",
+      "contentSha256": "dfcc0b1e5b25e34a37baac2ccddf8979658db9d64234e59d58ab7f890522643e",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "g institutions. Successful applicants typically hold a First-class honours degree (70% average) from a UK university, or the overseas equivalent, in a Computer Science degree with a minimum of 50% Computer Scien",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/21574/msc-artificial-intelligence/"
+        },
+        {
+          "category": "english",
+          "text": "level in a recognised English language qualification. IELTS : overall score of 7.0 with no subskill below 6.5 TOEFL iBT : at least 100 overall with no subskill less than 22. We do not accept 'MyBestScore'",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/21574/msc-artificial-intelligence/"
+        },
+        {
+          "category": "deadline",
+          "text": "te a staged admissions process with multiple selection deadlines throughout the year, to maintain a fair and transparent approach. Full entry requirements How to apply Book an open day Explore our campus, mee",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/21574/msc-artificial-intelligence/"
+        },
+        {
+          "category": "documents",
+          "text": "an consider your application: Official Bachelor degree transcripts, including official translations and original language copies if study not undertaken in English. 2+2 and 3+1 applicants must provide official",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/21574/msc-artificial-intelligence/"
+        }
+      ],
+      "schoolId": "qs-389"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/22197/msc-data-science-and-artificial-intelligence-mathematics/",
+      "kind": "program",
+      "name": "Data Science and Artificial Intelligence (Mathematics) MSc",
+      "subject": "Data Science",
+      "status": "source-checked",
+      "title": "MSc Data Science and Artificial Intelligence (Mathematics) (2027 entry) | The University of Manchester",
+      "checkedAt": "2026-10-27T01:20:32+00:00",
+      "retrievedVia": "https://www.manchester.ac.uk/study/masters/courses/list/22197/msc-data-science-and-artificial-intelligence-mathematics/",
+      "sha256": "f66b782dc162854445f87ad845a7f301a9c3bd140a9258ec78189c7ed42f7cd0",
+      "contentSha256": "2028ca626c8c67a8663845237208ca28e9c12d67546097fa014522c79b08472a",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "equirements Academic entry qualification overview High 2:1 honours degree (or overseas equivalent) You are expected to have an undergraduate degree with a substantial amount of mathematics including Prob",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/22197/msc-data-science-and-artificial-intelligence-mathematics/"
+        },
+        {
+          "category": "english",
+          "text": "glish should meet the following language requirements: IELTS Academic test score of 7 overall with no component score below 6.5 TOEFL IBT 100 with no score below 22 in each section. TOEFL code for Manchest",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/22197/msc-data-science-and-artificial-intelligence-mathematics/"
+        },
+        {
+          "category": "deadline",
+          "text": "te a staged admissions process with multiple selection deadlines throughout the year, to maintain a fair and transparent approach. Full entry requirements How to apply Book an open day Explore our campus, mee",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/22197/msc-data-science-and-artificial-intelligence-mathematics/"
+        }
+      ],
+      "schoolId": "qs-389"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/01380/msc-economics/",
+      "kind": "program",
+      "name": "Economics MSc",
+      "subject": "Economics",
+      "status": "source-checked",
+      "title": "MSc Economics (2027 entry) | The University of Manchester",
+      "checkedAt": "2026-10-27T01:20:32+00:00",
+      "retrievedVia": "https://www.manchester.ac.uk/study/masters/courses/list/01380/msc-economics/",
+      "sha256": "647ac26853d1c937ae489701f6a415ea0277ee3d50f92ac7c83d39f1eecf2af4",
+      "contentSha256": "b4b5ae02910dbc1f9616ea99816551c613bd76be56f460d59a65c9fd6c6584e3",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "equirements Academic entry qualification overview A UK 2:1 honours degree (or overseas equivalent) in economics, finance, mathematics or a related subject with economic theory, mathematics and econometri",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/01380/msc-economics/"
+        },
+        {
+          "category": "english",
+          "text": "glish should meet the following language requirements: IELTS Academic test score of 7 overall, including 7 in writing with no further component score below 6.5 TOEFL IBT 100 with 25 in writing and no furth",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/01380/msc-economics/"
+        },
+        {
+          "category": "deadline",
+          "text": "te a staged admissions process with multiple selection deadlines throughout the year, to maintain a fair and transparent approach. Full entry requirements How to apply Book an open day Explore our campus, mee",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/01380/msc-economics/"
+        }
+      ],
+      "schoolId": "qs-389"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/21299/msc-economics-and-data-science/",
+      "kind": "program",
+      "name": "Economics and Data Science MSc",
+      "subject": "Economics & Data Science",
+      "status": "source-checked",
+      "title": "MSc Economics and Data Science (2027 entry) | The University of Manchester",
+      "checkedAt": "2026-10-27T01:20:32+00:00",
+      "retrievedVia": "https://www.manchester.ac.uk/study/masters/courses/list/21299/msc-economics-and-data-science/",
+      "sha256": "532d608f28ae53e00e1a926f82f683880cbc6b83d1e05fcafb7bff7be5b487b7",
+      "contentSha256": "d58298aeda7428ee3525ccf2f92e9aac9c681f47c48ed0915b2669dd96f1bf40",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "equirements Academic entry qualification overview A UK 2:1 honours degree (or overseas equivalent) in economics or another quantitative subject, such as mathematics, physics or computer science. This tra",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/21299/msc-economics-and-data-science/"
+        },
+        {
+          "category": "english",
+          "text": "glish should meet the following language requirements: IELTS Academic test score of 7 overall, including 7 in writing with no further component score below 6.5 TOEFL IBT 100 with 25 in writing and no furth",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/21299/msc-economics-and-data-science/"
+        },
+        {
+          "category": "deadline",
+          "text": "te a staged admissions process with multiple selection deadlines throughout the year, to maintain a fair and transparent approach. Full entry requirements How to apply Book an open day Explore our campus, mee",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/21299/msc-economics-and-data-science/"
+        }
+      ],
+      "schoolId": "qs-389"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/01383/msc-finance/",
+      "kind": "program",
+      "name": "Finance MSc",
+      "subject": "Finance",
+      "status": "source-checked",
+      "title": "MSc Finance (2027 entry) | The University of Manchester",
+      "checkedAt": "2026-10-27T01:20:32+00:00",
+      "retrievedVia": "https://www.manchester.ac.uk/study/masters/courses/list/01383/msc-finance/",
+      "sha256": "bd69bd6b710451be7620f45e980ca70cbdc7cf78865165e79e448138905d7028",
+      "contentSha256": "3c76e0a1a5758dea8324705faa7ebf6bd3abb1443f8aa83a1eeb3252d3272ef9",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "ready for your next step with this specialist Finance master’s degree Year of entry: 2027 Duration: 1 year MSc Full-time: In person Due to high demand for this course, we operate a staged admissions process with mu",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/01383/msc-finance/"
+        },
+        {
+          "category": "english",
+          "text": "guage For the latest information on demonstrating your English proficiency for those whose first language is not English, please see our language requirements . English language test validity Some English Language test",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/01383/msc-finance/"
+        },
+        {
+          "category": "deadline",
+          "text": "te a staged admissions process with multiple selection deadlines throughout the year, to maintain a fair and transparent approach. Full entry requirements How to apply Book an open day Explore our campus, mee",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/01383/msc-finance/"
+        },
+        {
+          "category": "documents",
+          "text": "you register on the course. Advice to applicants Your statement of purpose should cover the areas outlined below: Tell us why you are interested in the MSc Finance course at Alliance MBS and how the course will impact o",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/01383/msc-finance/"
+        }
+      ],
+      "schoolId": "qs-389"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/08446/llm-law/",
+      "kind": "program",
+      "name": "Law LLM",
+      "subject": "Law",
+      "status": "source-checked",
+      "title": "LLM Law (2027 entry) | The University of Manchester",
+      "checkedAt": "2026-10-27T01:20:32+00:00",
+      "retrievedVia": "https://www.manchester.ac.uk/study/masters/courses/list/08446/llm-law/",
+      "sha256": "f594fa578c45267cb0e1d22c99274e5f17d0d5946fa268e21c39c0afcbb5f83b",
+      "contentSha256": "1f4e366aa7812f13f59e662567e8e755bdf55e53c04113ba25092e6afce267b2",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "Academic entry qualification overview We require a UK bachelor's degree with a First or Upper Second (2.1) classification or the overseas equivalent in Law. Candidates should demonstrate a strong background in Law mo",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/08446/llm-law/"
+        },
+        {
+          "category": "english",
+          "text": "glish should meet the following language requirements: IELTS Academic test score of 7 overall, including 7 in writing with no further component score below 6.5 TOEFL IBT 100 with 25 in writing and no furth",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/08446/llm-law/"
+        },
+        {
+          "category": "deadline",
+          "text": "te a staged admissions process with multiple selection deadlines throughout the year, to maintain a fair and transparent approach. Full entry requirements How to apply Book an open day Explore our campus, mee",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/08446/llm-law/"
+        }
+      ],
+      "schoolId": "qs-389"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/08633/msc-management/",
+      "kind": "program",
+      "name": "Management MSc",
+      "subject": "Business & Management",
+      "status": "source-checked",
+      "title": "MSc Management (2027 entry) | The University of Manchester",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.manchester.ac.uk/study/masters/courses/list/08633/msc-management/",
+      "sha256": "16d1414de9d4e63014ab7d710a4c7df4c6b2d5e128d2c33fc767da608bc3b69b",
+      "contentSha256": "5e42442a661bf87c0be3fd90f3ad3c94caabcfe6e7f1d6063d4525329b7ee4b7",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "mic entry qualification overview We require a First or Upper Second class honours degree (2:1, with 60% average) from a UK university or the overseas equivalent. Covering all key elements of management - entrepre",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/08633/msc-management/"
+        },
+        {
+          "category": "english",
+          "text": "guage For the latest information on demonstrating your English proficiency for those whose first language is not English, please see our language requirements . English language test validity Some English Language test",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/08633/msc-management/"
+        },
+        {
+          "category": "deadline",
+          "text": "te a staged admissions process with multiple selection deadlines throughout the year, to maintain a fair and transparent approach. Full entry requirements How to apply Book an open day Explore our campus, mee",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/08633/msc-management/"
+        },
+        {
+          "category": "documents",
+          "text": "you register on the course. Advice to applicants Your statement of purpose should cover the areas outlined below: Tell us why you are interested in the MSc Management course at Alliance MBS and how the course will impac",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/08633/msc-management/"
+        }
+      ],
+      "schoolId": "qs-389"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/04342/msc-mechanical-engineering-design/",
+      "kind": "program",
+      "name": "Mechanical Engineering Design MSc",
+      "subject": "Mechanical Engineering",
+      "status": "source-checked",
+      "title": "MSc Mechanical Engineering Design (2027 entry) | The University of Manchester",
+      "checkedAt": "2026-10-27T01:20:32+00:00",
+      "retrievedVia": "https://www.manchester.ac.uk/study/masters/courses/list/04342/msc-mechanical-engineering-design/",
+      "sha256": "fbc3b62ed26680d919a94923403f54832b32e7c3b77a96d2f4237d76f5985c65",
+      "contentSha256": "c25244c9467b3d9679f32ac37223ed7b0995e5e5e0e18fccf7ac26d62f4053fd",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "cademic entry requirement forthis Master's course isan upper second class UK honours degree or international equivalent in a relevant science or engineering discipline. Please note that we consider grades achieve",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/04342/msc-mechanical-engineering-design/"
+        },
+        {
+          "category": "english",
+          "text": "the UK and Overseas) are required to show evidence of English Language proficiency. The minimum English Language requirement for this course is: IELTS: overall score of 7.0 with no subskill below 6.5 TOEFL iBT: at least 100 ove",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/04342/msc-mechanical-engineering-design/"
+        },
+        {
+          "category": "deadline",
+          "text": "te a staged admissions process with multiple selection deadlines throughout the year, to maintain a fair and transparent approach. Full entry requirements How to apply Book an open day Explore our campus, mee",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/04342/msc-mechanical-engineering-design/"
+        },
+        {
+          "category": "documents",
+          "text": "ing documents before we can consider your application: Transcript of your studies to date including credit weighting and grades achieved. If your academic documents are in languages other than English, please p",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/04342/msc-mechanical-engineering-design/"
+        }
+      ],
+      "schoolId": "qs-389"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/10251/msc-quantitative-finance/",
+      "kind": "program",
+      "name": "Quantitative Finance MSc",
+      "subject": "Finance",
+      "status": "source-checked",
+      "title": "MSc Quantitative Finance (2027 entry) | The University of Manchester",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.manchester.ac.uk/study/masters/courses/list/10251/msc-quantitative-finance/",
+      "sha256": "8456782674b7784659d4b2c6ec98b062b2845415d6c84de2c6d8aafc36221ff7",
+      "contentSha256": "0d952cc9abab806905368803178c89339de9c5b48e0e31d985340144a5242dbe",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "decision-making. Join the course with a strong grade (2:1+) in a highly-quantitative subject as your undergraduate and use this course to apply your skills to the financial sector. Study at Alliance Man",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/10251/msc-quantitative-finance/"
+        },
+        {
+          "category": "english",
+          "text": "guage For the latest information on demonstrating your English proficiency for those whose first language is not English, please see our language requirements . English language test validity Some English Language test",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/10251/msc-quantitative-finance/"
+        },
+        {
+          "category": "deadline",
+          "text": "te a staged admissions process with multiple selection deadlines throughout the year, to maintain a fair and transparent approach. Full entry requirements How to apply Book an open day Explore our campus, mee",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/10251/msc-quantitative-finance/"
+        },
+        {
+          "category": "documents",
+          "text": "you register on the course. Advice to applicants Your statement of purpose should cover the areas outlined below: Tell us why you are interested in the MSc Quantitative Finance course at Alliance MBS and how the course",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/10251/msc-quantitative-finance/"
+        }
+      ],
+      "schoolId": "qs-389"
+    },
+    {
+      "school": "The University of Manchester",
+      "level": "master",
+      "url": "https://www.manchester.ac.uk/study/masters/courses/list/02362/msc-statistics/",
+      "kind": "program",
+      "name": "Statistics MSc",
+      "subject": "Statistics",
+      "status": "source-checked",
+      "title": "MSc Statistics (2027 entry) | The University of Manchester",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.manchester.ac.uk/study/masters/courses/list/02362/msc-statistics/",
+      "sha256": "6bb4cb9655da12d86b6bc8dcf2226b46e14046a41b815755c108c53c15648d77",
+      "contentSha256": "8164ec79662b6940fd0fa262a49d7090411018cf60f8cb05cbf5de31d63bb472",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "tion overview The normal entry requirements are a good upper second or first class honours degree from a UK university, or the equivalent from an overseas university, in Mathematics or in a subject with some sign",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/02362/msc-statistics/"
+        },
+        {
+          "category": "english",
+          "text": "d test and attain the required English Language score: IELTS: at least 6.5 overall with 6.5 in writing and no other sub-test less than 6.0. TOEFL iBT:at least 90 overall with 22 or above in writing and no",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/02362/msc-statistics/"
+        },
+        {
+          "category": "deadline",
+          "text": "te a staged admissions process with multiple selection deadlines throughout the year, to maintain a fair and transparent approach. Full entry requirements How to apply Book an open day Explore our campus, mee",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/02362/msc-statistics/"
+        },
+        {
+          "category": "documents",
+          "text": "uments before we can consider your application. Latest transcripts of study showing all modules completed including credit weighting and grades achieved (and English translation if applicable). If you have not",
+          "source": "https://www.manchester.ac.uk/study/masters/courses/list/02362/msc-statistics/"
+        }
+      ],
+      "schoolId": "qs-389"
+    },
+    {
+      "school": "The University of Edinburgh",
+      "level": "master",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/1126-accounting-and-financial-management",
+      "kind": "program",
+      "name": "Accounting and Financial Management MSc",
+      "subject": "Accounting & Finance",
+      "status": "source-checked",
+      "title": "Accounting and Financial Management MSc - Postgraduate taught programmes | The University of Edinburgh",
+      "checkedAt": "2026-10-27T01:20:32+00:00",
+      "retrievedVia": "https://study.ed.ac.uk/programmes/postgraduate-taught/1126-accounting-and-financial-management",
+      "sha256": "34ca610578b5757a0c4a18032874485f74b65e77c287961d79f3b3a3e80329d0",
+      "contentSha256": "36b08d871efaaf5f28eeb8afa7918130c12b8edaad0327e8a1ffdbc93474d7e2",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "applying for this programme Academic requirements A UK first-class or 2:1 honours degree in one of the subjects below, or an equivalent overseas qualification. An undergraduate degree in accounting, finance, fin",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/1126-accounting-and-financial-management"
+        },
+        {
+          "category": "english",
+          "text": "his programme. International equivalent qualifications English language requirements You must prove that your English language abilities are at a high enough level to study this degree programme. This is the case for all applica",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/1126-accounting-and-financial-management"
+        },
+        {
+          "category": "deadline",
+          "text": "high demand, the school operates a number of selection deadlines. We will make a small number of offers to the most outstanding candidates on an ongoing basis, but hold the majority of applications until the",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/1126-accounting-and-financial-management"
+        },
+        {
+          "category": "documents",
+          "text": "ments: copies of your degree certificates and academic transcripts that confirm your current or final marks evidence you meet the English language requirements certified translations if your original documents",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/1126-accounting-and-financial-management"
+        }
+      ],
+      "schoolId": "qs-180"
+    },
+    {
+      "school": "The University of Edinburgh",
+      "level": "master",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/107-artificial-intelligence",
+      "kind": "program",
+      "name": "Artificial Intelligence MSc",
+      "subject": "Artificial Intelligence",
+      "status": "source-checked",
+      "title": "Artificial Intelligence MSc - Postgraduate taught programmes | The University of Edinburgh",
+      "checkedAt": "2026-10-27T01:20:32+00:00",
+      "retrievedVia": "https://study.ed.ac.uk/programmes/postgraduate-taught/107-artificial-intelligence",
+      "sha256": "8c6878982a16be29b48965b1e74a48abcfb0ce81b773c90f42093465d9534d02",
+      "contentSha256": "c7b5788c37600db2a74f3f356a63b6e4d9076d9b8debcfd6859a23d7e98ede65",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "tionally leading academics. Gain a globally recognised master's degree from a world-leading university. Join an active student community. Student societies based in our School host industry events, monthly student t",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/107-artificial-intelligence"
+        },
+        {
+          "category": "english",
+          "text": "r this degree. International equivalent qualifications English language requirements You must prove that your English language abilities are at a high enough level to study this degree programme. This is the case for all applica",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/107-artificial-intelligence"
+        },
+        {
+          "category": "deadline",
+          "text": "g the writing of the dissertation until the submission deadline (usually mid-August). Class sizes The number of people in each class varies depending on the courses you choose as part of your MSc. Some of our",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/107-artificial-intelligence"
+        },
+        {
+          "category": "documents",
+          "text": "riety of specialisms, from fraud detection software to recommendation systems and assistive robots. Career Outcomes Job titles of our recent graduates include: VC Analytics Data Engineer Technical Analyst Solutions",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/107-artificial-intelligence"
+        }
+      ],
+      "schoolId": "qs-180"
+    },
+    {
+      "school": "The University of Edinburgh",
+      "level": "master",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/161-commercial-law",
+      "kind": "program",
+      "name": "Commercial Law LLM",
+      "subject": "Law",
+      "status": "source-checked",
+      "title": "Commercial Law LLM - Postgraduate taught programmes | The University of Edinburgh",
+      "checkedAt": "2026-10-27T01:20:32+00:00",
+      "retrievedVia": "https://study.ed.ac.uk/programmes/postgraduate-taught/161-commercial-law",
+      "sha256": "457f19779c3aa92502453531514a1c6cc57e5575d6ba6f1a79a603ff0df776a8",
+      "contentSha256": "df717e1f84f6586d0b2e73ddcb717ad4ab07a5321af6bf16d0926a2e566365b1",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "l be published in early July 2027. Qualifications A UK 2:1 honours degree, or its international equivalent, in law. We may also consider a UK 2:1 honours degree, or its international equivalent, in a soc",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/161-commercial-law"
+        },
+        {
+          "category": "english",
+          "text": "his programme. International equivalent qualifications English language requirements You must prove that your English language abilities are at a high enough level to study this degree programme. This is the case for all applica",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/161-commercial-law"
+        },
+        {
+          "category": "deadline",
+          "text": "r offer. If you fail to pay your deposit by the stated deadline, your offer may be withdrawn. The deposit for this programme is £1,500 . How and when to pay the deposit Costs Additional programme costs There",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/161-commercial-law"
+        },
+        {
+          "category": "documents",
+          "text": "all supporting documentation uploaded, including your transcripts. If you already have evidence that you meet the English language entry requirements, such as via an approved English language test, please uplo",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/161-commercial-law"
+        }
+      ],
+      "schoolId": "qs-180"
+    },
+    {
+      "school": "The University of Edinburgh",
+      "level": "master",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/110-computer-science",
+      "kind": "program",
+      "name": "Computer Science MSc",
+      "subject": "Computer Science",
+      "status": "source-checked",
+      "title": "Computer Science MSc - Postgraduate taught programmes | The University of Edinburgh",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://study.ed.ac.uk/programmes/postgraduate-taught/110-computer-science",
+      "sha256": "f57db02b0f805718a22a707afc222f6398590ad7d03b736d1a211b3bb564ef5e",
+      "contentSha256": "d01a33bbc06a491b602bcfc27635d23a57f7c9acec079b368c5a0590ba7a8d3b",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "ter architecture to theoretical computer science. This master's degree offers you the opportunity to obtain specialist knowledge in the design, analysis, implementation, and use of computer systems ranging from the",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/110-computer-science"
+        },
+        {
+          "category": "english",
+          "text": "r this degree. International equivalent qualifications English language requirements You must prove that your English language abilities are at a high enough level to study this degree programme. This is the case for all applica",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/110-computer-science"
+        },
+        {
+          "category": "deadline",
+          "text": "g the writing of the dissertation until the submission deadline (usually mid-August). Class sizes The number of people in each class varies depending on the courses you choose as part of your MSc. Some of our",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/110-computer-science"
+        },
+        {
+          "category": "documents",
+          "text": "ments: copies of your degree certificates and academic transcripts that confirm your current or final marks references evidence you meet the English language requirements certified translations if your original",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/110-computer-science"
+        }
+      ],
+      "schoolId": "qs-180"
+    },
+    {
+      "school": "The University of Edinburgh",
+      "level": "master",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/902-data-science",
+      "kind": "program",
+      "name": "Data Science MSc",
+      "subject": "Data Science",
+      "status": "source-checked",
+      "title": "Data Science MSc - Postgraduate taught programmes | The University of Edinburgh",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://study.ed.ac.uk/programmes/postgraduate-taught/902-data-science",
+      "sha256": "75ac566d6d0ac678d0cc0c164a87f31a53330503295cb10233fa521ce7ac3274",
+      "contentSha256": "8e685ac027ad3addfee537dcd32f50607cd484cb7666f661cc700b71d043d719",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "tionally leading academics. Gain a globally recognised master's degree from a world-leading university. Join an active student community. Student societies based in our School host industry events, monthly student t",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/902-data-science"
+        },
+        {
+          "category": "english",
+          "text": "timation etc.) International equivalent qualifications English language requirements You must prove that your English language abilities are at a high enough level to study this degree programme. This is the case for all applica",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/902-data-science"
+        },
+        {
+          "category": "deadline",
+          "text": "g the writing of the dissertation until the submission deadline (usually mid-August). Class sizes The number of people in each class varies depending on the courses you choose as part of your MSc. Some of our",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/902-data-science"
+        },
+        {
+          "category": "documents",
+          "text": "ments: copies of your degree certificates and academic transcripts that confirm your current or final marks references evidence you meet the English language requirements certified translations if your original",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/902-data-science"
+        }
+      ],
+      "schoolId": "qs-180"
+    },
+    {
+      "school": "The University of Edinburgh",
+      "level": "master",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/669-electronics",
+      "kind": "program",
+      "name": "Electronics MSc",
+      "subject": "Electrical Engineering",
+      "status": "source-checked",
+      "title": "Electronics MSc - Postgraduate taught programmes | The University of Edinburgh",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://study.ed.ac.uk/programmes/postgraduate-taught/669-electronics",
+      "sha256": "a684c780dfe875a177cde933833b7e97c59dd6d8b065e91a0c651904ee938fa0",
+      "contentSha256": "063560883caf54c01e3344be9e2a6bf28adeac82f25cb7391cc8eb65a0ee76f5",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "ll be published in early Oct 2027. Qualifications A UK 2:1 honours degree, or its international equivalent, in electronics or electrical engineering. Your transcript and application should demonstrate cl",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/669-electronics"
+        },
+        {
+          "category": "english",
+          "text": "ore you apply. International equivalent qualifications English language requirements You must prove that your English language abilities are at a high enough level to study this degree programme. This is the case for all applica",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/669-electronics"
+        },
+        {
+          "category": "deadline",
+          "text": "licant. When to apply Programme start date Application deadline 13 September 2027 30 August 2027 We encourage you to apply at least one month prior to entry so that we have enough time to process your",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/669-electronics"
+        },
+        {
+          "category": "documents",
+          "text": "valent, in electronics or electrical engineering. Your transcript and application should demonstrate clear evidence that you have studied both analogue at the transistor level and digital electronics at the gat",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/669-electronics"
+        }
+      ],
+      "schoolId": "qs-180"
+    },
+    {
+      "school": "The University of Edinburgh",
+      "level": "master",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/116-operational-research",
+      "kind": "program",
+      "name": "Operational Research MSc",
+      "subject": "Operations Research",
+      "status": "source-checked",
+      "title": "Operational Research MSc - Postgraduate taught programmes | The University of Edinburgh",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://study.ed.ac.uk/programmes/postgraduate-taught/116-operational-research",
+      "sha256": "23822931bf05bbdfc98b7fe1e2092b911d930787b6b5d91a09c5aee1ad37fc4d",
+      "contentSha256": "7c6d25f539c8afb47a901d489729945356a9ba4f59cc7a9417841f90f589bc67",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "ll be published in early Oct 2027. Qualifications A UK 2:1 degree, or its international equivalent, in a numerate discipline such as mathematics, engineering, computer science, physical or biological sci",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/116-operational-research"
+        },
+        {
+          "category": "english",
+          "text": "requirements. International equivalent qualifications English language requirements You must prove that your English language abilities are at a high enough level to study this degree programme. This is the case for all applica",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/116-operational-research"
+        },
+        {
+          "category": "deadline",
+          "text": "gible countries. Value: Up to 50% of the programme fee Deadline: The scholarships have two selection rounds. The deadline for the first selection round is 1 April 2026, 11:59pm (UK Time), and the deadline for",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/116-operational-research"
+        },
+        {
+          "category": "documents",
+          "text": "ments: copies of your degree certificates and academic transcripts that confirm your current or final marks references evidence you meet the English language requirements certified translations if your original",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/116-operational-research"
+        }
+      ],
+      "schoolId": "qs-180"
+    },
+    {
+      "school": "The University of Edinburgh",
+      "level": "master",
+      "url": "https://study.ed.ac.uk/programmes/postgraduate-taught/916-statistics-with-data-science",
+      "kind": "program",
+      "name": "Statistics with Data Science MSc",
+      "subject": "Statistics",
+      "status": "source-checked",
+      "title": "Statistics with Data Science MSc - Postgraduate taught programmes | The University of Edinburgh",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://study.ed.ac.uk/programmes/postgraduate-taught/916-statistics-with-data-science",
+      "sha256": "dacc8888ab9e703575e0103923997803f83515d1265f23e9cb37e56988a5cfe1",
+      "contentSha256": "7eb5b29cc4a71279f5779d41d7c50646b7b671f21585027551b6057ed44f8958",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "ll be published in early Oct 2027. Qualifications A UK 2:1 degree, or its international equivalent, in a numerate discipline such as mathematics, engineering, computer science, physical or biological sci",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/916-statistics-with-data-science"
+        },
+        {
+          "category": "english",
+          "text": "requirements. International equivalent qualifications English language requirements You must prove that your English language abilities are at a high enough level to study this degree programme. This is the case for all applica",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/916-statistics-with-data-science"
+        },
+        {
+          "category": "deadline",
+          "text": "high demand, the school operates a number of selection deadlines. We strongly recommend you apply as early as possible. Applications may close earlier than the published deadlines if there is exceptionally hi",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/916-statistics-with-data-science"
+        },
+        {
+          "category": "documents",
+          "text": "ments: copies of your degree certificates and academic transcripts that confirm your current or final marks references evidence you meet the English language requirements certified translations if your original",
+          "source": "https://study.ed.ac.uk/programmes/postgraduate-taught/916-statistics-with-data-science"
+        }
+      ],
+      "schoolId": "qs-180"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-advanced-microelectronic-systems-engineering/",
+      "kind": "program",
+      "name": "MSc Advanced Microelectronic Systems Engineering",
+      "subject": "Electrical Engineering",
+      "status": "source-checked",
+      "title": "MSc Advanced Microelectronic Systems Engineering | Study at Bristol | University of Bristol",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-advanced-microelectronic-systems-engineering/",
+      "sha256": "5516d768faa1fb4d9038b6b45131494def3728db6ce98b94409ff478e34bc60e",
+      "contentSha256": "8d0c0520785604f440a00b075077bcd437ae231ae4757a27e7f0694701e38577",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "results Entry requirements You will typically need an upper second-class honours degree or an international equivalent in an Engineering, Science or Technology discipline. Your degree must also include scores of",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-advanced-microelectronic-systems-engineering/"
+        },
+        {
+          "category": "english",
+          "text": "porting documents required. Go to admissions statement English language requirements If English is not your first language, you will need to reach the requirements outlined in our profile level E. Further information about Engli",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-advanced-microelectronic-systems-engineering/"
+        },
+        {
+          "category": "deadline",
+          "text": "year full-time. Start date September 2027 Application deadline Overseas applicants: 12 August 2027. Home applicants: 9 September 2027. Please note that due to high demand, some programmes may close earlier t",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-advanced-microelectronic-systems-engineering/"
+        },
+        {
+          "category": "documents",
+          "text": "ns. If you have the following, please include your CV (curriculum vitae/résumé) when you apply, showing: a relevant postgraduate qualification one year's work experience. Relevant work sectors: Electronics Engineer,",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-advanced-microelectronic-systems-engineering/"
+        }
+      ],
+      "schoolId": "qs-69"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "graduate",
+      "url": "https://www.bristol.ac.uk/study/language-requirements/profile-e/",
+      "kind": "institution",
+      "status": "source-checked",
+      "title": "Profile E | Study at Bristol | University of Bristol",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.bristol.ac.uk/study/language-requirements/profile-e/",
+      "sha256": "8abcb0e90217e0daae9f4dc7914a69cc46d7240605d036d2f48a2d2b8f4d0a43",
+      "contentSha256": "97b78364490840738aaf7eb3da6ee141c4a8236c9332b7076777a55d357c05be",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "ears of high school education Two years of a full-time Bachelor's degree One year of a Master's degree Two years of a TNE/international partnership degree In all cases, the qualification must have been awarded no more",
+          "source": "https://www.bristol.ac.uk/study/language-requirements/profile-e/"
+        },
+        {
+          "category": "english",
+          "text": "an English-speaking country may meet the University's English language requirements: Final four years of high school education Two years of a full-time Bachelor's degree One year of a Master's degree Two years of a TNE/internat",
+          "source": "https://www.bristol.ac.uk/study/language-requirements/profile-e/"
+        }
+      ],
+      "schoolId": "qs-69"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-communication-networks-and-signal-processing/",
+      "kind": "program",
+      "name": "MSc Communication Networks and Signal Processing",
+      "subject": "Electrical Engineering",
+      "status": "source-checked",
+      "title": "MSc Communication Networks and Signal Processing | Study at Bristol | University of Bristol",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-communication-networks-and-signal-processing/",
+      "sha256": "e4c3eb434261395a7466bb17b71a1945648ab3dc08dee4f256ca0215fbedb55f",
+      "contentSha256": "51e47daa889f6dbf9b0ee2f590d2f53b96d8cd9e68e616ea95c1615a06c8a995",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "results Entry requirements You will typically need an upper second-class honours degree or an international equivalent in: Communications Engineering Computer Networks Computer Science and Technologies Computer",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-communication-networks-and-signal-processing/"
+        },
+        {
+          "category": "english",
+          "text": "porting documents required. Go to admissions statement English language requirements If English is not your first language, you will need to reach the requirements outlined in our profile level E. Further information about Engli",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-communication-networks-and-signal-processing/"
+        },
+        {
+          "category": "deadline",
+          "text": "year full-time. Start date September 2027 Application deadline Overseas applicants: 12 August 2027. Home applicants: 9 September 2027. Please note that due to high demand, some programmes may close earlier t",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-communication-networks-and-signal-processing/"
+        },
+        {
+          "category": "documents",
+          "text": "ns. If you have the following, please include your CV (curriculum vitae/résumé) when you apply: a relevant postgraduate qualification. See international equivalent qualifications on the International Office website.",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-communication-networks-and-signal-processing/"
+        }
+      ],
+      "schoolId": "qs-69"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics/",
+      "kind": "program",
+      "name": "MSc Economics",
+      "subject": "Economics",
+      "status": "source-checked",
+      "title": "MSc Economics | Study at Bristol | University of Bristol",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics/",
+      "sha256": "1f8e32d58729fa9add72b465c6780c0c293d351da7d242ffa95fb6aef2a8c73f",
+      "contentSha256": "61c967906980724f62b3edcaf66260e34aebeaee311da335f376e8ab7f83da52",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "results Entry requirements You will typically need an upper second-class honours degree or an international equivalent in a quantitative subject (whether as a single, joint, or combined honours degree) such as:",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics/"
+        },
+        {
+          "category": "english",
+          "text": "porting documents required. Go to admissions statement English language requirements If English is not your first language, you will need to reach the requirements outlined in our profile level B. Further information about Engli",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics/"
+        },
+        {
+          "category": "deadline",
+          "text": "year full-time. Start date September 2027 Application deadline Overseas applicants: 12 August 2027. Home applicants: 9 September 2027. Please note that due to high demand, some programmes may close earlier t",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics/"
+        },
+        {
+          "category": "documents",
+          "text": "at least one of the following, please include your CV (curriculum vitae/résumé) when you apply, showing: five years relevant work experience related to data analysis, economics modelling, data informed policymaking e",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics/"
+        }
+      ],
+      "schoolId": "qs-69"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "graduate",
+      "url": "https://www.bristol.ac.uk/study/language-requirements/profile-b/",
+      "kind": "institution",
+      "status": "source-checked",
+      "title": "Profile B | Study at Bristol | University of Bristol",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.bristol.ac.uk/study/language-requirements/profile-b/",
+      "sha256": "7cbfe7a4af57ffb6c8ae06e9949d813d3e3ad8c89e9234112e5fc10b3c659a90",
+      "contentSha256": "77b9dd4b7e5314ddf662021a66b0b8544c99e5179cbb7cabf7cc8eadbc61a105",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "ears of high school education Two years of a full-time Bachelor's degree One year of a Master's degree Two years of a TNE/international partnership degree In all cases, the qualification must have been awarded no more",
+          "source": "https://www.bristol.ac.uk/study/language-requirements/profile-b/"
+        },
+        {
+          "category": "english",
+          "text": "an English-speaking country may meet the University's English language requirements: Final four years of high school education Two years of a full-time Bachelor's degree One year of a Master's degree Two years of a TNE/internat",
+          "source": "https://www.bristol.ac.uk/study/language-requirements/profile-b/"
+        }
+      ],
+      "schoolId": "qs-69"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics-and-finance/",
+      "kind": "program",
+      "name": "MSc Economics and Finance",
+      "subject": "Economics & Finance",
+      "status": "source-checked",
+      "title": "MSc Economics and Finance | Study at Bristol | University of Bristol",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics-and-finance/",
+      "sha256": "48f6ee483a371835bd25b79f500bae0cb3a545b4d1a9a8632ae6e1a309d5f3e3",
+      "contentSha256": "914c193008dd73908e14dfcddd4f5093146c3f472935b3b5e35ef6b821c53638",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "results Entry requirements You will typically need an upper second-class honours degree or an international equivalent in a quantitative subject (whether as a single, joint, or combined honours degree) such as:",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics-and-finance/"
+        },
+        {
+          "category": "english",
+          "text": "porting documents required. Go to admissions statement English language requirements If English is not your first language, you will need to reach the requirements outlined in our profile level B. Further information about Engli",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics-and-finance/"
+        },
+        {
+          "category": "deadline",
+          "text": "year full-time. Start date September 2027 Application deadline Overseas applicants: 12 August 2027. Home applicants: 9 September 2027. Please note that due to high demand, some programmes may close earlier t",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics-and-finance/"
+        },
+        {
+          "category": "documents",
+          "text": "at least one of the following, please include your CV (curriculum vitae/résumé) when you apply, showing: five years relevant work experience related to data analysis, economics modelling, data informed policymaking e",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics-and-finance/"
+        }
+      ],
+      "schoolId": "qs-69"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-mathematics/",
+      "kind": "program",
+      "name": "MSc Engineering Mathematics",
+      "subject": "Mathematics & Engineering",
+      "status": "source-checked",
+      "title": "MSc Engineering Mathematics | Study at Bristol | University of Bristol",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-mathematics/",
+      "sha256": "92f66ff489b0a8ba88e7376add0914dcf0ce8ec5934f60bc075407a22674299d",
+      "contentSha256": "de19b138c4cf04058de57040dba798f65f340b4dc20ddbe8b1eea8a1ff7e1b46",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "results Entry requirements You will typically need an upper second-class honours degree (or international equivalent) in any Engineering discipline, Computer Science, Mathematics or Physics. Applicants who have",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-mathematics/"
+        },
+        {
+          "category": "english",
+          "text": "porting documents required. Go to admissions statement English language requirements If English is not your first language, you will need to reach the requirements outlined in our profile level E. Further information about Engli",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-mathematics/"
+        },
+        {
+          "category": "deadline",
+          "text": "years part-time. Start date September 2027 Application deadline Overseas applicants: 12 August 2027. Home applicants: 9 September 2027. Please note that due to high demand, some programmes may close earlier t",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-mathematics/"
+        },
+        {
+          "category": "documents",
+          "text": "at least one of the following, please include your CV (curriculum vitae / résumé) when you apply, showing: evidence of relevant work experience (minimum of six months full time, or 12 months part-time) within industr",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-mathematics/"
+        }
+      ],
+      "schoolId": "qs-69"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-with-management/",
+      "kind": "program",
+      "name": "MSc Engineering with Management",
+      "subject": "Engineering Management",
+      "status": "source-checked",
+      "title": "MSc Engineering with Management | Study at Bristol | University of Bristol",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-with-management/",
+      "sha256": "4b52c08942a9567d44692e96b97534840efb8ad2385969b7c9634e1b2d27fb8d",
+      "contentSha256": "ed55723c412cad1a2aad907950d2af900c0a0a25ec782ac87dc8c0b9e7a92845",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "irements You will typically need a strong second-class honours degree (55% or higher), or an international equivalent, in a relevant branch of engineering. We welcome applicants from a wide range of engineer",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-with-management/"
+        },
+        {
+          "category": "english",
+          "text": "porting documents required. Go to admissions statement English language requirements If English is not your first language, you will need to reach the requirements outlined in our profile level E. Further information about Engli",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-with-management/"
+        },
+        {
+          "category": "deadline",
+          "text": "year full-time. Start date September 2027 Application deadline Overseas applicants: 12 August 2027. Home applicants: 9 September 2027. Please note that due to high demand, some programmes may close earlier t",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-with-management/"
+        }
+      ],
+      "schoolId": "qs-69"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-resource-management/",
+      "kind": "program",
+      "name": "MSc Human Resource Management",
+      "subject": "Human Resources",
+      "status": "source-checked",
+      "title": "MSc Human Resource Management | Study at Bristol | University of Bristol",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-resource-management/",
+      "sha256": "69851733414485ba34e7ef7bb385d166a21ee8b158c5cf75c4a1b3a25fd83a6b",
+      "contentSha256": "6533ed8c4a3d099df801539efd537514488fdfe841e21c40b9c03d1ebe6aeb1c",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "results Entry requirements You will typically need an upper second-class honours degree or an international equivalent in any discipline. If you are currently completing a degree, we understand that your final g",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-resource-management/"
+        },
+        {
+          "category": "english",
+          "text": "porting documents required. Go to admissions statement English language requirements If English is not your first language, you will need to reach the requirements outlined in our profile level B. Further information about Engli",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-resource-management/"
+        },
+        {
+          "category": "deadline",
+          "text": "year full-time. Start date September 2027 Application deadline Overseas applicants: 12 August 2027. Home applicants: 9 September 2027. Please note that due to high demand, some programmes may close earlier t",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-resource-management/"
+        },
+        {
+          "category": "documents",
+          "text": "at least one of the following, please include your CV (curriculum vitae / résumé) when you apply, showing: evidence of five years' relevant work experience in human resource management-related work, or human resource",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-resource-management/"
+        }
+      ],
+      "schoolId": "qs-69"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-centred-artificial-intelligence-conversion/",
+      "kind": "program",
+      "name": "MSc Human-Centred Artificial Intelligence (Conversion)",
+      "subject": "Artificial Intelligence",
+      "status": "source-checked",
+      "title": "MSc Human-Centred Artificial Intelligence (Conversion) | Study at Bristol | University of Bristol",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-centred-artificial-intelligence-conversion/",
+      "sha256": "6c1e12d09b3be62643865bbba933242bb5e518af6ada8d9d0868c866fd2b19f4",
+      "contentSha256": "27838c72f782236bca81f099fe7be3f8f3de778c89882b7c08d6b1792b866a07",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "ts Entry requirements You will typically need a strong upper second-class honours degree (65% or higher) or an international equivalent in any subject. We will consider your application if your interim grades are",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-centred-artificial-intelligence-conversion/"
+        },
+        {
+          "category": "english",
+          "text": "porting documents required. Go to admissions statement English language requirements If English is not your first language, you will need to reach the requirements outlined in our profile level E. Further information about Engli",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-centred-artificial-intelligence-conversion/"
+        },
+        {
+          "category": "deadline",
+          "text": "year full-time. Start date September 2027 Application deadline Overseas applicants: 12 August 2027. Home applicants: 9 September 2027. Please note that due to high demand, some programmes may close earlier t",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-centred-artificial-intelligence-conversion/"
+        },
+        {
+          "category": "documents",
+          "text": "fication. If this is the case, please include your CV (curriculum vitae / résumé) when you apply. See international equivalent qualifications on the International Office website. Admissions Statement Read the program",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-centred-artificial-intelligence-conversion/"
+        }
+      ],
+      "schoolId": "qs-69"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-international-relations/",
+      "kind": "program",
+      "name": "MSc International Relations",
+      "subject": "International Relations",
+      "status": "source-checked",
+      "title": "MSc International Relations | Study at Bristol | University of Bristol",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-international-relations/",
+      "sha256": "8942ae744d80f8c04a93cf70c7af23e56e1e8e2bbeeef96736b11bc4a36190e5",
+      "contentSha256": "efbaef501f84ada4ca93096044f914791b8398fdccc32059fca6f2bd440027f9",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "irements You will typically need a strong second-class honours degree (55% or higher) or an international equivalent in any subject. We will consider your application if your interim grades are currently sli",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-international-relations/"
+        },
+        {
+          "category": "english",
+          "text": "porting documents required. Go to admissions statement English language requirements If English is not your first language, you will need to reach the requirements outlined in our profile level E. Further information about Engli",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-international-relations/"
+        },
+        {
+          "category": "deadline",
+          "text": "year full-time. Start date September 2027 Application deadline Overseas applicants: 12 August 2027. Home applicants: 9 September 2027. Please note that due to high demand, some programmes may close earlier t",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-international-relations/"
+        },
+        {
+          "category": "documents",
+          "text": "you have one of the following, please include your CV (curriculum vitae / résumé) when you apply, showing: a relevant postgraduate qualification. See international equivalent qualifications on the International Offic",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-international-relations/"
+        }
+      ],
+      "schoolId": "qs-69"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-management-sustainability/",
+      "kind": "program",
+      "name": "MSc Management (Sustainability)",
+      "subject": "Business & Sustainability",
+      "status": "source-checked",
+      "title": "MSc Management (Sustainability) | Study at Bristol | University of Bristol",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-management-sustainability/",
+      "sha256": "6d01e7dac4969a9b26eeddd9aae7dd5d5031388d4b7b011f668ed38217131e37",
+      "contentSha256": "4487fc79ffa5cd4bfc8758759d8827d1822093650a61ca368b9af4d8dbd9b30e",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "results Entry requirements You will typically need an upper second-class honours degree or an international equivalent in any discipline. If you are currently completing a degree, we understand that your final g",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-management-sustainability/"
+        },
+        {
+          "category": "english",
+          "text": "porting documents required. Go to admissions statement English language requirements If English is not your first language, you will need to reach the requirements outlined in our profile level B. Further information about Engli",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-management-sustainability/"
+        },
+        {
+          "category": "deadline",
+          "text": "year full-time. Start date September 2027 Application deadline Overseas applicants: 12 August 2027. Home applicants: 9 September 2027. Please note that due to high demand, some programmes may close earlier t",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-management-sustainability/"
+        },
+        {
+          "category": "documents",
+          "text": "at least one of the following, please include your CV (curriculum vitae / résumé) when you apply, showing: evidence of relevant work experience (five years minimum) in: Business and corporate management Finance and a",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-management-sustainability/"
+        }
+      ],
+      "schoolId": "qs-69"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-power-electronics-and-energy-systems/",
+      "kind": "program",
+      "name": "MSc Power Electronics and Energy Systems",
+      "subject": "Electrical Engineering",
+      "status": "source-checked",
+      "title": "MSc Power Electronics and Energy Systems | Study at Bristol | University of Bristol",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-power-electronics-and-energy-systems/",
+      "sha256": "f71a502ec7c36f0f585c997d58316c5e96567f5b04fb14f675ee7bd603e1f214",
+      "contentSha256": "dc001a38f843f80a39f32cb7a47e5d3d1cb53f2302cfe3484bd249dda1cd7bc6",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "results Entry requirements You will typically need an upper second-class honours degree or an international equivalent in Electrical Engineering, Electronic Engineering, Microelectronic Engineering, Energy Engin",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-power-electronics-and-energy-systems/"
+        },
+        {
+          "category": "english",
+          "text": "porting documents required. Go to admissions statement English language requirements If English is not your first language, you will need to reach the requirements outlined in our profile level E. Further information about Engli",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-power-electronics-and-energy-systems/"
+        },
+        {
+          "category": "deadline",
+          "text": "year full-time. Start date September 2027 Application deadline Overseas applicants: 12 August 2027. Home applicants: 9 September 2027. Please note that due to high demand, some programmes may close earlier t",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-power-electronics-and-energy-systems/"
+        },
+        {
+          "category": "documents",
+          "text": "at least one of the following, please include your CV (curriculum vitae / resume) when you apply, showing: one year work experience in electrical/electronic engineering, power & energy engineering or related field a",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-power-electronics-and-energy-systems/"
+        }
+      ],
+      "schoolId": "qs-69"
+    },
+    {
+      "school": "University of Bristol",
+      "level": "master",
+      "url": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-psychology-conversion/",
+      "kind": "program",
+      "name": "MSc Psychology (Conversion)",
+      "subject": "Psychology",
+      "status": "source-checked",
+      "title": "MSc Psychology (Conversion) | Study at Bristol | University of Bristol",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-psychology-conversion/",
+      "sha256": "408d3eb57f1a8ff01d2c1e8be4730f997a697aec2e5d9d42547f535b649fd14c",
+      "contentSha256": "2ad181a563aab7be60f024e797fa3330f588e5f483d9e12b479244dbfc3d9168",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "results Entry requirements You will typically need an upper second-class honours degree or international equivalent in any subject. Please note that this conversion programme is unsuitable for applicants who hav",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-psychology-conversion/"
+        },
+        {
+          "category": "english",
+          "text": "porting documents required. Go to admissions statement English language requirements If English is not your first language, you will need to reach the requirements outlined in our profile level B. Further information about Engli",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-psychology-conversion/"
+        },
+        {
+          "category": "deadline",
+          "text": "years part-time. Start date September 2027 Application deadline Overseas applicants: 12 August 2027. Home applicants: 9 September 2027. Please note that due to high demand, some programmes may close earlier t",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-psychology-conversion/"
+        },
+        {
+          "category": "documents",
+          "text": "at least one of the following, please include your CV (curriculum vitae / résumé) when you apply, showing: a relevant postgraduate qualification. See international equivalent qualifications on the International Offic",
+          "source": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-psychology-conversion/"
+        }
+      ],
+      "schoolId": "qs-69"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "master",
+      "url": "https://www.southampton.ac.uk/courses/accounting-finance-masters-msc",
+      "kind": "program",
+      "name": "MSc Accounting and Finance",
+      "subject": "Accounting & Finance",
+      "status": "source-checked",
+      "title": "MSc Accounting and Finance | University of Southampton",
+      "checkedAt": "2026-10-27T01:20:34+00:00",
+      "retrievedVia": "https://www.southampton.ac.uk/courses/accounting-finance-masters-msc",
+      "sha256": "69573067858745df0d2b5389752387b7115e9197a8945332bd4c929f9af59d81",
+      "contentSha256": "3d0162b47c28f6f78b4d00396e40bba3b4b884a0a8da13234145b5fa1e59ade9",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "aduate study Postgraduate taught degree courses Online master's degrees Postgraduate taught tuition fees Funding your postgraduate taught studies Pre-masters for international students How to apply for a postgraduat",
+          "source": "https://www.southampton.ac.uk/courses/accounting-finance-masters-msc"
+        },
+        {
+          "category": "english",
+          "text": "on broadcasting, script writing, or performance/dance. English language requirements If English is not your first language, you must show that you can use English to the level we require. Visit our English language pages to find",
+          "source": "https://www.southampton.ac.uk/courses/accounting-finance-masters-msc"
+        },
+        {
+          "category": "deadline",
+          "text": "uide to postgraduate taught applications . Application deadlines UK students The deadline to apply for this course is Wednesday 1 September 2027, midday UK time. We advise applying early as applications may c",
+          "source": "https://www.southampton.ac.uk/courses/accounting-finance-masters-msc"
+        },
+        {
+          "category": "documents",
+          "text": "module will support the development of your individual research proposal and prepare you for the final stage of the programme. In semester 3, you will choose to undertake either the Dissertation or the Industry Projec",
+          "source": "https://www.southampton.ac.uk/courses/accounting-finance-masters-msc"
+        }
+      ],
+      "schoolId": "qs-567"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "master",
+      "url": "https://www.southampton.ac.uk/courses/artificial-intelligence-masters-msc",
+      "kind": "program",
+      "name": "MSc Artificial Intelligence",
+      "subject": "Artificial Intelligence",
+      "status": "source-checked",
+      "title": "MSc Artificial Intelligence | University of Southampton",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.southampton.ac.uk/courses/artificial-intelligence-masters-msc",
+      "sha256": "b9d5a34d3a855d0751632fe4d84863524f6800692e336c809c639befde4cbfe9",
+      "contentSha256": "0ba1dae0f700713b67c9e363a10e3a59b91a8bbfcfe66f2acbb7d455cef614f1",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "aduate study Postgraduate taught degree courses Online master's degrees Postgraduate taught tuition fees Funding your postgraduate taught studies Pre-masters for international students How to apply for a postgraduat",
+          "source": "https://www.southampton.ac.uk/courses/artificial-intelligence-masters-msc"
+        },
+        {
+          "category": "english",
+          "text": "ina View acceptable grades from Chinese universities . English language requirements If English is not your first language, you must show that you can use English to the level we require. Visit our English language pages to find",
+          "source": "https://www.southampton.ac.uk/courses/artificial-intelligence-masters-msc"
+        },
+        {
+          "category": "deadline",
+          "text": "uide to postgraduate taught applications . Application deadlines UK students The deadline to apply for this course is Wednesday 1 September 2027, midday UK time. We advise applying early as applications may c",
+          "source": "https://www.southampton.ac.uk/courses/artificial-intelligence-masters-msc"
+        }
+      ],
+      "schoolId": "qs-567"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "undergraduate",
+      "url": "https://www.southampton.ac.uk/courses/civil-engineering-degree-beng",
+      "kind": "program",
+      "name": "BEng Civil Engineering",
+      "subject": "Civil Engineering",
+      "status": "source-checked",
+      "title": "Civil Engineering (Hons) | BEng | University of Southampton",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.southampton.ac.uk/courses/civil-engineering-degree-beng",
+      "sha256": "7ed882348d95568d2880c278fdf569bcb3e672fd7faf7877593f8ecac8c5ed05",
+      "contentSha256": "9f9eed6076f170abbe69d1bada3b1a8fc3242a509133736e05fd99756b60f591",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "aduate study Postgraduate taught degree courses Online master's degrees Postgraduate taught tuition fees Funding your postgraduate taught studies Pre-masters for international students How to apply for a postgraduat",
+          "source": "https://www.southampton.ac.uk/courses/civil-engineering-degree-beng"
+        },
+        {
+          "category": "english",
+          "text": "ternational qualifications for our entry requirements. English language requirements If English is not your first language, you must show that you can use English to the level we require. Visit our English language pages to find",
+          "source": "https://www.southampton.ac.uk/courses/civil-engineering-degree-beng"
+        },
+        {
+          "category": "deadline",
+          "text": "ary, particularly near to the UCAS equal consideration deadline, might take substantially longer to be processed due to the high volume received at that time. Equality and diversity We treat and select everyo",
+          "source": "https://www.southampton.ac.uk/courses/civil-engineering-degree-beng"
+        },
+        {
+          "category": "documents",
+          "text": "thors in a research paper a mathematical model to test recommendations put forward by lifeguards of how best to escape rip currents. The student was named as the first author when his work was published in a leadin",
+          "source": "https://www.southampton.ac.uk/courses/civil-engineering-degree-beng"
+        }
+      ],
+      "schoolId": "qs-567"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "master",
+      "url": "https://www.southampton.ac.uk/courses/civil-engineering-masters-msc",
+      "kind": "program",
+      "name": "MSc Civil Engineering",
+      "subject": "Civil Engineering",
+      "status": "source-checked",
+      "title": "MSc Civil Engineering | University of Southampton",
+      "checkedAt": "2026-10-27T01:20:33+00:00",
+      "retrievedVia": "https://www.southampton.ac.uk/courses/civil-engineering-masters-msc",
+      "sha256": "8506ecf228e790992348be57007e37ddfef377136f4a9834c118b789196ed499",
+      "contentSha256": "71060720a84ea05e9ba063910b653cd53a3434f1fa498013f4f50249a3edf04c",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "aduate study Postgraduate taught degree courses Online master's degrees Postgraduate taught tuition fees Funding your postgraduate taught studies Pre-masters for international students How to apply for a postgraduat",
+          "source": "https://www.southampton.ac.uk/courses/civil-engineering-masters-msc"
+        },
+        {
+          "category": "english",
+          "text": "ivalent international qualifications for your country. English language requirements If English is not your first language, you must show that you can use English to the level we require. Visit our English language pages to find",
+          "source": "https://www.southampton.ac.uk/courses/civil-engineering-masters-msc"
+        },
+        {
+          "category": "deadline",
+          "text": "uide to postgraduate taught applications . Application deadlines UK students The deadline to apply for this course is Wednesday 1 September 2027, midday UK time. We advise applying early as applications may c",
+          "source": "https://www.southampton.ac.uk/courses/civil-engineering-masters-msc"
+        }
+      ],
+      "schoolId": "qs-567"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "undergraduate",
+      "url": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+      "kind": "program",
+      "name": "BSc Computer Science",
+      "subject": "Computer Science",
+      "status": "source-checked",
+      "title": "Computer Science (Hons) | BSc | University of Southampton",
+      "checkedAt": "2026-10-27T01:20:34+00:00",
+      "retrievedVia": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+      "sha256": "4c0b2bc352763bfdd5a4334f9ece7eff4a10176acaba8d7f0256b13e9cf22b3e",
+      "contentSha256": "0bda516e22a707593a0faf70ca3629dfeeca4500b56729b19ea197afb590d79f",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "aduate study Postgraduate taught degree courses Online master's degrees Postgraduate taught tuition fees Funding your postgraduate taught studies Pre-masters for international students How to apply for a postgraduat",
+          "source": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc"
+        },
+        {
+          "category": "english",
+          "text": "ternational qualifications for our entry requirements. English language requirements If English is not your first language, you must show that you can use English to the level we require. Visit our English language pages to find",
+          "source": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc"
+        },
+        {
+          "category": "deadline",
+          "text": "ary, particularly near to the UCAS equal consideration deadline, might take substantially longer to be processed due to the high volume received at that time. Equality and diversity We treat and select everyo",
+          "source": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc"
+        }
+      ],
+      "schoolId": "qs-567"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "master",
+      "url": "https://www.southampton.ac.uk/courses/computer-science-masters-msc",
+      "kind": "program",
+      "name": "MSc Computer Science",
+      "subject": "Computer Science",
+      "status": "source-checked",
+      "title": "MSc Computer Science | University of Southampton",
+      "checkedAt": "2026-10-27T01:20:34+00:00",
+      "retrievedVia": "https://www.southampton.ac.uk/courses/computer-science-masters-msc",
+      "sha256": "f1539704301f399e4ecfb15e6b2e9e2b308da38ea9de695a44203479201cf6ea",
+      "contentSha256": "20e98776227a8f9ffcb89aefe12b6a690befe2762a9ece0af6dcf8c3f6c4b80b",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "aduate study Postgraduate taught degree courses Online master's degrees Postgraduate taught tuition fees Funding your postgraduate taught studies Pre-masters for international students How to apply for a postgraduat",
+          "source": "https://www.southampton.ac.uk/courses/computer-science-masters-msc"
+        },
+        {
+          "category": "english",
+          "text": "ina View acceptable grades from Chinese universities . English language requirements If English is not your first language, you must show that you can use English to the level we require. Visit our English language pages to find",
+          "source": "https://www.southampton.ac.uk/courses/computer-science-masters-msc"
+        },
+        {
+          "category": "deadline",
+          "text": "uide to postgraduate taught applications . Application deadlines UK students The deadline to apply for this course is Wednesday 1 September 2027, midday UK time. We advise applying early as applications may c",
+          "source": "https://www.southampton.ac.uk/courses/computer-science-masters-msc"
+        }
+      ],
+      "schoolId": "qs-567"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "master",
+      "url": "https://www.southampton.ac.uk/courses/cyber-security-masters-msc",
+      "kind": "program",
+      "name": "MSc Cyber Security",
+      "subject": "Cybersecurity",
+      "status": "source-checked",
+      "title": "MSc Cyber Security | University of Southampton",
+      "checkedAt": "2026-10-27T01:20:34+00:00",
+      "retrievedVia": "https://www.southampton.ac.uk/courses/cyber-security-masters-msc",
+      "sha256": "1a56f3d1043cddfc7134881ec7ecc89bb4566ad0d2b6527cc9a588c74b466582",
+      "contentSha256": "4763ba110762afbe6518e990b8256dd73a19816742bd06e5388f7ec96b4ae792",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "aduate study Postgraduate taught degree courses Online master's degrees Postgraduate taught tuition fees Funding your postgraduate taught studies Pre-masters for international students How to apply for a postgraduat",
+          "source": "https://www.southampton.ac.uk/courses/cyber-security-masters-msc"
+        },
+        {
+          "category": "english",
+          "text": "ina View acceptable grades from Chinese universities . English language requirements If English is not your first language, you must show that you can use English to the level we require. Visit our English language pages to find",
+          "source": "https://www.southampton.ac.uk/courses/cyber-security-masters-msc"
+        },
+        {
+          "category": "deadline",
+          "text": "uide to postgraduate taught applications . Application deadlines UK students The deadline to apply for this course is Wednesday 1 September 2027, midday UK time. We advise applying early as applications may c",
+          "source": "https://www.southampton.ac.uk/courses/cyber-security-masters-msc"
+        }
+      ],
+      "schoolId": "qs-567"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "master",
+      "url": "https://www.southampton.ac.uk/courses/data-science-masters-msc",
+      "kind": "program",
+      "name": "MSc Data Science",
+      "subject": "Data Science",
+      "status": "source-checked",
+      "title": "MSc Data Science | University of Southampton",
+      "checkedAt": "2026-10-27T01:20:34+00:00",
+      "retrievedVia": "https://www.southampton.ac.uk/courses/data-science-masters-msc",
+      "sha256": "d96be0878d0aacef69e654311f36b944eeaa9131c3017ce8a5dcd885bf837f0c",
+      "contentSha256": "a884beeb6c82a9174aa8a8a94e4ea5b7f73c6379b05873c03db67fcdf2daf530",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "aduate study Postgraduate taught degree courses Online master's degrees Postgraduate taught tuition fees Funding your postgraduate taught studies Pre-masters for international students How to apply for a postgraduat",
+          "source": "https://www.southampton.ac.uk/courses/data-science-masters-msc"
+        },
+        {
+          "category": "english",
+          "text": "on. View acceptable grades from Chinese universities . English language requirements If English is not your first language, you must show that you can use English to the level we require. Visit our English language pages to find",
+          "source": "https://www.southampton.ac.uk/courses/data-science-masters-msc"
+        },
+        {
+          "category": "deadline",
+          "text": "uide to postgraduate taught applications . Application deadlines UK students The deadline to apply for this course is Wednesday 1 September 2027, midday UK time. We advise applying early as applications may c",
+          "source": "https://www.southampton.ac.uk/courses/data-science-masters-msc"
+        }
+      ],
+      "schoolId": "qs-567"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "master",
+      "url": "https://www.southampton.ac.uk/courses/economics-masters-msc",
+      "kind": "program",
+      "name": "MSc Economics",
+      "subject": "Economics",
+      "status": "source-checked",
+      "title": "MSc Economics | University of Southampton",
+      "checkedAt": "2026-10-27T01:20:34+00:00",
+      "retrievedVia": "https://www.southampton.ac.uk/courses/economics-masters-msc",
+      "sha256": "0e96995b79f31c92e0d44747c157d1298204dd53d15e4707eb0767cff0ee1317",
+      "contentSha256": "39bd3b5f677efc4c497ff75f187eb914649fe43f6cef161c10aa866cc66bd9ec",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "aduate study Postgraduate taught degree courses Online master's degrees Postgraduate taught tuition fees Funding your postgraduate taught studies Pre-masters for international students How to apply for a postgraduat",
+          "source": "https://www.southampton.ac.uk/courses/economics-masters-msc"
+        },
+        {
+          "category": "english",
+          "text": "ivalent international qualifications for your country. English language requirements If English is not your first language, you must show that you can use English to the level we require. Visit our English language pages to find",
+          "source": "https://www.southampton.ac.uk/courses/economics-masters-msc"
+        },
+        {
+          "category": "deadline",
+          "text": "uide to postgraduate taught applications . Application deadlines UK students The deadline to apply for this course is Wednesday 1 September 2027, midday UK time. We advise applying early as applications may c",
+          "source": "https://www.southampton.ac.uk/courses/economics-masters-msc"
+        }
+      ],
+      "schoolId": "qs-567"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "undergraduate",
+      "url": "https://www.southampton.ac.uk/courses/economics-degree-bsc",
+      "kind": "program",
+      "name": "BSc Economics",
+      "subject": "Economics",
+      "status": "source-checked",
+      "title": "Economics Degree (Hons) | BSc | University of Southampton",
+      "checkedAt": "2026-10-27T01:20:34+00:00",
+      "retrievedVia": "https://www.southampton.ac.uk/courses/economics-degree-bsc",
+      "sha256": "dc889d1410f81bfe01df6fe4fb26763712e787050335824bae4fea41b8a6bb11",
+      "contentSha256": "3e4619ab30acd2f738a1d440350f0defc6c64e71c0afdc814683e670671450bd",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "aduate study Postgraduate taught degree courses Online master's degrees Postgraduate taught tuition fees Funding your postgraduate taught studies Pre-masters for international students How to apply for a postgraduat",
+          "source": "https://www.southampton.ac.uk/courses/economics-degree-bsc"
+        },
+        {
+          "category": "english",
+          "text": "ternational qualifications for our entry requirements. English language requirements If English is not your first language, you must show that you can use English to the level we require. Visit our English language pages to find",
+          "source": "https://www.southampton.ac.uk/courses/economics-degree-bsc"
+        },
+        {
+          "category": "deadline",
+          "text": "ary, particularly near to the UCAS equal consideration deadline, might take substantially longer to be processed due to the high volume received at that time. Equality and diversity We treat and select everyo",
+          "source": "https://www.southampton.ac.uk/courses/economics-degree-bsc"
+        },
+        {
+          "category": "documents",
+          "text": "different areas of economics will be presented. Policy recommendations will be derived using analytical economic... Economics with Experiments This module will familiarise students with some fundamental insights an",
+          "source": "https://www.southampton.ac.uk/courses/economics-degree-bsc"
+        }
+      ],
+      "schoolId": "qs-567"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "undergraduate",
+      "url": "https://www.southampton.ac.uk/courses/electrical-electronic-engineering-degree-beng",
+      "kind": "program",
+      "name": "BEng Electrical and Electronic Engineering",
+      "subject": "Electrical Engineering",
+      "status": "source-checked",
+      "title": "Electrical & Electronic Engineering | University of Southampton",
+      "checkedAt": "2026-10-27T01:20:34+00:00",
+      "retrievedVia": "https://www.southampton.ac.uk/courses/electrical-electronic-engineering-degree-beng",
+      "sha256": "dc8d7c840b793397c2a0ec179c8f98e4824409df9d1fa55134d7fe03ee29ef89",
+      "contentSha256": "420c5e6b8089dad39d195bbabf244145dae2af70738017ac557177c349219743",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "aduate study Postgraduate taught degree courses Online master's degrees Postgraduate taught tuition fees Funding your postgraduate taught studies Pre-masters for international students How to apply for a postgraduat",
+          "source": "https://www.southampton.ac.uk/courses/electrical-electronic-engineering-degree-beng"
+        },
+        {
+          "category": "english",
+          "text": "ternational qualifications for our entry requirements. English language requirements If English is not your first language, you must show that you can use English to the level we require. Visit our English language pages to find",
+          "source": "https://www.southampton.ac.uk/courses/electrical-electronic-engineering-degree-beng"
+        },
+        {
+          "category": "deadline",
+          "text": "ary, particularly near to the UCAS equal consideration deadline, might take substantially longer to be processed due to the high volume received at that time. Equality and diversity We treat and select everyo",
+          "source": "https://www.southampton.ac.uk/courses/electrical-electronic-engineering-degree-beng"
+        }
+      ],
+      "schoolId": "qs-567"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "master",
+      "url": "https://www.southampton.ac.uk/courses/electronic-engineering-masters-msc",
+      "kind": "program",
+      "name": "MSc Electronic Engineering",
+      "subject": "Electrical Engineering",
+      "status": "source-checked",
+      "title": "MSc Electronic Engineering | University of Southampton",
+      "checkedAt": "2026-10-27T01:20:34+00:00",
+      "retrievedVia": "https://www.southampton.ac.uk/courses/electronic-engineering-masters-msc",
+      "sha256": "52d77e8a32bf4ee832bce3d8c8b2d379432f56fbc6414e4d81222a3acee2f205",
+      "contentSha256": "b04e2dc1fcf11b575302ad36f7677f142a313bf87f881ab0cc4ed7cca42b2c8e",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "aduate study Postgraduate taught degree courses Online master's degrees Postgraduate taught tuition fees Funding your postgraduate taught studies Pre-masters for international students How to apply for a postgraduat",
+          "source": "https://www.southampton.ac.uk/courses/electronic-engineering-masters-msc"
+        },
+        {
+          "category": "english",
+          "text": "on. View acceptable grades from Chinese universities . English language requirements If English is not your first language, you must show that you can use English to the level we require. Visit our English language pages to find",
+          "source": "https://www.southampton.ac.uk/courses/electronic-engineering-masters-msc"
+        },
+        {
+          "category": "deadline",
+          "text": "uide to postgraduate taught applications . Application deadlines UK students The deadline to apply for this course is Wednesday 1 September 2027, midday UK time. We advise applying early as applications may c",
+          "source": "https://www.southampton.ac.uk/courses/electronic-engineering-masters-msc"
+        }
+      ],
+      "schoolId": "qs-567"
+    },
+    {
+      "school": "University of Southampton",
+      "level": "master",
+      "url": "https://www.southampton.ac.uk/courses/software-engineering-masters-msc",
+      "kind": "program",
+      "name": "MSc Software Engineering",
+      "subject": "Software Engineering",
+      "status": "source-checked",
+      "title": "MSc Software Engineering | University of Southampton",
+      "checkedAt": "2026-10-27T01:20:34+00:00",
+      "retrievedVia": "https://www.southampton.ac.uk/courses/software-engineering-masters-msc",
+      "sha256": "097f7b5508683659c6dc6e6c14fee3d96547ed23f9c691e0459687fff4e96ba7",
+      "contentSha256": "395f748f522f2f2bec415a9258ef32d3dc08a1c3c0c51b955a2f718cb784fe1a",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "aduate study Postgraduate taught degree courses Online master's degrees Postgraduate taught tuition fees Funding your postgraduate taught studies Pre-masters for international students How to apply for a postgraduat",
+          "source": "https://www.southampton.ac.uk/courses/software-engineering-masters-msc"
+        },
+        {
+          "category": "english",
+          "text": "ina View acceptable grades from Chinese universities . English language requirements If English is not your first language, you must show that you can use English to the level we require. Visit our English language pages to find",
+          "source": "https://www.southampton.ac.uk/courses/software-engineering-masters-msc"
+        },
+        {
+          "category": "deadline",
+          "text": "uide to postgraduate taught applications . Application deadlines UK students The deadline to apply for this course is Wednesday 1 September 2027, midday UK time. We advise applying early as applications may c",
+          "source": "https://www.southampton.ac.uk/courses/software-engineering-masters-msc"
+        }
+      ],
+      "schoolId": "qs-567"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "master",
+      "url": "https://www.gla.ac.uk/postgraduate/taught/computingscience/",
+      "kind": "program",
+      "name": "MSc Computing Science",
+      "subject": "Computer Science",
+      "status": "source-checked",
+      "title": "University of Glasgow - Postgraduate study - Taught degree programmes A‑Z - Computing Science",
+      "checkedAt": "2026-10-27T01:20:34+00:00",
+      "retrievedVia": "https://www.gla.ac.uk/postgraduate/taught/computingscience/",
+      "sha256": "7318d080a70ff8e9bce9adcbba0c97a7cd256f09791befa0156542d44505d096",
+      "contentSha256": "2e6f5285fd53798476db830cd610ae08b9d538362a4da7275c3f6fff10508b75",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "dership potential. Awards are typically for a one year Master’s degree at universities across the UK. There are over 50,000 Chevening Alumni around the world who together comprise an influential and highly regarded",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/computingscience/"
+        },
+        {
+          "category": "english",
+          "text": "ted, consider continuing to the integrated MSci award. English language requirements For further information about English language requirements, please contact the Recruitment and International Office using our enquiry form For",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/computingscience/"
+        },
+        {
+          "category": "deadline",
+          "text": "ation (PGT programme): £370 Submission of thesis after deadline lapsed: £350 Registration/exam only fee: £170 Funding opportunities University of Glasgow KMITL Postgraduate Scholarship In recognition of our o",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/computingscience/"
+        },
+        {
+          "category": "documents",
+          "text": "r degree) A copy (or copies) of your official academic transcript(s), showing full details of subjects studied and grades/marks obtained Official English translations of the certificate(s) and transcript(s) One",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/computingscience/"
+        }
+      ],
+      "schoolId": "qs-231"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "master",
+      "url": "https://www.gla.ac.uk/postgraduate/taught/softwaredevelopment/",
+      "kind": "program",
+      "name": "MSc Software Development",
+      "subject": "Software Engineering",
+      "status": "source-checked",
+      "title": "University of Glasgow - Postgraduate study - Taught degree programmes A‑Z - Software Development (Conversion)",
+      "checkedAt": "2026-10-27T01:20:34+00:00",
+      "retrievedVia": "https://www.gla.ac.uk/postgraduate/taught/softwaredevelopment/",
+      "sha256": "761b9a72040f76bfb9c8b21860fb87e01053bab0588d5b520f3111d5fc269a54",
+      "contentSha256": "f3c3439c65772b6b5eac843152ac3c3dae1fbb31cbea514ef5fd4d6f7a95f4ec",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "ported by Mission 44, helps UK-based students pursue a master’s degree in motorsport or a related field. Applicants must hold (or be completing) an undergraduate degree in engineering, a STEM subject, or a related f",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/softwaredevelopment/"
+        },
+        {
+          "category": "english",
+          "text": "ills in computing are advantageous, but not essential. English language requirements For further information about English language requirements, please contact the Recruitment and International Office using our enquiry form For",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/softwaredevelopment/"
+        },
+        {
+          "category": "deadline",
+          "text": "ation (PGT programme): £370 Submission of thesis after deadline lapsed: £350 Registration/exam only fee: £170 Funding opportunities RAEng MSc Motorsport Scholarship The MSc Motorsport Scholarship Programme, s",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/softwaredevelopment/"
+        },
+        {
+          "category": "documents",
+          "text": "r degree) A copy (or copies) of your official academic transcript(s), showing full details of subjects studied and grades/marks obtained Official English translations of the certificate(s) and transcript(s) One",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/softwaredevelopment/"
+        }
+      ],
+      "schoolId": "qs-231"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "master",
+      "url": "https://www.gla.ac.uk/postgraduate/taught/datascience/",
+      "kind": "program",
+      "name": "MSc Data Science",
+      "subject": "Data Science",
+      "status": "source-checked",
+      "title": "University of Glasgow - Postgraduate study - Taught degree programmes A‑Z - Data Science & Artificial Intelligence",
+      "checkedAt": "2026-10-27T01:20:35+00:00",
+      "retrievedVia": "https://www.gla.ac.uk/postgraduate/taught/datascience/",
+      "sha256": "2e196b707afc56dd0c26fbff96c75a1070bcb05563d6f5241d07214136dd2f84",
+      "contentSha256": "49ed70ea0252cbfd2e987c89a33dd9357061f2abbc76923fbfc6e363033e7efa",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "dership potential. Awards are typically for a one year Master’s degree at universities across the UK. There are over 50,000 Chevening Alumni around the world who together comprise an influential and highly regarded",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/datascience/"
+        },
+        {
+          "category": "english",
+          "text": "r Software Engineering from the University of Glasgow. English language requirements For further information about English language requirements, please contact the Recruitment and International Office using our enquiry form For",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/datascience/"
+        },
+        {
+          "category": "deadline",
+          "text": "ation (PGT programme): £370 Submission of thesis after deadline lapsed: £350 Registration/exam only fee: £170 Funding opportunities University of Glasgow KMITL Postgraduate Scholarship In recognition of our o",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/datascience/"
+        },
+        {
+          "category": "documents",
+          "text": "r degree) A copy (or copies) of your official academic transcript(s), showing full details of subjects studied and grades/marks obtained Official English translations of the certificate(s) and transcript(s) One",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/datascience/"
+        }
+      ],
+      "schoolId": "qs-231"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "master",
+      "url": "https://www.gla.ac.uk/postgraduate/taught/financialtechnology/",
+      "kind": "program",
+      "name": "MSc Financial Technology",
+      "subject": "Financial Technology",
+      "status": "source-checked",
+      "title": "University of Glasgow - Postgraduate study - Taught degree programmes A‑Z - Financial Technology",
+      "checkedAt": "2026-10-27T01:20:35+00:00",
+      "retrievedVia": "https://www.gla.ac.uk/postgraduate/taught/financialtechnology/",
+      "sha256": "a87268087ffce6387f0f75407097acca67ad9a0b758a2fc89bfc09a2e3deca84",
+      "contentSha256": "f652cf27004949eeb878474d9e90f117ef3c89a0e10b873bdbfac755bfb8fd5b",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "dership potential. Awards are typically for a one year Master’s degree at universities across the UK. There are over 50,000 Chevening Alumni around the world who together comprise an influential and highly regarded",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/financialtechnology/"
+        },
+        {
+          "category": "english",
+          "text": "al College , who offer a range of pre-Masters courses. English language requirements For further information about English language requirements, please contact the Recruitment and International Office using our enquiry form For",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/financialtechnology/"
+        },
+        {
+          "category": "deadline",
+          "text": "ation (PGT programme): £370 Submission of thesis after deadline lapsed: £350 Registration/exam only fee: £170 Funding opportunities ASBS Indian Excellence Award The Adam Smith Business School Indian Excellenc",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/financialtechnology/"
+        },
+        {
+          "category": "documents",
+          "text": "r degree) A copy (or copies) of your official academic transcript(s), showing full details of subjects studied and grades/marks obtained Official English translations of the certificate(s) and transcript(s) One",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/financialtechnology/"
+        }
+      ],
+      "schoolId": "qs-231"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "master",
+      "url": "https://www.gla.ac.uk/postgraduate/taught/mechanicalengineering/",
+      "kind": "program",
+      "name": "MSc Mechanical Engineering",
+      "subject": "Mechanical Engineering",
+      "status": "source-checked",
+      "title": "University of Glasgow - Postgraduate study - Taught degree programmes A‑Z - Mechanical Engineering",
+      "checkedAt": "2026-10-27T01:20:35+00:00",
+      "retrievedVia": "https://www.gla.ac.uk/postgraduate/taught/mechanicalengineering/",
+      "sha256": "cba09d567dcebaaee3115b6ab8aef4de6fe6ac9f96e6a3606246f4ae865e2b93",
+      "contentSha256": "58f9bc23c0d12358e25d7defb9bb81cdacb87df86e5cb576ef6b59adbbeeac4d",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "ported by Mission 44, helps UK-based students pursue a master’s degree in motorsport or a related field. Applicants must hold (or be completing) an undergraduate degree in engineering, a STEM subject, or a related f",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/mechanicalengineering/"
+        },
+        {
+          "category": "english",
+          "text": "al College , who offer a range of pre-Masters courses. English language requirements For further information about English language requirements, please contact the Recruitment and International Office using our enquiry form For",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/mechanicalengineering/"
+        },
+        {
+          "category": "deadline",
+          "text": "ation (PGT programme): £370 Submission of thesis after deadline lapsed: £350 Registration/exam only fee: £170 Funding opportunities RAEng MSc Motorsport Scholarship The MSc Motorsport Scholarship Programme, s",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/mechanicalengineering/"
+        },
+        {
+          "category": "documents",
+          "text": "r degree) A copy (or copies) of your official academic transcript(s), showing full details of subjects studied and grades/marks obtained Official English translations of the certificate(s) and transcript(s) One",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/mechanicalengineering/"
+        }
+      ],
+      "schoolId": "qs-231"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "master",
+      "url": "https://www.gla.ac.uk/postgraduate/taught/civilengineering/",
+      "kind": "program",
+      "name": "MSc Civil Engineering",
+      "subject": "Civil Engineering",
+      "status": "source-checked",
+      "title": "University of Glasgow - Postgraduate study - Taught degree programmes A‑Z - Civil Engineering",
+      "checkedAt": "2026-10-27T01:20:35+00:00",
+      "retrievedVia": "https://www.gla.ac.uk/postgraduate/taught/civilengineering/",
+      "sha256": "c458b494b87104c0a70b10c2a119c8b1f99e71aa13ede4ddbe0dc0511b17b5c9",
+      "contentSha256": "6c7838c86adb4a2c94e511725a9b30bce02b88063877ad5604a3a1533aa8380b",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "dership potential. Awards are typically for a one year Master’s degree at universities across the UK. There are over 50,000 Chevening Alumni around the world who together comprise an influential and highly regarded",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/civilengineering/"
+        },
+        {
+          "category": "english",
+          "text": "al College , who offer a range of pre-Masters courses. English language requirements For further information about English language requirements, please contact the Recruitment and International Office using our enquiry form For",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/civilengineering/"
+        },
+        {
+          "category": "deadline",
+          "text": "ation (PGT programme): £370 Submission of thesis after deadline lapsed: £350 Registration/exam only fee: £170 Funding opportunities Helen & Nikolaos Ioannou Travel Scholarship Scholarships are available to cu",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/civilengineering/"
+        },
+        {
+          "category": "documents",
+          "text": "r degree) A copy (or copies) of your official academic transcript(s), showing full details of subjects studied and grades/marks obtained Official English translations of the certificate(s) and transcript(s) One",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/civilengineering/"
+        }
+      ],
+      "schoolId": "qs-231"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "master",
+      "url": "https://www.gla.ac.uk/postgraduate/taught/publichealth/",
+      "kind": "program",
+      "name": "MPH (Master of Public Health)",
+      "subject": "Public Health",
+      "status": "source-checked",
+      "title": "University of Glasgow - Postgraduate study - Taught degree programmes A‑Z - MPH (Master of Public Health)",
+      "checkedAt": "2026-10-27T01:20:35+00:00",
+      "retrievedVia": "https://www.gla.ac.uk/postgraduate/taught/publichealth/",
+      "sha256": "9ede447a5d9011e6558b61511c87a23759c3f8174cacc0ef3de8932adc1003cc",
+      "contentSha256": "0ffb55424ff716073144752a2345c9df3a9cedb51495ce2dbabadfa1de0bcc97",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "dership potential. Awards are typically for a one year Master’s degree at universities across the UK. There are over 50,000 Chevening Alumni around the world who together comprise an influential and highly regarded",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/publichealth/"
+        },
+        {
+          "category": "english",
+          "text": "ant relevant work experience and lower qualifications. English language requirements For further information about English language requirements, please contact the Recruitment and International Office using our enquiry form Int",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/publichealth/"
+        },
+        {
+          "category": "deadline",
+          "text": "ation (PGT programme): £370 Submission of thesis after deadline lapsed: £350 Registration/exam only fee: £170 Funding opportunities Commonwealth Shared Scholarship Scheme The Commonwealth Shared Scholarship p",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/publichealth/"
+        },
+        {
+          "category": "documents",
+          "text": "r degree) A copy (or copies) of your official academic transcript(s), showing full details of subjects studied and grades/marks obtained Official English translations of the certificate(s) and transcript(s) Evi",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/publichealth/"
+        }
+      ],
+      "schoolId": "qs-231"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "master",
+      "url": "https://www.gla.ac.uk/postgraduate/taught/statistics/",
+      "kind": "program",
+      "name": "MSc Statistics",
+      "subject": "Statistics",
+      "status": "source-checked",
+      "title": "University of Glasgow - Postgraduate study - Taught degree programmes A‑Z - Statistics",
+      "checkedAt": "2026-10-27T01:20:35+00:00",
+      "retrievedVia": "https://www.gla.ac.uk/postgraduate/taught/statistics/",
+      "sha256": "45a0e48268c33460a55a4dd9b2e8ce75d17fc71b1d0e0c008420b4b9562661f2",
+      "contentSha256": "b8cc55961b015bb334d6c39eef8f94999198d3f621a02cd8fb40ca007b945c74",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "dership potential. Awards are typically for a one year Master’s degree at universities across the UK. There are over 50,000 Chevening Alumni around the world who together comprise an influential and highly regarded",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/statistics/"
+        },
+        {
+          "category": "english",
+          "text": "al College , who offer a range of pre-Masters courses. English language requirements For further information about English language requirements, please contact the Recruitment and International Office using our enquiry form For",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/statistics/"
+        },
+        {
+          "category": "deadline",
+          "text": "ation (PGT programme): £370 Submission of thesis after deadline lapsed: £350 Registration/exam only fee: £170 Funding opportunities University of Glasgow, Wuhan University Scholarship, (Mathematics and Statis",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/statistics/"
+        },
+        {
+          "category": "documents",
+          "text": "r degree) A copy (or copies) of your official academic transcript(s), showing full details of subjects studied and grades/marks obtained Official English translations of the certificate(s) and transcript(s) One",
+          "source": "https://www.gla.ac.uk/postgraduate/taught/statistics/"
+        }
+      ],
+      "schoolId": "qs-231"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "phd",
+      "url": "https://www.gla.ac.uk/postgraduate/research/economics/",
+      "kind": "program",
+      "name": "PhD Economics",
+      "subject": "Economics",
+      "status": "source-checked",
+      "title": "University of Glasgow - Postgraduate study - Postgraduate research opportunities A-Z - Economics",
+      "checkedAt": "2026-10-27T01:20:35+00:00",
+      "retrievedVia": "https://www.gla.ac.uk/postgraduate/research/economics/",
+      "sha256": "58299fd02b8b42c978b7bb09d06d2d81b08badac12c4d1daf4585141db07fb1c",
+      "contentSha256": "0329de140c183b531f5c7024c662bf1eeafb93f2b6bd4cfbd8b190014f5c3c24",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "rements Our regular standard of admission is usually a Master's degree at Merit, with a significant component in Economics or Finance. Candidates with backgrounds in Statistics or other related social sciences may b",
+          "source": "https://www.gla.ac.uk/postgraduate/research/economics/"
+        },
+        {
+          "category": "english",
+          "text": "h Proposal Two References Named Supervisor information English language requirements For applicants from non-English speaking countries, as defined by the UK Government , the University sets a minimum English language proficienc",
+          "source": "https://www.gla.ac.uk/postgraduate/research/economics/"
+        },
+        {
+          "category": "deadline",
+          "text": "ee by published work £1,355 Submission of thesis after deadline lapsed £350 Submission by staff in receipt of staff scholarship £790 Depending on the nature of the research project, some students will be expe",
+          "source": "https://www.gla.ac.uk/postgraduate/research/economics/"
+        },
+        {
+          "category": "documents",
+          "text": "Required documents Applicants should submit: Academic Transcripts and Degree Certificates CV Research Proposal Two References Named Supervisor information English language requirements For applicants from non-",
+          "source": "https://www.gla.ac.uk/postgraduate/research/economics/"
+        }
+      ],
+      "schoolId": "qs-231"
+    },
+    {
+      "school": "University of Glasgow",
+      "level": "phd",
+      "url": "https://www.gla.ac.uk/postgraduate/research/psychology/",
+      "kind": "program",
+      "name": "PhD Psychology",
+      "subject": "Psychology",
+      "status": "source-checked",
+      "title": "University of Glasgow - Postgraduate study - Postgraduate research opportunities A-Z - Psychology",
+      "checkedAt": "2026-10-27T01:20:35+00:00",
+      "retrievedVia": "https://www.gla.ac.uk/postgraduate/research/psychology/",
+      "sha256": "259263d7f06b8a73b15dd42ba4c875300b9a2163ccb055d3b3444915558f8f41",
+      "contentSha256": "032aa761e5d46ccbd7d080c0f323d9aad387c888f9bd4843c9f6b2383a5eeab6",
+      "excerpts": [
+        {
+          "category": "gpa",
+          "text": "nts Our regular standard of admission is usually a 2.1 honours degree. Required documents Applicants should submit: Academic Transcripts and Degree Certificates CV MVLS Cover Letter Two References English la",
+          "source": "https://www.gla.ac.uk/postgraduate/research/psychology/"
+        },
+        {
+          "category": "english",
+          "text": "egree Certificates CV MVLS Cover Letter Two References English language requirements For applicants from non-English speaking countries, as defined by the UK Government , the University sets a minimum English language proficienc",
+          "source": "https://www.gla.ac.uk/postgraduate/research/psychology/"
+        },
+        {
+          "category": "deadline",
+          "text": "ee by published work £1,355 Submission of thesis after deadline lapsed £350 Submission by staff in receipt of staff scholarship £790 Depending on the nature of the research project, some students will be expe",
+          "source": "https://www.gla.ac.uk/postgraduate/research/psychology/"
+        },
+        {
+          "category": "documents",
+          "text": "Required documents Applicants should submit: Academic Transcripts and Degree Certificates CV MVLS Cover Letter Two References English language requirements For applicants from non-English speaking countries, a",
+          "source": "https://www.gla.ac.uk/postgraduate/research/psychology/"
+        }
+      ],
+      "schoolId": "qs-231"
     }
   ]
 }

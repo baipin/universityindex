@@ -6269,6 +6269,1431 @@
           "contentSha256": "32217886dee4a4f50eba4ff7ad6c621ea330569289d9e4c1eac4de79c3aef634"
         }
       }
+    },
+    {
+      "schoolId": "qs-389",
+      "level": "master",
+      "programId": "accounting-and-finance-msc",
+      "reviewedAt": "2026-10-27",
+      "gpa": "First or upper-second-class bachelor’s, normally accounting/finance, with substantial accounting and finance study, a final-year specialisation and excellent results. Strong quantitative, econometrics or mathematics background. Exceptional economics/mathematics graduates or business/commerce graduates meeting the detailed subject preparation may be considered. GMAT/GRE not normally required but may be requested if quantitative preparation is insufficient.",
+      "intake": "September 2027",
+      "english": "IELTS 7.0 overall, each component 6.5; TOEFL legacy 100, each component 22; revised TOEFL 5.0 overall, each component 4.5; PTE Academic 76, each component 70. Single sitting; English-study exemptions are subject to AMBS approval.",
+      "deadline": "September 2027 staged application deadlines: 6 December 2026, 1 March 2027, 4 May 2027, 4 July 2027 and 23 August 2027; later stages depend on places remaining.",
+      "documents": "English evidence, first-/second-year transcripts and statement of purpose explaining motivation, career impact and distinctive preparation. Include final-year modules and any additional relevant finance/quantitative qualifications; accounting applicants also give overall/major averages and class rank if known. £60 application fee, unless exempt.",
+      "fieldSources": {
+        "gpa": "https://www.manchester.ac.uk/study/masters/courses/list/02061/msc-accounting-and-finance/",
+        "intake": "https://www.manchester.ac.uk/study/masters/courses/list/02061/msc-accounting-and-finance/",
+        "english": "https://www.alliancembs.manchester.ac.uk/study/masters/masters-entry-requirements/",
+        "deadline": "https://www.alliancembs.manchester.ac.uk/study/masters/how-to-apply/",
+        "documents": "https://www.manchester.ac.uk/study/masters/courses/list/02061/msc-accounting-and-finance/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.manchester.ac.uk/study/masters/courses/list/02061/msc-accounting-and-finance/": {
+          "sha256": "04a297417d56c45ebb5cd719e77b8bbf68a92c02e535384bbdd262ea92da63b1",
+          "contentSha256": "9db71e96b62b9fc12ddcb04ac2602dfc7254a1e93c608d92c518ff4decc4d679"
+        },
+        "https://www.alliancembs.manchester.ac.uk/study/masters/masters-entry-requirements/": {
+          "sha256": "9773081aee526ff3ae5f03446640033f959ba166d80c8d5a86fb7abf0a77af34",
+          "contentSha256": "d1c1f87dd30950fcd6ba87bbfeec5727a139c599934566e850a6ff590a111da7"
+        },
+        "https://www.alliancembs.manchester.ac.uk/study/masters/how-to-apply/": {
+          "sha256": "67a96e59d398b6cf60032da8dafae8cc946177768e95aa333cac85c819556d3a",
+          "contentSha256": "7fc778cc3d14d9d30e10528ce5ccfeeca718ca6b5c0fcd92c36bcdb20be85d07"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-389",
+      "level": "master",
+      "programId": "advanced-computer-science-msc",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Successful applicants typically have a first-class degree (UK average 70%) in computer science with at least 50% computer-science content and strong programming/software-development skills. Selection considers institution standing and relevant module results; this is a typical successful profile, not a guaranteed offer threshold.",
+      "intake": "September 2027",
+      "english": "IELTS 7.0 overall, each component 6.5; TOEFL legacy 100, each component 22; revised TOEFL 5.0 overall, each component 4.5. PTE 76 overall, each component 70. TOEFL Home Edition and MyBest not accepted.",
+      "deadline": "2027 entry application stages: 6 November 2026, 1 January 2027, 26 February 2027, 21 May 2027. Later applications only if places remain; conditional-offer requirements must be met by 31 July 2027.",
+      "documents": "Official transcripts with credit weights and grades, original-language documents plus certified English translations where needed, weighted-average evidence if absent from transcript, final-year module list if still studying and degree certificate if graduated. Both institutions’ records are needed for 2+2/3+1 study. CV if graduated more than three years ago. English-language evidence where applicable. References and personal statements are not required; no application fee.",
+      "fieldSources": {
+        "gpa": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+        "intake": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+        "english": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+        "deadline": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/",
+        "documents": "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.manchester.ac.uk/study/masters/courses/list/21573/msc-advanced-computer-science/": {
+          "sha256": "eb1cf34da9601000fb0f28aafc75fdee81b8b2a20cef3e07fc2173a9835b9f1e",
+          "contentSha256": "c2c25b194e46cfdb521d666f6e52accafc62447263cc9095068c62bef89ef239"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-389",
+      "level": "master",
+      "programId": "artificial-intelligence-msc",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Successful applicants typically have a first-class degree (UK average 70%) in computer science with at least 50% computer-science content and strong programming/software-development skills. Selection considers institution standing and relevant module results.",
+      "intake": "September 2027",
+      "english": "IELTS 7.0 overall, each component 6.5; TOEFL legacy 100, each component 22; revised TOEFL 5.0 overall, each component 4.5. PTE 76 overall, each component 70. TOEFL Home Edition and MyBest not accepted.",
+      "deadline": "2027 entry application stages: 6 November 2026, 1 January 2027, 26 February 2027, 21 May 2027. Later applications only if places remain; conditional-offer requirements must be met by 31 July 2027.",
+      "documents": "Official transcripts with credit weights and grades, original-language documents plus certified English translations where needed, weighted-average evidence if absent from transcript, final-year module list if still studying and degree certificate if graduated. Both institutions’ records are needed for 2+2/3+1 study. CV if graduated more than three years ago. English-language evidence where applicable. References and personal statements are not required; no application fee.",
+      "fieldSources": {
+        "gpa": "https://www.manchester.ac.uk/study/masters/courses/list/21574/msc-artificial-intelligence/",
+        "intake": "https://www.manchester.ac.uk/study/masters/courses/list/21574/msc-artificial-intelligence/",
+        "english": "https://www.manchester.ac.uk/study/masters/courses/list/21574/msc-artificial-intelligence/",
+        "deadline": "https://www.manchester.ac.uk/study/masters/courses/list/21574/msc-artificial-intelligence/",
+        "documents": "https://www.manchester.ac.uk/study/masters/courses/list/21574/msc-artificial-intelligence/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.manchester.ac.uk/study/masters/courses/list/21574/msc-artificial-intelligence/": {
+          "sha256": "a5f490e750ea9b0a54a7b69c8c750620d9d64f6d903d71b59a2b0529f39a1b3c",
+          "contentSha256": "dfcc0b1e5b25e34a37baac2ccddf8979658db9d64234e59d58ab7f890522643e"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-389",
+      "level": "master",
+      "programId": "data-science-and-artificial-intelligence-mathematics-msc",
+      "reviewedAt": "2026-10-27",
+      "gpa": "High 2:1 honours with substantial mathematics including probability/statistics, calculus or mathematical analysis, and linear algebra. Demonstrate aptitude, knowledge or interest in data analytics/statistics, computational subjects and the mathematics pathway, through prior courses or professional experience.",
+      "intake": "September 2027",
+      "english": "IELTS 7.0 overall, each component 6.5; TOEFL legacy 100, each component 22; revised TOEFL 5.0 overall, each component 4.5. PTE 76 overall, each component 70.",
+      "deadline": "2027 entry application stages: 6 December 2026, 1 March 2027, 4 May 2027 and 4 July 2027. Later applications discretionary if places remain.",
+      "fieldSources": {
+        "gpa": "https://www.manchester.ac.uk/study/masters/courses/list/22197/msc-data-science-and-artificial-intelligence-mathematics/",
+        "intake": "https://www.manchester.ac.uk/study/masters/courses/list/22197/msc-data-science-and-artificial-intelligence-mathematics/",
+        "english": "https://www.manchester.ac.uk/study/masters/courses/list/22197/msc-data-science-and-artificial-intelligence-mathematics/",
+        "deadline": "https://www.manchester.ac.uk/study/masters/courses/list/22197/msc-data-science-and-artificial-intelligence-mathematics/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.manchester.ac.uk/study/masters/courses/list/22197/msc-data-science-and-artificial-intelligence-mathematics/": {
+          "sha256": "f66b782dc162854445f87ad845a7f301a9c3bd140a9258ec78189c7ed42f7cd0",
+          "contentSha256": "2028ca626c8c67a8663845237208ca28e9c12d67546097fa014522c79b08472a"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-389",
+      "level": "master",
+      "programId": "economics-msc",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in economics, finance, mathematics or a related subject, with high-level economic theory, mathematics and econometrics.",
+      "intake": "September 2027",
+      "english": "IELTS 7.0 overall and writing 7.0, other components 6.5; TOEFL legacy 100, writing 25, others 22; revised TOEFL 5.0 overall and writing 5.0, other components 4.5. PTE 76 overall/writing, others 70.",
+      "deadline": "2027 entry application stages: 6 December 2026, 1 March 2027, 4 May 2027 and 4 July 2027. Later applications discretionary if places remain.",
+      "fieldSources": {
+        "gpa": "https://www.manchester.ac.uk/study/masters/courses/list/01380/msc-economics/",
+        "intake": "https://www.manchester.ac.uk/study/masters/courses/list/01380/msc-economics/",
+        "english": "https://www.manchester.ac.uk/study/masters/courses/list/01380/msc-economics/",
+        "deadline": "https://www.manchester.ac.uk/study/masters/courses/list/01380/msc-economics/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.manchester.ac.uk/study/masters/courses/list/01380/msc-economics/": {
+          "sha256": "647ac26853d1c937ae489701f6a415ea0277ee3d50f92ac7c83d39f1eecf2af4",
+          "contentSha256": "b4b5ae02910dbc1f9616ea99816551c613bd76be56f460d59a65c9fd6c6584e3"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-389",
+      "level": "master",
+      "programId": "economics-and-data-science-msc",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in economics or a quantitative subject such as mathematics, physics or computer science. Substantial advanced mathematics, econometrics/statistics with high marks, and statistical programming in R, Python, Julia or MATLAB. Non-economics graduates require significant economics coursework.",
+      "intake": "September 2027",
+      "english": "IELTS 7.0 overall and writing 7.0, other components 6.5; TOEFL legacy 100, writing 25, others 22; revised TOEFL 5.0 overall and writing 5.0, other components 4.5. PTE 76 overall/writing, others 70.",
+      "deadline": "2027 entry application stages: 6 December 2026, 1 March 2027, 4 May 2027 and 4 July 2027. Later applications discretionary if places remain.",
+      "fieldSources": {
+        "gpa": "https://www.manchester.ac.uk/study/masters/courses/list/21299/msc-economics-and-data-science/",
+        "intake": "https://www.manchester.ac.uk/study/masters/courses/list/21299/msc-economics-and-data-science/",
+        "english": "https://www.manchester.ac.uk/study/masters/courses/list/21299/msc-economics-and-data-science/",
+        "deadline": "https://www.manchester.ac.uk/study/masters/courses/list/21299/msc-economics-and-data-science/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.manchester.ac.uk/study/masters/courses/list/21299/msc-economics-and-data-science/": {
+          "sha256": "532d608f28ae53e00e1a926f82f683880cbc6b83d1e05fcafb7bff7be5b487b7",
+          "contentSha256": "d58298aeda7428ee3525ccf2f92e9aac9c681f47c48ed0915b2669dd96f1bf40"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-389",
+      "level": "master",
+      "programId": "finance-msc",
+      "reviewedAt": "2026-10-27",
+      "gpa": "First or upper-second-class honours (2:1, UK average 60%) in finance/economics, with substantial finance and quantitative courses, a final-year finance specialisation and top finance results. Accounting does not count as finance. Business administration may qualify with the specified finance depth. GMAT/GRE optional initially but may be requested if quantitative study is insufficient.",
+      "intake": "September 2027",
+      "english": "IELTS 7.0 overall, each component 6.5; TOEFL legacy 100, each component 22; revised TOEFL 5.0 overall, each component 4.5; PTE Academic 76, each component 70. Single sitting; English-study exemptions are subject to AMBS approval.",
+      "deadline": "September 2027 staged application deadlines: 6 December 2026, 1 March 2027, 4 May 2027, 4 July 2027 and 23 August 2027; later stages depend on places remaining.",
+      "documents": "English evidence, first-/second-year transcripts and statement of purpose explaining motivation, career impact and distinctive preparation. Include final-year modules and additional relevant finance/quantitative qualifications. £60 application fee, unless exempt.",
+      "fieldSources": {
+        "gpa": "https://www.manchester.ac.uk/study/masters/courses/list/01383/msc-finance/",
+        "intake": "https://www.manchester.ac.uk/study/masters/courses/list/01383/msc-finance/",
+        "english": "https://www.alliancembs.manchester.ac.uk/study/masters/masters-entry-requirements/",
+        "deadline": "https://www.alliancembs.manchester.ac.uk/study/masters/how-to-apply/",
+        "documents": "https://www.manchester.ac.uk/study/masters/courses/list/01383/msc-finance/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.manchester.ac.uk/study/masters/courses/list/01383/msc-finance/": {
+          "sha256": "bd69bd6b710451be7620f45e980ca70cbdc7cf78865165e79e448138905d7028",
+          "contentSha256": "3c76e0a1a5758dea8324705faa7ebf6bd3abb1443f8aa83a1eeb3252d3272ef9"
+        },
+        "https://www.alliancembs.manchester.ac.uk/study/masters/masters-entry-requirements/": {
+          "sha256": "9773081aee526ff3ae5f03446640033f959ba166d80c8d5a86fb7abf0a77af34",
+          "contentSha256": "d1c1f87dd30950fcd6ba87bbfeec5727a139c599934566e850a6ff590a111da7"
+        },
+        "https://www.alliancembs.manchester.ac.uk/study/masters/how-to-apply/": {
+          "sha256": "67a96e59d398b6cf60032da8dafae8cc946177768e95aa333cac85c819556d3a",
+          "contentSha256": "7fc778cc3d14d9d30e10528ce5ccfeeca718ca6b5c0fcd92c36bcdb20be85d07"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-389",
+      "level": "master",
+      "programId": "law-llm",
+      "reviewedAt": "2026-10-27",
+      "gpa": "First or 2:1 bachelor’s in law; strong relevant law modules, including public and contract law, with at least 2:1 performance in relevant modules.",
+      "intake": "September 2027",
+      "english": "IELTS 7.0 overall and writing 7.0, other components 6.5; TOEFL legacy 100, writing 25, others 22; revised TOEFL 5.0 overall and writing 5.0, other components 4.5. PTE 76 overall/writing, others 70.",
+      "deadline": "2027 entry application stages: 6 December 2026, 1 March 2027, 4 May 2027 and 4 July 2027. Later applications discretionary if places remain.",
+      "fieldSources": {
+        "gpa": "https://www.manchester.ac.uk/study/masters/courses/list/08446/llm-law/",
+        "intake": "https://www.manchester.ac.uk/study/masters/courses/list/08446/llm-law/",
+        "english": "https://www.manchester.ac.uk/study/masters/courses/list/08446/llm-law/",
+        "deadline": "https://www.manchester.ac.uk/study/masters/courses/list/08446/llm-law/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.manchester.ac.uk/study/masters/courses/list/08446/llm-law/": {
+          "sha256": "f594fa578c45267cb0e1d22c99274e5f17d0d5946fa268e21c39c0afcbb5f83b",
+          "contentSha256": "1f4e366aa7812f13f59e662567e8e755bdf55e53c04113ba25092e6afce267b2"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-389",
+      "level": "master",
+      "programId": "management-msc",
+      "reviewedAt": "2026-10-27",
+      "gpa": "First or upper-second-class honours (2:1, UK average 60%) or overseas equivalent. Designed as a fast track into business for graduates without previous business experience.",
+      "intake": "September 2027",
+      "english": "IELTS 7.0 overall, each component 6.5; TOEFL legacy 100, each component 22; revised TOEFL 5.0 overall, each component 4.5; PTE Academic 76, each component 70. Single sitting; English-study exemptions are subject to AMBS approval.",
+      "deadline": "September 2027 staged application deadlines: 6 December 2026, 1 March 2027, 4 May 2027, 4 July 2027 and 23 August 2027; later stages depend on places remaining.",
+      "documents": "English evidence, first-/second-year transcripts and statement of purpose explaining motivation, career impact and distinctive preparation. £60 application fee, unless exempt.",
+      "fieldSources": {
+        "gpa": "https://www.manchester.ac.uk/study/masters/courses/list/08633/msc-management/",
+        "intake": "https://www.manchester.ac.uk/study/masters/courses/list/08633/msc-management/",
+        "english": "https://www.alliancembs.manchester.ac.uk/study/masters/masters-entry-requirements/",
+        "deadline": "https://www.alliancembs.manchester.ac.uk/study/masters/how-to-apply/",
+        "documents": "https://www.manchester.ac.uk/study/masters/courses/list/08633/msc-management/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.manchester.ac.uk/study/masters/courses/list/08633/msc-management/": {
+          "sha256": "16d1414de9d4e63014ab7d710a4c7df4c6b2d5e128d2c33fc767da608bc3b69b",
+          "contentSha256": "5e42442a661bf87c0be3fd90f3ad3c94caabcfe6e7f1d6063d4525329b7ee4b7"
+        },
+        "https://www.alliancembs.manchester.ac.uk/study/masters/masters-entry-requirements/": {
+          "sha256": "9773081aee526ff3ae5f03446640033f959ba166d80c8d5a86fb7abf0a77af34",
+          "contentSha256": "d1c1f87dd30950fcd6ba87bbfeec5727a139c599934566e850a6ff590a111da7"
+        },
+        "https://www.alliancembs.manchester.ac.uk/study/masters/how-to-apply/": {
+          "sha256": "67a96e59d398b6cf60032da8dafae8cc946177768e95aa333cac85c819556d3a",
+          "contentSha256": "7fc778cc3d14d9d30e10528ce5ccfeeca718ca6b5c0fcd92c36bcdb20be85d07"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-389",
+      "level": "master",
+      "programId": "mechanical-engineering-design-msc",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Upper-second-class honours in a relevant science or engineering discipline; relevant module grades are assessed alongside the overall result.",
+      "intake": "September 2027",
+      "english": "IELTS 7.0 overall, each component 6.5; TOEFL legacy 100, each component 22; revised TOEFL 5.0 overall, each component 4.5. PTE 76 overall, each component 70. TOEFL Home Edition and MyBest not accepted.",
+      "deadline": "2027 entry: 11 December 2026, 26 February 2027 and 30 April 2027. Later applications subject to availability; meet conditional-offer requirements by 31 July 2027.",
+      "documents": "Official transcripts with credit weights and grades, original-language documents plus certified English translations where needed, weighted-average evidence if absent from transcript, final-year module list if still studying and degree certificate if graduated. Both institutions’ records are needed for 2+2/3+1 study. CV if graduated more than three years ago. English-language evidence where applicable. References and personal statements are not required; no application fee.",
+      "fieldSources": {
+        "gpa": "https://www.manchester.ac.uk/study/masters/courses/list/04342/msc-mechanical-engineering-design/",
+        "intake": "https://www.manchester.ac.uk/study/masters/courses/list/04342/msc-mechanical-engineering-design/",
+        "english": "https://www.manchester.ac.uk/study/masters/courses/list/04342/msc-mechanical-engineering-design/",
+        "deadline": "https://www.manchester.ac.uk/study/masters/courses/list/04342/msc-mechanical-engineering-design/",
+        "documents": "https://www.manchester.ac.uk/study/masters/courses/list/04342/msc-mechanical-engineering-design/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.manchester.ac.uk/study/masters/courses/list/04342/msc-mechanical-engineering-design/": {
+          "sha256": "fbc3b62ed26680d919a94923403f54832b32e7c3b77a96d2f4237d76f5985c65",
+          "contentSha256": "c25244c9467b3d9679f32ac37223ed7b0995e5e5e0e18fccf7ac26d62f4053fd"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-389",
+      "level": "master",
+      "programId": "quantitative-finance-msc",
+      "reviewedAt": "2026-10-27",
+      "gpa": "First or upper-second-class honours (2:1, UK average 60%). Ideally finance, economics, mathematics, statistics, physics, engineering, actuarial or decision science, with substantial quantitative final-year modules such as differential equations, econometrics or mathematical statistics and excellent results. GMAT/GRE optional initially but may be requested if quantitative preparation is insufficient.",
+      "intake": "September 2027",
+      "english": "IELTS 7.0 overall, each component 6.5; TOEFL legacy 100, each component 22; revised TOEFL 5.0 overall, each component 4.5; PTE Academic 76, each component 70. Single sitting; English-study exemptions are subject to AMBS approval.",
+      "deadline": "September 2027 staged application deadlines: 6 December 2026, 1 March 2027, 4 May 2027, 4 July 2027 and 23 August 2027; later stages depend on places remaining.",
+      "documents": "English evidence, first-/second-year transcripts and statement of purpose explaining motivation, career impact and distinctive preparation. Include final-year modules and additional relevant finance/quantitative qualifications.",
+      "fieldSources": {
+        "gpa": "https://www.manchester.ac.uk/study/masters/courses/list/10251/msc-quantitative-finance/",
+        "intake": "https://www.manchester.ac.uk/study/masters/courses/list/10251/msc-quantitative-finance/",
+        "english": "https://www.alliancembs.manchester.ac.uk/study/masters/masters-entry-requirements/",
+        "deadline": "https://www.alliancembs.manchester.ac.uk/study/masters/how-to-apply/",
+        "documents": "https://www.manchester.ac.uk/study/masters/courses/list/10251/msc-quantitative-finance/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.manchester.ac.uk/study/masters/courses/list/10251/msc-quantitative-finance/": {
+          "sha256": "8456782674b7784659d4b2c6ec98b062b2845415d6c84de2c6d8aafc36221ff7",
+          "contentSha256": "0d952cc9abab806905368803178c89339de9c5b48e0e31d985340144a5242dbe"
+        },
+        "https://www.alliancembs.manchester.ac.uk/study/masters/masters-entry-requirements/": {
+          "sha256": "9773081aee526ff3ae5f03446640033f959ba166d80c8d5a86fb7abf0a77af34",
+          "contentSha256": "d1c1f87dd30950fcd6ba87bbfeec5727a139c599934566e850a6ff590a111da7"
+        },
+        "https://www.alliancembs.manchester.ac.uk/study/masters/how-to-apply/": {
+          "sha256": "67a96e59d398b6cf60032da8dafae8cc946177768e95aa333cac85c819556d3a",
+          "contentSha256": "7fc778cc3d14d9d30e10528ce5ccfeeca718ca6b5c0fcd92c36bcdb20be85d07"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-389",
+      "level": "master",
+      "programId": "statistics-msc",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Good upper-second or first-class honours in mathematics or a substantially mathematical subject. Minimum preparation: calculus/mathematical analysis, linear algebra, two probability courses and two statistics courses, to roughly the end of second-year undergraduate mathematics. A mathematical-statistics course may count towards both subject requirements depending on its syllabus; strong results are expected.",
+      "intake": "September 2027",
+      "english": "IELTS 6.5 overall and writing 6.5, other components 6.0; TOEFL legacy 90, writing 22, others 20; 1–6 scale: 4.5 overall, writing and one other component 4.5, remaining components 4.0. TOEFL MyBest not accepted.",
+      "deadline": "2027 entry application stages: 6 November 2026, 1 January 2027, 26 February 2027, 21 May 2027. Later applications only if places remain; conditional-offer requirements must be met by 31 July 2027.",
+      "documents": "Official transcripts with credit weights and grades, original-language documents plus certified English translations where needed, weighted-average evidence if absent from transcript, final-year module list if still studying and degree certificate if graduated. Both institutions’ records are needed for 2+2/3+1 study. CV if graduated more than three years ago. One academic or suitable professional reference, personal statement and English evidence where applicable. Offers must be accepted within three weeks.",
+      "fieldSources": {
+        "gpa": "https://www.manchester.ac.uk/study/masters/courses/list/02362/msc-statistics/",
+        "intake": "https://www.manchester.ac.uk/study/masters/courses/list/02362/msc-statistics/",
+        "english": "https://www.manchester.ac.uk/study/masters/courses/list/02362/msc-statistics/",
+        "deadline": "https://www.manchester.ac.uk/study/masters/courses/list/02362/msc-statistics/",
+        "documents": "https://www.manchester.ac.uk/study/masters/courses/list/02362/msc-statistics/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.manchester.ac.uk/study/masters/courses/list/02362/msc-statistics/": {
+          "sha256": "6bb4cb9655da12d86b6bc8dcf2226b46e14046a41b815755c108c53c15648d77",
+          "contentSha256": "8164ec79662b6940fd0fa262a49d7090411018cf60f8cb05cbf5de31d63bb472"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-180",
+      "level": "master",
+      "programId": "accounting-and-financial-management-msc",
+      "reviewedAt": "2026-10-27",
+      "gpa": "First-class or 2:1 honours, normally accounting, finance, financial management or related. Quantitative/business graduates may qualify with a strong accounting/finance background. Evidence of mathematical ability expected; relevant work experience helps but is not required.",
+      "intake": "September 2027",
+      "english": "IELTS 7.0 overall, each component 6.0. TOEFL before 21 January 2026: 100 overall, each component 20; from that date: 5.0 overall, each component 4.0. IELTS One Skill Retake and TOEFL MyBest not accepted; Home Edition accepted. Qualifying English-medium degree/professional evidence and validity restrictions apply.",
+      "deadline": "2027/28 rounds: 14 October 2026 (already closed), 9 December 2026, 10 February 2027, 21 April 2027 and 9 June 2027. Pay the application fee before the relevant round deadline.",
+      "documents": "Online application, personal statement, relevant knowledge/training details, degree certificates/transcripts, English evidence where required and certified translations of non-English documents. £60 non-refundable application fee.",
+      "fieldSources": {
+        "gpa": "https://study.ed.ac.uk/programmes/postgraduate-taught/1126-accounting-and-financial-management",
+        "intake": "https://study.ed.ac.uk/programmes/postgraduate-taught/1126-accounting-and-financial-management",
+        "english": "https://study.ed.ac.uk/programmes/postgraduate-taught/1126-accounting-and-financial-management",
+        "deadline": "https://study.ed.ac.uk/programmes/postgraduate-taught/1126-accounting-and-financial-management",
+        "documents": "https://study.ed.ac.uk/programmes/postgraduate-taught/1126-accounting-and-financial-management"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://study.ed.ac.uk/programmes/postgraduate-taught/1126-accounting-and-financial-management": {
+          "sha256": "34ca610578b5757a0c4a18032874485f74b65e77c287961d79f3b3a3e80329d0",
+          "contentSha256": "36b08d871efaaf5f28eeb8afa7918130c12b8edaad0327e8a1ffdbc93474d7e2"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-180",
+      "level": "master",
+      "programId": "artificial-intelligence-msc",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in informatics, AI, cognitive/computer science, econometrics, electrical engineering, linguistics, mathematics, philosophy, physics or psychology. Must have completed a programming course in C/C++, Java, Python, R, Matlab, Haskell or Julia, and 60 SCQF/30 ECTS mathematics credits covering calculus, linear algebra, discrete mathematics/reasoning, probability and statistics.",
+      "intake": "September 2027",
+      "english": "IELTS 7.0 overall, at least 6.5 in three components and 6.0 in the remaining component. TOEFL before 21 January 2026: 100 overall, 23 in three components and 20 in the remaining; from that date: 5.0 overall, 4.5 in three components and 4.0 in the remaining. IELTS One Skill Retake and TOEFL MyBest not accepted; Home Edition accepted. Qualifying English-medium degree/professional evidence and validity restrictions apply.",
+      "deadline": "31 March 2027 for the 13 September 2027 start. Supply all supporting documents by the deadline and within 28 days of submitting the application.",
+      "documents": "Online application, personal statement, relevant knowledge/training details, degree certificates/transcripts, English evidence where required and certified translations of non-English documents. One reference required.",
+      "fieldSources": {
+        "gpa": "https://study.ed.ac.uk/programmes/postgraduate-taught/107-artificial-intelligence",
+        "intake": "https://study.ed.ac.uk/programmes/postgraduate-taught/107-artificial-intelligence",
+        "english": "https://study.ed.ac.uk/programmes/postgraduate-taught/107-artificial-intelligence",
+        "deadline": "https://study.ed.ac.uk/programmes/postgraduate-taught/107-artificial-intelligence",
+        "documents": "https://study.ed.ac.uk/programmes/postgraduate-taught/107-artificial-intelligence"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://study.ed.ac.uk/programmes/postgraduate-taught/107-artificial-intelligence": {
+          "sha256": "8c6878982a16be29b48965b1e74a48abcfb0ce81b773c90f42093465d9534d02",
+          "contentSha256": "c7b5788c37600db2a74f3f356a63b6e4d9076d9b8debcfd6859a23d7e98ede65"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-180",
+      "level": "master",
+      "programId": "commercial-law-llm",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in law; a 2:1 in social science may qualify with a solid law foundation demonstrated by prior study or substantial work experience. Relevant professional qualifications are considered; work experience is helpful but not compulsory.",
+      "intake": "September 2027",
+      "english": "IELTS 7.0 overall/writing, other components 6.5. TOEFL before 21 January 2026: 100 overall, writing 25, others 23; from that date: 5.0 overall/writing, others 4.5. IELTS One Skill Retake and TOEFL MyBest not accepted; Home Edition accepted. Qualifying English-medium degree/professional evidence and validity restrictions apply.",
+      "deadline": "30 June 2027 for 13 September 2027 entry; may close earlier if exceptionally high demand. Complete supporting documents, including transcripts, by the deadline; English evidence may remain an offer condition.",
+      "documents": "Online application, personal statement, relevant knowledge/training details, degree certificates/transcripts, English evidence where required and certified translations of non-English documents. No reference required initially; admissions may request one to verify experience.",
+      "fieldSources": {
+        "gpa": "https://study.ed.ac.uk/programmes/postgraduate-taught/161-commercial-law",
+        "intake": "https://study.ed.ac.uk/programmes/postgraduate-taught/161-commercial-law",
+        "english": "https://study.ed.ac.uk/programmes/postgraduate-taught/161-commercial-law",
+        "deadline": "https://study.ed.ac.uk/programmes/postgraduate-taught/161-commercial-law",
+        "documents": "https://study.ed.ac.uk/programmes/postgraduate-taught/161-commercial-law"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://study.ed.ac.uk/programmes/postgraduate-taught/161-commercial-law": {
+          "sha256": "457f19779c3aa92502453531514a1c6cc57e5575d6ba6f1a79a603ff0df776a8",
+          "contentSha256": "df717e1f84f6586d0b2e73ddcb717ad4ab07a5321af6bf16d0926a2e566365b1"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-180",
+      "level": "master",
+      "programId": "computer-science-msc",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in informatics, AI, cognitive/computer science, econometrics, electrical engineering, linguistics, mathematics, philosophy, physics or psychology. A programming course in C/C++, Java, Python, R, Matlab, Haskell or Julia and 60 SCQF/30 ECTS mathematics credits are required, covering calculus, linear algebra, discrete mathematics/reasoning, probability and statistics.",
+      "intake": "September 2027",
+      "english": "IELTS 7.0 overall, at least 6.5 in three components and 6.0 in the remaining component. TOEFL before 21 January 2026: 100 overall, 23 in three components and 20 in the remaining; from that date: 5.0 overall, 4.5 in three components and 4.0 in the remaining. IELTS One Skill Retake and TOEFL MyBest not accepted; Home Edition accepted. Qualifying English-medium degree/professional evidence and validity restrictions apply.",
+      "deadline": "2027 entry rounds: 31 March and 31 May. Supply all supporting documents by the application deadline and within 28 days of submitting the application; high demand can cause early closure.",
+      "documents": "Online application, personal statement, relevant knowledge/training details, degree certificates/transcripts, English evidence where required and certified translations of non-English documents.",
+      "fieldSources": {
+        "gpa": "https://study.ed.ac.uk/programmes/postgraduate-taught/110-computer-science",
+        "intake": "https://study.ed.ac.uk/programmes/postgraduate-taught/110-computer-science",
+        "english": "https://study.ed.ac.uk/programmes/postgraduate-taught/110-computer-science",
+        "deadline": "https://study.ed.ac.uk/programmes/postgraduate-taught/110-computer-science",
+        "documents": "https://study.ed.ac.uk/programmes/postgraduate-taught/110-computer-science"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://study.ed.ac.uk/programmes/postgraduate-taught/110-computer-science": {
+          "sha256": "f57db02b0f805718a22a707afc222f6398590ad7d03b736d1a211b3bb564ef5e",
+          "contentSha256": "d01a33bbc06a491b602bcfc27635d23a57f7c9acec079b368c5a0590ba7a8d3b"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-180",
+      "level": "master",
+      "programId": "data-science-msc",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in informatics, AI, cognitive/computer science, econometrics, electrical engineering, linguistics, mathematics, philosophy, physics, psychology or another quantitative discipline. Introductory-course-equivalent programming experience, plus 60 SCQF/30 ECTS mathematics credits covering calculus, linear algebra, discrete mathematics/reasoning, probability and statistics.",
+      "intake": "September 2027",
+      "english": "IELTS 7.0 overall, at least 6.5 in three components and 6.0 in the remaining component. TOEFL before 21 January 2026: 100 overall, 23 in three components and 20 in the remaining; from that date: 5.0 overall, 4.5 in three components and 4.0 in the remaining. IELTS One Skill Retake and TOEFL MyBest not accepted; Home Edition accepted. Qualifying English-medium degree/professional evidence and validity restrictions apply.",
+      "deadline": "2027 entry rounds: 31 March and 31 May. Supply all supporting documents by the application deadline and within 28 days of submitting the application; high demand can cause early closure.",
+      "documents": "Online application, personal statement, relevant knowledge/training details, degree certificates/transcripts, English evidence where required and certified translations of non-English documents.",
+      "fieldSources": {
+        "gpa": "https://study.ed.ac.uk/programmes/postgraduate-taught/902-data-science",
+        "intake": "https://study.ed.ac.uk/programmes/postgraduate-taught/902-data-science",
+        "english": "https://study.ed.ac.uk/programmes/postgraduate-taught/902-data-science",
+        "deadline": "https://study.ed.ac.uk/programmes/postgraduate-taught/902-data-science",
+        "documents": "https://study.ed.ac.uk/programmes/postgraduate-taught/902-data-science"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://study.ed.ac.uk/programmes/postgraduate-taught/902-data-science": {
+          "sha256": "75ac566d6d0ac678d0cc0c164a87f31a53330503295cb10233fa521ce7ac3274",
+          "contentSha256": "8e685ac027ad3addfee537dcd32f50607cd484cb7666f661cc700b71d043d719"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-180",
+      "level": "master",
+      "programId": "electronics-msc",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in electronics/electrical engineering. Transcript must demonstrate transistor-level analogue and gate-level digital electronics, a general-purpose programming language such as Python or C/C++, and FPGA experience with Verilog/VHDL. Relevant professional experience may be considered; contact admissions before applying.",
+      "intake": "September 2027",
+      "english": "IELTS 6.5 overall, each component 6.0. TOEFL before 21 January 2026: 92 overall, each component 23; from that date: 4.5 overall and each component 4.5. IELTS One Skill Retake and TOEFL MyBest not accepted; Home Edition accepted. Qualifying English-medium degree/professional evidence and validity restrictions apply.",
+      "deadline": "30 August 2027 for 13 September 2027 entry; apply much earlier for funding/visa processing. Supporting documents due within 28 days of application and by the final deadline.",
+      "documents": "Online application, personal statement, relevant knowledge/training details, degree certificates/transcripts, English evidence where required and certified translations of non-English documents. One reference required. CV/resume required.",
+      "fieldSources": {
+        "gpa": "https://study.ed.ac.uk/programmes/postgraduate-taught/669-electronics",
+        "intake": "https://study.ed.ac.uk/programmes/postgraduate-taught/669-electronics",
+        "english": "https://study.ed.ac.uk/programmes/postgraduate-taught/669-electronics",
+        "deadline": "https://study.ed.ac.uk/programmes/postgraduate-taught/669-electronics",
+        "documents": "https://study.ed.ac.uk/programmes/postgraduate-taught/669-electronics"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://study.ed.ac.uk/programmes/postgraduate-taught/669-electronics": {
+          "sha256": "a684c780dfe875a177cde933833b7e97c59dd6d8b065e91a0c651904ee938fa0",
+          "contentSha256": "063560883caf54c01e3344be9e2a6bf28adeac82f25cb7391cc8eb65a0ee76f5"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-180",
+      "level": "master",
+      "programId": "operational-research-msc",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in a numerate discipline such as mathematics, engineering, computer science, physical/biological science, economics or business.",
+      "intake": "September 2027",
+      "english": "IELTS 6.5 overall, each component 6.0. TOEFL before 21 January 2026: 92 overall, each component 23; from that date: 4.5 overall and each component 4.5. IELTS One Skill Retake and TOEFL MyBest not accepted; Home Edition accepted. Qualifying English-medium degree/professional evidence and validity restrictions apply.",
+      "deadline": "Published 2027-entry selection rounds: 15 December, 31 March and 31 May (the table omits years). Decisions/rollovers by 1 March, 31 May and 31 July respectively. Supporting documents within 28 days and by the relevant deadline; early closure possible.",
+      "documents": "Online application, personal statement, relevant knowledge/training details, degree certificates/transcripts, English evidence where required and certified translations of non-English documents. One reference required. Apply to only one of Operational Research and its Computational Optimization, Data Science or Risk variants.",
+      "fieldSources": {
+        "gpa": "https://study.ed.ac.uk/programmes/postgraduate-taught/116-operational-research",
+        "intake": "https://study.ed.ac.uk/programmes/postgraduate-taught/116-operational-research",
+        "english": "https://study.ed.ac.uk/programmes/postgraduate-taught/116-operational-research",
+        "deadline": "https://study.ed.ac.uk/programmes/postgraduate-taught/116-operational-research",
+        "documents": "https://study.ed.ac.uk/programmes/postgraduate-taught/116-operational-research"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://study.ed.ac.uk/programmes/postgraduate-taught/116-operational-research": {
+          "sha256": "23822931bf05bbdfc98b7fe1e2092b911d930787b6b5d91a09c5aee1ad37fc4d",
+          "contentSha256": "7c6d25f539c8afb47a901d489729945356a9ba4f59cc7a9417841f90f589bc67"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-180",
+      "level": "master",
+      "programId": "statistics-with-data-science-msc",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in a numerate discipline with substantial calculus (including multivariable), linear algebra, probability, statistics and statistical theory.",
+      "intake": "September 2027",
+      "english": "IELTS 6.5 overall, each component 6.0. TOEFL before 21 January 2026: 92 overall, each component 23; from that date: 4.5 overall and each component 4.5. IELTS One Skill Retake and TOEFL MyBest not accepted; Home Edition accepted. Qualifying English-medium degree/professional evidence and validity restrictions apply.",
+      "deadline": "Published 2027-entry selection rounds: 15 December, 31 March and 31 May (the table omits years). Decisions/rollovers by 1 March, 31 May and 31 July respectively. Supporting documents within 28 days and by the relevant deadline; early closure possible.",
+      "documents": "Online application, personal statement, relevant knowledge/training details, degree certificates/transcripts, English evidence where required and certified translations of non-English documents. One reference required.",
+      "fieldSources": {
+        "gpa": "https://study.ed.ac.uk/programmes/postgraduate-taught/916-statistics-with-data-science",
+        "intake": "https://study.ed.ac.uk/programmes/postgraduate-taught/916-statistics-with-data-science",
+        "english": "https://study.ed.ac.uk/programmes/postgraduate-taught/916-statistics-with-data-science",
+        "deadline": "https://study.ed.ac.uk/programmes/postgraduate-taught/916-statistics-with-data-science",
+        "documents": "https://study.ed.ac.uk/programmes/postgraduate-taught/916-statistics-with-data-science"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://study.ed.ac.uk/programmes/postgraduate-taught/916-statistics-with-data-science": {
+          "sha256": "dacc8888ab9e703575e0103923997803f83515d1265f23e9cb37e56988a5cfe1",
+          "contentSha256": "7eb5b29cc4a71279f5779d41d7c50646b7b671f21585027551b6057ed44f8958"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-69",
+      "level": "master",
+      "programId": "msc-advanced-microelectronic-systems-engineering",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in engineering, science or technology; at least 53% in each of analogue electronics, digital electronics, programming, and signals/systems. DSP, microprocessors/embedded systems, FPGA or computer architecture may substitute for missing signals/systems or programming. Lower overall grades or only two module requirements may be considered with relevant postgraduate study or one year of relevant engineering work; submit a CV.",
+      "english": "Profile E: IELTS 6.5 overall, each component 6.0; TOEFL through 20 January 2026: 88 overall, reading 20, listening 19, speaking 22, writing 22; from 21 January 2026: 4.5 overall and each component 4.5. Single-sitting requirements; IELTS One Skill Retake and TOEFL Home accepted. Test validity and qualifying English-study exemptions apply.",
+      "deadline": "Overseas applicants: 12 August 2027; home applicants: 9 September 2027. Places allocated continuously from September 2026; may close earlier when full.",
+      "intake": "September 2027",
+      "documents": "Online application. Include CV evidence for alternative work-experience or postgraduate-qualification routes where applicable; programme admissions statements specify further supporting documents.",
+      "fieldSources": {
+        "gpa": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-advanced-microelectronic-systems-engineering/",
+        "english": "https://www.bristol.ac.uk/study/language-requirements/profile-e/",
+        "deadline": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-advanced-microelectronic-systems-engineering/",
+        "intake": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-advanced-microelectronic-systems-engineering/",
+        "documents": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-advanced-microelectronic-systems-engineering/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.bristol.ac.uk/study/postgraduate/taught/msc-advanced-microelectronic-systems-engineering/": {
+          "sha256": "5516d768faa1fb4d9038b6b45131494def3728db6ce98b94409ff478e34bc60e",
+          "contentSha256": "8d0c0520785604f440a00b075077bcd437ae231ae4757a27e7f0694701e38577"
+        },
+        "https://www.bristol.ac.uk/study/language-requirements/profile-e/": {
+          "sha256": "8abcb0e90217e0daae9f4dc7914a69cc46d7240605d036d2f48a2d2b8f4d0a43",
+          "contentSha256": "97b78364490840738aaf7eb3da6ee141c4a8236c9332b7076777a55d357c05be"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-69",
+      "level": "master",
+      "programId": "msc-communication-networks-and-signal-processing",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in a listed communications, computer, electronic/electrical, information, microelectronic, optical or telecommunications engineering discipline. Other engineering degrees require at least 53% in three approved modules, such as communications networks, programming, electronics, signals, DSP, electromagnetics, microprocessors or optics. A relevant postgraduate qualification may support a lower-grade application.",
+      "english": "Profile E: IELTS 6.5 overall, each component 6.0; TOEFL through 20 January 2026: 88 overall, reading 20, listening 19, speaking 22, writing 22; from 21 January 2026: 4.5 overall and each component 4.5. Single-sitting requirements; IELTS One Skill Retake and TOEFL Home accepted. Test validity and qualifying English-study exemptions apply.",
+      "deadline": "Overseas applicants: 12 August 2027; home applicants: 9 September 2027. Places allocated continuously from September 2026; may close earlier when full.",
+      "intake": "September 2027",
+      "documents": "Online application. Include CV evidence for alternative work-experience or postgraduate-qualification routes where applicable; programme admissions statements specify further supporting documents.",
+      "fieldSources": {
+        "gpa": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-communication-networks-and-signal-processing/",
+        "english": "https://www.bristol.ac.uk/study/language-requirements/profile-e/",
+        "deadline": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-communication-networks-and-signal-processing/",
+        "intake": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-communication-networks-and-signal-processing/",
+        "documents": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-communication-networks-and-signal-processing/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.bristol.ac.uk/study/postgraduate/taught/msc-communication-networks-and-signal-processing/": {
+          "sha256": "e4c3eb434261395a7466bb17b71a1945648ab3dc08dee4f256ca0215fbedb55f",
+          "contentSha256": "51e47daa889f6dbf9b0ee2f590d2f53b96d8cd9e68e616ea95c1615a06c8a995"
+        },
+        "https://www.bristol.ac.uk/study/language-requirements/profile-e/": {
+          "sha256": "8abcb0e90217e0daae9f4dc7914a69cc46d7240605d036d2f48a2d2b8f4d0a43",
+          "contentSha256": "97b78364490840738aaf7eb3da6ee141c4a8236c9332b7076777a55d357c05be"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-69",
+      "level": "master",
+      "programId": "msc-economics",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in a listed quantitative discipline, including economics, finance/accounting, actuarial science, computer/data science, engineering, mathematics or physics. Other degrees require three approved mathematics/quantitative units at 60% each, or A-level mathematics at A if no quantitative degree units. Introductory mathematics does not count. Relevant postgraduate study or five years of data-analysis/economic-modelling/policy work may support an exceptional application; module requirements still apply.",
+      "english": "Profile B (postgraduate): IELTS 7.0 overall, each component 6.5; TOEFL through 20 January 2026: 95 overall, reading 22, listening 21, speaking 23, writing 22; from 21 January 2026: 5.0 overall, each component 4.5. Single-sitting requirements; IELTS One Skill Retake and TOEFL Home accepted. Test validity and qualifying English-study exemptions apply.",
+      "deadline": "Overseas applicants: 12 August 2027; home applicants: 9 September 2027. Places allocated continuously from September 2026; may close earlier when full.",
+      "intake": "September 2027",
+      "documents": "Online application. Include CV evidence for alternative work-experience or postgraduate-qualification routes where applicable; programme admissions statements specify further supporting documents.",
+      "fieldSources": {
+        "gpa": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics/",
+        "english": "https://www.bristol.ac.uk/study/language-requirements/profile-b/",
+        "deadline": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics/",
+        "intake": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics/",
+        "documents": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics/": {
+          "sha256": "1f8e32d58729fa9add72b465c6780c0c293d351da7d242ffa95fb6aef2a8c73f",
+          "contentSha256": "61c967906980724f62b3edcaf66260e34aebeaee311da335f376e8ab7f83da52"
+        },
+        "https://www.bristol.ac.uk/study/language-requirements/profile-b/": {
+          "sha256": "7cbfe7a4af57ffb6c8ae06e9949d813d3e3ad8c89e9234112e5fc10b3c659a90",
+          "contentSha256": "77b9dd4b7e5314ddf662021a66b0b8544c99e5179cbb7cabf7cc8eadbc61a105"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-69",
+      "level": "master",
+      "programId": "msc-economics-and-finance",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in a listed quantitative discipline, including economics, finance/accounting, actuarial science, computer/data science, engineering, mathematics or physics. Other degrees require three approved mathematics/quantitative units at 60% each, or A-level mathematics at A if no quantitative degree units. Introductory mathematics does not count. Relevant postgraduate study or five years of data-analysis/economic-modelling/policy work may support an exceptional application; module requirements still apply.",
+      "english": "Profile B (postgraduate): IELTS 7.0 overall, each component 6.5; TOEFL through 20 January 2026: 95 overall, reading 22, listening 21, speaking 23, writing 22; from 21 January 2026: 5.0 overall, each component 4.5. Single-sitting requirements; IELTS One Skill Retake and TOEFL Home accepted. Test validity and qualifying English-study exemptions apply.",
+      "deadline": "Overseas applicants: 12 August 2027; home applicants: 9 September 2027. Places allocated continuously from September 2026; may close earlier when full.",
+      "intake": "September 2027",
+      "documents": "Online application. Include CV evidence for alternative work-experience or postgraduate-qualification routes where applicable; programme admissions statements specify further supporting documents.",
+      "fieldSources": {
+        "gpa": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics-and-finance/",
+        "english": "https://www.bristol.ac.uk/study/language-requirements/profile-b/",
+        "deadline": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics-and-finance/",
+        "intake": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics-and-finance/",
+        "documents": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics-and-finance/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.bristol.ac.uk/study/postgraduate/taught/msc-economics-and-finance/": {
+          "sha256": "48f6ee483a371835bd25b79f500bae0cb3a545b4d1a9a8632ae6e1a309d5f3e3",
+          "contentSha256": "914c193008dd73908e14dfcddd4f5093146c3f472935b3b5e35ef6b821c53638"
+        },
+        "https://www.bristol.ac.uk/study/language-requirements/profile-b/": {
+          "sha256": "7cbfe7a4af57ffb6c8ae06e9949d813d3e3ad8c89e9234112e5fc10b3c659a90",
+          "contentSha256": "77b9dd4b7e5314ddf662021a66b0b8544c99e5179cbb7cabf7cc8eadbc61a105"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-69",
+      "level": "master",
+      "programId": "msc-engineering-mathematics",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in engineering, computer science, mathematics or physics; chemistry considered individually. Biology and non-STEM degrees are unsuitable. Relevant postgraduate study or six months full-time/12 months part-time relevant STEM work can support a lower-grade application; submit CV evidence.",
+      "english": "Profile E: IELTS 6.5 overall, each component 6.0; TOEFL through 20 January 2026: 88 overall, reading 20, listening 19, speaking 22, writing 22; from 21 January 2026: 4.5 overall and each component 4.5. Single-sitting requirements; IELTS One Skill Retake and TOEFL Home accepted. Test validity and qualifying English-study exemptions apply.",
+      "deadline": "Overseas applicants: 12 August 2027; home applicants: 9 September 2027. Places allocated continuously from September 2026; may close earlier when full.",
+      "intake": "September 2027",
+      "documents": "Online application. Include CV evidence for alternative work-experience or postgraduate-qualification routes where applicable; programme admissions statements specify further supporting documents.",
+      "fieldSources": {
+        "gpa": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-mathematics/",
+        "english": "https://www.bristol.ac.uk/study/language-requirements/profile-e/",
+        "deadline": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-mathematics/",
+        "intake": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-mathematics/",
+        "documents": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-mathematics/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-mathematics/": {
+          "sha256": "92f66ff489b0a8ba88e7376add0914dcf0ce8ec5934f60bc075407a22674299d",
+          "contentSha256": "de19b138c4cf04058de57040dba798f65f340b4dc20ddbe8b1eea8a1ff7e1b46"
+        },
+        "https://www.bristol.ac.uk/study/language-requirements/profile-e/": {
+          "sha256": "8abcb0e90217e0daae9f4dc7914a69cc46d7240605d036d2f48a2d2b8f4d0a43",
+          "contentSha256": "97b78364490840738aaf7eb3da6ee141c4a8236c9332b7076777a55d357c05be"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-69",
+      "level": "master",
+      "programId": "msc-engineering-with-management",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Strong second-class degree (55% or higher) in a relevant engineering branch with preparation aligned to the pathway and/or management elements. Other STEM subjects considered individually. An unrelated degree may qualify with two years relevant paid work or a related qualification. Include a CV; an alternative pathway may be recommended.",
+      "english": "Profile E: IELTS 6.5 overall, each component 6.0; TOEFL through 20 January 2026: 88 overall, reading 20, listening 19, speaking 22, writing 22; from 21 January 2026: 4.5 overall and each component 4.5. Single-sitting requirements; IELTS One Skill Retake and TOEFL Home accepted. Test validity and qualifying English-study exemptions apply.",
+      "deadline": "Overseas applicants: 12 August 2027; home applicants: 9 September 2027. Places allocated continuously from September 2026; may close earlier when full.",
+      "intake": "September 2027",
+      "documents": "Online application. Include CV evidence for alternative work-experience or postgraduate-qualification routes where applicable; programme admissions statements specify further supporting documents. Include a CV with the application.",
+      "fieldSources": {
+        "gpa": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-with-management/",
+        "english": "https://www.bristol.ac.uk/study/language-requirements/profile-e/",
+        "deadline": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-with-management/",
+        "intake": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-with-management/",
+        "documents": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-with-management/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.bristol.ac.uk/study/postgraduate/taught/msc-engineering-with-management/": {
+          "sha256": "4b52c08942a9567d44692e96b97534840efb8ad2385969b7c9634e1b2d27fb8d",
+          "contentSha256": "ed55723c412cad1a2aad907950d2af900c0a0a25ec782ac87dc8c0b9e7a92845"
+        },
+        "https://www.bristol.ac.uk/study/language-requirements/profile-e/": {
+          "sha256": "8abcb0e90217e0daae9f4dc7914a69cc46d7240605d036d2f48a2d2b8f4d0a43",
+          "contentSha256": "97b78364490840738aaf7eb3da6ee141c4a8236c9332b7076777a55d357c05be"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-69",
+      "level": "master",
+      "programId": "msc-human-resource-management",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in any discipline. Lower achieved grades may be considered with a relevant postgraduate qualification or at least five years relevant HR, trade-union, advocacy, charity or research work; supply CV evidence.",
+      "english": "Profile B (postgraduate): IELTS 7.0 overall, each component 6.5; TOEFL through 20 January 2026: 95 overall, reading 22, listening 21, speaking 23, writing 22; from 21 January 2026: 5.0 overall, each component 4.5. Single-sitting requirements; IELTS One Skill Retake and TOEFL Home accepted. Test validity and qualifying English-study exemptions apply.",
+      "deadline": "Overseas applicants: 12 August 2027; home applicants: 9 September 2027. Places allocated continuously from September 2026; may close earlier when full.",
+      "intake": "September 2027",
+      "documents": "Online application. Include CV evidence for alternative work-experience or postgraduate-qualification routes where applicable; programme admissions statements specify further supporting documents.",
+      "fieldSources": {
+        "gpa": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-resource-management/",
+        "english": "https://www.bristol.ac.uk/study/language-requirements/profile-b/",
+        "deadline": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-resource-management/",
+        "intake": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-resource-management/",
+        "documents": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-resource-management/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-resource-management/": {
+          "sha256": "69851733414485ba34e7ef7bb385d166a21ee8b158c5cf75c4a1b3a25fd83a6b",
+          "contentSha256": "6533ed8c4a3d099df801539efd537514488fdfe841e21c40b9c03d1ebe6aeb1c"
+        },
+        "https://www.bristol.ac.uk/study/language-requirements/profile-b/": {
+          "sha256": "7cbfe7a4af57ffb6c8ae06e9949d813d3e3ad8c89e9234112e5fc10b3c659a90",
+          "contentSha256": "77b9dd4b7e5314ddf662021a66b0b8544c99e5179cbb7cabf7cc8eadbc61a105"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-69",
+      "level": "master",
+      "programId": "msc-human-centred-artificial-intelligence-conversion",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Strong 2:1 (65% or higher) in any subject. Lower final grades may be considered with a relevant postgraduate qualification; include a CV in that case.",
+      "english": "Profile E: IELTS 6.5 overall, each component 6.0; TOEFL through 20 January 2026: 88 overall, reading 20, listening 19, speaking 22, writing 22; from 21 January 2026: 4.5 overall and each component 4.5. Single-sitting requirements; IELTS One Skill Retake and TOEFL Home accepted. Test validity and qualifying English-study exemptions apply.",
+      "deadline": "Overseas applicants: 12 August 2027; home applicants: 9 September 2027. Places allocated continuously from September 2026; may close earlier when full.",
+      "intake": "September 2027",
+      "documents": "Online application. Include CV evidence for alternative work-experience or postgraduate-qualification routes where applicable; programme admissions statements specify further supporting documents.",
+      "fieldSources": {
+        "gpa": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-centred-artificial-intelligence-conversion/",
+        "english": "https://www.bristol.ac.uk/study/language-requirements/profile-e/",
+        "deadline": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-centred-artificial-intelligence-conversion/",
+        "intake": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-centred-artificial-intelligence-conversion/",
+        "documents": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-centred-artificial-intelligence-conversion/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.bristol.ac.uk/study/postgraduate/taught/msc-human-centred-artificial-intelligence-conversion/": {
+          "sha256": "6c1e12d09b3be62643865bbba933242bb5e518af6ada8d9d0868c866fd2b19f4",
+          "contentSha256": "27838c72f782236bca81f099fe7be3f8f3de778c89882b7c08d6b1792b866a07"
+        },
+        "https://www.bristol.ac.uk/study/language-requirements/profile-e/": {
+          "sha256": "8abcb0e90217e0daae9f4dc7914a69cc46d7240605d036d2f48a2d2b8f4d0a43",
+          "contentSha256": "97b78364490840738aaf7eb3da6ee141c4a8236c9332b7076777a55d357c05be"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-69",
+      "level": "master",
+      "programId": "msc-international-relations",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Strong second-class honours (55% or higher) in any subject. A relevant postgraduate qualification may support an application below the normal grade; include CV evidence.",
+      "english": "Profile E: IELTS 6.5 overall, each component 6.0; TOEFL through 20 January 2026: 88 overall, reading 20, listening 19, speaking 22, writing 22; from 21 January 2026: 4.5 overall and each component 4.5. Single-sitting requirements; IELTS One Skill Retake and TOEFL Home accepted. Test validity and qualifying English-study exemptions apply.",
+      "deadline": "Overseas applicants: 12 August 2027; home applicants: 9 September 2027. Places allocated continuously from September 2026; may close earlier when full.",
+      "intake": "September 2027",
+      "documents": "Online application. Include CV evidence for alternative work-experience or postgraduate-qualification routes where applicable; programme admissions statements specify further supporting documents.",
+      "fieldSources": {
+        "gpa": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-international-relations/",
+        "english": "https://www.bristol.ac.uk/study/language-requirements/profile-e/",
+        "deadline": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-international-relations/",
+        "intake": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-international-relations/",
+        "documents": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-international-relations/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.bristol.ac.uk/study/postgraduate/taught/msc-international-relations/": {
+          "sha256": "8942ae744d80f8c04a93cf70c7af23e56e1e8e2bbeeef96736b11bc4a36190e5",
+          "contentSha256": "efbaef501f84ada4ca93096044f914791b8398fdccc32059fca6f2bd440027f9"
+        },
+        "https://www.bristol.ac.uk/study/language-requirements/profile-e/": {
+          "sha256": "8abcb0e90217e0daae9f4dc7914a69cc46d7240605d036d2f48a2d2b8f4d0a43",
+          "contentSha256": "97b78364490840738aaf7eb3da6ee141c4a8236c9332b7076777a55d357c05be"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-69",
+      "level": "master",
+      "programId": "msc-management-sustainability",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in any discipline. Lower grades may be considered with a relevant postgraduate qualification or at least five years relevant business/management, finance, marketing, operations, public/nonprofit, HR, project-management or data/analytics experience; include a CV.",
+      "english": "Profile B (postgraduate): IELTS 7.0 overall, each component 6.5; TOEFL through 20 January 2026: 95 overall, reading 22, listening 21, speaking 23, writing 22; from 21 January 2026: 5.0 overall, each component 4.5. Single-sitting requirements; IELTS One Skill Retake and TOEFL Home accepted. Test validity and qualifying English-study exemptions apply.",
+      "deadline": "Overseas applicants: 12 August 2027; home applicants: 9 September 2027. Places allocated continuously from September 2026; may close earlier when full.",
+      "intake": "September 2027",
+      "documents": "Online application. Include CV evidence for alternative work-experience or postgraduate-qualification routes where applicable; programme admissions statements specify further supporting documents.",
+      "fieldSources": {
+        "gpa": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-management-sustainability/",
+        "english": "https://www.bristol.ac.uk/study/language-requirements/profile-b/",
+        "deadline": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-management-sustainability/",
+        "intake": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-management-sustainability/",
+        "documents": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-management-sustainability/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.bristol.ac.uk/study/postgraduate/taught/msc-management-sustainability/": {
+          "sha256": "6d01e7dac4969a9b26eeddd9aae7dd5d5031388d4b7b011f668ed38217131e37",
+          "contentSha256": "4487fc79ffa5cd4bfc8758759d8827d1822093650a61ca368b9af4d8dbd9b30e"
+        },
+        "https://www.bristol.ac.uk/study/language-requirements/profile-b/": {
+          "sha256": "7cbfe7a4af57ffb6c8ae06e9949d813d3e3ad8c89e9234112e5fc10b3c659a90",
+          "contentSha256": "77b9dd4b7e5314ddf662021a66b0b8544c99e5179cbb7cabf7cc8eadbc61a105"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-69",
+      "level": "master",
+      "programId": "msc-power-electronics-and-energy-systems",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in electrical, electronic, microelectronic or energy engineering, or related mechatronics, semiconductors, grid/electric mobility. Other related subjects require three relevant modules from electronics, circuits, control, machines, energy, electromagnetics, programming or semiconductors. Relevant postgraduate study or one year relevant engineering work may support lower grades; include a CV.",
+      "english": "Profile E: IELTS 6.5 overall, each component 6.0; TOEFL through 20 January 2026: 88 overall, reading 20, listening 19, speaking 22, writing 22; from 21 January 2026: 4.5 overall and each component 4.5. Single-sitting requirements; IELTS One Skill Retake and TOEFL Home accepted. Test validity and qualifying English-study exemptions apply.",
+      "deadline": "Overseas applicants: 12 August 2027; home applicants: 9 September 2027. Places allocated continuously from September 2026; may close earlier when full.",
+      "intake": "September 2027",
+      "documents": "Online application. Include CV evidence for alternative work-experience or postgraduate-qualification routes where applicable; programme admissions statements specify further supporting documents.",
+      "fieldSources": {
+        "gpa": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-power-electronics-and-energy-systems/",
+        "english": "https://www.bristol.ac.uk/study/language-requirements/profile-e/",
+        "deadline": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-power-electronics-and-energy-systems/",
+        "intake": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-power-electronics-and-energy-systems/",
+        "documents": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-power-electronics-and-energy-systems/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.bristol.ac.uk/study/postgraduate/taught/msc-power-electronics-and-energy-systems/": {
+          "sha256": "f71a502ec7c36f0f585c997d58316c5e96567f5b04fb14f675ee7bd603e1f214",
+          "contentSha256": "dc001a38f843f80a39f32cb7a47e5d3d1cb53f2302cfe3484bd249dda1cd7bc6"
+        },
+        "https://www.bristol.ac.uk/study/language-requirements/profile-e/": {
+          "sha256": "8abcb0e90217e0daae9f4dc7914a69cc46d7240605d036d2f48a2d2b8f4d0a43",
+          "contentSha256": "97b78364490840738aaf7eb3da6ee141c4a8236c9332b7076777a55d357c05be"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-69",
+      "level": "master",
+      "programId": "msc-psychology-conversion",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in any subject. Generally unsuitable for applicants who already have a psychology bachelor’s unless needed for accreditation; explain your reasons clearly. A relevant postgraduate qualification may support a lower-grade application; include a CV.",
+      "english": "Profile B (postgraduate): IELTS 7.0 overall, each component 6.5; TOEFL through 20 January 2026: 95 overall, reading 22, listening 21, speaking 23, writing 22; from 21 January 2026: 5.0 overall, each component 4.5. Single-sitting requirements; IELTS One Skill Retake and TOEFL Home accepted. Test validity and qualifying English-study exemptions apply.",
+      "deadline": "Overseas applicants: 12 August 2027; home applicants: 9 September 2027. Places allocated continuously from September 2026; may close earlier when full.",
+      "intake": "September 2027",
+      "documents": "Online application. Include CV evidence for alternative work-experience or postgraduate-qualification routes where applicable; programme admissions statements specify further supporting documents. Applicants with a prior psychology degree must explain the accreditation-related reason for applying.",
+      "fieldSources": {
+        "gpa": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-psychology-conversion/",
+        "english": "https://www.bristol.ac.uk/study/language-requirements/profile-b/",
+        "deadline": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-psychology-conversion/",
+        "intake": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-psychology-conversion/",
+        "documents": "https://www.bristol.ac.uk/study/postgraduate/taught/msc-psychology-conversion/"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.bristol.ac.uk/study/postgraduate/taught/msc-psychology-conversion/": {
+          "sha256": "408d3eb57f1a8ff01d2c1e8be4730f997a697aec2e5d9d42547f535b649fd14c",
+          "contentSha256": "2ad181a563aab7be60f024e797fa3330f588e5f483d9e12b479244dbfc3d9168"
+        },
+        "https://www.bristol.ac.uk/study/language-requirements/profile-b/": {
+          "sha256": "7cbfe7a4af57ffb6c8ae06e9949d813d3e3ad8c89e9234112e5fc10b3c659a90",
+          "contentSha256": "77b9dd4b7e5314ddf662021a66b0b8544c99e5179cbb7cabf7cc8eadbc61a105"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-567",
+      "level": "master",
+      "programId": "msc-accounting-and-finance",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:2 in accounting/auditing, or a degree containing at least seven accounting/auditing modules. ACCA/ACA/CIMA considered individually. Accounting experience is optional but may compensate for subject/grade gaps. Language/translation training and art/design/vocational degrees listed on the course page are not accepted.",
+      "english": "IELTS Academic 6.5 overall, at least 6.0 in reading, writing, speaking and listening. Other accepted qualifications and pre-sessional routes are listed by the university.",
+      "deadline": "International applicants: 18 August 2027 at midday UK time; UK applicants: 1 September 2027 at midday UK time. May close earlier if full.",
+      "documents": "Online application, first-degree paperwork, English evidence where applicable and personal statement covering subject knowledge, reasons for this postgraduate course and planned use of the qualification. References not required. No application assessment fee for 2027-start courses.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.southampton.ac.uk/courses/accounting-finance-masters-msc",
+        "english": "https://www.southampton.ac.uk/courses/accounting-finance-masters-msc",
+        "deadline": "https://www.southampton.ac.uk/courses/accounting-finance-masters-msc",
+        "documents": "https://www.southampton.ac.uk/courses/accounting-finance-masters-msc",
+        "intake": "https://www.southampton.ac.uk/courses/accounting-finance-masters-msc"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.southampton.ac.uk/courses/accounting-finance-masters-msc": {
+          "sha256": "69573067858745df0d2b5389752387b7115e9197a8945332bd4c929f9af59d81",
+          "contentSha256": "3d0162b47c28f6f78b4d00396e40bba3b4b884a0a8da13234145b5fa1e59ade9"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-567",
+      "level": "master",
+      "programId": "msc-artificial-intelligence",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in computer science/engineering, software engineering, AI, mathematics with computing or IT. Also 2:1 in one advanced mathematics/linear-algebra module, one advanced programming module (C/C++/C#/Java), and one AI, advanced-algorithms or machine-learning module.",
+      "english": "IELTS Academic 6.5 overall, at least 6.0 in reading, writing, speaking and listening. Other accepted qualifications and pre-sessional routes are listed by the university.",
+      "deadline": "International applicants: 18 August 2027 at midday UK time; UK applicants: 1 September 2027 at midday UK time. May close earlier if full.",
+      "documents": "Online application, first-degree paperwork, English evidence where applicable and personal statement covering subject knowledge, reasons for this postgraduate course and planned use of the qualification. References not required. No application assessment fee for 2027-start courses.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.southampton.ac.uk/courses/artificial-intelligence-masters-msc",
+        "english": "https://www.southampton.ac.uk/courses/artificial-intelligence-masters-msc",
+        "deadline": "https://www.southampton.ac.uk/courses/artificial-intelligence-masters-msc",
+        "documents": "https://www.southampton.ac.uk/courses/artificial-intelligence-masters-msc",
+        "intake": "https://www.southampton.ac.uk/courses/artificial-intelligence-masters-msc"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.southampton.ac.uk/courses/artificial-intelligence-masters-msc": {
+          "sha256": "b9d5a34d3a855d0751632fe4d84863524f6800692e336c809c639befde4cbfe9",
+          "contentSha256": "0ba1dae0f700713b67c9e363a10e3a59b91a8bbfcfe66f2acbb7d455cef614f1"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-567",
+      "level": "undergraduate",
+      "programId": "beng-civil-engineering",
+      "reviewedAt": "2026-10-27",
+      "gpa": "A-level AAA including mathematics. IB 36 overall/18 HL, with HL mathematics AA 6 or AI 7. Contextual/EPQ routes are separate from this standard offer.",
+      "english": "IELTS Academic 6.5 overall, at least 6.0 in reading, writing, speaking and listening. Other accepted qualifications and pre-sessional routes are listed by the university.",
+      "documents": "Apply through UCAS: course H200, institution S27. Assessment considers predicted grades, academic achievements, personal statement and academic reference.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.southampton.ac.uk/courses/civil-engineering-degree-beng",
+        "english": "https://www.southampton.ac.uk/courses/civil-engineering-degree-beng",
+        "documents": "https://www.southampton.ac.uk/courses/civil-engineering-degree-beng",
+        "intake": "https://www.southampton.ac.uk/courses/civil-engineering-degree-beng"
+      },
+      "notes": "Standard 2027/28 A-level and IB routes reviewed; alternative and contextual routes are listed separately on the official page. The course page does not give a numeric UCAS deadline, so none is inferred here.",
+      "sourceFingerprints": {
+        "https://www.southampton.ac.uk/courses/civil-engineering-degree-beng": {
+          "sha256": "7ed882348d95568d2880c278fdf569bcb3e672fd7faf7877593f8ecac8c5ed05",
+          "contentSha256": "9f9eed6076f170abbe69d1bada3b1a8fc3242a509133736e05fd99756b60f591"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-567",
+      "level": "master",
+      "programId": "msc-civil-engineering",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in civil engineering or a related discipline. Significant relevant professional experience may be assessed individually if standard qualifications are not met; interview may be requested.",
+      "english": "IELTS Academic 6.5 overall, at least 6.0 in reading, writing, speaking and listening. Other accepted qualifications and pre-sessional routes are listed by the university.",
+      "deadline": "International applicants: 18 August 2027 at midday UK time; UK applicants: 1 September 2027 at midday UK time. May close earlier if full.",
+      "documents": "Online application, first-degree paperwork, English evidence where applicable and personal statement covering subject knowledge, reasons for this postgraduate course and planned use of the qualification. References not required. No application assessment fee for 2027-start courses.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.southampton.ac.uk/courses/civil-engineering-masters-msc",
+        "english": "https://www.southampton.ac.uk/courses/civil-engineering-masters-msc",
+        "deadline": "https://www.southampton.ac.uk/courses/civil-engineering-masters-msc",
+        "documents": "https://www.southampton.ac.uk/courses/civil-engineering-masters-msc",
+        "intake": "https://www.southampton.ac.uk/courses/civil-engineering-masters-msc"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.southampton.ac.uk/courses/civil-engineering-masters-msc": {
+          "sha256": "8506ecf228e790992348be57007e37ddfef377136f4a9834c118b789196ed499",
+          "contentSha256": "71060720a84ea05e9ba063910b653cd53a3434f1fa498013f4f50249a3edf04c"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-567",
+      "level": "undergraduate",
+      "programId": "bsc-computer-science",
+      "reviewedAt": "2026-10-27",
+      "gpa": "A-level AAB including mathematics at A. IB 34 overall/17 HL, with HL mathematics AA 6 or AI 7. Contextual/EPQ and foundation routes have separate requirements.",
+      "english": "IELTS Academic 6.5 overall, at least 6.0 in reading, writing, speaking and listening. Other accepted qualifications and pre-sessional routes are listed by the university.",
+      "documents": "Apply through UCAS: course G400, institution S27. Assessment considers predicted grades, academic achievements, personal statement and academic reference.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "english": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "documents": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "intake": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc"
+      },
+      "notes": "Standard 2027/28 A-level and IB routes reviewed; alternative and contextual routes are listed separately on the official page. The course page does not give a numeric UCAS deadline, so none is inferred here.",
+      "sourceFingerprints": {
+        "https://www.southampton.ac.uk/courses/computer-science-degree-bsc": {
+          "sha256": "4c0b2bc352763bfdd5a4334f9ece7eff4a10176acaba8d7f0256b13e9cf22b3e",
+          "contentSha256": "0bda516e22a707593a0faf70ca3629dfeeca4500b56729b19ea197afb590d79f"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-567",
+      "level": "master",
+      "programId": "msc-computer-science",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in computer science/engineering, software engineering, media technology, e-business or IT. Also 2:1 in two programming modules including object-oriented programming, one advanced-mathematics module and one data-structures/algorithms module. Relevant work may substitute for taught programming in some cases.",
+      "english": "IELTS Academic 6.5 overall, at least 6.0 in reading, writing, speaking and listening. Other accepted qualifications and pre-sessional routes are listed by the university.",
+      "deadline": "International applicants: 18 August 2027 at midday UK time; UK applicants: 1 September 2027 at midday UK time. May close earlier if full.",
+      "documents": "Online application, first-degree paperwork, English evidence where applicable and personal statement covering subject knowledge, reasons for this postgraduate course and planned use of the qualification. References not required. No application assessment fee for 2027-start courses.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.southampton.ac.uk/courses/computer-science-masters-msc",
+        "english": "https://www.southampton.ac.uk/courses/computer-science-masters-msc",
+        "deadline": "https://www.southampton.ac.uk/courses/computer-science-masters-msc",
+        "documents": "https://www.southampton.ac.uk/courses/computer-science-masters-msc",
+        "intake": "https://www.southampton.ac.uk/courses/computer-science-masters-msc"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.southampton.ac.uk/courses/computer-science-masters-msc": {
+          "sha256": "f1539704301f399e4ecfb15e6b2e9e2b308da38ea9de695a44203479201cf6ea",
+          "contentSha256": "20e98776227a8f9ffcb89aefe12b6a690befe2762a9ece0af6dcf8c3f6c4b80b"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-567",
+      "level": "master",
+      "programId": "msc-cyber-security",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in computer science/engineering, cyber security, IT, electronic engineering or software engineering. Also 2:1 in one programming module, one computer-networks module and another computer-science module such as cryptography, software, data structures, databases or machine learning.",
+      "english": "IELTS Academic 6.5 overall, at least 6.0 in reading, writing, speaking and listening. Other accepted qualifications and pre-sessional routes are listed by the university.",
+      "deadline": "International applicants: 18 August 2027 at midday UK time; UK applicants: 1 September 2027 at midday UK time. May close earlier if full.",
+      "documents": "Online application, first-degree paperwork, English evidence where applicable and personal statement covering subject knowledge, reasons for this postgraduate course and planned use of the qualification. References not required. No application assessment fee for 2027-start courses.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.southampton.ac.uk/courses/cyber-security-masters-msc",
+        "english": "https://www.southampton.ac.uk/courses/cyber-security-masters-msc",
+        "deadline": "https://www.southampton.ac.uk/courses/cyber-security-masters-msc",
+        "documents": "https://www.southampton.ac.uk/courses/cyber-security-masters-msc",
+        "intake": "https://www.southampton.ac.uk/courses/cyber-security-masters-msc"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.southampton.ac.uk/courses/cyber-security-masters-msc": {
+          "sha256": "1a56f3d1043cddfc7134881ec7ecc89bb4566ad0d2b6527cc9a588c74b466582",
+          "contentSha256": "4763ba110762afbe6518e990b8256dd73a19816742bd06e5388f7ec96b4ae792"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-567",
+      "level": "master",
+      "programId": "msc-data-science",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in computer science or a closely related degree: computer engineering, software engineering, mathematics/statistics or physics. Also 2:1 in one programming module and one advanced mathematics module, ideally probability/statistics. Applicants educated in China must come from a Tier A/B/C institution under the university list.",
+      "english": "IELTS Academic 6.5 overall, at least 6.0 in reading, writing, speaking and listening. Other accepted qualifications and pre-sessional routes are listed by the university.",
+      "deadline": "International applicants: 18 August 2027 at midday UK time; UK applicants: 1 September 2027 at midday UK time. May close earlier if full.",
+      "documents": "Online application, first-degree paperwork, English evidence where applicable and personal statement covering subject knowledge, reasons for this postgraduate course and planned use of the qualification. References not required. No application assessment fee for 2027-start courses.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.southampton.ac.uk/courses/data-science-masters-msc",
+        "english": "https://www.southampton.ac.uk/courses/data-science-masters-msc",
+        "deadline": "https://www.southampton.ac.uk/courses/data-science-masters-msc",
+        "documents": "https://www.southampton.ac.uk/courses/data-science-masters-msc",
+        "intake": "https://www.southampton.ac.uk/courses/data-science-masters-msc"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.southampton.ac.uk/courses/data-science-masters-msc": {
+          "sha256": "d96be0878d0aacef69e654311f36b944eeaa9131c3017ce8a5dcd885bf837f0c",
+          "contentSha256": "a884beeb6c82a9174aa8a8a94e4ea5b7f73c6379b05873c03db67fcdf2daf530"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-567",
+      "level": "master",
+      "programId": "msc-economics",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in economics with quantitative modules, or a quantitative subject such as statistics, mathematics or physics. Finance and management degrees not accepted. GMAT/GRE optional; GRE quantitative 162+ or GMAT/GMAT Focus at least the 80th percentile can strengthen an application.",
+      "english": "IELTS Academic 6.5 overall, at least 6.0 in reading, writing, speaking and listening. Other accepted qualifications and pre-sessional routes are listed by the university.",
+      "deadline": "International applicants: 18 August 2027 at midday UK time; UK applicants: 1 September 2027 at midday UK time. May close earlier if full.",
+      "documents": "Online application, first-degree paperwork, English evidence where applicable and personal statement covering subject knowledge, reasons for this postgraduate course and planned use of the qualification. References not required. No application assessment fee for 2027-start courses.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.southampton.ac.uk/courses/economics-masters-msc",
+        "english": "https://www.southampton.ac.uk/courses/economics-masters-msc",
+        "deadline": "https://www.southampton.ac.uk/courses/economics-masters-msc",
+        "documents": "https://www.southampton.ac.uk/courses/economics-masters-msc",
+        "intake": "https://www.southampton.ac.uk/courses/economics-masters-msc"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.southampton.ac.uk/courses/economics-masters-msc": {
+          "sha256": "0e96995b79f31c92e0d44747c157d1298204dd53d15e4707eb0767cff0ee1317",
+          "contentSha256": "39bd3b5f677efc4c497ff75f187eb914649fe43f6cef161c10aa866cc66bd9ec"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-567",
+      "level": "undergraduate",
+      "programId": "bsc-economics",
+      "reviewedAt": "2026-10-27",
+      "gpa": "A-level AAB including mathematics at A. IB 34 overall/17 HL, with HL mathematics AA or AI at 5. Contextual, EPQ and BTEC routes have separate requirements.",
+      "english": "IELTS Academic 6.5 overall, at least 6.0 in reading, writing, speaking and listening. Other accepted qualifications and pre-sessional routes are listed by the university.",
+      "documents": "Apply through UCAS: course L100, institution S27. Assessment considers predicted grades, academic achievements, personal statement and academic reference.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.southampton.ac.uk/courses/economics-degree-bsc",
+        "english": "https://www.southampton.ac.uk/courses/economics-degree-bsc",
+        "documents": "https://www.southampton.ac.uk/courses/economics-degree-bsc",
+        "intake": "https://www.southampton.ac.uk/courses/economics-degree-bsc"
+      },
+      "notes": "Standard 2027/28 A-level and IB routes reviewed; alternative and contextual routes are listed separately on the official page. The course page does not give a numeric UCAS deadline, so none is inferred here.",
+      "sourceFingerprints": {
+        "https://www.southampton.ac.uk/courses/economics-degree-bsc": {
+          "sha256": "dc889d1410f81bfe01df6fe4fb26763712e787050335824bae4fea41b8a6bb11",
+          "contentSha256": "3e4619ab30acd2f738a1d440350f0defc6c64e71c0afdc814683e670671450bd"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-567",
+      "level": "undergraduate",
+      "programId": "beng-electrical-and-electronic-engineering",
+      "reviewedAt": "2026-10-27",
+      "gpa": "A-level AAA including mathematics and physics, further mathematics, electronics or computer science. IB 36 overall/18 HL, with mathematics AA 6 or AI 7 and HL physics or computer science 6. Contextual, EPQ and foundation routes are separate.",
+      "english": "IELTS Academic 6.5 overall, at least 6.0 in reading, writing, speaking and listening. Other accepted qualifications and pre-sessional routes are listed by the university.",
+      "documents": "Apply through UCAS: course H600, institution S27. Assessment considers predicted grades, academic achievements, personal statement and academic reference.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.southampton.ac.uk/courses/electrical-electronic-engineering-degree-beng",
+        "english": "https://www.southampton.ac.uk/courses/electrical-electronic-engineering-degree-beng",
+        "documents": "https://www.southampton.ac.uk/courses/electrical-electronic-engineering-degree-beng",
+        "intake": "https://www.southampton.ac.uk/courses/electrical-electronic-engineering-degree-beng"
+      },
+      "notes": "Standard 2027/28 A-level and IB routes reviewed; alternative and contextual routes are listed separately on the official page. The course page does not give a numeric UCAS deadline, so none is inferred here.",
+      "sourceFingerprints": {
+        "https://www.southampton.ac.uk/courses/electrical-electronic-engineering-degree-beng": {
+          "sha256": "dc8d7c840b793397c2a0ec179c8f98e4824409df9d1fa55134d7fe03ee29ef89",
+          "contentSha256": "420c5e6b8089dad39d195bbabf244145dae2af70738017ac557177c349219743"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-567",
+      "level": "master",
+      "programId": "msc-electronic-engineering",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in electronic engineering or a closely related subject. Also 2:1 (65%) in advanced mathematics equivalent to 7.5 ECTS and electronics equivalent to 22.5 ECTS (e.g. devices, microprocessors, digital systems, control/communications, signals or power electronics). Applicants educated in China must come from a Tier A/B/C institution.",
+      "english": "IELTS Academic 6.5 overall, at least 6.0 in reading, writing, speaking and listening. Other accepted qualifications and pre-sessional routes are listed by the university.",
+      "deadline": "International applicants: 18 August 2027 at midday UK time; UK applicants: 1 September 2027 at midday UK time. May close earlier if full.",
+      "documents": "Online application, first-degree paperwork, English evidence where applicable and personal statement covering subject knowledge, reasons for this postgraduate course and planned use of the qualification. References not required. No application assessment fee for 2027-start courses.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.southampton.ac.uk/courses/electronic-engineering-masters-msc",
+        "english": "https://www.southampton.ac.uk/courses/electronic-engineering-masters-msc",
+        "deadline": "https://www.southampton.ac.uk/courses/electronic-engineering-masters-msc",
+        "documents": "https://www.southampton.ac.uk/courses/electronic-engineering-masters-msc",
+        "intake": "https://www.southampton.ac.uk/courses/electronic-engineering-masters-msc"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.southampton.ac.uk/courses/electronic-engineering-masters-msc": {
+          "sha256": "52d77e8a32bf4ee832bce3d8c8b2d379432f56fbc6414e4d81222a3acee2f205",
+          "contentSha256": "b04e2dc1fcf11b575302ad36f7677f142a313bf87f881ab0cc4ed7cca42b2c8e"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-567",
+      "level": "master",
+      "programId": "msc-software-engineering",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in computer science/engineering, software engineering, media technology, e-business or IT. Also 2:1 in a programming module, advanced mathematics (ideally discrete mathematics/logic/set theory), and three computer-science modules. Knowledge of functional programming (Haskell/Scala/F#) and modelling languages such as UML expected.",
+      "english": "IELTS Academic 6.5 overall, at least 6.0 in reading, writing, speaking and listening. Other accepted qualifications and pre-sessional routes are listed by the university.",
+      "deadline": "International applicants: 18 August 2027 at midday UK time; UK applicants: 1 September 2027 at midday UK time. May close earlier if full.",
+      "documents": "Online application, first-degree paperwork, English evidence where applicable and personal statement covering subject knowledge, reasons for this postgraduate course and planned use of the qualification. References not required. No application assessment fee for 2027-start courses.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.southampton.ac.uk/courses/software-engineering-masters-msc",
+        "english": "https://www.southampton.ac.uk/courses/software-engineering-masters-msc",
+        "deadline": "https://www.southampton.ac.uk/courses/software-engineering-masters-msc",
+        "documents": "https://www.southampton.ac.uk/courses/software-engineering-masters-msc",
+        "intake": "https://www.southampton.ac.uk/courses/software-engineering-masters-msc"
+      },
+      "notes": "Reviewed course-specific requirements for the published entry cycle. UK degree classifications have accepted international equivalents; meeting minimum requirements does not guarantee admission.",
+      "sourceFingerprints": {
+        "https://www.southampton.ac.uk/courses/software-engineering-masters-msc": {
+          "sha256": "097f7b5508683659c6dc6e6c14fee3d96547ed23f9c691e0459687fff4e96ba7",
+          "contentSha256": "395f748f522f2f2bec415a9258ef32d3dc08a1c3c0c51b955a2f718cb784fe1a"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-231",
+      "level": "master",
+      "programId": "msc-computing-science",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 with computing as a major, at least 50% credit-bearing computing and/or advanced-programming modules at pass grade. Not available to recent Glasgow computing-science or software-engineering bachelor’s graduates.",
+      "documents": "Online application, degree certificates if completed, full academic transcripts, official English translations, English evidence where applicable and passport photo page. Complete the application within 42 days of starting. One reference on headed paper, normally academic; a suitable employer reference may be accepted.",
+      "english": "IELTS Academic 6.5 overall: writing 6.5 and other components 6.0, OR writing 6.0 and all other components 6.5. One Skill Retake accepted; meet requirements in a single test, normally within two years five months of start. Other qualifications and exemptions listed on source.",
+      "deadline": "September 2027: international/EU rounds end 5 November 2026, 17 December 2026, 4 February 2027, 25 March 2027, 13 May 2027 and 8 July 2027. UK applicants: 24 August 2027. Rolling consideration within rounds; only one application per programme per year.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.gla.ac.uk/postgraduate/taught/computingscience/",
+        "documents": "https://www.gla.ac.uk/postgraduate/taught/computingscience/",
+        "english": "https://www.gla.ac.uk/postgraduate/taught/computingscience/",
+        "deadline": "https://www.gla.ac.uk/postgraduate/taught/computingscience/",
+        "intake": "https://www.gla.ac.uk/postgraduate/taught/computingscience/"
+      },
+      "notes": "Course-specific eligibility and IELTS routes reviewed. The source’s revised TOEFL section mixes legacy overall scores with 1–6 component bands; no score conversion is inferred.",
+      "sourceFingerprints": {
+        "https://www.gla.ac.uk/postgraduate/taught/computingscience/": {
+          "sha256": "7318d080a70ff8e9bce9adcbba0c97a7cd256f09791befa0156542d44505d096",
+          "contentSha256": "2e6f5285fd53798476db830cd610ae08b9d538362a4da7275c3f6fff10508b75"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-231",
+      "level": "master",
+      "programId": "msc-software-development",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in any subject with less than 50% computing credits. A 2:2 plus over eight years work experience may be considered. Prior computing knowledge is helpful but not essential; this is a conversion course.",
+      "documents": "Online application, degree certificates if completed, full academic transcripts, official English translations, English evidence where applicable and passport photo page. Complete the application within 42 days of starting. One reference on headed paper, normally academic; a suitable employer reference may be accepted.",
+      "english": "IELTS Academic 6.5 overall: writing 6.5 and other components 6.0, OR writing 6.0 and all other components 6.5. One Skill Retake accepted; meet requirements in a single test, normally within two years five months of start. Other qualifications and exemptions listed on source.",
+      "deadline": "September 2027: international/EU rounds end 5 November 2026, 17 December 2026, 4 February 2027, 25 March 2027, 13 May 2027 and 8 July 2027. UK applicants: 24 August 2027. Rolling consideration within rounds; only one application per programme per year.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.gla.ac.uk/postgraduate/taught/softwaredevelopment/",
+        "documents": "https://www.gla.ac.uk/postgraduate/taught/softwaredevelopment/",
+        "english": "https://www.gla.ac.uk/postgraduate/taught/softwaredevelopment/",
+        "deadline": "https://www.gla.ac.uk/postgraduate/taught/softwaredevelopment/",
+        "intake": "https://www.gla.ac.uk/postgraduate/taught/softwaredevelopment/"
+      },
+      "notes": "Course-specific eligibility and IELTS routes reviewed. The source’s revised TOEFL section mixes legacy overall scores with 1–6 component bands; no score conversion is inferred.",
+      "sourceFingerprints": {
+        "https://www.gla.ac.uk/postgraduate/taught/softwaredevelopment/": {
+          "sha256": "761b9a72040f76bfb9c8b21860fb87e01053bab0588d5b520f3111d5fc269a54",
+          "contentSha256": "f3c3439c65772b6b5eac843152ac3c3dae1fbb31cbea514ef5fd4d6f7a95f4ec"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-231",
+      "level": "master",
+      "programId": "msc-data-science",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 with computing as a major, at least 50% credit-bearing computing and advanced-programming modules at pass grade. Not available to recent Glasgow computing-science or software-engineering bachelor’s graduates.",
+      "documents": "Online application, degree certificates if completed, full academic transcripts, official English translations, English evidence where applicable and passport photo page. Complete the application within 42 days of starting. One reference on headed paper, normally academic; a suitable employer reference may be accepted.",
+      "english": "IELTS Academic 6.5 overall: writing 6.5 and other components 6.0, OR writing 6.0 and all other components 6.5. One Skill Retake accepted; meet requirements in a single test, normally within two years five months of start. Other qualifications and exemptions listed on source.",
+      "deadline": "September 2027: international/EU rounds end 5 November 2026, 17 December 2026, 4 February 2027, 25 March 2027, 13 May 2027 and 8 July 2027. UK applicants: 24 August 2027. Rolling consideration within rounds; only one application per programme per year.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.gla.ac.uk/postgraduate/taught/datascience/",
+        "documents": "https://www.gla.ac.uk/postgraduate/taught/datascience/",
+        "english": "https://www.gla.ac.uk/postgraduate/taught/datascience/",
+        "deadline": "https://www.gla.ac.uk/postgraduate/taught/datascience/",
+        "intake": "https://www.gla.ac.uk/postgraduate/taught/datascience/"
+      },
+      "notes": "Course-specific eligibility and IELTS routes reviewed. The source’s revised TOEFL section mixes legacy overall scores with 1–6 component bands; no score conversion is inferred.",
+      "sourceFingerprints": {
+        "https://www.gla.ac.uk/postgraduate/taught/datascience/": {
+          "sha256": "2e196b707afc56dd0c26fbff96c75a1070bcb05563d6f5241d07214136dd2f84",
+          "contentSha256": "49ed70ea0252cbfd2e987c89a33dd9357061f2abbc76923fbfc6e363033e7efa"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-231",
+      "level": "master",
+      "programId": "msc-financial-technology",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in business, management or another quantitative subject. A 2:1 in any subject plus two years relevant professional FinTech work may be considered individually.",
+      "documents": "Online application, degree certificates if completed, full academic transcripts, official English translations, English evidence where applicable and passport photo page. Complete the application within 42 days of starting. One reference on headed paper, normally academic; a suitable employer reference may be accepted.",
+      "english": "IELTS Academic 6.5 overall, each component 6.0. One Skill Retake accepted; meet requirements in a single test, normally within two years five months of start. Other qualifications and exemptions listed on source.",
+      "deadline": "September 2027: international/EU rounds end 5 November 2026, 17 December 2026, 4 February 2027, 25 March 2027, 13 May 2027 and 8 July 2027. UK applicants: 24 August 2027. Rolling consideration within rounds; only one application per programme per year.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.gla.ac.uk/postgraduate/taught/financialtechnology/",
+        "documents": "https://www.gla.ac.uk/postgraduate/taught/financialtechnology/",
+        "english": "https://www.gla.ac.uk/postgraduate/taught/financialtechnology/",
+        "deadline": "https://www.gla.ac.uk/postgraduate/taught/financialtechnology/",
+        "intake": "https://www.gla.ac.uk/postgraduate/taught/financialtechnology/"
+      },
+      "notes": "Course-specific eligibility and IELTS routes reviewed. The source’s revised TOEFL section mixes legacy overall scores with 1–6 component bands; no score conversion is inferred.",
+      "sourceFingerprints": {
+        "https://www.gla.ac.uk/postgraduate/taught/financialtechnology/": {
+          "sha256": "a87268087ffce6387f0f75407097acca67ad9a0b758a2fc89bfc09a2e3deca84",
+          "contentSha256": "f652cf27004949eeb878474d9e90f117ef3c89a0e10b873bdbfac755bfb8fd5b"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-231",
+      "level": "master",
+      "programId": "msc-mechanical-engineering",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in engineering, computing science, physical science or mathematics, with at least three credit-bearing modules in engineering mathematics/mathematics and mechanical-engineering subjects at pass grade. Exceptionally 2:2 with 2:1 average in accepted modules; extensive relevant work can support a borderline application.",
+      "documents": "Online application, degree certificates if completed, full academic transcripts, official English translations, English evidence where applicable and passport photo page. Complete the application within 42 days of starting. One reference on headed paper, normally academic; a suitable employer reference may be accepted. Apply for ATAS immediately after an offer unless exempt.",
+      "english": "IELTS Academic 6.5 overall, each component 6.0. One Skill Retake accepted; meet requirements in a single test, normally within two years five months of start. Other qualifications and exemptions listed on source.",
+      "deadline": "September 2027: international/EU rounds end 5 November 2026, 17 December 2026, 4 February 2027, 25 March 2027, 13 May 2027 and 8 July 2027. UK applicants: 24 August 2027. Rolling consideration within rounds; only one application per programme per year.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.gla.ac.uk/postgraduate/taught/mechanicalengineering/",
+        "documents": "https://www.gla.ac.uk/postgraduate/taught/mechanicalengineering/",
+        "english": "https://www.gla.ac.uk/postgraduate/taught/mechanicalengineering/",
+        "deadline": "https://www.gla.ac.uk/postgraduate/taught/mechanicalengineering/",
+        "intake": "https://www.gla.ac.uk/postgraduate/taught/mechanicalengineering/"
+      },
+      "notes": "Course-specific eligibility and IELTS routes reviewed. The source’s revised TOEFL section mixes legacy overall scores with 1–6 component bands; no score conversion is inferred.",
+      "sourceFingerprints": {
+        "https://www.gla.ac.uk/postgraduate/taught/mechanicalengineering/": {
+          "sha256": "cba09d567dcebaaee3115b6ab8aef4de6fe6ac9f96e6a3606246f4ae865e2b93",
+          "contentSha256": "58f9bc23c0d12358e25d7defb9bb81cdacb87df86e5cb576ef6b59adbbeeac4d"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-231",
+      "level": "master",
+      "programId": "msc-civil-engineering",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in engineering, physical science or mathematics, with at least two credit-bearing modules in engineering mathematics/mathematics and civil/structural engineering at pass grade. Exceptionally 2:2 with 2:1 average in accepted modules; work experience may support borderline cases. Architecture degrees not accepted.",
+      "documents": "Online application, degree certificates if completed, full academic transcripts, official English translations, English evidence where applicable and passport photo page. Complete the application within 42 days of starting. One reference on headed paper, normally academic; a suitable employer reference may be accepted.",
+      "english": "IELTS Academic 6.5 overall, each component 6.0. One Skill Retake accepted; meet requirements in a single test, normally within two years five months of start. Other qualifications and exemptions listed on source.",
+      "deadline": "September 2027: international/EU rounds end 5 November 2026, 17 December 2026, 4 February 2027, 25 March 2027, 13 May 2027 and 8 July 2027. UK applicants: 24 August 2027. Rolling consideration within rounds; only one application per programme per year.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.gla.ac.uk/postgraduate/taught/civilengineering/",
+        "documents": "https://www.gla.ac.uk/postgraduate/taught/civilengineering/",
+        "english": "https://www.gla.ac.uk/postgraduate/taught/civilengineering/",
+        "deadline": "https://www.gla.ac.uk/postgraduate/taught/civilengineering/",
+        "intake": "https://www.gla.ac.uk/postgraduate/taught/civilengineering/"
+      },
+      "notes": "Course-specific eligibility and IELTS routes reviewed. The source’s revised TOEFL section mixes legacy overall scores with 1–6 component bands; no score conversion is inferred.",
+      "sourceFingerprints": {
+        "https://www.gla.ac.uk/postgraduate/taught/civilengineering/": {
+          "sha256": "c458b494b87104c0a70b10c2a119c8b1f99e71aa13ede4ddbe0dc0511b17b5c9",
+          "contentSha256": "6c7838c86adb4a2c94e511725a9b30bce02b88063877ad5604a3a1533aa8380b"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-231",
+      "level": "master",
+      "programId": "mph-master-of-public-health",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:2 in a degree with social-science, science or biomedical focus, such as medicine, nursing, health science, social/public policy, data science or statistics. Significant relevant experience may support lower qualifications.",
+      "documents": "Online application, degree certificates if completed, full academic transcripts, official English translations, English evidence where applicable and passport photo page. Complete the application within 42 days of starting.",
+      "fieldSources": {
+        "gpa": "https://www.gla.ac.uk/postgraduate/taught/publichealth/",
+        "documents": "https://www.gla.ac.uk/postgraduate/taught/publichealth/"
+      },
+      "notes": "Course-specific eligibility and IELTS routes reviewed. The source’s revised TOEFL section mixes legacy overall scores with 1–6 component bands; no score conversion is inferred. Public Health does not publish numeric language scores or application dates in the retrieved section.",
+      "sourceFingerprints": {
+        "https://www.gla.ac.uk/postgraduate/taught/publichealth/": {
+          "sha256": "9ede447a5d9011e6558b61511c87a23759c3f8174cacc0ef3de8932adc1003cc",
+          "contentSha256": "0ffb55424ff716073144752a2345c9df3a9cedb51495ce2dbabadfa1de0bcc97"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-231",
+      "level": "master",
+      "programId": "msc-statistics",
+      "reviewedAt": "2026-10-27",
+      "gpa": "2:1 in a substantially mathematical degree with at least 20% credit-bearing university-level mathematics at pass grade. Not open to recent Glasgow statistics bachelor’s graduates.",
+      "documents": "Online application, degree certificates if completed, full academic transcripts, official English translations, English evidence where applicable and passport photo page. Complete the application within 42 days of starting. One reference on headed paper, normally academic; a suitable employer reference may be accepted.",
+      "english": "IELTS Academic 6.5 overall, each component 6.0. One Skill Retake accepted; meet requirements in a single test, normally within two years five months of start. Other qualifications and exemptions listed on source.",
+      "deadline": "September 2027: international/EU rounds end 5 November 2026, 17 December 2026, 4 February 2027, 25 March 2027, 13 May 2027 and 8 July 2027. UK applicants: 24 August 2027. Rolling consideration within rounds; only one application per programme per year.",
+      "intake": "September 2027",
+      "fieldSources": {
+        "gpa": "https://www.gla.ac.uk/postgraduate/taught/statistics/",
+        "documents": "https://www.gla.ac.uk/postgraduate/taught/statistics/",
+        "english": "https://www.gla.ac.uk/postgraduate/taught/statistics/",
+        "deadline": "https://www.gla.ac.uk/postgraduate/taught/statistics/",
+        "intake": "https://www.gla.ac.uk/postgraduate/taught/statistics/"
+      },
+      "notes": "Course-specific eligibility and IELTS routes reviewed. The source’s revised TOEFL section mixes legacy overall scores with 1–6 component bands; no score conversion is inferred.",
+      "sourceFingerprints": {
+        "https://www.gla.ac.uk/postgraduate/taught/statistics/": {
+          "sha256": "45a0e48268c33460a55a4dd9b2e8ce75d17fc71b1d0e0c008420b4b9562661f2",
+          "contentSha256": "b8cc55961b015bb334d6c39eef8f94999198d3f621a02cd8fb40ca007b945c74"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-231",
+      "level": "phd",
+      "programId": "phd-economics",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Normally a merit-level master’s with substantial economics or finance, plus a 2:1 honours degree. Statistics or related social-science backgrounds may be considered.",
+      "documents": "Academic transcripts, degree certificates, CV, two references and research proposal with named-supervisor information. Identify potential supervisors; you may contact them to discuss the proposal, but must still submit the online application.",
+      "english": "IELTS Academic 7.0 overall, each component 6.5. IELTS One Skill Retake accepted; tests normally within two years five months of programme start, requirements met in one test. Other qualifications and exemptions are published on the source page.",
+      "fieldSources": {
+        "gpa": "https://www.gla.ac.uk/postgraduate/research/economics/",
+        "documents": "https://www.gla.ac.uk/postgraduate/research/economics/",
+        "english": "https://www.gla.ac.uk/postgraduate/research/economics/"
+      },
+      "notes": "Reviewed research-admission requirements, excluding thesis/graduation rules. No cycle-specific application deadline is stated on this source. The published revised TOEFL section mixes legacy overall numbers with component bands; this summary uses the unambiguous IELTS requirement instead.",
+      "sourceFingerprints": {
+        "https://www.gla.ac.uk/postgraduate/research/economics/": {
+          "sha256": "58299fd02b8b42c978b7bb09d06d2d81b08badac12c4d1daf4585141db07fb1c",
+          "contentSha256": "0329de140c183b531f5c7024c662bf1eeafb93f2b6bd4cfbd8b190014f5c3c24"
+        }
+      }
+    },
+    {
+      "schoolId": "qs-231",
+      "level": "phd",
+      "programId": "phd-psychology",
+      "reviewedAt": "2026-10-27",
+      "gpa": "Normal entry standard is a 2:1 honours degree or equivalent.",
+      "documents": "Academic transcripts, degree certificates, CV, two references and MVLS Cover Letter. Identify potential supervisors; you may contact them to discuss the proposal, but must still submit the online application.",
+      "english": "IELTS Academic 6.5 overall, each component 6.0. IELTS One Skill Retake accepted; tests normally within two years five months of programme start, requirements met in one test. Other qualifications and exemptions are published on the source page.",
+      "fieldSources": {
+        "gpa": "https://www.gla.ac.uk/postgraduate/research/psychology/",
+        "documents": "https://www.gla.ac.uk/postgraduate/research/psychology/",
+        "english": "https://www.gla.ac.uk/postgraduate/research/psychology/"
+      },
+      "notes": "Reviewed research-admission requirements, excluding thesis/graduation rules. No cycle-specific application deadline is stated on this source. The published revised TOEFL section mixes legacy overall numbers with component bands; this summary uses the unambiguous IELTS requirement instead.",
+      "sourceFingerprints": {
+        "https://www.gla.ac.uk/postgraduate/research/psychology/": {
+          "sha256": "259263d7f06b8a73b15dd42ba4c875300b9a2163ccb055d3b3444915558f8f41",
+          "contentSha256": "032aa761e5d46ccbd7d080c0f323d9aad387c888f9bd4843c9f6b2383a5eeab6"
+        }
+      }
     }
   ]
 }

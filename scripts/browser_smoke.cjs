@@ -130,13 +130,13 @@ const data = JSON.parse(fs.readFileSync(path.join(root, 'data/universities.json'
     assert.ok((await loadingPage.locator('#detail').innerText()).includes('MSc Computing'));
     // Check enriched programme fields at the actual detail output surface.
     await loadingPage.selectOption('#ranking-select', 'usnews');
-    for (const query of ['Cambridge', 'Hong Kong University of Science', 'Toronto', 'Imperial', 'San Francisco']) {
+    for (const query of ['Cambridge', 'Hong Kong University of Science', 'Toronto', 'Imperial', 'San Francisco', 'Manchester', 'Edinburgh', 'Bristol', 'Southampton', 'Glasgow']) {
       await loadingPage.fill('#search', query);
       const schoolId = await loadingPage.locator('#school-rows tr').first().getAttribute('data-id');
       const school = data.schools.find(s => s.id === schoolId);
       await loadingPage.locator('#school-rows tr').first().click();
       const locale = await loadingPage.evaluate(() => window.UINDEX_I18N.locale());
-      for (const level of ['master', 'phd']) {
+      for (const level of ['undergraduate', 'master', 'phd']) {
         await loadingPage.selectOption('#level-select', level);
         const cards = await loadingPage.locator('.program-card').evaluateAll(nodes => nodes.map(node => ({
           title: node.querySelector('h4').textContent,
